@@ -12,13 +12,49 @@
 
 ## Giới thiệu
 
-Menu3D tạo menu 3D carousel: mỗi trang của website hiển thị trong một iframe trên vòng xoay 3D. Chỉ cần **1 dòng script**, không cần file config — script tự tìm các trang của website và tự dựng menu.
+Menu3D tạo menu 3D carousel: mỗi trang của website hiển thị trong một iframe trên vòng xoay 3D. Không cần file config — script tự tìm các trang của website và tự dựng menu.
+
+Link chính: **`https://t-root.github.io/menu-3D/menu3d.js`**
+
+### Cách 1 — Chạy bằng Console (F12)
+
+Mở website bất kỳ → **F12 → Console** → dán rồi Enter:
+
+```js
+document.body.appendChild(Object.assign(document.createElement('script'), { src: 'https://t-root.github.io/menu-3D/menu3d.js' }))
+```
+
+Kèm tùy chỉnh (tương đương data-attribute bên dưới):
+
+```js
+var s = document.createElement('script');
+s.src = 'https://t-root.github.io/menu-3D/menu3d.js';
+s.dataset.max = '8';
+s.dataset.exclude = '/admin,/login';
+document.body.appendChild(s);
+```
+
+- Chrome chặn dán lần đầu → gõ `allow pasting`, Enter, rồi dán lại.
+- Trang chặn script ngoài (CSP, báo `Refused to load the script`) → mở link `menu3d.js`, copy toàn bộ code và dán thẳng vào Console.
+- Chạy lại snippet khi menu đã bị gỡ sẽ dựng lại menu; hoặc gọi `Menu3D.init({...})` để dựng lại với config mới.
+
+### Cách 2 — Nhúng vào HTML
 
 ```html
 <script src="https://t-root.github.io/menu-3D/menu3d.js"></script>
 ```
 
-Nhúng dòng này ở **bất kỳ trang nào, kể cả mọi trang** — trang được mở bên trong iframe của menu sẽ tự bỏ qua, không bị lặp vô hạn.
+Nhúng được ở **mọi trang** — trang được mở bên trong iframe của menu sẽ tự bỏ qua, không bị lặp vô hạn.
+
+## Chuyển trang không mất menu
+
+Bấm nhãn một card **không tải lại cả trang** (nếu tải lại, menu chạy từ Console sẽ mất). Trang được chọn mở trong khung toàn màn hình ngay dưới menu:
+
+- Thanh địa chỉ và tiêu đề tab đổi theo trang đang xem; bấm link bên trong trang đó cũng được đồng bộ.
+- Nút **Back / Forward** của trình duyệt hoạt động bình thường; card của trang đang xem được đánh dấu.
+- Bấm card của trang gốc → quay về trang gốc. Ctrl/Cmd + click nhãn → mở tab mới như link thường.
+- Nhấn **F5** sẽ tải trang thật → menu chạy từ Console mất, cần chạy lại snippet.
+- Trang bên trong dùng link `target="_top"` sẽ thoát khỏi khung, menu cũng mất.
 
 ## Tự tìm trang
 
@@ -31,7 +67,7 @@ Mặc định script thử lần lượt các nguồn dưới đây, nguồn nà
 | `github` | Site trên `*.github.io` → liệt kê file `.html` trong repo qua GitHub API (cache 1 giờ) |
 | `json` | Đọc `/menu3d.json` |
 
-- **Trang đang mở luôn là card đầu tiên** (được đánh dấu nền nhãn sáng hơn; bấm nhãn của nó chỉ đóng menu).
+- **Trang đang mở luôn là card đầu tiên**; card của trang đang xem có nền nhãn sáng hơn.
 - Chỉ lấy trang **cùng domain**, bỏ file không phải trang web (`.pdf`, `.zip`...), bỏ link trùng.
 - Tiêu đề: chữ của link → `<title>` thật của trang (đọc sau khi iframe load) → tên file.
 
@@ -55,10 +91,11 @@ Mặc định script thử lần lượt các nguồn dưới đây, nguồn nà
 | `data-items` | — | Danh sách cố định (JSON), bỏ qua tự tìm |
 | `data-breakpoint` | `700` | Độ rộng (px) chuyển sang mobile |
 | `data-camera-offset` | `0` | Offset camera (vw); âm = gần hơn |
+| `data-gap` | `2` | Khoảng hở tối thiểu giữa 2 card (vw). Nhiều card thì vòng tự nới rộng, không bị dính nhau |
 | `data-auto-rotate-speed` | `0.2` | Tốc độ tự xoay (độ/frame) |
 | `data-scroll-rotate-speed` | `4` | Độ xoay mỗi lần cuộn chuột |
 | `data-time-auto` | `3000` | ms chờ trước khi tự xoay lại sau khi cuộn |
-| `data-index-up` | `100` | z-index của menu |
+| `data-index-up` | `2147483000` | z-index của menu (cao để nằm trên mọi thứ của trang) |
 | `data-icon-closed` / `data-icon-open` | icon của thư viện | URL icon nút toggle |
 | `data-desktop` / `data-mobile` | xem dưới | JSON, chỉ ghi đè key cần đổi, vd `data-desktop='{"radius":30}'` |
 | `data-manual` | — | Không tự chạy, chờ gọi `Menu3D.init()` |
@@ -83,7 +120,7 @@ Mặc định `desktop` / `mobile`:
     autoRotateSpeed: 0.3,
     desktop: { radius: 30 }
   }).then(menu => {
-    // menu.open(), menu.close(), menu.toggle(), menu.isOpen(), menu.destroy()
+    // menu.open(), menu.close(), menu.toggle(), menu.isOpen(), menu.navigate(url), menu.destroy()
   });
 </script>
 ```
@@ -129,6 +166,7 @@ node example/server.js
 ```
 
 - `http://localhost:8080` — zero-config, lấy trang từ link trong `<nav>`
+- `http://localhost:8080/example/console-demo.html` — trang không nhúng script, dùng để thử cách chạy bằng Console
 - `http://localhost:8080/example/sitemap-demo.html` — `data-source="sitemap"`, `data-max`, `data-exclude`
 
 ## Cấu trúc
@@ -151,7 +189,15 @@ Menu3D builds an interactive 3D carousel where each page of your site is shown i
 <script src="https://t-root.github.io/menu-3D/menu3d.js"></script>
 ```
 
-It is safe to include on **every page**: pages loaded inside the menu's iframes skip initialization, so there is no infinite nesting.
+Main URL: **`https://t-root.github.io/menu-3D/menu3d.js`**. The primary way to launch it is from the browser console (F12) on any site:
+
+```js
+document.body.appendChild(Object.assign(document.createElement('script'), { src: 'https://t-root.github.io/menu-3D/menu3d.js' }))
+```
+
+It is also safe to include on **every page**: pages loaded inside the menu's iframes skip initialization, so there is no infinite nesting.
+
+Clicking a card label does not reload the page (which would drop a console-launched menu). The target page opens in a full-screen frame under the menu; the address bar, tab title and Back/Forward stay in sync. A hard reload (F5) loads the real page, so run the snippet again.
 
 ## Page discovery
 
@@ -168,7 +214,7 @@ The current page is always the first card. Only same-origin pages are kept, non-
 
 ## Options
 
-Set them as `data-*` attributes on the script tag (see the table above), e.g. `data-source="sitemap" data-max="8" data-exclude="/admin,/login"`, or pass them to `Menu3D.init({...})` together with `data-manual`. Precedence: defaults < `menu3d.json` < data attributes < `init()` options. `desktop`/`mobile` are merged key by key.
+Set them as `data-*` attributes on the script tag (see the table above), e.g. `data-source="sitemap" data-max="8" data-exclude="/admin,/login"`, or pass them to `Menu3D.init({...})` together with `data-manual`. Precedence: defaults < `menu3d.json` < data attributes < `init()` options. `desktop`/`mobile` are merged key by key. `gap` (vw, default 2) is the minimum space between neighbouring cards — the ring radius grows with the number of cards so they never overlap.
 
 `Menu3D.init()` resolves to `{ open, close, toggle, isOpen, destroy, items, config }`; calling it again replaces the previous menu.
 

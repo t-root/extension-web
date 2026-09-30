@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu3D - Console demo</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      background: #1b1b1b;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #fff;
+    }
+
+    nav {
+      display: flex;
+      gap: 16px;
+    }
+
+    nav a { color: #8fd; }
+
+    pre {
+      background: #000;
+      padding: 12px 16px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Trang này KHÔNG nhúng menu3d.js: mở F12 → Console và dán đoạn bên dưới -->
+  <h1>Console demo</h1>
+  <nav>
+    <a href="/example/page/page1.html">Page1</a>
+    <a href="/example/page/page2.html">Page2</a>
+    <a href="/example/page/page3.html">Page3</a>
+    <a href="/example/page/page4.html">Page4</a>
+  </nav>
+  <pre>document.body.appendChild(Object.assign(document.createElement('script'), { src: 'https://t-root.github.io/menu-3D/menu3d.js' }))</pre>
+</body>
+
+</html>

@@ -9,7 +9,9 @@ const root = path.join(__dirname, '..');
 
 http.createServer((req, res) => {
     // Nếu truy cập root, serve example/index.html
-    let urlPath = req.url === "/" ? "/example/index.html" : req.url;
+    // Bỏ ?query/#hash khi tìm file
+    const pathname = decodeURIComponent(req.url.split(/[?#]/)[0]);
+    let urlPath = pathname === "/" ? "/example/index.html" : pathname;
     let filePath = path.join(root, urlPath);
 
     // Nếu file không tồn tại → trả 404

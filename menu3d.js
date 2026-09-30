@@ -1,5 +1,9 @@
 /*!
- * Menu3D — menu 3D carousel, chỉ cần 1 dòng script là chạy:
+ * Menu3D — menu 3D carousel. Chạy trên trang bất kỳ bằng F12 → Console:
+ *
+ *   document.body.appendChild(Object.assign(document.createElement('script'), { src: 'https://t-root.github.io/menu-3D/menu3d.js' }))
+ *
+ * Hoặc nhúng vào HTML:
  *
  *   <script src="https://t-root.github.io/menu-3D/menu3d.js"></script>
  *
@@ -16,7 +20,11 @@
 (function () {
     'use strict';
 
-    if (window.Menu3D && window.Menu3D.version) return; // script bị nhúng 2 lần
+    // Script bị nhúng/dán lần 2 (vd chạy lại snippet console) → chỉ dựng lại menu nếu đã bị gỡ
+    if (window.Menu3D && window.Menu3D.version) {
+        if (!window.Menu3D.instance) window.Menu3D.init();
+        return;
+    }
 
     // Iframe do Menu3D tạo ra mang tên này → trang con không dựng menu nữa (chống lặp vô hạn)
     const FRAME_NAME = 'menu3d-frame';
@@ -38,9 +46,10 @@
         // --- Giao diện ---
         breakpoint: 700,
         cameraOffset: 0,
+        gap: 2,                        // khoảng hở tối thiểu giữa 2 card cạnh nhau (vw)
         autoRotateSpeed: 0.2,
         scrollRotateSpeed: 4,
-        indexUp: 100,
+        indexUp: 2147483000,           // z-index cao để nằm trên mọi thứ của trang
         timeAuto: 3000,
         iconClosed: null,
         iconOpen: null,
@@ -138,7 +147,7 @@
                 if (seen.has(key)) continue;
                 seen.add(key);
                 const title = (it && typeof it.title === 'string' && it.title.trim()) || '';
-                out.push({ url: u.href, title: title || titleFromUrl(u), titleLocked: !!title, current: key === currentKey });
+                out.push({ url: u.href, key, title: title || titleFromUrl(u), titleLocked: !!title });
             }
             return out;
         };
@@ -254,7 +263,7 @@
     function currentItem(cfg) {
         if (isExcluded(currentUrl, cfg)) return null;
         const title = document.title.trim();
-        return { url: location.href, title: title || titleFromUrl(currentUrl), titleLocked: !!title, current: true };
+        return { url: location.href, key: currentKey, title: title || titleFromUrl(currentUrl), titleLocked: !!title };
     }
 
     // ================= GIAO DIỆN =================
@@ -340,6 +349,19 @@
   to { transform: translateX(var(--m3d-to)); }
 }
 
+.m3d-view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #fff;
+  display: none;
+}
+
+.m3d-view.m3d-show { display: block; }
+
 .m3d-toggle {
   position: fixed;
   border: none;
@@ -415,6 +437,7 @@
         });
 
         let mode = cfg.desktop;
+        let radius = 0;
         let isOpen = false;
         let rotX = 0, rotY = 0, paused = false, pauseTO = null, raf = 0;
         const cards = [];
@@ -425,6 +448,11 @@
             menu.style.setProperty('--m3d-item-w', num(mode.itemWidth) + 'vw');
             menu.style.setProperty('--m3d-item-h', num(mode.itemHeight) + 'vw');
             menu.style.perspective = num(mode.perspective) + 'vw';
+            // Nhiều card → nới bán kính để 2 card cạnh nhau cách nhau ít nhất `gap`
+            // (khoảng cách tâm 2 card kề nhau trên vòng = 2R·sin(π/n))
+            const n = items.length;
+            const needed = n > 1 ? (num(mode.itemWidth) + num(cfg.gap)) / (2 * Math.sin(Math.PI / n)) : 0;
+            radius = Math.max(num(mode.radius), needed);
             menu.style.zIndex = cfg.indexUp;
             toggleBtn.style.zIndex = cfg.indexUp + 1;
             const size = num(mode.toggleSize) || 4;
@@ -434,14 +462,13 @@
 
         // ---------- Carousel ----------
         function layoutCards() {
-            const r = num(mode.radius);
             cards.forEach(card => {
-                card.style.transform = `translate(-50%,-50%) rotateY(${card.dataset.angle}deg) translateZ(${r}vw)`;
+                card.style.transform = `translate(-50%,-50%) rotateY(${card.dataset.angle}deg) translateZ(${radius}vw)`;
             });
         }
 
         function render() {
-            const cameraZ = -num(mode.radius) - num(cfg.cameraOffset);
+            const cameraZ = -radius - num(cfg.cameraOffset);
             scene.style.transform =
                 `translate(-50%,-50%) translateZ(${cameraZ}vw) rotateX(${rotX}deg) rotateY(${rotY}deg)`;
         }
@@ -482,8 +509,9 @@
         // Iframe chỉ tạo khi mở menu lần đầu để trang load nhẹ
         function buildCards() {
             items.forEach((item, i) => {
-                const card = el('div', 'm3d-item' + (item.current ? ' m3d-current' : ''));
+                const card = el('div', 'm3d-item');
                 card.dataset.angle = (360 / items.length) * i;
+                card.dataset.key = item.key;
 
                 const iframe = el('iframe');
                 iframe.name = FRAME_NAME;
@@ -499,12 +527,11 @@
                 label.appendChild(text);
                 card.appendChild(label);
 
-                if (item.current) {
-                    label.addEventListener('click', e => {
-                        e.preventDefault();
-                        setOpen(false);
-                    });
-                }
+                label.addEventListener('click', e => {
+                    if (e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return; // mở tab mới như thường
+                    e.preventDefault();
+                    if (!spinMoved) navigate(item.url);
+                });
                 if (!item.titleLocked) {
                     // Cùng domain → đọc được <title> thật của trang
                     iframe.addEventListener('load', () => {
@@ -527,8 +554,83 @@
                 cards.push(card);
             });
             layoutCards();
+            markCurrent();
             requestAnimationFrame(fitLabels);
         }
+
+        // ---------- Điều hướng ----------
+        // Không cho trang gốc chuyển đi (menu sẽ mất, nhất là khi chạy từ console):
+        // trang được chọn mở trong iframe toàn màn hình, URL + title đồng bộ qua history API.
+        const originUrl = location.href;
+        const originTitle = document.title;
+        const originOverflow = document.documentElement.style.overflow;
+        let shownKey = currentKey;
+        let view = null;
+
+        const isViewShown = () => !!view && view.classList.contains('m3d-show');
+
+        function markCurrent() {
+            cards.forEach(card => card.classList.toggle('m3d-current', card.dataset.key === shownKey));
+        }
+
+        function showPage(url) {
+            const u = toUrl(url);
+            shownKey = pageKey(u);
+            markCurrent();
+            if (shownKey === currentKey) {
+                if (view) view.classList.remove('m3d-show');
+                document.documentElement.style.overflow = originOverflow;
+                document.title = originTitle;
+                return;
+            }
+            if (!view) {
+                view = el('iframe', 'm3d-view');
+                view.name = FRAME_NAME;
+                view.style.zIndex = cfg.indexUp - 1;
+                view.addEventListener('load', syncFromView);
+                view.src = u.href;
+                root.insertBefore(view, menu);
+            } else {
+                // replace → iframe không tạo thêm bước history (Back chỉ cần bấm 1 lần)
+                try { view.contentWindow.location.replace(u.href); } catch (_) { view.src = u.href; }
+            }
+            view.classList.add('m3d-show');
+            document.documentElement.style.overflow = 'hidden';
+        }
+
+        // Người dùng bấm link bên trong trang đang xem → cập nhật URL/title của tab
+        function syncFromView() {
+            if (!isViewShown()) return;
+            try {
+                const href = view.contentWindow.location.href;
+                const title = view.contentDocument.title;
+                if (title) document.title = title;
+                if (toUrl(href).origin === location.origin && href !== location.href) {
+                    history.replaceState({ menu3d: href }, '', href);
+                }
+                shownKey = pageKey(toUrl(href));
+                markCurrent();
+            } catch (_) {} // trang khác domain → không đọc được
+        }
+
+        function navigate(url) {
+            setOpen(false);
+            const u = toUrl(url);
+            if (!u || pageKey(u) === shownKey) return;
+            if (!isViewShown()) {
+                // Đánh dấu bước history của trang gốc để Back quay lại được
+                const st = history.state;
+                if (st === null || typeof st === 'object') history.replaceState({ ...st, menu3d: originUrl }, '');
+            }
+            showPage(u.href);
+            if (u.origin === location.origin) history.pushState({ menu3d: u.href }, '', u.href);
+        }
+
+        on(window, 'popstate', e => {
+            const target = e.state && e.state.menu3d;
+            if (target) showPage(target);
+            else if (isViewShown()) showPage(originUrl);
+        });
 
         function setOpen(state) {
             isOpen = state;
@@ -584,6 +686,7 @@
 
         const toggleDrag = { active: false, pointerId: null, offsetX: 0, offsetY: 0, moved: false, blockClick: false };
         let spin = null; // kéo để xoay carousel
+        let spinMoved = false; // vừa kéo xoay → bỏ qua click nhãn
         let toggleMoved = false; // người dùng đã kéo nút sang chỗ khác chưa
 
         on(toggleBtn, 'click', () => {
@@ -612,7 +715,8 @@
 
         on(menu, 'pointerdown', e => {
             if (e.button !== 0) return;
-            spin = { id: e.pointerId, x: e.clientX, y: e.clientY };
+            spin = { id: e.pointerId, x: e.clientX, y: e.clientY, dist: 0 };
+            spinMoved = false;
         });
 
         on(window, 'pointermove', e => {
@@ -625,6 +729,8 @@
                     clamp(toVw(e.clientY) - toggleDrag.offsetY, 0, Math.max(0, maxY))
                 );
             } else if (spin && e.pointerId === spin.id) {
+                spin.dist += Math.abs(e.clientX - spin.x) + Math.abs(e.clientY - spin.y);
+                if (spin.dist > 5) spinMoved = true;
                 rotY += (e.clientX - spin.x) * 0.3;
                 rotX = clamp(rotX - (e.clientY - spin.y) * 0.3, -90, 90);
                 spin.x = e.clientX;
@@ -681,10 +787,15 @@
             close: () => setOpen(false),
             toggle: () => setOpen(!isOpen),
             isOpen: () => isOpen,
+            navigate,
             destroy() {
                 cancelAnimationFrame(raf);
                 clearTimeout(pauseTO);
                 offs.forEach(off => off());
+                if (isViewShown()) {
+                    document.documentElement.style.overflow = originOverflow;
+                    document.title = originTitle;
+                }
                 host.remove();
             }
         };
@@ -701,7 +812,7 @@
     let generation = 0;
 
     const Menu3D = {
-        version: '2.0.0',
+        version: '2.1.0',
 
         // Cấu hình: mặc định < menu3d.json < data-attribute < options truyền vào đây
         async init(options = {}) {
