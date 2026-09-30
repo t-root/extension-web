@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sitemap demo: thực tế <loc> nên là URL đầy đủ (https://...) -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/example/page/page1.html</loc></url>
+  <url><loc>/example/page/page2.html</loc></url>
+  <url><loc>/example/page/page3.html</loc></url>
+  <url><loc>/example/page/page4.html</loc></url>
+  <url><loc>/example/page/page5.html</loc></url>
+  <url><loc>/example/page/page6.html</loc></url>
+  <url><loc>/example/page/page7.html</loc></url>
+</urlset>
