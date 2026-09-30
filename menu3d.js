@@ -20,7 +20,7 @@
 (function () {
     'use strict';
 
-    const VERSION = '2.3.0';
+    const VERSION = '2.4.0';
 
     // Script bị nhúng/dán lần 2 (vd chạy lại snippet console):
     // cùng version → chỉ dựng lại menu nếu đã bị gỡ; khác version → gỡ bản cũ, chạy bản này
@@ -428,11 +428,16 @@
   to { transform: rotate(360deg); }
 }
 
+/* Iframe render đúng kích thước màn hình thật rồi thu nhỏ (scale) cho vừa card
+   → trang thấy mình đang ở màn hình PC, layout giống hệt trang gốc */
 .m3d-item iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: block;
-  width: 100%;
-  height: 100%;
   border: none;
+  background: #fff;
+  transform-origin: 0 0;
 }
 
 .m3d-label {
@@ -596,6 +601,13 @@
             }
             card.style.width = w + 'vw';
             card.style.height = h + 'vw';
+            const iframe = card.querySelector('iframe');
+            if (iframe) {
+                // Card rộng w vw = w% bề ngang cửa sổ → thu nhỏ iframe (kích thước thật) theo đúng tỉ lệ đó
+                iframe.style.width = window.innerWidth + 'px';
+                iframe.style.height = window.innerHeight + 'px';
+                iframe.style.transform = `scale(${w / 100})`;
+            }
         }
 
         function layoutCards() {
@@ -669,6 +681,8 @@
             iframe.addEventListener('focus', () => (paused = true));
             iframe.addEventListener('blur', () => (paused = false));
             card.insertBefore(iframe, card.firstChild);
+            delete card.dataset.ratio; // card theo tỉ lệ cửa sổ
+            sizeCard(card);
         }
 
         function mountImage(card, shot) {

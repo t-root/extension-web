@@ -57,6 +57,12 @@ Mặc định (`preview: 'image'`), khi mở menu lần đầu script lần lư�
 - Trang khác domain, hoặc chụp lỗi (vd CSP chặn tải thư viện) → card đó tự dùng iframe như trước.
 - Muốn quay lại iframe trực tiếp: `data-preview="iframe"`.
 
+### Chế độ iframe (`data-preview="iframe"`, và các card không chụp được)
+
+Iframe được tải **đúng kích thước màn hình thật** (vd 1920×1080) rồi thu nhỏ bằng `transform: scale` cho vừa card, nên trang hiển thị **đúng layout gốc** (không nhảy sang giao diện mobile vì khung nhỏ). Card theo tỉ lệ màn hình; cuộn chuột trong card để xem phần dưới vì đây là trang chạy thật.
+
+Iframe **không** kéo cao bằng cả trang: trang dùng đơn vị `vh` (vd mỗi khối `100vh`) sẽ bị phình theo chiều cao iframe và vỡ layout. Muốn thấy cả chiều dài trang thì dùng chế độ ảnh (mặc định).
+
 ## Chuyển trang không mất menu
 
 Bấm nhãn một card **không tải lại cả trang** (nếu tải lại, menu chạy từ Console sẽ mất). Trang được chọn mở trong khung toàn màn hình ngay dưới menu:
@@ -100,7 +106,7 @@ Mặc định script thử lần lượt các nguồn dưới đây, nguồn nà
 | `data-sitemap` | `/sitemap.xml` | Đường dẫn sitemap |
 | `data-json` | `/menu3d.json` | Đường dẫn file JSON |
 | `data-items` | — | Danh sách cố định (JSON), bỏ qua tự tìm |
-| `data-preview` | `image` | `image` = ảnh chụp cả trang, `iframe` = trang chạy trực tiếp |
+| `data-preview` | `image` | `image` = ảnh chụp cả trang, `iframe` = trang chạy trực tiếp ở kích thước màn hình thật, thu nhỏ vừa card |
 | `data-capture-delay` | `1200` | ms chờ sau khi trang load rồi mới chụp |
 | `data-cache-hours` | `24` | Thời gian dùng lại ảnh đã chụp |
 | `data-breakpoint` | `700` | Độ rộng (px) chuyển sang mobile |
@@ -228,7 +234,7 @@ The current page is always the first card. Only same-origin pages are kept, non-
 
 ## Options
 
-Set them as `data-*` attributes on the script tag (see the table above), e.g. `data-source="sitemap" data-max="8" data-exclude="/admin,/login"`, or pass them to `Menu3D.init({...})` together with `data-manual`. Precedence: defaults < `menu3d.json` < data attributes < `init()` options. `desktop`/`mobile` are merged key by key. `preview` is `image` (default: full-page screenshots taken in hidden iframes with modern-screenshot, cached in IndexedDB for `cacheHours`, falling back to a live iframe when capture fails or the page is cross-origin) or `iframe`. `Menu3D.clearCache()` drops cached screenshots. `gap` (vw, default 2) is the minimum space between neighbouring cards — the ring radius grows with the number of cards so they never overlap.
+Set them as `data-*` attributes on the script tag (see the table above), e.g. `data-source="sitemap" data-max="8" data-exclude="/admin,/login"`, or pass them to `Menu3D.init({...})` together with `data-manual`. Precedence: defaults < `menu3d.json` < data attributes < `init()` options. `desktop`/`mobile` are merged key by key. `preview` is `image` (default: full-page screenshots taken in hidden iframes with modern-screenshot, cached in IndexedDB for `cacheHours`, falling back to a live iframe when capture fails or the page is cross-origin) or `iframe`. Live iframes are rendered at the real window size and scaled down to the card, so pages keep their original desktop layout. `Menu3D.clearCache()` drops cached screenshots. `gap` (vw, default 2) is the minimum space between neighbouring cards — the ring radius grows with the number of cards so they never overlap.
 
 `Menu3D.init()` resolves to `{ open, close, toggle, isOpen, destroy, items, config }`; calling it again replaces the previous menu.
 
