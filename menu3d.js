@@ -20,10 +20,18 @@
 (function () {
     'use strict';
 
-    // Script bị nhúng/dán lần 2 (vd chạy lại snippet console) → chỉ dựng lại menu nếu đã bị gỡ
-    if (window.Menu3D && window.Menu3D.version) {
-        if (!window.Menu3D.instance) window.Menu3D.init();
+    const VERSION = '2.2.1';
+
+    // Script bị nhúng/dán lần 2 (vd chạy lại snippet console):
+    // cùng version → chỉ dựng lại menu nếu đã bị gỡ; khác version → gỡ bản cũ, chạy bản này
+    const existing = window.Menu3D;
+    if (existing && existing.version === VERSION) {
+        if (!existing.instance) existing.init();
         return;
+    }
+    if (existing && typeof existing.destroy === 'function') {
+        console.info(`[Menu3D] Thay bản ${existing.version} đang chạy bằng bản ${VERSION}`);
+        existing.destroy();
     }
 
     // Iframe do Menu3D tạo ra mang tên này → trang con không dựng menu nữa (chống lặp vô hạn)
@@ -649,7 +657,7 @@
                 shotCache.set(item.key, { t: Date.now(), ...shot });
             } catch (e) {
                 // Không chụp được (khác domain, CSP chặn thư viện...) → dùng iframe như cũ
-                console.debug('[Menu3D] Không chụp được, dùng iframe:', item.url, e);
+                console.warn('[Menu3D] Không chụp được, dùng iframe:', item.url, e);
                 if (!destroyed && !card.querySelector('img')) mountIframe(card, item);
             }
         }
@@ -956,7 +964,7 @@
     let generation = 0;
 
     const Menu3D = {
-        version: '2.2.0',
+        version: VERSION,
 
         // Cấu hình: mặc định < menu3d.json < data-attribute < options truyền vào đây
         async init(options = {}) {
