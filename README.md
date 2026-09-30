@@ -1,6 +1,6 @@
-# Menu3D - Hướng dẫn sử dụng
+# Menu3D — Chrome Extension
 
-## Hình ảnh demo
+Biến mọi website thành một **menu 3D xoay vòng**: extension tự tìm các trang của website, chụp ảnh cả trang và xếp chúng thành các card trên vòng xoay 3D. Bấm một card để chuyển sang trang đó. Mọi thiết lập nằm trong **popup** của extension, không cần sửa code trang web.
 
 <div align="center">
   <img src="img-demo/img1.png" alt="Menu3D Demo 1" width="45%" style="margin: 5px;">
@@ -10,238 +10,131 @@
   <img src="img-demo/img4.png" alt="Menu3D Demo 4" width="45%" style="margin: 5px;">
 </div>
 
-## Giới thiệu
+## Tính năng
 
-Menu3D tạo menu 3D carousel cho PC: mỗi trang của website là một card mang **ảnh chụp cả trang** (hết chiều dài và chiều ngang), xếp trên vòng xoay 3D. Card tự theo tỉ lệ của trang: trang dài → card cao, trang ngắn → card ngang, ảnh luôn phủ kín 100% card. Không cần file config — script tự tìm các trang của website, tự chụp và tự dựng menu.
+- **Tự tìm trang**: lấy link trong menu/`<nav>` của trang, `sitemap.xml`, repo GitHub (site `*.github.io`) hoặc file `/menu3d.json`.
+- **Ảnh chụp cả trang**: mỗi card là ảnh chụp hết chiều dài và chiều ngang của trang; card tự theo tỉ lệ trang (trang dài → card cao, trang ngắn → card ngang), ảnh phủ kín 100%.
+- **Hoặc trang chạy trực tiếp**: chế độ iframe tải trang ở đúng kích thước màn hình rồi thu nhỏ vừa card → giữ nguyên layout PC.
+- **Popup cài đặt**: bật/tắt toàn bộ hoặc từng website, chọn kiểu card, cách chuyển trang, nguồn tìm trang, kích thước card… đổi là áp dụng ngay.
+- **Nhẹ**: card chỉ được tạo và chụp khi mở menu lần đầu; ảnh được lưu lại để lần sau hiện ngay.
+- **Không đụng tới trang**: menu nằm trong Shadow DOM, CSS của menu và của trang không ảnh hưởng nhau; chạy được cả trên trang có CSP chặn script ngoài.
 
-Link chính: **`https://t-root.github.io/menu-3D/menu3d.js`**
+## Cài đặt
 
-### Cách 1 — Chạy bằng Console (F12)
+Extension chưa lên Chrome Web Store, cài dạng "unpacked":
 
-Mở website bất kỳ → **F12 → Console** → dán rồi Enter:
+1. Tải mã nguồn: **Code → Download ZIP** trên GitHub rồi giải nén, hoặc
+   ```bash
+   git clone https://github.com/t-root/menu-3D.git
+   ```
+2. Mở `chrome://extensions` → bật **Developer mode** (góc phải trên).
+3. Bấm **Load unpacked** → chọn thư mục **`menu-3D`** (thư mục có file `manifest.json`).
+4. Ghim icon Menu3D lên thanh công cụ, rồi **tải lại (F5)** các tab đang mở.
 
-```js
-document.body.appendChild(Object.assign(document.createElement('script'), { src: 'https://t-root.github.io/menu-3D/menu3d.js' }))
-```
+Cập nhật: `git pull` (hoặc tải ZIP mới) → bấm nút ↻ của Menu3D trong `chrome://extensions` → F5 các tab.
 
-Kèm tùy chỉnh (tương đương data-attribute bên dưới):
+Chạy được trên Chrome, Edge, Brave, Opera… (trình duyệt nhân Chromium).
 
-```js
-var s = document.createElement('script');
-s.src = 'https://t-root.github.io/menu-3D/menu3d.js';
-s.dataset.max = '8';
-s.dataset.exclude = '/admin,/login';
-document.body.appendChild(s);
-```
+## Sử dụng
 
-- Chrome chặn dán lần đầu → gõ `allow pasting`, Enter, rồi dán lại.
-- Trang chặn script ngoài (CSP, báo `Refused to load the script`) → mở link `menu3d.js`, copy toàn bộ code và dán thẳng vào Console.
-- Chạy lại snippet khi menu đã bị gỡ sẽ dựng lại menu; hoặc gọi `Menu3D.init({...})` để dựng lại với config mới.
+- Nút tròn nổi ở mép phải trang: **bấm** để mở/đóng menu, **kéo** để đổi chỗ (tự hít vào mép gần nhất).
+- Trong menu: **kéo** hoặc **cuộn chuột** để xoay, **rê chuột** vào card để dừng xoay, **bấm card** để mở trang, **ESC** để đóng.
+- Card của trang đang mở luôn đứng đầu và có nhãn sáng hơn.
 
-### Cách 2 — Nhúng vào HTML
+## Popup cài đặt
 
-```html
-<script src="https://t-root.github.io/menu-3D/menu3d.js"></script>
-```
+Bấm icon Menu3D trên thanh công cụ:
 
-Nhúng được ở **mọi trang** — trang được mở bên trong iframe của menu sẽ tự bỏ qua, không bị lặp vô hạn.
+| Mục | Ý nghĩa | Mặc định |
+|---|---|---|
+| **Bật Menu3D** | Bật/tắt trên mọi website | Bật |
+| **Bật trên _website_** | Tắt riêng website đang xem | Bật |
+| **Mở menu trên tab này** | Mở menu ngay (kể cả khi website đang tắt) | |
+| **Kiểu card** | *Ảnh chụp cả trang* hoặc *Trang chạy trực tiếp (iframe)* | Ảnh chụp |
+| **Khi bấm card** | *Chuyển trang thật* hoặc *Mở trong khung, giữ menu* (URL, tiêu đề tab, Back/Forward vẫn đồng bộ) | Chuyển trang thật |
+| **Tốc độ tự xoay** | Độ/khung hình, `0` = đứng yên | `0.2` |
+| **Khoảng cách card** | Khoảng hở tối thiểu giữa 2 card (vw); nhiều card thì vòng tự nới rộng | `2` |
+| **Card rộng / cao tối đa** | Khung tối đa của card (vw); card co theo tỉ lệ trang bên trong khung này | `24` / `32` |
+| **Nguồn** | *Tự động* thử lần lượt: link trên trang → sitemap.xml → repo GitHub → `/menu3d.json` | Tự động |
+| **Số trang tối đa** | Tính cả trang đang mở | `12` |
+| **Bỏ qua đường dẫn** | Bỏ các trang có đường dẫn bắt đầu bằng những prefix này, cách nhau dấu phẩy, vd `/admin,/login` | |
+| **Chờ trước khi chụp** | ms chờ sau khi trang tải xong rồi mới chụp (tăng lên cho trang nhiều animation) | `1200` |
+| **Giữ ảnh** | Số giờ dùng lại ảnh đã chụp | `24` |
+| **Xóa ảnh đã chụp** | Xóa ảnh của website đang xem để chụp lại | |
+| **Khôi phục mặc định** | Đưa mọi cài đặt về mặc định | |
 
-## Ảnh chụp trang
+Cài đặt được lưu bằng `chrome.storage.sync` nên đồng bộ theo tài khoản Chrome.
 
-Mặc định (`preview: 'image'`), khi mở menu lần đầu script lần lượt tải từng trang vào iframe ẩn có kích thước bằng cửa sổ, chờ `captureDelay` ms, cuộn hết trang (để ảnh lazy-load kịp hiện) rồi chụp **cả trang** thành ảnh JPEG (thư viện [modern-screenshot](https://github.com/qq15725/modern-screenshot), tải từ jsDelivr khi cần) và bỏ iframe.
+## Cách hoạt động
 
-- Card là hình chữ nhật lớn nhất nằm trong khung `itemWidth × itemHeight` mà vẫn đúng tỉ lệ trang; trang dài quá 20000px chỉ chụp tới đó.
-- Menu nhẹ hơn hẳn iframe trực tiếp: không còn nhiều trang cùng chạy; kéo xoay trên card mượt, bấm vào card là mở trang.
-- Ảnh được lưu trong IndexedDB của site, dùng lại trong `cacheHours` giờ (mặc định 24) → lần sau mở menu hiện ngay. Xóa bằng `Menu3D.clearCache()`.
-- Ảnh là bản **vẽ lại** từ HTML/CSS, có thể lệch chút về font/hiệu ứng; ảnh khác domain không cho CORS và canvas WebGL có thể bị trống.
-- Trang khác domain, hoặc chụp lỗi (vd CSP chặn tải thư viện) → card đó tự dùng iframe như trước.
-- Muốn quay lại iframe trực tiếp: `data-preview="iframe"`.
-
-### Chế độ iframe (`data-preview="iframe"`, và các card không chụp được)
-
-Iframe được tải **đúng kích thước màn hình thật** (vd 1920×1080) rồi thu nhỏ bằng `transform: scale` cho vừa card, nên trang hiển thị **đúng layout gốc** (không nhảy sang giao diện mobile vì khung nhỏ). Card theo tỉ lệ màn hình; cuộn chuột trong card để xem phần dưới vì đây là trang chạy thật.
-
-Iframe **không** kéo cao bằng cả trang: trang dùng đơn vị `vh` (vd mỗi khối `100vh`) sẽ bị phình theo chiều cao iframe và vỡ layout. Muốn thấy cả chiều dài trang thì dùng chế độ ảnh (mặc định).
-
-## Chuyển trang không mất menu
-
-Bấm nhãn một card **không tải lại cả trang** (nếu tải lại, menu chạy từ Console sẽ mất). Trang được chọn mở trong khung toàn màn hình ngay dưới menu:
-
-- Thanh địa chỉ và tiêu đề tab đổi theo trang đang xem; bấm link bên trong trang đó cũng được đồng bộ.
-- Nút **Back / Forward** của trình duyệt hoạt động bình thường; card của trang đang xem được đánh dấu.
-- Bấm card của trang gốc → quay về trang gốc. Ctrl/Cmd + click nhãn → mở tab mới như link thường.
-- Nhấn **F5** sẽ tải trang thật → menu chạy từ Console mất, cần chạy lại snippet.
-- Trang bên trong dùng link `target="_top"` sẽ thoát khỏi khung, menu cũng mất.
-
-## Tự tìm trang
-
-Mặc định script thử lần lượt các nguồn dưới đây, nguồn nào tìm ra trang thì dùng nguồn đó:
+**Tìm trang** — chỉ lấy trang **cùng domain**, bỏ file không phải trang web (`.pdf`, `.zip`…) và link trùng:
 
 | Nguồn | Cách lấy |
 |---|---|
-| `links` | Link trong `<nav>`, `<header>`; không có thì lấy mọi `<a href>` của trang |
-| `sitemap` | Đọc `/sitemap.xml` (hỗ trợ cả sitemap index) |
-| `github` | Site trên `*.github.io` → liệt kê file `.html` trong repo qua GitHub API (cache 1 giờ) |
-| `json` | Đọc `/menu3d.json` |
+| Link trên trang | Link trong `<nav>`, `<header>`; không có thì lấy mọi `<a href>` |
+| sitemap.xml | Đọc `/sitemap.xml` (hỗ trợ cả sitemap index) |
+| Repo GitHub | Site `*.github.io` → liệt kê file `.html` trong repo qua GitHub API (cache 1 giờ, giới hạn ~60 lượt/giờ) |
+| `/menu3d.json` | Danh sách do chủ site tự khai báo (xem bên dưới) |
 
-- **Trang đang mở luôn là card đầu tiên**; card của trang đang xem có nền nhãn sáng hơn.
-- Chỉ lấy trang **cùng domain**, bỏ file không phải trang web (`.pdf`, `.zip`...), bỏ link trùng.
-- Tiêu đề: chữ của link → `<title>` thật của trang (đọc sau khi iframe load) → tên file.
+Tiêu đề card lấy theo: chữ của link → `<title>` thật của trang → tên file.
 
-## Tùy chỉnh bằng data-attribute
+**Chụp ảnh** — khi mở menu lần đầu, extension lần lượt tải từng trang vào một iframe ẩn có kích thước bằng cửa sổ, cuộn hết trang để ảnh lazy-load kịp hiện, rồi chụp cả trang bằng [modern-screenshot](https://github.com/qq15725/modern-screenshot) (đóng gói sẵn trong `lib/`, không tải từ mạng). Ảnh lưu trong IndexedDB của website.
 
-```html
-<script src="https://t-root.github.io/menu-3D/menu3d.js"
-        data-source="sitemap"
-        data-max="8"
-        data-exclude="/admin,/login"></script>
-```
-
-| Thuộc tính | Mặc định | Ý nghĩa |
-|---|---|---|
-| `data-source` | `links,sitemap,github,json` | Nguồn tìm trang, thử theo thứ tự; `auto` = mặc định |
-| `data-max` | `12` | Số trang tối đa (tính cả trang đang mở) |
-| `data-exclude` | — | Bỏ các đường dẫn **bắt đầu bằng** các prefix này (cách nhau dấu phẩy) |
-| `data-selector` | `nav a[href], header a[href]` | Vùng link ưu tiên cho nguồn `links` |
-| `data-sitemap` | `/sitemap.xml` | Đường dẫn sitemap |
-| `data-json` | `/menu3d.json` | Đường dẫn file JSON |
-| `data-items` | — | Danh sách cố định (JSON), bỏ qua tự tìm |
-| `data-preview` | `image` | `image` = ảnh chụp cả trang, `iframe` = trang chạy trực tiếp ở kích thước màn hình thật, thu nhỏ vừa card |
-| `data-capture-delay` | `1200` | ms chờ sau khi trang load rồi mới chụp |
-| `data-cache-hours` | `24` | Thời gian dùng lại ảnh đã chụp |
-| `data-breakpoint` | `700` | Độ rộng (px) chuyển sang mobile |
-| `data-camera-offset` | `0` | Offset camera (vw); âm = gần hơn |
-| `data-gap` | `2` | Khoảng hở tối thiểu giữa 2 card (vw). Nhiều card thì vòng tự nới rộng, không bị dính nhau |
-| `data-auto-rotate-speed` | `0.2` | Tốc độ tự xoay (độ/frame) |
-| `data-scroll-rotate-speed` | `4` | Độ xoay mỗi lần cuộn chuột |
-| `data-time-auto` | `3000` | ms chờ trước khi tự xoay lại sau khi cuộn |
-| `data-index-up` | `2147483000` | z-index của menu (cao để nằm trên mọi thứ của trang) |
-| `data-icon-closed` / `data-icon-open` | icon của thư viện | URL icon nút toggle |
-| `data-desktop` / `data-mobile` | xem dưới | JSON, chỉ ghi đè key cần đổi, vd `data-desktop='{"radius":30}'` |
-| `data-manual` | — | Không tự chạy, chờ gọi `Menu3D.init()` |
-
-Mặc định `desktop` / `mobile` (`itemWidth` / `itemHeight` là bề rộng / chiều cao **tối đa** của card, vw):
-
-```json
-"desktop": { "perspective": 55, "radius": 26, "itemWidth": 24, "itemHeight": 32, "toggleSize": 4, "labelFontSizeRatio": 0.5 },
-"mobile":  { "perspective": 70, "radius": 50, "itemWidth": 30, "itemHeight": 50, "toggleSize": 15, "labelFontSizeRatio": 0.5 }
-```
-
-## Gọi bằng JavaScript
-
-```html
-<script src="https://t-root.github.io/menu-3D/menu3d.js" data-manual></script>
-<script>
-  Menu3D.init({
-    items: [
-      { path: '/page1.html', title: 'Trang 1' },
-      '/page2.html'
-    ],
-    autoRotateSpeed: 0.3,
-    desktop: { radius: 30 }
-  }).then(menu => {
-    // menu.open(), menu.close(), menu.toggle(), menu.isOpen(), menu.navigate(url), menu.destroy()
-  });
-</script>
-```
-
-- Các key của `init()` giống data-attribute (dạng camelCase).
-- Thứ tự ưu tiên: mặc định < `menu3d.json` < data-attribute < options của `init()`.
-- Có `items` thì dùng đúng danh sách đó (không tự thêm trang đang mở).
-- Gọi `init()` lần nữa sẽ thay menu cũ; `Menu3D.destroy()` để gỡ menu; `Menu3D.clearCache()` xóa ảnh chụp đã lưu.
-
-### File `menu3d.json` (nguồn `json`)
-
-Mảng item, hoặc object chứa `items` và các thông số khác:
+**File `/menu3d.json`** (tùy chọn, đặt ở gốc website) — mảng trang, hoặc object có `items` và các thông số khác:
 
 ```json
 {
-  "autoRotateSpeed": 0.3,
   "items": [
-    { "path": "/page1.html", "title": "Trang 1" },
-    { "path": "https://other-site.com/", "title": "Site khác" }
+    { "path": "/", "title": "Trang chủ" },
+    { "path": "/pricing", "title": "Bảng giá" }
   ]
 }
 ```
 
-## Tương tác
+## Giới hạn
 
-- **Click nút toggle**: mở/đóng menu · **ESC**: đóng menu
-- **Kéo** (chuột hoặc cảm ứng): xoay menu · **Cuộn chuột**: xoay nhanh (chỉ khi menu mở)
-- **Hover** vào card: tạm dừng tự xoay
-- **Kéo nút toggle**: di chuyển, tự hít vào mép gần nhất
+- Chỉ tìm được những trang có link tới, có trong sitemap, repo GitHub hoặc `menu3d.json` — web không có "liệt kê thư mục".
+- Ảnh là bản **vẽ lại** từ HTML/CSS: có thể lệch chút font/hiệu ứng; ảnh khác domain không cho CORS và canvas WebGL có thể bị trống.
+- Trang đặt `body` cố định một màn hình và cuộn trong khung riêng (nhiều SPA) → ảnh chỉ có màn hình đầu.
+- Chế độ iframe không kéo cao bằng cả trang vì các khối dùng đơn vị `vh` sẽ phình ra và vỡ layout.
+- Trang khác domain, hoặc trang chặn nhúng (`X-Frame-Options` / CSP `frame-ancestors`) → không chụp được, card dùng iframe (có thể trống).
+- Không chạy trên trang nội bộ của trình duyệt (`chrome://`, Chrome Web Store…).
 
-## Lưu ý
+## Dùng không cần extension
 
-- **Không có cách "liệt kê thư mục" trên web**: script chỉ biết những trang có link tới, có trong sitemap, hoặc có trong repo GitHub.
-- **GitHub API** giới hạn ~60 lượt/giờ/IP khi không đăng nhập; kết quả được cache trong `localStorage` 1 giờ.
-- **Iframe khác domain**: site có `X-Frame-Options` / CSP `frame-ancestors` sẽ hiện card trống.
-- Card chỉ được tạo (và trang chỉ được chụp) khi **mở menu lần đầu**, nên trang load nhẹ. Menu nằm trong Shadow DOM nên CSS của menu và của trang không ảnh hưởng nhau.
-- Hosting: dùng GitHub Pages hoặc jsDelivr (`https://cdn.jsdelivr.net/gh/t-root/menu-3D@<tag>/menu3d.js` để ghim version). **Không** dùng `raw.githubusercontent.com` (trình duyệt không chạy script từ đó).
+`menu3d.js` vẫn chạy độc lập qua GitHub Pages (thư viện chụp ảnh khi đó tải từ jsDelivr; bấm card mặc định mở trong khung để giữ menu):
 
-## Chạy demo
-
-```bash
-node example/server.js
-```
-
-- `http://localhost:8080` — zero-config, lấy trang từ link trong `<nav>`
-- `http://localhost:8080/example/console-demo.html` — trang không nhúng script, dùng để thử cách chạy bằng Console
-- `http://localhost:8080/example/sitemap-demo.html` — `data-source="sitemap"`, `data-max`, `data-exclude`
+- **Console** (F12) trên trang bất kỳ:
+  ```js
+  document.body.appendChild(Object.assign(document.createElement('script'), { src: 'https://t-root.github.io/menu-3D/menu3d.js?v=' + Date.now() }))
+  ```
+- **Nhúng vào HTML**, tùy chỉnh bằng `data-*` (cùng tên với cài đặt, dạng kebab-case: `data-preview`, `data-navigation`, `data-source`, `data-max`, `data-exclude`, `data-gap`, `data-capture-delay`, `data-cache-hours`, `data-auto-rotate-speed`, `data-desktop='{"itemWidth":24,"itemHeight":32}'`…):
+  ```html
+  <script src="https://t-root.github.io/menu-3D/menu3d.js" data-max="8" data-exclude="/admin,/login"></script>
+  ```
+- **JavaScript**: `data-manual` rồi gọi `Menu3D.init({...})` → trả về `{ open, close, toggle, isOpen, navigate, destroy, items, config }`; `Menu3D.clearCache()` xóa ảnh đã lưu.
 
 ## Cấu trúc
 
 ```
-menu3d.js        # Thư viện (1 file, CSS nhúng sẵn)
-icon/            # Icon mặc định của nút toggle (load cạnh menu3d.js)
-example/         # Demo + server tĩnh
+manifest.json            # Khai báo extension (Manifest V3)
+menu3d.js                # Lõi Menu3D (dùng chung cho extension và GitHub Pages)
+settings.js              # Cài đặt mặc định + chuyển thành options của Menu3D
+content.js               # Content script: dựng menu theo cài đặt, nhận lệnh từ popup
+popup.html/.css/.js      # Popup cài đặt
+lib/modern-screenshot.js # Thư viện chụp ảnh (MIT, xem lib/LICENSE-modern-screenshot)
+icon/                    # Icon extension và nút mở menu
+img-demo/                # Ảnh minh họa cho README (không thuộc extension)
 ```
 
 ---
 
-# Menu3D - User Guide
+# Menu3D — Chrome Extension (English)
 
-## Introduction
+Menu3D turns any website into a **rotating 3D menu**: it discovers the site's pages (nav links, `sitemap.xml`, the GitHub repo of a `*.github.io` site, or `/menu3d.json`), takes a **full-page screenshot** of each one and lays them out as cards on a 3D carousel. Each card takes its page's aspect ratio and the image always fills it. Click a card to go to that page.
 
-Menu3D builds a desktop-first 3D carousel where each page of your site is a card showing a **full-page screenshot** (whole length and width); each card takes the page's own aspect ratio — long pages become tall cards, short pages wide ones — and the image always fills it 100%. No config file — the script discovers your pages, captures them and builds the menu on its own.
+**Install:** download/clone this repo → `chrome://extensions` → enable *Developer mode* → *Load unpacked* → pick the repo folder (the one containing `manifest.json`) → reload open tabs.
 
-```html
-<script src="https://t-root.github.io/menu-3D/menu3d.js"></script>
-```
+**Popup settings:** global on/off, per-site on/off, open the menu on the current tab, card type (full-page screenshot or live iframe rendered at real window size and scaled down), click behaviour (real navigation or in-page frame that keeps the menu), rotation speed, card gap and max card size, page source, max pages, excluded paths, capture delay, screenshot cache lifetime, clear cached screenshots, reset to defaults. Settings live in `chrome.storage.sync` and apply instantly.
 
-Main URL: **`https://t-root.github.io/menu-3D/menu3d.js`**. The primary way to launch it is from the browser console (F12) on any site:
-
-```js
-document.body.appendChild(Object.assign(document.createElement('script'), { src: 'https://t-root.github.io/menu-3D/menu3d.js' }))
-```
-
-It is also safe to include on **every page**: pages loaded inside the menu's iframes skip initialization, so there is no infinite nesting.
-
-Clicking a card label does not reload the page (which would drop a console-launched menu). The target page opens in a full-screen frame under the menu; the address bar, tab title and Back/Forward stay in sync. A hard reload (F5) loads the real page, so run the snippet again.
-
-## Page discovery
-
-Sources are tried in order until one returns pages:
-
-| Source | How |
-|---|---|
-| `links` | Links in `<nav>`/`<header>`, falling back to every `<a href>` |
-| `sitemap` | Reads `/sitemap.xml` (sitemap indexes supported) |
-| `github` | On `*.github.io`, lists `.html` files in the repo via the GitHub API (cached 1h) |
-| `json` | Reads `/menu3d.json` |
-
-The current page is always the first card. Only same-origin pages are kept, non-page files and duplicates are dropped. Titles come from link text, then the page's real `<title>`, then the file name.
-
-## Options
-
-Set them as `data-*` attributes on the script tag (see the table above), e.g. `data-source="sitemap" data-max="8" data-exclude="/admin,/login"`, or pass them to `Menu3D.init({...})` together with `data-manual`. Precedence: defaults < `menu3d.json` < data attributes < `init()` options. `desktop`/`mobile` are merged key by key. `preview` is `image` (default: full-page screenshots taken in hidden iframes with modern-screenshot, cached in IndexedDB for `cacheHours`, falling back to a live iframe when capture fails or the page is cross-origin) or `iframe`. Live iframes are rendered at the real window size and scaled down to the card, so pages keep their original desktop layout. `Menu3D.clearCache()` drops cached screenshots. `gap` (vw, default 2) is the minimum space between neighbouring cards — the ring radius grows with the number of cards so they never overlap.
-
-`Menu3D.init()` resolves to `{ open, close, toggle, isOpen, destroy, items, config }`; calling it again replaces the previous menu.
-
-## Notes
-
-- The web has no directory listing: only pages that are linked, in the sitemap, or in the GitHub repo can be found.
-- Unauthenticated GitHub API calls are limited to ~60/hour/IP (results are cached).
-- Cross-origin pages that send `X-Frame-Options`/`frame-ancestors` render as empty cards.
-- Iframes are created on first open; the menu lives in a Shadow DOM so styles never leak either way.
-- Host via GitHub Pages or jsDelivr; `raw.githubusercontent.com` will not execute scripts.
+**Notes:** only same-origin pages can be screenshotted; screenshots are DOM re-renders (not pixel-perfect); pages that scroll inside an inner container are captured as the first screen only; browser-internal pages are not supported. `menu3d.js` still works without the extension via GitHub Pages (`https://t-root.github.io/menu-3D/menu3d.js`) (console snippet, `<script>` tag with `data-*` options, or `Menu3D.init()`).

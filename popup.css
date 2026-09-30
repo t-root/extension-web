@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 320px;
+  margin: 0;
+  padding: 12px;
+  background: #16181d;
+  color: #e8e8e8;
+  font: 13px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+header img {
+  width: 36px;
+  height: 36px;
+  padding: 4px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+h1 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.muted {
+  color: #8b909a;
+  font-size: 12px;
+}
+
+.box,
+details {
+  background: #1f2229;
+  border: 1px solid #2c3039;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+  user-select: none;
+}
+
+details[open] summary {
+  margin-bottom: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #b9bec8;
+}
+
+label.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #e8e8e8;
+}
+
+select,
+input[type="number"],
+input[type="text"] {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+  padding: 6px 8px;
+  border: 1px solid #353a45;
+  border-radius: 6px;
+  background: #121418;
+  color: #e8e8e8;
+  font: inherit;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 10px;
+}
+
+/* Công tắc bật/tắt */
+.switch {
+  appearance: none;
+  position: relative;
+  width: 36px;
+  height: 20px;
+  margin: 0;
+  border-radius: 10px;
+  background: #3a3f4a;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.switch::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  transition: left 0.15s;
+}
+
+.switch:checked {
+  background: #3b82f6;
+}
+
+.switch:checked::after {
+  left: 18px;
+}
+
+.switch:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+button {
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid #353a45;
+  border-radius: 6px;
+  background: #262a33;
+  color: #e8e8e8;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2f343f;
+}
+
+button.primary {
+  margin-top: 2px;
+  border-color: #3b82f6;
+  background: #3b82f6;
+  color: #fff;
+  font-weight: 600;
+}
+
+button.primary:hover {
+  background: #2f6fd8;
+}
+
+button.link {
+  width: auto;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #8b909a;
+  text-decoration: underline;
+}
+
+#status {
+  margin: 8px 0 0;
+  min-height: 1em;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+}

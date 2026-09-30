@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+  <header>
+    <img src="icon/close.png" alt="" />
+    <div>
+      <h1>Menu3D</h1>
+      <span id="version" class="muted"></span>
+    </div>
+  </header>
+
+  <section class="box">
+    <label class="row">
+      <span>Bật Menu3D</span>
+      <input type="checkbox" class="switch" data-key="enabled" />
+    </label>
+    <label class="row">
+      <span>Bật trên <b id="host">trang này</b></span>
+      <input type="checkbox" class="switch" id="site-toggle" />
+    </label>
+    <button id="open-btn" class="primary">Mở menu trên tab này</button>
+    <p id="status" class="muted"></p>
+  </section>
+
+  <details open>
+    <summary>Hiển thị</summary>
+    <label>Kiểu card
+      <select data-key="preview">
+        <option value="image">Ảnh chụp cả trang</option>
+        <option value="iframe">Trang chạy trực tiếp (iframe)</option>
+      </select>
+    </label>
+    <label>Khi bấm card
+      <select data-key="navigation">
+        <option value="page">Chuyển trang thật</option>
+        <option value="frame">Mở trong khung, giữ menu</option>
+      </select>
+    </label>
+    <div class="grid">
+      <label>Tốc độ tự xoay
+        <input type="number" step="0.05" min="0" data-key="autoRotateSpeed" />
+      </label>
+      <label>Khoảng cách card (vw)
+        <input type="number" step="0.5" min="0" data-key="gap" />
+      </label>
+      <label>Card rộng tối đa (vw)
+        <input type="number" step="1" min="5" data-key="itemWidth" />
+      </label>
+      <label>Card cao tối đa (vw)
+        <input type="number" step="1" min="5" data-key="itemHeight" />
+      </label>
+    </div>
+  </details>
+
+  <details>
+    <summary>Tìm trang</summary>
+    <label>Nguồn
+      <select data-key="source">
+        <option value="auto">Tự động (link → sitemap → GitHub → JSON)</option>
+        <option value="links">Link trên trang</option>
+        <option value="sitemap">sitemap.xml</option>
+        <option value="github">Repo GitHub (*.github.io)</option>
+        <option value="json">/menu3d.json</option>
+      </select>
+    </label>
+    <label>Số trang tối đa
+      <input type="number" step="1" min="1" max="30" data-key="max" />
+    </label>
+    <label>Bỏ qua đường dẫn
+      <input type="text" placeholder="/admin,/login" data-key="exclude" />
+    </label>
+  </details>
+
+  <details>
+    <summary>Ảnh chụp</summary>
+    <div class="grid">
+      <label>Chờ trước khi chụp (ms)
+        <input type="number" step="100" min="0" data-key="captureDelay" />
+      </label>
+      <label>Giữ ảnh (giờ)
+        <input type="number" step="1" min="0" data-key="cacheHours" />
+      </label>
+    </div>
+    <button id="clear-btn">Xóa ảnh đã chụp của trang này</button>
+  </details>
+
+  <footer>
+    <button id="reset-btn" class="link">Khôi phục mặc định</button>
+    <span id="saved" class="muted"></span>
+  </footer>
+
+  <script src="settings.js"></script>
+  <script src="popup.js"></script>
+</body>
+
+</html>

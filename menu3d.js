@@ -1,5 +1,7 @@
 /*!
- * Menu3D — menu 3D carousel. Chạy trên trang bất kỳ bằng F12 → Console:
+ * Menu3D — menu 3D carousel. Dùng chính qua Chrome extension (manifest.json cùng thư mục).
+ *
+ * Không cài extension vẫn chạy được trên trang bất kỳ bằng F12 → Console:
  *
  *   document.body.appendChild(Object.assign(document.createElement('script'), { src: 'https://t-root.github.io/menu-3D/menu3d.js' }))
  *
@@ -20,7 +22,7 @@
 (function () {
     'use strict';
 
-    const VERSION = '2.4.0';
+    const VERSION = '3.0.0';
 
     // Script bị nhúng/dán lần 2 (vd chạy lại snippet console):
     // cùng version → chỉ dựng lại menu nếu đã bị gỡ; khác version → gỡ bản cũ, chạy bản này
@@ -33,6 +35,9 @@
         console.info(`[Menu3D] Thay bản ${existing.version} đang chạy bằng bản ${VERSION}`);
         existing.destroy();
     }
+
+    // Chạy trong Chrome extension (content script) → không tự chạy, content.js gọi init() với cài đặt từ popup
+    const inExtension = !!(window.chrome && chrome.runtime && chrome.runtime.id);
 
     // Iframe do Menu3D tạo ra mang tên này → trang con không dựng menu nữa (chống lặp vô hạn)
     const FRAME_NAME = 'menu3d-frame';
@@ -52,7 +57,8 @@
         json: '/menu3d.json',
         items: null,                   // truyền sẵn danh sách → bỏ qua tự tìm
         // --- Giao diện ---
-        preview: 'image',              // 'image' = ảnh chụp màn hình đầu của trang, 'iframe' = trang chạy trực tiếp
+        preview: 'image',              // 'image' = ảnh chụp cả trang, 'iframe' = trang chạy trực tiếp
+        navigation: 'frame',           // bấm card: 'frame' = mở trong khung, giữ menu | 'page' = chuyển trang thật
         captureDelay: 1200,            // ms chờ sau khi trang load rồi mới chụp (để animation/ảnh kịp hiện)
         cacheHours: 24,                // ảnh chụp được dùng lại trong bao lâu
         breakpoint: 700,
@@ -69,7 +75,7 @@
         mobile: { perspective: 70, radius: 50, itemWidth: 30, itemHeight: 50, toggleSize: 15, labelFontSizeRatio: 0.5 }
     };
 
-    const scriptEl = document.currentScript ||
+    const scriptEl = inExtension ? null : document.currentScript ||
         Array.from(document.scripts).find(s => /menu3d(\.min)?\.js([?#]|$)/i.test(s.src)) || null;
     const scriptBase = scriptEl && scriptEl.src
         ? scriptEl.src.replace(/[?#].*$/, '').replace(/[^/]*$/, '')
@@ -286,7 +292,10 @@
     const MAX_PAGE_HEIGHT = 20000; // px, trang dài hơn thì chỉ chụp tới đây
     const SHOT_CACHE_PREFIX = 'full:'; // đổi khi đổi kiểu chụp → ảnh cũ tự bỏ
     let shotLib = null;
-    const loadShotLib = () => shotLib || (shotLib = import(SHOT_LIB));
+    // Extension đóng gói sẵn thư viện (lib/modern-screenshot.js); chạy ngoài extension thì tải từ CDN
+    const loadShotLib = () => shotLib || (shotLib = window.modernScreenshot
+        ? Promise.resolve(window.modernScreenshot)
+        : import(SHOT_LIB));
     const sleep = ms => new Promise(r => setTimeout(r, ms));
 
     // Ảnh chụp lưu trong IndexedDB của site để lần sau mở menu là có ngay
@@ -823,6 +832,10 @@
             setOpen(false);
             const u = toUrl(url);
             if (!u || pageKey(u) === shownKey) return;
+            if (cfg.navigation === 'page') {
+                location.assign(u.href); // extension tự dựng lại menu ở trang mới
+                return;
+            }
             if (!isViewShown()) {
                 // Đánh dấu bước history của trang gốc để Back quay lại được
                 const st = history.state;
@@ -1067,7 +1080,7 @@
 
     window.Menu3D = Menu3D;
 
-    if (!inMenuFrame && !(scriptEl && scriptEl.hasAttribute('data-manual'))) {
+    if (!inMenuFrame && !inExtension && !(scriptEl && scriptEl.hasAttribute('data-manual'))) {
         Menu3D.init();
     }
 })();

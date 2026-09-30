@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Menu3D",
+  "version": "3.0.0",
+  "description": "Menu 3D carousel cho mọi website: tự tìm các trang, chụp cả trang và xếp lên vòng xoay 3D.",
+  "icons": {
+    "16": "icon/close.png",
+    "32": "icon/close.png",
+    "48": "icon/close.png",
+    "128": "icon/close.png"
+  },
+  "action": {
+    "default_title": "Menu3D",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon/close.png",
+      "32": "icon/close.png"
+    }
+  },
+  "permissions": ["storage", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": [
+        "lib/modern-screenshot.js",
+        "menu3d.js",
+        "settings.js",
+        "content.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["icon/*"],
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ]
+}
