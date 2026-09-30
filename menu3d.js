@@ -20,7 +20,7 @@
 (function () {
     'use strict';
 
-    const VERSION = '2.2.2';
+    const VERSION = '2.3.0';
 
     // Script bị nhúng/dán lần 2 (vd chạy lại snippet console):
     // cùng version → chỉ dựng lại menu nếu đã bị gỡ; khác version → gỡ bản cũ, chạy bản này
@@ -64,7 +64,8 @@
         timeAuto: 3000,
         iconClosed: null,
         iconOpen: null,
-        desktop: { perspective: 55, radius: 26, itemWidth: 24, itemHeight: 13.5, toggleSize: 4, labelFontSizeRatio: 0.5 }, // card ngang 16:9
+        // itemWidth × itemHeight = khung tối đa; card co theo tỉ lệ ảnh chụp cả trang (dài → cao, ngắn → ngang)
+        desktop: { perspective: 55, radius: 26, itemWidth: 24, itemHeight: 32, toggleSize: 4, labelFontSizeRatio: 0.5 },
         mobile: { perspective: 70, radius: 50, itemWidth: 30, itemHeight: 50, toggleSize: 15, labelFontSizeRatio: 0.5 }
     };
 
@@ -280,7 +281,10 @@
     // ================= ẢNH CHỤP TRANG =================
 
     const SHOT_LIB = 'https://cdn.jsdelivr.net/npm/modern-screenshot@4.7.0/+esm';
-    const SHOT_WIDTH = 800; // px, đủ nét cho card ở màn hình PC
+    const SHOT_WIDTH = 800;      // px, bề ngang tối đa của ảnh (đủ nét cho card ở màn hình PC)
+    const SHOT_HEIGHT = 2400;    // px, bề dọc tối đa của ảnh (trang dài thì thu nhỏ lại)
+    const MAX_PAGE_HEIGHT = 20000; // px, trang dài hơn thì chỉ chụp tới đây
+    const SHOT_CACHE_PREFIX = 'full:'; // đổi khi đổi kiểu chụp → ảnh cũ tự bỏ
     let shotLib = null;
     const loadShotLib = () => shotLib || (shotLib = import(SHOT_LIB));
     const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -306,7 +310,7 @@
         };
     })();
 
-    // Tải trang vào iframe ẩn (kích thước = cửa sổ hiện tại), chụp màn hình đầu rồi bỏ iframe
+    // Tải trang vào iframe ẩn (kích thước = cửa sổ hiện tại), chụp CẢ TRANG (hết chiều dài/ngang) rồi bỏ iframe
     async function capturePage(container, url, cfg) {
         const lib = await loadShotLib();
         const w = window.innerWidth, h = window.innerHeight;
@@ -330,17 +334,29 @@
             if (!doc || !doc.documentElement || doc.URL === 'about:blank') {
                 throw new Error('không đọc được trang (khác domain hoặc bị chặn nhúng)');
             }
+            // Cuộn hết trang để ảnh lazy-load / hiệu ứng hiện khi cuộn kịp chạy, rồi về đầu trang
+            const win = frame.contentWindow;
+            const pageHeight = () => Math.max(doc.documentElement.scrollHeight, doc.body ? doc.body.scrollHeight : 0);
+            for (let y = h, i = 0; y < pageHeight() && i < 20; y += h, i++) {
+                win.scrollTo(0, y);
+                await sleep(150);
+            }
+            win.scrollTo(0, 0);
+            await sleep(300);
+
+            const width = Math.max(w, doc.documentElement.scrollWidth);
+            const height = Math.min(Math.max(h, pageHeight()), MAX_PAGE_HEIGHT);
             const data = await Promise.race([
                 lib.domToJpeg(doc.documentElement, {
-                    width: w,
-                    height: h,
-                    scale: Math.min(1, SHOT_WIDTH / w),
+                    width,
+                    height,
+                    scale: Math.min(1, SHOT_WIDTH / width, SHOT_HEIGHT / height),
                     quality: 0.75,
                     backgroundColor: '#fff'
                 }),
-                sleep(20000).then(() => { throw new Error('chụp quá 20s'); })
+                sleep(30000).then(() => { throw new Error('chụp quá 30s'); })
             ]);
-            return { data, title: (doc.title || '').trim() };
+            return { data, width, height, title: (doc.title || '').trim() };
         } finally {
             frame.remove();
         }
@@ -390,8 +406,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: top center;
+  object-fit: fill; /* card cùng tỉ lệ với ảnh → phủ kín 100%, không cắt */
   pointer-events: none;
 }
 
@@ -425,7 +440,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 15%;
+  height: max(calc(var(--m3d-item-w) * 0.09), 20px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -570,8 +585,22 @@
         }
 
         // ---------- Carousel ----------
+        // Card lớn nhất có thể trong khung itemWidth × itemHeight mà vẫn giữ đúng tỉ lệ trang (cao/rộng)
+        function sizeCard(card) {
+            const ratio = parseFloat(card.dataset.ratio) || window.innerHeight / Math.max(1, window.innerWidth);
+            const maxW = num(mode.itemWidth), maxH = num(mode.itemHeight);
+            let w = maxW, h = maxW * ratio;
+            if (h > maxH) {
+                h = maxH;
+                w = maxH / ratio;
+            }
+            card.style.width = w + 'vw';
+            card.style.height = h + 'vw';
+        }
+
         function layoutCards() {
             cards.forEach(card => {
+                sizeCard(card);
                 card.style.transform = `translate(-50%,-50%) rotateY(${card.dataset.angle}deg) translateZ(${radius}vw)`;
             });
         }
@@ -642,8 +671,13 @@
             card.insertBefore(iframe, card.firstChild);
         }
 
-        function mountImage(card, data) {
+        function mountImage(card, shot) {
             card.classList.remove('m3d-loading');
+            if (shot.width && shot.height) {
+                card.dataset.ratio = shot.height / shot.width;
+                sizeCard(card);
+                fitLabels();
+            }
             let img = card.querySelector('img');
             if (!img) {
                 img = el('img');
@@ -651,7 +685,7 @@
                 img.draggable = false;
                 card.insertBefore(img, card.firstChild);
             }
-            img.src = data;
+            img.src = shot.data;
         }
 
         async function captureCard(card, item) {
@@ -659,9 +693,9 @@
             try {
                 const shot = await capturePage(root, item.url, cfg);
                 if (destroyed) return;
-                mountImage(card, shot.data);
+                mountImage(card, shot);
                 setCardTitle(card, item, shot.title);
-                shotCache.set(item.key, { t: Date.now(), ...shot });
+                shotCache.set(SHOT_CACHE_PREFIX + item.key, { t: Date.now(), ...shot });
             } catch (e) {
                 // Không chụp được (khác domain, CSP chặn thư viện...) → dùng iframe như cũ
                 console.warn('[Menu3D] Không chụp được, dùng iframe:', item.url, e);
@@ -675,9 +709,9 @@
                 return;
             }
             card.classList.add('m3d-loading');
-            const hit = await shotCache.get(item.key);
+            const hit = await shotCache.get(SHOT_CACHE_PREFIX + item.key);
             if (hit && hit.data) {
-                mountImage(card, hit.data);
+                mountImage(card, hit);
                 setCardTitle(card, item, hit.title);
                 if (Date.now() - hit.t < num(cfg.cacheHours) * 3600e3) return;
             }

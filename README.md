@@ -12,7 +12,7 @@
 
 ## Giới thiệu
 
-Menu3D tạo menu 3D carousel cho PC: mỗi trang của website là một card ngang (16:9) mang **ảnh chụp màn hình đầu** của trang đó, xếp trên vòng xoay 3D. Không cần file config — script tự tìm các trang của website, tự chụp và tự dựng menu.
+Menu3D tạo menu 3D carousel cho PC: mỗi trang của website là một card mang **ảnh chụp cả trang** (hết chiều dài và chiều ngang), xếp trên vòng xoay 3D. Card tự theo tỉ lệ của trang: trang dài → card cao, trang ngắn → card ngang, ảnh luôn phủ kín 100% card. Không cần file config — script tự tìm các trang của website, tự chụp và tự dựng menu.
 
 Link chính: **`https://t-root.github.io/menu-3D/menu3d.js`**
 
@@ -48,8 +48,9 @@ Nhúng được ở **mọi trang** — trang được mở bên trong iframe c�
 
 ## Ảnh chụp trang
 
-Mặc định (`preview: 'image'`), khi mở menu lần đầu script lần lượt tải từng trang vào iframe ẩn có kích thước bằng cửa sổ, chờ `captureDelay` ms rồi chụp **màn hình đầu** thành ảnh JPEG (thư viện [modern-screenshot](https://github.com/qq15725/modern-screenshot), tải từ jsDelivr khi cần) và bỏ iframe.
+Mặc định (`preview: 'image'`), khi mở menu lần đầu script lần lượt tải từng trang vào iframe ẩn có kích thước bằng cửa sổ, chờ `captureDelay` ms, cuộn hết trang (để ảnh lazy-load kịp hiện) rồi chụp **cả trang** thành ảnh JPEG (thư viện [modern-screenshot](https://github.com/qq15725/modern-screenshot), tải từ jsDelivr khi cần) và bỏ iframe.
 
+- Card là hình chữ nhật lớn nhất nằm trong khung `itemWidth × itemHeight` mà vẫn đúng tỉ lệ trang; trang dài quá 20000px chỉ chụp tới đó.
 - Menu nhẹ hơn hẳn iframe trực tiếp: không còn nhiều trang cùng chạy; kéo xoay trên card mượt, bấm vào card là mở trang.
 - Ảnh được lưu trong IndexedDB của site, dùng lại trong `cacheHours` giờ (mặc định 24) → lần sau mở menu hiện ngay. Xóa bằng `Menu3D.clearCache()`.
 - Ảnh là bản **vẽ lại** từ HTML/CSS, có thể lệch chút về font/hiệu ứng; ảnh khác domain không cho CORS và canvas WebGL có thể bị trống.
@@ -99,7 +100,7 @@ Mặc định script thử lần lượt các nguồn dưới đây, nguồn nà
 | `data-sitemap` | `/sitemap.xml` | Đường dẫn sitemap |
 | `data-json` | `/menu3d.json` | Đường dẫn file JSON |
 | `data-items` | — | Danh sách cố định (JSON), bỏ qua tự tìm |
-| `data-preview` | `image` | `image` = ảnh chụp màn hình đầu, `iframe` = trang chạy trực tiếp |
+| `data-preview` | `image` | `image` = ảnh chụp cả trang, `iframe` = trang chạy trực tiếp |
 | `data-capture-delay` | `1200` | ms chờ sau khi trang load rồi mới chụp |
 | `data-cache-hours` | `24` | Thời gian dùng lại ảnh đã chụp |
 | `data-breakpoint` | `700` | Độ rộng (px) chuyển sang mobile |
@@ -113,10 +114,10 @@ Mặc định script thử lần lượt các nguồn dưới đây, nguồn nà
 | `data-desktop` / `data-mobile` | xem dưới | JSON, chỉ ghi đè key cần đổi, vd `data-desktop='{"radius":30}'` |
 | `data-manual` | — | Không tự chạy, chờ gọi `Menu3D.init()` |
 
-Mặc định `desktop` / `mobile`:
+Mặc định `desktop` / `mobile` (`itemWidth` / `itemHeight` là bề rộng / chiều cao **tối đa** của card, vw):
 
 ```json
-"desktop": { "perspective": 55, "radius": 26, "itemWidth": 24, "itemHeight": 13.5, "toggleSize": 4, "labelFontSizeRatio": 0.5 },
+"desktop": { "perspective": 55, "radius": 26, "itemWidth": 24, "itemHeight": 32, "toggleSize": 4, "labelFontSizeRatio": 0.5 },
 "mobile":  { "perspective": 70, "radius": 50, "itemWidth": 30, "itemHeight": 50, "toggleSize": 15, "labelFontSizeRatio": 0.5 }
 ```
 
@@ -196,7 +197,7 @@ example/         # Demo + server tĩnh
 
 ## Introduction
 
-Menu3D builds a desktop-first 3D carousel where each page of your site is a landscape (16:9) card showing a **screenshot of the page's first screen**. No config file — the script discovers your pages, captures them and builds the menu on its own.
+Menu3D builds a desktop-first 3D carousel where each page of your site is a card showing a **full-page screenshot** (whole length and width); each card takes the page's own aspect ratio — long pages become tall cards, short pages wide ones — and the image always fills it 100%. No config file — the script discovers your pages, captures them and builds the menu on its own.
 
 ```html
 <script src="https://t-root.github.io/menu-3D/menu3d.js"></script>
@@ -227,7 +228,7 @@ The current page is always the first card. Only same-origin pages are kept, non-
 
 ## Options
 
-Set them as `data-*` attributes on the script tag (see the table above), e.g. `data-source="sitemap" data-max="8" data-exclude="/admin,/login"`, or pass them to `Menu3D.init({...})` together with `data-manual`. Precedence: defaults < `menu3d.json` < data attributes < `init()` options. `desktop`/`mobile` are merged key by key. `preview` is `image` (default: first-screen screenshots taken in hidden iframes with modern-screenshot, cached in IndexedDB for `cacheHours`, falling back to a live iframe when capture fails or the page is cross-origin) or `iframe`. `Menu3D.clearCache()` drops cached screenshots. `gap` (vw, default 2) is the minimum space between neighbouring cards — the ring radius grows with the number of cards so they never overlap.
+Set them as `data-*` attributes on the script tag (see the table above), e.g. `data-source="sitemap" data-max="8" data-exclude="/admin,/login"`, or pass them to `Menu3D.init({...})` together with `data-manual`. Precedence: defaults < `menu3d.json` < data attributes < `init()` options. `desktop`/`mobile` are merged key by key. `preview` is `image` (default: full-page screenshots taken in hidden iframes with modern-screenshot, cached in IndexedDB for `cacheHours`, falling back to a live iframe when capture fails or the page is cross-origin) or `iframe`. `Menu3D.clearCache()` drops cached screenshots. `gap` (vw, default 2) is the minimum space between neighbouring cards — the ring radius grows with the number of cards so they never overlap.
 
 `Menu3D.init()` resolves to `{ open, close, toggle, isOpen, destroy, items, config }`; calling it again replaces the previous menu.
 
