@@ -20,7 +20,7 @@
 (function () {
     'use strict';
 
-    const VERSION = '2.2.1';
+    const VERSION = '2.2.2';
 
     // Script bị nhúng/dán lần 2 (vd chạy lại snippet console):
     // cùng version → chỉ dựng lại menu nếu đã bị gỡ; khác version → gỡ bản cũ, chạy bản này
@@ -318,21 +318,28 @@
             'border:0;opacity:0;pointer-events:none;z-index:-2147483647;';
         container.appendChild(frame);
         try {
-            await new Promise((resolve, reject) => {
-                const timer = setTimeout(() => reject(new Error('timeout')), 15000);
+            // Trang nặng (quảng cáo, video...) có thể lâu mới xong `load` → quá 8s thì chụp luôn phần đã hiện
+            await new Promise(resolve => {
+                const timer = setTimeout(resolve, 8000);
                 frame.onload = () => { clearTimeout(timer); resolve(); };
                 frame.src = url;
             });
             await sleep(num(cfg.captureDelay));
-            const doc = frame.contentDocument;
-            if (!doc || !doc.documentElement) throw new Error('không đọc được trang');
-            const data = await lib.domToJpeg(doc.documentElement, {
-                width: w,
-                height: h,
-                scale: Math.min(1, SHOT_WIDTH / w),
-                quality: 0.75,
-                backgroundColor: '#fff'
-            });
+            let doc = null;
+            try { doc = frame.contentDocument; } catch (_) {}
+            if (!doc || !doc.documentElement || doc.URL === 'about:blank') {
+                throw new Error('không đọc được trang (khác domain hoặc bị chặn nhúng)');
+            }
+            const data = await Promise.race([
+                lib.domToJpeg(doc.documentElement, {
+                    width: w,
+                    height: h,
+                    scale: Math.min(1, SHOT_WIDTH / w),
+                    quality: 0.75,
+                    backgroundColor: '#fff'
+                }),
+                sleep(20000).then(() => { throw new Error('chụp quá 20s'); })
+            ]);
             return { data, title: (doc.title || '').trim() };
         } finally {
             frame.remove();
