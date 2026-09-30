@@ -44,6 +44,9 @@
         json: '/menu3d.json',
         items: null,                   // truyền sẵn danh sách → bỏ qua tự tìm
         // --- Giao diện ---
+        preview: 'image',              // 'image' = ảnh chụp màn hình đầu của trang, 'iframe' = trang chạy trực tiếp
+        captureDelay: 1200,            // ms chờ sau khi trang load rồi mới chụp (để animation/ảnh kịp hiện)
+        cacheHours: 24,                // ảnh chụp được dùng lại trong bao lâu
         breakpoint: 700,
         cameraOffset: 0,
         gap: 2,                        // khoảng hở tối thiểu giữa 2 card cạnh nhau (vw)
@@ -53,7 +56,7 @@
         timeAuto: 3000,
         iconClosed: null,
         iconOpen: null,
-        desktop: { perspective: 55, radius: 26, itemWidth: 15, itemHeight: 22, toggleSize: 4, labelFontSizeRatio: 0.5 },
+        desktop: { perspective: 55, radius: 26, itemWidth: 24, itemHeight: 13.5, toggleSize: 4, labelFontSizeRatio: 0.5 }, // card ngang 16:9
         mobile: { perspective: 70, radius: 50, itemWidth: 30, itemHeight: 50, toggleSize: 15, labelFontSizeRatio: 0.5 }
     };
 
@@ -266,6 +269,68 @@
         return { url: location.href, key: currentKey, title: title || titleFromUrl(currentUrl), titleLocked: !!title };
     }
 
+    // ================= ẢNH CHỤP TRANG =================
+
+    const SHOT_LIB = 'https://cdn.jsdelivr.net/npm/modern-screenshot@4.7.0/+esm';
+    const SHOT_WIDTH = 800; // px, đủ nét cho card ở màn hình PC
+    let shotLib = null;
+    const loadShotLib = () => shotLib || (shotLib = import(SHOT_LIB));
+    const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+    // Ảnh chụp lưu trong IndexedDB của site để lần sau mở menu là có ngay
+    const shotCache = (() => {
+        let dbp = null;
+        const db = () => dbp || (dbp = new Promise((resolve, reject) => {
+            const req = indexedDB.open('menu3d', 1);
+            req.onupgradeneeded = () => req.result.createObjectStore('shots');
+            req.onsuccess = () => resolve(req.result);
+            req.onerror = () => reject(req.error);
+        }));
+        const run = (mode, fn) => db().then(d => new Promise((resolve, reject) => {
+            const req = fn(d.transaction('shots', mode).objectStore('shots'));
+            req.onsuccess = () => resolve(req.result);
+            req.onerror = () => reject(req.error);
+        }));
+        return {
+            get: key => run('readonly', st => st.get(key)).catch(() => null),
+            set: (key, val) => run('readwrite', st => st.put(val, key)).catch(() => {}),
+            clear: () => run('readwrite', st => st.clear()).catch(() => {})
+        };
+    })();
+
+    // Tải trang vào iframe ẩn (kích thước = cửa sổ hiện tại), chụp màn hình đầu rồi bỏ iframe
+    async function capturePage(container, url, cfg) {
+        const lib = await loadShotLib();
+        const w = window.innerWidth, h = window.innerHeight;
+        const frame = document.createElement('iframe');
+        frame.name = FRAME_NAME;
+        frame.tabIndex = -1;
+        frame.setAttribute('aria-hidden', 'true');
+        frame.style.cssText = `position:fixed;left:0;top:0;width:${w}px;height:${h}px;` +
+            'border:0;opacity:0;pointer-events:none;z-index:-2147483647;';
+        container.appendChild(frame);
+        try {
+            await new Promise((resolve, reject) => {
+                const timer = setTimeout(() => reject(new Error('timeout')), 15000);
+                frame.onload = () => { clearTimeout(timer); resolve(); };
+                frame.src = url;
+            });
+            await sleep(num(cfg.captureDelay));
+            const doc = frame.contentDocument;
+            if (!doc || !doc.documentElement) throw new Error('không đọc được trang');
+            const data = await lib.domToJpeg(doc.documentElement, {
+                width: w,
+                height: h,
+                scale: Math.min(1, SHOT_WIDTH / w),
+                quality: 0.75,
+                backgroundColor: '#fff'
+            });
+            return { data, title: (doc.title || '').trim() };
+        } finally {
+            frame.remove();
+        }
+    }
+
     // ================= GIAO DIỆN =================
 
     const CSS = `
@@ -304,6 +369,35 @@
   overflow: hidden;
 }
 
+.m3d-item { cursor: pointer; }
+
+.m3d-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  pointer-events: none;
+}
+
+.m3d-item.m3d-loading::before {
+  content: '';
+  position: absolute;
+  top: calc(42% - 1.2vw);
+  left: calc(50% - 1.2vw);
+  width: 2.4vw;
+  height: 2.4vw;
+  box-sizing: border-box;
+  border: 0.25vw solid rgba(255, 255, 255, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: m3d-spin 1s linear infinite;
+}
+
+@keyframes m3d-spin {
+  to { transform: rotate(360deg); }
+}
+
 .m3d-item iframe {
   display: block;
   width: 100%;
@@ -316,7 +410,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 10%;
+  height: 15%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -506,19 +600,81 @@
             });
         }
 
-        // Iframe chỉ tạo khi mở menu lần đầu để trang load nhẹ
+        // ---------- Nội dung card: ảnh chụp (mặc định) hoặc iframe ----------
+        let destroyed = false;
+        let shotQueue = Promise.resolve();
+        const enqueue = task => (shotQueue = shotQueue.then(task, task));
+
+        function setCardTitle(card, item, title) {
+            if (item.titleLocked || !title) return;
+            card.querySelector('.m3d-label-text').textContent = title;
+            fitLabels();
+        }
+
+        function mountIframe(card, item) {
+            card.classList.remove('m3d-loading');
+            const iframe = el('iframe');
+            iframe.name = FRAME_NAME;
+            iframe.src = item.url;
+            iframe.title = item.title;
+            iframe.tabIndex = 0;
+            iframe.addEventListener('load', () => {
+                // Cùng domain → đọc được <title> thật của trang
+                try { setCardTitle(card, item, iframe.contentDocument.title.trim()); } catch (_) {}
+            });
+            iframe.addEventListener('focus', () => (paused = true));
+            iframe.addEventListener('blur', () => (paused = false));
+            card.insertBefore(iframe, card.firstChild);
+        }
+
+        function mountImage(card, data) {
+            card.classList.remove('m3d-loading');
+            let img = card.querySelector('img');
+            if (!img) {
+                img = el('img');
+                img.alt = '';
+                img.draggable = false;
+                card.insertBefore(img, card.firstChild);
+            }
+            img.src = data;
+        }
+
+        async function captureCard(card, item) {
+            if (destroyed) return;
+            try {
+                const shot = await capturePage(root, item.url, cfg);
+                if (destroyed) return;
+                mountImage(card, shot.data);
+                setCardTitle(card, item, shot.title);
+                shotCache.set(item.key, { t: Date.now(), ...shot });
+            } catch (e) {
+                // Không chụp được (khác domain, CSP chặn thư viện...) → dùng iframe như cũ
+                console.debug('[Menu3D] Không chụp được, dùng iframe:', item.url, e);
+                if (!destroyed && !card.querySelector('img')) mountIframe(card, item);
+            }
+        }
+
+        async function fillCard(card, item) {
+            if (cfg.preview !== 'image' || toUrl(item.url).origin !== location.origin) {
+                mountIframe(card, item);
+                return;
+            }
+            card.classList.add('m3d-loading');
+            const hit = await shotCache.get(item.key);
+            if (hit && hit.data) {
+                mountImage(card, hit.data);
+                setCardTitle(card, item, hit.title);
+                if (Date.now() - hit.t < num(cfg.cacheHours) * 3600e3) return;
+            }
+            enqueue(() => captureCard(card, item)); // chụp lần lượt từng trang cho nhẹ
+        }
+
+        // Card chỉ tạo khi mở menu lần đầu để trang load nhẹ
         function buildCards() {
             items.forEach((item, i) => {
                 const card = el('div', 'm3d-item');
                 card.dataset.angle = (360 / items.length) * i;
                 card.dataset.key = item.key;
-
-                const iframe = el('iframe');
-                iframe.name = FRAME_NAME;
-                iframe.src = item.url;
-                iframe.title = item.title;
-                iframe.tabIndex = 0;
-                card.appendChild(iframe);
 
                 const label = el('a', 'm3d-label');
                 label.href = item.url;
@@ -527,31 +683,18 @@
                 label.appendChild(text);
                 card.appendChild(label);
 
-                label.addEventListener('click', e => {
-                    if (e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return; // mở tab mới như thường
+                // Bấm card/nhãn → xem trang; Ctrl/Cmd + click nhãn → tab mới như link thường
+                card.addEventListener('click', e => {
+                    if (e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
                     e.preventDefault();
                     if (!spinMoved) navigate(item.url);
                 });
-                if (!item.titleLocked) {
-                    // Cùng domain → đọc được <title> thật của trang
-                    iframe.addEventListener('load', () => {
-                        try {
-                            const t = iframe.contentDocument && iframe.contentDocument.title.trim();
-                            if (t) {
-                                text.textContent = iframe.title = t;
-                                fitLabels();
-                            }
-                        } catch (_) {}
-                    });
-                }
-
                 card.addEventListener('mouseenter', () => (paused = true));
                 card.addEventListener('mouseleave', () => (paused = false));
-                iframe.addEventListener('focus', () => (paused = true));
-                iframe.addEventListener('blur', () => (paused = false));
 
                 scene.appendChild(card);
                 cards.push(card);
+                fillCard(card, item);
             });
             layoutCards();
             markCurrent();
@@ -789,6 +932,7 @@
             isOpen: () => isOpen,
             navigate,
             destroy() {
+                destroyed = true;
                 cancelAnimationFrame(raf);
                 clearTimeout(pauseTO);
                 offs.forEach(off => off());
@@ -812,7 +956,7 @@
     let generation = 0;
 
     const Menu3D = {
-        version: '2.1.0',
+        version: '2.2.0',
 
         // Cấu hình: mặc định < menu3d.json < data-attribute < options truyền vào đây
         async init(options = {}) {
@@ -840,6 +984,11 @@
             }
             instance = createMenu(cfg, items);
             return instance;
+        },
+
+        // Xóa ảnh chụp đã lưu (trang đổi giao diện mà ảnh chưa hết hạn)
+        clearCache() {
+            return shotCache.clear();
         },
 
         destroy() {

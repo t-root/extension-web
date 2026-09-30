@@ -12,7 +12,7 @@
 
 ## Giới thiệu
 
-Menu3D tạo menu 3D carousel: mỗi trang của website hiển thị trong một iframe trên vòng xoay 3D. Không cần file config — script tự tìm các trang của website và tự dựng menu.
+Menu3D tạo menu 3D carousel cho PC: mỗi trang của website là một card ngang (16:9) mang **ảnh chụp màn hình đầu** của trang đó, xếp trên vòng xoay 3D. Không cần file config — script tự tìm các trang của website, tự chụp và tự dựng menu.
 
 Link chính: **`https://t-root.github.io/menu-3D/menu3d.js`**
 
@@ -45,6 +45,16 @@ document.body.appendChild(s);
 ```
 
 Nhúng được ở **mọi trang** — trang được mở bên trong iframe của menu sẽ tự bỏ qua, không bị lặp vô hạn.
+
+## Ảnh chụp trang
+
+Mặc định (`preview: 'image'`), khi mở menu lần đầu script lần lượt tải từng trang vào iframe ẩn có kích thước bằng cửa sổ, chờ `captureDelay` ms rồi chụp **màn hình đầu** thành ảnh JPEG (thư viện [modern-screenshot](https://github.com/qq15725/modern-screenshot), tải từ jsDelivr khi cần) và bỏ iframe.
+
+- Menu nhẹ hơn hẳn iframe trực tiếp: không còn nhiều trang cùng chạy; kéo xoay trên card mượt, bấm vào card là mở trang.
+- Ảnh được lưu trong IndexedDB của site, dùng lại trong `cacheHours` giờ (mặc định 24) → lần sau mở menu hiện ngay. Xóa bằng `Menu3D.clearCache()`.
+- Ảnh là bản **vẽ lại** từ HTML/CSS, có thể lệch chút về font/hiệu ứng; ảnh khác domain không cho CORS và canvas WebGL có thể bị trống.
+- Trang khác domain, hoặc chụp lỗi (vd CSP chặn tải thư viện) → card đó tự dùng iframe như trước.
+- Muốn quay lại iframe trực tiếp: `data-preview="iframe"`.
 
 ## Chuyển trang không mất menu
 
@@ -89,6 +99,9 @@ Mặc định script thử lần lượt các nguồn dưới đây, nguồn nà
 | `data-sitemap` | `/sitemap.xml` | Đường dẫn sitemap |
 | `data-json` | `/menu3d.json` | Đường dẫn file JSON |
 | `data-items` | — | Danh sách cố định (JSON), bỏ qua tự tìm |
+| `data-preview` | `image` | `image` = ảnh chụp màn hình đầu, `iframe` = trang chạy trực tiếp |
+| `data-capture-delay` | `1200` | ms chờ sau khi trang load rồi mới chụp |
+| `data-cache-hours` | `24` | Thời gian dùng lại ảnh đã chụp |
 | `data-breakpoint` | `700` | Độ rộng (px) chuyển sang mobile |
 | `data-camera-offset` | `0` | Offset camera (vw); âm = gần hơn |
 | `data-gap` | `2` | Khoảng hở tối thiểu giữa 2 card (vw). Nhiều card thì vòng tự nới rộng, không bị dính nhau |
@@ -103,7 +116,7 @@ Mặc định script thử lần lượt các nguồn dưới đây, nguồn nà
 Mặc định `desktop` / `mobile`:
 
 ```json
-"desktop": { "perspective": 55, "radius": 26, "itemWidth": 15, "itemHeight": 22, "toggleSize": 4, "labelFontSizeRatio": 0.5 },
+"desktop": { "perspective": 55, "radius": 26, "itemWidth": 24, "itemHeight": 13.5, "toggleSize": 4, "labelFontSizeRatio": 0.5 },
 "mobile":  { "perspective": 70, "radius": 50, "itemWidth": 30, "itemHeight": 50, "toggleSize": 15, "labelFontSizeRatio": 0.5 }
 ```
 
@@ -128,7 +141,7 @@ Mặc định `desktop` / `mobile`:
 - Các key của `init()` giống data-attribute (dạng camelCase).
 - Thứ tự ưu tiên: mặc định < `menu3d.json` < data-attribute < options của `init()`.
 - Có `items` thì dùng đúng danh sách đó (không tự thêm trang đang mở).
-- Gọi `init()` lần nữa sẽ thay menu cũ; `Menu3D.destroy()` để gỡ menu.
+- Gọi `init()` lần nữa sẽ thay menu cũ; `Menu3D.destroy()` để gỡ menu; `Menu3D.clearCache()` xóa ảnh chụp đã lưu.
 
 ### File `menu3d.json` (nguồn `json`)
 
@@ -156,7 +169,7 @@ Mảng item, hoặc object chứa `items` và các thông số khác:
 - **Không có cách "liệt kê thư mục" trên web**: script chỉ biết những trang có link tới, có trong sitemap, hoặc có trong repo GitHub.
 - **GitHub API** giới hạn ~60 lượt/giờ/IP khi không đăng nhập; kết quả được cache trong `localStorage` 1 giờ.
 - **Iframe khác domain**: site có `X-Frame-Options` / CSP `frame-ancestors` sẽ hiện card trống.
-- Iframe chỉ được tạo khi **mở menu lần đầu**, nên trang load nhẹ. Menu nằm trong Shadow DOM nên CSS của menu và của trang không ảnh hưởng nhau.
+- Card chỉ được tạo (và trang chỉ được chụp) khi **mở menu lần đầu**, nên trang load nhẹ. Menu nằm trong Shadow DOM nên CSS của menu và của trang không ảnh hưởng nhau.
 - Hosting: dùng GitHub Pages hoặc jsDelivr (`https://cdn.jsdelivr.net/gh/t-root/menu-3D@<tag>/menu3d.js` để ghim version). **Không** dùng `raw.githubusercontent.com` (trình duyệt không chạy script từ đó).
 
 ## Chạy demo
@@ -183,7 +196,7 @@ example/         # Demo + server tĩnh
 
 ## Introduction
 
-Menu3D builds an interactive 3D carousel where each page of your site is shown in an iframe. It takes **one script tag** and no config file — the script discovers your pages and builds the menu on its own.
+Menu3D builds a desktop-first 3D carousel where each page of your site is a landscape (16:9) card showing a **screenshot of the page's first screen**. No config file — the script discovers your pages, captures them and builds the menu on its own.
 
 ```html
 <script src="https://t-root.github.io/menu-3D/menu3d.js"></script>
@@ -214,7 +227,7 @@ The current page is always the first card. Only same-origin pages are kept, non-
 
 ## Options
 
-Set them as `data-*` attributes on the script tag (see the table above), e.g. `data-source="sitemap" data-max="8" data-exclude="/admin,/login"`, or pass them to `Menu3D.init({...})` together with `data-manual`. Precedence: defaults < `menu3d.json` < data attributes < `init()` options. `desktop`/`mobile` are merged key by key. `gap` (vw, default 2) is the minimum space between neighbouring cards — the ring radius grows with the number of cards so they never overlap.
+Set them as `data-*` attributes on the script tag (see the table above), e.g. `data-source="sitemap" data-max="8" data-exclude="/admin,/login"`, or pass them to `Menu3D.init({...})` together with `data-manual`. Precedence: defaults < `menu3d.json` < data attributes < `init()` options. `desktop`/`mobile` are merged key by key. `preview` is `image` (default: first-screen screenshots taken in hidden iframes with modern-screenshot, cached in IndexedDB for `cacheHours`, falling back to a live iframe when capture fails or the page is cross-origin) or `iframe`. `Menu3D.clearCache()` drops cached screenshots. `gap` (vw, default 2) is the minimum space between neighbouring cards — the ring radius grows with the number of cards so they never overlap.
 
 `Menu3D.init()` resolves to `{ open, close, toggle, isOpen, destroy, items, config }`; calling it again replaces the previous menu.
 
