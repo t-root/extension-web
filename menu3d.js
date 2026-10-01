@@ -1,66 +1,19 @@
 /*!
- * Menu3D — menu 3D carousel. Dùng chính qua Chrome extension (manifest.json cùng thư mục).
- *
- * Không cài extension vẫn chạy được trên trang bất kỳ bằng F12 → Console:
- *
- *   document.body.appendChild(Object.assign(document.createElement('script'), { src: 'https://t-root.github.io/menu-3D/menu3d.js' }))
- *
- * Hoặc nhúng vào HTML:
- *
- *   <script src="https://t-root.github.io/menu-3D/menu3d.js"></script>
- *
- * Tùy chỉnh (không bắt buộc) bằng data-attribute:
- *
- *   <script src=".../menu3d.js"
- *           data-source="sitemap"
- *           data-max="8"
- *           data-exclude="/admin,/login"></script>
- *
- * Hoặc gọi bằng JS: <script src=".../menu3d.js" data-manual></script>
- *                   Menu3D.init({ items: [{ path: '/a.html', title: 'A' }] });
+ * Menu3D — lõi của menu-3D-extension (menu 3D carousel).
+ * Được content.js gọi: Menu3D.init(options) với cài đặt từ popup của extension.
  */
 (function () {
     'use strict';
 
-    const VERSION = '3.0.0';
-
-    // Script bị nhúng/dán lần 2 (vd chạy lại snippet console):
-    // cùng version → chỉ dựng lại menu nếu đã bị gỡ; khác version → gỡ bản cũ, chạy bản này
-    const existing = window.Menu3D;
-    if (existing && existing.version === VERSION) {
-        if (!existing.instance) existing.init();
-        return;
-    }
-    if (existing && typeof existing.destroy === 'function') {
-        console.info(`[Menu3D] Thay bản ${existing.version} đang chạy bằng bản ${VERSION}`);
-        existing.destroy();
-    }
-
-    // Chạy trong Chrome extension (content script) → không tự chạy, content.js gọi init() với cài đặt từ popup
-    const inExtension = !!(window.chrome && chrome.runtime && chrome.runtime.id);
-
-    // Iframe do Menu3D tạo ra mang tên này → trang con không dựng menu nữa (chống lặp vô hạn)
-    const FRAME_NAME = 'menu3d-frame';
-    const inMenuFrame = window.name === FRAME_NAME;
+    const VERSION = '3.1.0';
 
     const PAGE_EXT = /\.(html?|php|aspx?|jsp)$/i;
-    const GITHUB_CACHE_MS = 60 * 60 * 1000;
-    const AUTO_SOURCES = ['links', 'sitemap', 'github', 'json'];
 
     const DEFAULTS = {
         // --- Tự tìm trang ---
-        source: AUTO_SOURCES,          // thứ tự nguồn thử lần lượt
-        max: 12,                       // tối đa số trang (kể cả trang đang mở)
-        exclude: [],                   // bỏ các đường dẫn bắt đầu bằng những prefix này
-        selector: 'nav a[href], header a[href]', // vùng link ưu tiên khi source = links
-        sitemap: '/sitemap.xml',
-        json: '/menu3d.json',
-        items: null,                   // truyền sẵn danh sách → bỏ qua tự tìm
+        max: 100,                      // tối đa số trang (kể cả trang đang mở)
         // --- Giao diện ---
         preview: 'image',              // 'image' = ảnh chụp cả trang, 'iframe' = trang chạy trực tiếp
-        navigation: 'frame',           // bấm card: 'frame' = mở trong khung, giữ menu | 'page' = chuyển trang thật
-        captureDelay: 1200,            // ms chờ sau khi trang load rồi mới chụp (để animation/ảnh kịp hiện)
-        cacheHours: 24,                // ảnh chụp được dùng lại trong bao lâu
         breakpoint: 700,
         cameraOffset: 0,
         gap: 2,                        // khoảng hở tối thiểu giữa 2 card cạnh nhau (vw)
@@ -70,16 +23,11 @@
         timeAuto: 3000,
         iconClosed: null,
         iconOpen: null,
+        trigger: 'button',             // mở/đóng menu: 'button' = nút nổi | 'rightclick' = chuột phải (Shift + chuột phải = menu trình duyệt)
         // itemWidth × itemHeight = khung tối đa; card co theo tỉ lệ ảnh chụp cả trang (dài → cao, ngắn → ngang)
         desktop: { perspective: 55, radius: 26, itemWidth: 24, itemHeight: 32, toggleSize: 4, labelFontSizeRatio: 0.5 },
         mobile: { perspective: 70, radius: 50, itemWidth: 30, itemHeight: 50, toggleSize: 15, labelFontSizeRatio: 0.5 }
     };
-
-    const scriptEl = inExtension ? null : document.currentScript ||
-        Array.from(document.scripts).find(s => /menu3d(\.min)?\.js([?#]|$)/i.test(s.src)) || null;
-    const scriptBase = scriptEl && scriptEl.src
-        ? scriptEl.src.replace(/[?#].*$/, '').replace(/[^/]*$/, '')
-        : null;
 
     const svgIcon = body => 'data:image/svg+xml,' + encodeURIComponent(
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">' +
@@ -89,28 +37,6 @@
     const SVG_OPEN = svgIcon('<path d="M17 17l14 14M31 17L17 31"/>');
 
     // ================= CONFIG =================
-
-    const toList = v => (Array.isArray(v) ? v : String(v).split(','))
-        .map(s => String(s).trim()).filter(Boolean);
-
-    function readDataConfig(el) {
-        const out = {};
-        if (!el) return out;
-        for (const [key, raw] of Object.entries(el.dataset)) {
-            if (!(key in DEFAULTS)) continue;
-            try {
-                if (key === 'source' || key === 'exclude') out[key] = toList(raw);
-                else if (key === 'desktop' || key === 'mobile' || key === 'items') out[key] = JSON.parse(raw);
-                else if (typeof DEFAULTS[key] === 'number') {
-                    const n = parseFloat(raw);
-                    if (Number.isFinite(n)) out[key] = n;
-                } else out[key] = raw;
-            } catch (_) {
-                console.warn(`[Menu3D] data-${key} không hợp lệ:`, raw);
-            }
-        }
-        return out;
-    }
 
     function mergeConfig(...layers) {
         const out = { ...DEFAULTS, desktop: { ...DEFAULTS.desktop }, mobile: { ...DEFAULTS.mobile } };
@@ -122,8 +48,6 @@
                 else out[k] = v;
             }
         }
-        out.source = toList(out.source).flatMap(s => (s === 'auto' ? AUTO_SOURCES : [s]));
-        out.exclude = toList(out.exclude);
         return out;
     }
 
@@ -142,8 +66,6 @@
         return !last.includes('.') || PAGE_EXT.test(last);
     }
 
-    const isExcluded = (u, cfg) => cfg.exclude.some(p => u.pathname.startsWith(p));
-
     function titleFromUrl(u) {
         const segs = u.pathname.split('/').filter(Boolean);
         let name = segs.pop() || '';
@@ -155,16 +77,16 @@
 
     // Chuẩn hóa danh sách thô → [{ url, title, titleLocked, current }]
     function makeCleaner(cfg) {
-        return (list, { base, strict = true, skipCurrent = true } = {}) => {
-            const seen = new Set(skipCurrent ? [currentKey] : []);
+        return list => {
+            const seen = new Set([currentKey]);
             const out = [];
-            for (const it of list || []) {
-                const u = toUrl(typeof it === 'string' ? it : it && it.path, base);
-                if (!u || (strict && !isPage(u)) || isExcluded(u, cfg)) continue;
+            for (const it of list) {
+                const u = toUrl(it.path);
+                if (!isPage(u)) continue;
                 const key = pageKey(u);
                 if (seen.has(key)) continue;
                 seen.add(key);
-                const title = (it && typeof it.title === 'string' && it.title.trim()) || '';
+                const title = it.title || '';
                 out.push({ url: u.href, key, title: title || titleFromUrl(u), titleLocked: !!title });
             }
             return out;
@@ -173,129 +95,33 @@
 
     const linkText = a => (a.textContent || a.getAttribute('aria-label') || a.title || '').trim().replace(/\s+/g, ' ');
 
-    async function readSitemap(url, depth) {
-        const res = await fetch(url);
-        if (!res.ok) return [];
-        const doc = new DOMParser().parseFromString(await res.text(), 'application/xml');
-        const locs = Array.from(doc.getElementsByTagName('loc'), n => toUrl(n.textContent.trim(), url)).filter(Boolean);
-        if (doc.documentElement.localName !== 'sitemapindex') return locs;
-        if (depth > 0) return [];
-        const nested = await Promise.all(locs.slice(0, 3).map(l => readSitemap(l, depth + 1).catch(() => [])));
-        return nested.flat();
-    }
-
-    // Liệt kê file .html trong repo đang host GitHub Pages (có cache localStorage)
-    async function githubPaths(user, repo, base) {
-        const cacheKey = `menu3d:gh:${user}/${repo}`;
-        try {
-            const hit = JSON.parse(localStorage.getItem(cacheKey));
-            if (hit && Date.now() - hit.t < GITHUB_CACHE_MS) return hit.paths;
-        } catch (_) {}
-
-        const api = path => fetch(`https://api.github.com/repos/${encodeURIComponent(user)}/${encodeURIComponent(repo)}${path}`)
-            .then(r => (r.ok ? r.json() : null)).catch(() => null);
-        const info = await api('');
-        if (!info) return null;
-
-        let rel = location.pathname.slice(base.length);
-        try { rel = decodeURIComponent(rel); } catch (_) {}
-        if (!rel || rel.endsWith('/')) rel += 'index.html';
-        const wanted = [rel, rel + '.html', rel + '/index.html'];
-
-        let paths = null;
-        for (const branch of new Set([info.default_branch, 'gh-pages'])) {
-            const tree = await api(`/git/trees/${encodeURIComponent(branch)}?recursive=1`);
-            if (!tree || !Array.isArray(tree.tree)) continue;
-            const html = tree.tree
-                .filter(t => t.type === 'blob' && /\.html?$/i.test(t.path))
-                .map(t => t.path)
-                .filter(p => !/(^|\/)(_|\.|node_modules\/)/.test(p) && !/(^|\/)404\.html$/i.test(p));
-            // Pages có thể publish từ gốc hoặc /docs → chọn prefix chứa trang đang mở
-            const prefix = ['', 'docs/'].find(pre => wanted.some(w => html.includes(pre + w)));
-            if (prefix === undefined) continue;
-            paths = html.filter(p => p.startsWith(prefix)).map(p => p.slice(prefix.length))
-                .sort((a, b) => a.split('/').length - b.split('/').length);
-            break;
-        }
-        if (!paths) return null;
-        try { localStorage.setItem(cacheKey, JSON.stringify({ t: Date.now(), paths })); } catch (_) {}
-        return paths;
-    }
-
-    const SOURCES = {
-        links(cfg, clean) {
-            const pick = sel => clean(Array.from(document.querySelectorAll(sel))
-                .filter(a => !a.hasAttribute('download'))
-                .map(a => ({ path: a.href, title: linkText(a) })));
-            const items = pick(cfg.selector);
-            return { items: items.length ? items : pick('a[href]') };
-        },
-
-        async sitemap(cfg, clean) {
-            return { items: clean((await readSitemap(toUrl(cfg.sitemap), 0)).map(u => u.href)) };
-        },
-
-        async github(cfg, clean) {
-            const m = location.hostname.match(/^([^.]+)\.github\.io$/i);
-            if (!m) return null;
-            const user = m[1];
-            const seg = location.pathname.split('/').filter(Boolean)[0];
-            const candidates = [];
-            if (seg && !seg.includes('.')) candidates.push({ repo: seg, base: `/${seg}/` });
-            candidates.push({ repo: `${user}.github.io`, base: '/' });
-            for (const { repo, base } of candidates) {
-                const paths = await githubPaths(user, repo, base);
-                if (paths && paths.length) return { items: clean(paths.map(p => encodeURI(base + p))) };
-            }
-            return null;
-        },
-
-        async json(cfg, clean) {
-            const url = toUrl(cfg.json);
-            const res = await fetch(url, { cache: 'no-cache' });
-            if (!res.ok) return null;
-            const data = await res.json();
-            const { items, ...config } = Array.isArray(data) ? { items: data } : data;
-            return { items: clean(items, { base: url, strict: false }), config };
-        }
-    };
-
-    async function discover(cfg) {
+    // Tìm trang: link trong <nav>/<header>, không có thì lấy mọi <a href> của trang
+    function discoverLinks(cfg) {
         const clean = makeCleaner(cfg);
-        for (const name of cfg.source) {
-            const fn = SOURCES[name];
-            if (!fn) {
-                console.warn(`[Menu3D] data-source "${name}" không hợp lệ (links | sitemap | github | json | auto)`);
-                continue;
-            }
-            try {
-                const res = await fn(cfg, clean);
-                if (res && res.items.length) return res;
-            } catch (e) {
-                console.warn(`[Menu3D] Nguồn "${name}" lỗi:`, e);
-            }
-        }
-        return { items: [] };
+        const pick = sel => clean(Array.from(document.querySelectorAll(sel))
+            .filter(a => !a.hasAttribute('download'))
+            .map(a => ({ path: a.href, title: linkText(a) })));
+        const items = pick('nav a[href], header a[href]');
+        return items.length ? items : pick('a[href]');
     }
 
     function currentItem(cfg) {
-        if (isExcluded(currentUrl, cfg)) return null;
         const title = document.title.trim();
         return { url: location.href, key: currentKey, title: title || titleFromUrl(currentUrl), titleLocked: !!title };
     }
 
     // ================= ẢNH CHỤP TRANG =================
 
-    const SHOT_LIB = 'https://cdn.jsdelivr.net/npm/modern-screenshot@4.7.0/+esm';
     const SHOT_WIDTH = 800;      // px, bề ngang tối đa của ảnh (đủ nét cho card ở màn hình PC)
     const SHOT_HEIGHT = 2400;    // px, bề dọc tối đa của ảnh (trang dài thì thu nhỏ lại)
     const MAX_PAGE_HEIGHT = 20000; // px, trang dài hơn thì chỉ chụp tới đây
     const SHOT_CACHE_PREFIX = 'full:'; // đổi khi đổi kiểu chụp → ảnh cũ tự bỏ
-    let shotLib = null;
-    // Extension đóng gói sẵn thư viện (lib/modern-screenshot.js); chạy ngoài extension thì tải từ CDN
-    const loadShotLib = () => shotLib || (shotLib = window.modernScreenshot
-        ? Promise.resolve(window.modernScreenshot)
-        : import(SHOT_LIB));
+    const SHOT_TTL = 24 * 3600e3;      // ảnh chụp giữ tối đa 24 giờ rồi xóa
+    // Thư viện chụp ảnh được extension nạp sẵn (lib/modern-screenshot.js, xem manifest.json)
+    const loadShotLib = async () => {
+        if (!window.modernScreenshot) throw new Error('chưa nạp lib/modern-screenshot.js');
+        return window.modernScreenshot;
+    };
     const sleep = ms => new Promise(r => setTimeout(r, ms));
 
     // Ảnh chụp lưu trong IndexedDB của site để lần sau mở menu là có ngay
@@ -315,16 +141,60 @@
         return {
             get: key => run('readonly', st => st.get(key)).catch(() => null),
             set: (key, val) => run('readwrite', st => st.put(val, key)).catch(() => {}),
-            clear: () => run('readwrite', st => st.clear()).catch(() => {})
+            // Xóa hẳn ảnh quá 24 giờ (và ảnh kiểu cũ không còn dùng)
+            prune: () => db().then(d => new Promise(resolve => {
+                const tx = d.transaction('shots', 'readwrite');
+                const req = tx.objectStore('shots').openCursor();
+                req.onsuccess = () => {
+                    const cursor = req.result;
+                    if (!cursor) return;
+                    const v = cursor.value;
+                    const stale = !String(cursor.key).startsWith(SHOT_CACHE_PREFIX) || !v || Date.now() - v.t >= SHOT_TTL;
+                    if (stale) cursor.delete();
+                    cursor.continue();
+                };
+                tx.oncomplete = tx.onerror = tx.onabort = () => resolve();
+            })).catch(() => {})
         };
     })();
 
+    // Chờ trang "đứng yên" rồi mới chụp: DOM không đổi trong 0,5s, ảnh đã tải xong và không còn
+    // hiệu ứng CSS chạy dở (hiệu ứng lặp vô hạn không tính). Tối thiểu `min` ms, tối đa `max` ms.
+    const SETTLE_QUIET = 500;
+    function waitForSettle(doc, min, max) {
+        return new Promise(resolve => {
+            const start = Date.now();
+            let lastChange = start;
+            const observer = new MutationObserver(() => (lastChange = Date.now()));
+            observer.observe(doc.documentElement, { childList: true, subtree: true, attributes: true, characterData: true });
+            const imagesLoaded = () => Array.from(doc.images).every(img => img.complete);
+            const animating = () => {
+                try {
+                    return doc.getAnimations().some(a => a.playState === 'running' &&
+                        a.effect && a.effect.getTiming().iterations !== Infinity);
+                } catch (_) {
+                    return false;
+                }
+            };
+            const timer = setInterval(() => {
+                const now = Date.now();
+                const settled = now - start >= min && now - lastChange >= SETTLE_QUIET &&
+                    imagesLoaded() && !animating();
+                if (settled || now - start >= max) {
+                    clearInterval(timer);
+                    observer.disconnect();
+                    resolve();
+                }
+            }, 100);
+        });
+    }
+
     // Tải trang vào iframe ẩn (kích thước = cửa sổ hiện tại), chụp CẢ TRANG (hết chiều dài/ngang) rồi bỏ iframe
-    async function capturePage(container, url, cfg) {
+    async function capturePage(container, url) {
         const lib = await loadShotLib();
         const w = window.innerWidth, h = window.innerHeight;
+        if (!w || !h) throw new Error('cửa sổ đang thu nhỏ');
         const frame = document.createElement('iframe');
-        frame.name = FRAME_NAME;
         frame.tabIndex = -1;
         frame.setAttribute('aria-hidden', 'true');
         frame.style.cssText = `position:fixed;left:0;top:0;width:${w}px;height:${h}px;` +
@@ -337,12 +207,12 @@
                 frame.onload = () => { clearTimeout(timer); resolve(); };
                 frame.src = url;
             });
-            await sleep(num(cfg.captureDelay));
             let doc = null;
             try { doc = frame.contentDocument; } catch (_) {}
             if (!doc || !doc.documentElement || doc.URL === 'about:blank') {
                 throw new Error('không đọc được trang (khác domain hoặc bị chặn nhúng)');
             }
+            await waitForSettle(doc, 1200, 3000); // JS hay đổi nội dung trong ~1s đầu → chờ tối thiểu 1,2s
             // Cuộn hết trang để ảnh lazy-load / hiệu ứng hiện khi cuộn kịp chạy, rồi về đầu trang
             const win = frame.contentWindow;
             const pageHeight = () => Math.max(doc.documentElement.scrollHeight, doc.body ? doc.body.scrollHeight : 0);
@@ -351,7 +221,7 @@
                 await sleep(150);
             }
             win.scrollTo(0, 0);
-            await sleep(300);
+            await waitForSettle(doc, 300, 2000); // ảnh lazy-load / hiệu ứng khi cuộn vừa được kích hoạt
 
             const width = Math.max(w, doc.documentElement.scrollWidth);
             const height = Math.min(Math.max(h, pageHeight()), MAX_PAGE_HEIGHT);
@@ -365,6 +235,7 @@
                 }),
                 sleep(30000).then(() => { throw new Error('chụp quá 30s'); })
             ]);
+            if (!data || data.length < 100) throw new Error('ảnh chụp rỗng'); // không lưu ảnh hỏng vào cache
             return { data, width, height, title: (doc.title || '').trim() };
         } finally {
             frame.remove();
@@ -449,6 +320,15 @@
   transform-origin: 0 0;
 }
 
+/* Lớp chắn trên iframe: chỉ cho cuộn trang bên trong, bấm vào là bấm card */
+.m3d-shield {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .m3d-label {
   position: absolute;
   bottom: 0;
@@ -486,19 +366,6 @@
   from { transform: translateX(var(--m3d-from)); }
   to { transform: translateX(var(--m3d-to)); }
 }
-
-.m3d-view {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  background: #fff;
-  display: none;
-}
-
-.m3d-view.m3d-show { display: block; }
 
 .m3d-toggle {
   position: fixed;
@@ -562,11 +429,12 @@
         toggleImg.draggable = false;
         toggleBtn.appendChild(toggleImg);
         root.append(style, menu, toggleBtn);
+        if (cfg.trigger === 'rightclick') toggleBtn.style.display = 'none';
         document.body.appendChild(host);
 
         let icons = {
-            closed: cfg.iconClosed || (scriptBase ? scriptBase + 'icon/close.png' : SVG_CLOSED),
-            open: cfg.iconOpen || (scriptBase ? scriptBase + 'icon/open.png' : SVG_OPEN)
+            closed: cfg.iconClosed || SVG_CLOSED,
+            open: cfg.iconOpen || SVG_OPEN
         };
         on(toggleImg, 'error', () => {
             if (icons.closed === SVG_CLOSED) return;
@@ -668,6 +536,19 @@
         // ---------- Nội dung card: ảnh chụp (mặc định) hoặc iframe ----------
         let destroyed = false;
         let shotQueue = Promise.resolve();
+        let frameQueue = Promise.resolve();
+
+        // Card iframe tải lần lượt từng trang ở nền (trang trước xong mới tới trang sau) cho nhẹ
+        const loadFrame = (iframe, url) => (frameQueue = frameQueue.then(() => new Promise(resolve => {
+            if (destroyed) return resolve();
+            const done = () => {
+                clearTimeout(timer);
+                resolve();
+            };
+            const timer = setTimeout(done, 8000);
+            iframe.addEventListener('load', done, { once: true });
+            iframe.src = url;
+        })));
         const enqueue = task => (shotQueue = shotQueue.then(task, task));
 
         function setCardTitle(card, item, title) {
@@ -676,20 +557,39 @@
             fitLabels();
         }
 
+        // Card iframe chỉ để xem: con lăn chuột cuộn trang như thật (kể cả khung cuộn bên trong),
+        // còn bấm/kéo/gõ trong trang bị chặn → bấm vào đâu cũng là mở trang đó
+        const BLOCKED_EVENTS = ['pointerdown', 'mousedown', 'mouseup', 'dblclick', 'auxclick', 'dragstart', 'keydown', 'submit'];
+
         function mountIframe(card, item) {
             card.classList.remove('m3d-loading');
             const iframe = el('iframe');
-            iframe.name = FRAME_NAME;
-            iframe.src = item.url;
             iframe.title = item.title;
-            iframe.tabIndex = 0;
+            iframe.tabIndex = -1;
+            loadFrame(iframe, item.url);
+            // Lớp chắn cho trang khác domain (không chặn được từ bên trong): bấm được, không cuộn được
+            const shield = el('div', 'm3d-shield');
             iframe.addEventListener('load', () => {
-                // Cùng domain → đọc được <title> thật của trang
-                try { setCardTitle(card, item, iframe.contentDocument.title.trim()); } catch (_) {}
+                try {
+                    const win = iframe.contentWindow;
+                    setCardTitle(card, item, iframe.contentDocument.title.trim());
+                    const block = e => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                    };
+                    BLOCKED_EVENTS.forEach(type => win.addEventListener(type, block, true));
+                    win.addEventListener('click', e => {
+                        block(e);
+                        if (e.button === 0) navigate(item.url);
+                    }, true);
+                    win.addEventListener('contextmenu', onContextMenu, true);
+                    shield.hidden = true; // cùng domain → để con lăn chuột cuộn thẳng trong trang
+                } catch (_) {
+                    shield.hidden = false;
+                }
             });
-            iframe.addEventListener('focus', () => (paused = true));
-            iframe.addEventListener('blur', () => (paused = false));
-            card.insertBefore(iframe, card.firstChild);
+            card.insertBefore(shield, card.firstChild);
+            card.insertBefore(iframe, shield);
             delete card.dataset.ratio; // card theo tỉ lệ cửa sổ
             sizeCard(card);
         }
@@ -711,37 +611,65 @@
             img.src = shot.data;
         }
 
-        async function captureCard(card, item) {
-            if (destroyed) return;
-            try {
-                const shot = await capturePage(root, item.url, cfg);
-                if (destroyed) return;
-                mountImage(card, shot);
-                setCardTitle(card, item, shot.title);
-                shotCache.set(SHOT_CACHE_PREFIX + item.key, { t: Date.now(), ...shot });
-            } catch (e) {
-                // Không chụp được (khác domain, CSP chặn thư viện...) → dùng iframe như cũ
-                console.warn('[Menu3D] Không chụp được, dùng iframe:', item.url, e);
-                if (!destroyed && !card.querySelector('img')) mountIframe(card, item);
+        // Chờ lúc trình duyệt rảnh → chụp ở nền không làm giật trang
+        const whenIdle = () => new Promise(resolve => {
+            if (window.requestIdleCallback) requestIdleCallback(() => resolve(), { timeout: 3000 });
+            else setTimeout(resolve, 300);
+        });
+
+        // Tab bị ẩn thì trình duyệt dừng vẽ/animation → ảnh chụp sẽ hỏng; chờ tab hiện lại rồi mới chụp
+        const whenVisible = () => new Promise(resolve => {
+            if (!document.hidden) return resolve();
+            const onChange = () => {
+                if (document.hidden) return;
+                document.removeEventListener('visibilitychange', onChange);
+                resolve();
+            };
+            document.addEventListener('visibilitychange', onChange);
+        });
+
+        // Ảnh của 1 trang: lấy từ cache, chưa có thì chụp (xếp hàng lần lượt).
+        // Mỗi trang chỉ chụp 1 lần dù chụp nền và mở menu cùng cần.
+        const shotJobs = new Map();
+        function shotFor(item) {
+            if (!shotJobs.has(item.key)) {
+                shotJobs.set(item.key, enqueue(async () => {
+                    if (destroyed) throw new Error('menu đã gỡ');
+                    const hit = await shotCache.get(SHOT_CACHE_PREFIX + item.key);
+                    if (hit && hit.data && Date.now() - hit.t < SHOT_TTL) return hit;
+                    await whenVisible();
+                    await whenIdle();
+                    if (destroyed) throw new Error('menu đã gỡ');
+                    const shot = { t: Date.now(), ...(await capturePage(root, item.url)) };
+                    shotCache.set(SHOT_CACHE_PREFIX + item.key, shot);
+                    return shot;
+                }));
             }
+            return shotJobs.get(item.key);
         }
 
+        const canShoot = item => cfg.preview === 'image' && toUrl(item.url).origin === location.origin;
+
         async function fillCard(card, item) {
-            if (cfg.preview !== 'image' || toUrl(item.url).origin !== location.origin) {
+            if (!canShoot(item)) {
                 mountIframe(card, item);
                 return;
             }
             card.classList.add('m3d-loading');
-            const hit = await shotCache.get(SHOT_CACHE_PREFIX + item.key);
-            if (hit && hit.data) {
-                mountImage(card, hit);
-                setCardTitle(card, item, hit.title);
-                if (Date.now() - hit.t < num(cfg.cacheHours) * 3600e3) return;
+            try {
+                const shot = await shotFor(item);
+                if (destroyed) return;
+                mountImage(card, shot);
+                setCardTitle(card, item, shot.title);
+            } catch (e) {
+                if (destroyed) return;
+                // Không chụp được (khác domain, trang chặn nhúng...) → dùng iframe
+                console.warn('[Menu3D] Không chụp được, dùng iframe:', item.url, e);
+                mountIframe(card, item);
             }
-            enqueue(() => captureCard(card, item)); // chụp lần lượt từng trang cho nhẹ
         }
 
-        // Card chỉ tạo khi mở menu lần đầu để trang load nhẹ
+        // Dựng card (ảnh chụp / iframe) — gọi sẵn ở nền ngay sau khi trang tải xong
         function buildCards() {
             items.forEach((item, i) => {
                 const card = el('div', 'm3d-item');
@@ -774,82 +702,17 @@
         }
 
         // ---------- Điều hướng ----------
-        // Không cho trang gốc chuyển đi (menu sẽ mất, nhất là khi chạy từ console):
-        // trang được chọn mở trong iframe toàn màn hình, URL + title đồng bộ qua history API.
-        const originUrl = location.href;
-        const originTitle = document.title;
-        const originOverflow = document.documentElement.style.overflow;
-        let shownKey = currentKey;
-        let view = null;
-
-        const isViewShown = () => !!view && view.classList.contains('m3d-show');
-
         function markCurrent() {
-            cards.forEach(card => card.classList.toggle('m3d-current', card.dataset.key === shownKey));
+            cards.forEach(card => card.classList.toggle('m3d-current', card.dataset.key === currentKey));
         }
 
-        function showPage(url) {
-            const u = toUrl(url);
-            shownKey = pageKey(u);
-            markCurrent();
-            if (shownKey === currentKey) {
-                if (view) view.classList.remove('m3d-show');
-                document.documentElement.style.overflow = originOverflow;
-                document.title = originTitle;
-                return;
-            }
-            if (!view) {
-                view = el('iframe', 'm3d-view');
-                view.name = FRAME_NAME;
-                view.style.zIndex = cfg.indexUp - 1;
-                view.addEventListener('load', syncFromView);
-                view.src = u.href;
-                root.insertBefore(view, menu);
-            } else {
-                // replace → iframe không tạo thêm bước history (Back chỉ cần bấm 1 lần)
-                try { view.contentWindow.location.replace(u.href); } catch (_) { view.src = u.href; }
-            }
-            view.classList.add('m3d-show');
-            document.documentElement.style.overflow = 'hidden';
-        }
-
-        // Người dùng bấm link bên trong trang đang xem → cập nhật URL/title của tab
-        function syncFromView() {
-            if (!isViewShown()) return;
-            try {
-                const href = view.contentWindow.location.href;
-                const title = view.contentDocument.title;
-                if (title) document.title = title;
-                if (toUrl(href).origin === location.origin && href !== location.href) {
-                    history.replaceState({ menu3d: href }, '', href);
-                }
-                shownKey = pageKey(toUrl(href));
-                markCurrent();
-            } catch (_) {} // trang khác domain → không đọc được
-        }
-
+        // Bấm card → chuyển trang thật (extension tự dựng lại menu ở trang mới)
         function navigate(url) {
             setOpen(false);
             const u = toUrl(url);
-            if (!u || pageKey(u) === shownKey) return;
-            if (cfg.navigation === 'page') {
-                location.assign(u.href); // extension tự dựng lại menu ở trang mới
-                return;
-            }
-            if (!isViewShown()) {
-                // Đánh dấu bước history của trang gốc để Back quay lại được
-                const st = history.state;
-                if (st === null || typeof st === 'object') history.replaceState({ ...st, menu3d: originUrl }, '');
-            }
-            showPage(u.href);
-            if (u.origin === location.origin) history.pushState({ menu3d: u.href }, '', u.href);
+            if (!u || pageKey(u) === currentKey) return;
+            location.assign(u.href);
         }
-
-        on(window, 'popstate', e => {
-            const target = e.state && e.state.menu3d;
-            if (target) showPage(target);
-            else if (isViewShown()) showPage(originUrl);
-        });
 
         function setOpen(state) {
             isOpen = state;
@@ -986,6 +849,14 @@
             if (e.key === 'Escape' && isOpen) setOpen(false);
         });
 
+        // Chế độ chuột phải: bấm chuột phải để mở/đóng menu; Shift + chuột phải = menu của trình duyệt
+        function onContextMenu(e) {
+            if (cfg.trigger !== 'rightclick' || e.shiftKey) return;
+            e.preventDefault();
+            setOpen(!isOpen);
+        }
+        on(window, 'contextmenu', onContextMenu, true);
+
         on(window, 'resize', () => {
             applyMode();
             layoutCards();
@@ -998,6 +869,10 @@
         applyMode();
         setInitialTogglePosition();
         setOpen(false);
+        // Dựng sẵn menu ở nền sau khi trang tải xong → lúc mở menu mọi thứ đã sẵn sàng
+        const prebuildTimer = setTimeout(() => {
+            if (!cards.length) buildCards();
+        }, 1500);
 
         return {
             items,
@@ -1009,13 +884,10 @@
             navigate,
             destroy() {
                 destroyed = true;
+                clearTimeout(prebuildTimer);
                 cancelAnimationFrame(raf);
                 clearTimeout(pauseTO);
                 offs.forEach(off => off());
-                if (isViewShown()) {
-                    document.documentElement.style.overflow = originOverflow;
-                    document.title = originTitle;
-                }
                 host.remove();
             }
         };
@@ -1034,24 +906,16 @@
     const Menu3D = {
         version: VERSION,
 
-        // Cấu hình: mặc định < menu3d.json < data-attribute < options truyền vào đây
         async init(options = {}) {
-            if (inMenuFrame) return null;
             Menu3D.destroy();
+            shotCache.prune();
             const gen = generation;
             await domReady();
 
-            const dataCfg = readDataConfig(scriptEl);
-            let cfg = mergeConfig(dataCfg, options);
-            let items;
-            if (Array.isArray(cfg.items)) {
-                items = makeCleaner(cfg)(cfg.items, { strict: false, skipCurrent: false });
-            } else {
-                const found = await discover(cfg);
-                if (found.config) cfg = mergeConfig(found.config, dataCfg, options);
-                items = [currentItem(cfg), ...found.items].filter(Boolean);
-            }
-            items = items.slice(0, Math.max(1, num(cfg.max)));
+            const cfg = mergeConfig(options);
+            const items = [currentItem(cfg), ...discoverLinks(cfg)]
+                .filter(Boolean)
+                .slice(0, Math.max(1, num(cfg.max)));
 
             if (gen !== generation) return null; // đã có init()/destroy() khác gọi sau
             if (!items.length) {
@@ -1060,11 +924,6 @@
             }
             instance = createMenu(cfg, items);
             return instance;
-        },
-
-        // Xóa ảnh chụp đã lưu (trang đổi giao diện mà ảnh chưa hết hạn)
-        clearCache() {
-            return shotCache.clear();
         },
 
         destroy() {
@@ -1079,8 +938,4 @@
     };
 
     window.Menu3D = Menu3D;
-
-    if (!inMenuFrame && !inExtension && !(scriptEl && scriptEl.hasAttribute('data-manual'))) {
-        Menu3D.init();
-    }
 })();

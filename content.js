@@ -7,7 +7,7 @@
 
     async function apply() {
         await loadSettings();
-        if (menu3dEnabledOn(settings, location.hostname)) await Menu3D.init(menu3dOptions(settings));
+        if (settings.enabled) await Menu3D.init(menu3dOptions(settings));
         else Menu3D.destroy();
     }
 
@@ -20,16 +20,7 @@
 
     chrome.runtime.onMessage.addListener((msg, sender, reply) => {
         (async () => {
-            if (msg.type === 'open') {
-                // Bấm "Mở menu" trong popup → mở kể cả khi trang này đang tắt
-                if (!Menu3D.instance) await Menu3D.init(menu3dOptions(settings || await loadSettings()));
-                if (Menu3D.instance) Menu3D.instance.open();
-                reply({ ok: !!Menu3D.instance });
-            } else if (msg.type === 'clearCache') {
-                await Menu3D.clearCache();
-                if (Menu3D.instance) await apply(); // dựng lại → chụp lại khi mở menu
-                reply({ ok: true });
-            } else if (msg.type === 'status') {
+            if (msg.type === 'status') {
                 const inst = Menu3D.instance;
                 reply({ version: Menu3D.version, running: !!inst, pages: inst ? inst.items.length : 0 });
             }
