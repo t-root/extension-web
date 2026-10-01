@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 200px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f6f9;
+      margin: 0;
+    }
+    h3 {
+      margin: 0 0 12px 0;
+      font-size: 15px;
+      color: #333;
+    }
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 50px;
+      height: 26px;
+    }
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: #ccc;
+      transition: .3s;
+      border-radius: 26px;
+    }
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 20px;
+      width: 20px;
+      left: 3px;
+      bottom: 3px;
+      background-color: white;
+      transition: .3s;
+      border-radius: 50%;
+    }
+    input:checked + .slider {
+      background-color: #00bfff;
+    }
+    input:checked + .slider:before {
+      transform: translateX(24px);
+    }
+    #status {
+      margin-top: 12px;
+      font-weight: bold;
+      font-size: 13px;
+    }
+    .on { color: #00a854; }
+    .off { color: #e03131; }
+    .speed-control {
+      margin-top: 14px;
+      text-align: left;
+    }
+    .speed-control label {
+      display: block;
+      font-size: 12px;
+      color: #555;
+      margin-bottom: 4px;
+    }
+    #speedSelect {
+      width: 100%;
+      padding: 5px;
+      font-size: 13px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+    }
+    .ai-control {
+      margin-top: 14px;
+      text-align: left;
+    }
+    .ai-control label {
+      display: block;
+      font-size: 12px;
+      color: #555;
+      margin: 7px 0 4px;
+    }
+    .ai-control input,
+    .ai-control select {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 5px;
+      font-size: 12px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    #aiStatus {
+      margin-top: 8px;
+      font-size: 11px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h3>Auto Next LMS</h3>
+  <label class="switch">
+    <input type="checkbox" id="toggleBtn">
+    <span class="slider"></span>
+  </label>
+  <div id="status">Đang kiểm tra...</div>
+
+  <div class="speed-control">
+    <label for="speedSelect">Tốc độ video</label>
+    <select id="speedSelect">
+      <option value="default">Tốc độ hiện tại (mặc định)</option>
+      <option value="1">1x</option>
+      <option value="1.25">1.25x</option>
+      <option value="1.5">1.5x</option>
+      <option value="1.75">1.75x</option>
+      <option value="2">2x</option>
+      <option value="4">4x</option>
+      <option value="8">8x</option>
+      <option value="16">16x</option>
+    </select>
+  </div>
+
+  <div class="ai-control">
+    <label for="aiModel">Model</label>
+    <input id="aiModel" type="text" placeholder="auto">
+
+    <label for="aiEndpoint">Endpoint</label>
+    <input id="aiEndpoint" type="url" placeholder="http://127.0.0.1:5000/v1/chat/completions">
+
+    <label for="aiApiKey">API key</label>
+    <input id="aiApiKey" type="password" placeholder="trungdeptrai">
+    <div id="aiStatus">Chưa cấu hình AI</div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
