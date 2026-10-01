@@ -1,0 +1,1586 @@
+{
+  "version": 1,
+  "courseCode": "ECOS323",
+  "exportedAt": "2026-09-17T18:47:11.651Z",
+  "answers": [
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS323_B01_01+HK1-2026-2027+type@sequential+block@67e410566ce240db8954aff60722f30a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mỗi nhà cung cấp (NCC) có thể cung cấp vật tư cho bao nhiêu dự án?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chỉ một dự án"
+            },
+            {
+              "letter": "b",
+              "text": "b. Một hoặc nhiều dự án"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không thể cung cấp vật tư"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ cung cấp cho TP.HCM"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Quan hệ giữa bảng DUAN và bảng CC là loại quan hệ nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Một - Một"
+            },
+            {
+              "letter": "b",
+              "text": "b. Một - Nhiều"
+            },
+            {
+              "letter": "c",
+              "text": "c. Nhiều - Một"
+            },
+            {
+              "letter": "d",
+              "text": "d. Nhiều - Nhiều"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong mô hình quan hệ của bài học, khóa ngoại (Foreign Key) xuất hiện ở bảng nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. NCC"
+            },
+            {
+              "letter": "b",
+              "text": "b. DUAN"
+            },
+            {
+              "letter": "c",
+              "text": "c. CC"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cả 3 bảng trên"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Một vật tư có thể được cung cấp bởi bao nhiêu nhà cung cấp?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Một nhà cung cấp duy nhất"
+            },
+            {
+              "letter": "b",
+              "text": "b. Một hoặc nhiều nhà cung cấp"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không thể có nhà cung cấp"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ có trong bảng DUAN"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Mục tiêu của việc tạo database diagram là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mô tả quan hệ giữa các bảng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Hiển thị dữ liệu của bảng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xóa dữ liệu khỏi bảng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Xuất dữ liệu ra file"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Để lấy danh sách các vật tư được cung cấp bởi một nhà cung cấp cụ thể, ta dùng điều kiện nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. WHERE NCC.MaNCC = 'NCC01'"
+            },
+            {
+              "letter": "b",
+              "text": "b. WHERE DUAN.MaDA = 'DA01'"
+            },
+            {
+              "letter": "c",
+              "text": "c. WHERE VATTU.MaVT = 'VT01'"
+            },
+            {
+              "letter": "d",
+              "text": "d. WHERE CC.MaVT = 'VT01'"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Phép toán nào được sử dụng để kết hợp kết quả từ hai truy vấn mà không loại bỏ bản ghi trùng lặp?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. UNION"
+            },
+            {
+              "letter": "b",
+              "text": "b. UNION ALL"
+            },
+            {
+              "letter": "c",
+              "text": "c. JOIN"
+            },
+            {
+              "letter": "d",
+              "text": "d. DISTINCT"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Khi nào cần sử dụng GROUP BY?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Khi muốn nhóm dữ liệu theo một cột"
+            },
+            {
+              "letter": "b",
+              "text": "b. Khi muốn lọc dữ liệu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Khi muốn nối nhiều bảng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Khi muốn sắp xếp dữ liệu"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Để lấy tất cả mã vật tư từ các dự án không có tại TP.HCM, ta dùng?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. WHERE ThPho != 'TPHCM'"
+            },
+            {
+              "letter": "b",
+              "text": "b. HAVING ThPho != 'TPHCM'"
+            },
+            {
+              "letter": "c",
+              "text": "c. GROUP BY ThPho != 'TPHCM'"
+            },
+            {
+              "letter": "d",
+              "text": "d. DISTINCT ThPho != 'TPHCM'"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Lệnh nào sau đây không hợp lệ trong SQL?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SELECT MaVT FROM VATTU WHERE SLuong > 10"
+            },
+            {
+              "letter": "b",
+              "text": "b. SELECT COUNT(*) FROM CC GROUP BY MaVT"
+            },
+            {
+              "letter": "c",
+              "text": "c. SELECT MaVT WHERE SLuong > 10 FROM VATTU"
+            },
+            {
+              "letter": "d",
+              "text": "d. SELECT DISTINCT MaVT FROM CC"
+            }
+          ]
+        },
+        {
+          "question": 11,
+          "text": "Câu 11: Lệnh nào giúp cập nhật số lượng vật tư?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. UPDATE VATTU SET SLuong = SLuong + 10 WHERE MaVT = 'VT01'"
+            },
+            {
+              "letter": "b",
+              "text": "b. ALTER VATTU SET SLuong = 10"
+            },
+            {
+              "letter": "c",
+              "text": "c. DELETE FROM VATTU WHERE MaVT = 'VT01'"
+            },
+            {
+              "letter": "d",
+              "text": "d. INSERT INTO VATTU (MaVT, SLuong) VALUES ('VT01', 10)"
+            }
+          ]
+        },
+        {
+          "question": 12,
+          "text": "Câu 12: UNION ALL khác gì với UNION?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. UNION ALL giữ bản ghi trùng lặp"
+            },
+            {
+              "letter": "b",
+              "text": "b. UNION ALL loại bỏ bản ghi trùng"
+            },
+            {
+              "letter": "c",
+              "text": "c. UNION nhanh hơn UNION ALL"
+            },
+            {
+              "letter": "d",
+              "text": "d. UNION chỉ dùng với INNER JOIN"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "a"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        },
+        {
+          "question": 8,
+          "answer": "a"
+        },
+        {
+          "question": 9,
+          "answer": "a"
+        },
+        {
+          "question": 10,
+          "answer": "c"
+        },
+        {
+          "question": 11,
+          "answer": "a"
+        },
+        {
+          "question": 12,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS323_B01_01+HK1-2026-2027+type@sequential+block@87fd8e2b06bc4ccab766b9ea5dec1407?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1. Trong SQL Server, lệnh nào dùng để thêm ràng buộc khóa chính (PRIMARY KEY) sau khi bảng đã được tạo?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ALTER TABLE < tên_bảng > ADD CONSTRAINT PRIMARY KEY (< cột >);"
+            },
+            {
+              "letter": "b",
+              "text": "b. MODIFY TABLE < tên_bảng > ADD PRIMARY KEY (< cột >);"
+            },
+            {
+              "letter": "c",
+              "text": "c. UPDATE TABLE < tên_bảng > SET PRIMARY KEY (< cột >);"
+            },
+            {
+              "letter": "d",
+              "text": "d. ALTER TABLE < tên_bảng > SET PRIMARY KEY (< cột >);"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2. Câu lệnh nào dưới đây dùng để tạo mối quan hệ giữa bảng DIEMSV và bảng SINHVIEN bằng khóa ngoại?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ALTER TABLE DIEMSV ADD CONSTRAINT FK_DIEMSV FOREIGN KEY (MSSV) REFERENCES SINHVIEN(MSSV);"
+            },
+            {
+              "letter": "b",
+              "text": "b. ALTER TABLE SINHVIEN ADD FOREIGN KEY DIEMSV (MSSV);"
+            },
+            {
+              "letter": "c",
+              "text": "c. CREATE FOREIGN KEY MSSV REFERENCES SINHVIEN ON DIEMSV;"
+            },
+            {
+              "letter": "d",
+              "text": "d. ALTER TABLE DIEMSV SET FOREIGN KEY (MSSV) REFERENCES SINHVIEN;"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3. Để đặt ràng buộc SiSo của bảng LOP không vượt quá 200, câu lệnh nào đúng?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ALTER TABLE LOP ADD CHECK (SiSo < 200);"
+            },
+            {
+              "letter": "b",
+              "text": "b. UPDATE LOP SET CHECK (SiSo <= 200);"
+            },
+            {
+              "letter": "c",
+              "text": "c. ALTER TABLE LOP ADD CONSTRAINT CHECK_SISO CHECK (SiSo <= 200);"
+            },
+            {
+              "letter": "d",
+              "text": "d. MODIFY TABLE LOP ADD CONSTRAINT CHECK_SISO CHECK (SiSo <= 200);"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4. Khi sử dụng lệnh DELETE, nếu không có mệnh đề WHERE, điều gì sẽ xảy ra?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chỉ xóa một dòng dữ liệu đầu tiên"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xóa tất cả dữ liệu trong bảng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xuất lỗi vì thiếu điều kiện"
+            },
+            {
+              "letter": "d",
+              "text": "d. Xóa cột dữ liệu đầu tiên trong bảng"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5. Khi sử dụng UPDATE để thay đổi dữ liệu, tại sao cần có WHERE?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Vì WHERE giúp chọn dòng dữ liệu cụ thể cần cập nhật"
+            },
+            {
+              "letter": "b",
+              "text": "b. Nếu không có WHERE, tất cả dữ liệu trong bảng sẽ bị thay đổi"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giúp tránh lỗi trong SQL Server"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cả A và B đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6. Câu lệnh nào dưới đây dùng để cập nhật số lượng sinh viên của lớp 19DTH03 thành 50?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. UPDATE LOP\ni. SET SiSo = 50\nii. WHERE MaLop = '19DTH03';"
+            },
+            {
+              "letter": "b",
+              "text": "b. ALTER TABLE LOP\ni. SET SiSo = 50\nii. WHERE MaLop = '19DTH03';"
+            },
+            {
+              "letter": "c",
+              "text": "c. UPDATE LOP\ni. SiSo = 50\nii. WHERE MaLop = '19DTH03';"
+            },
+            {
+              "letter": "d",
+              "text": "d. MODIFY LOP\ni. SET SiSo = 50\nii. WHERE MaLop = '19DTH03';"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7. Trong SQL, để xóa sinh viên chưa dự thi môn nào, câu lệnh nào đúng?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. DELETE FROM SINHVIEN\ni. WHERE MSSV NOT IN (SELECT MSSV FROM DIEMSV);"
+            },
+            {
+              "letter": "b",
+              "text": "b. DELETE FROM SINHVIEN\ni. WHERE NOT EXISTS (SELECT * FROM DIEMSV WHERE DIEMSV.MSSV = SINHVIEN.MSSV);"
+            },
+            {
+              "letter": "c",
+              "text": "c. DELETE FROM SINHVIEN\ni. WHERE MSSV IN (SELECT MSSV FROM DIEMSV WHERE DIEMSV.Diem IS NULL);"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cả A và B đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8. Khi xây dựng CSDL Quản lý sinh viên, điều nào sau đây KHÔNG đúng?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cần tạo đầy đủ các bảng và dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Không cần thiết đặt khóa chính và khóa ngoại"
+            },
+            {
+              "letter": "c",
+              "text": "c. Phải sao lưu dữ liệu sau khi thực hành"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cần đảm bảo nhập dữ liệu theo đúng thứ tự các bảng"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "d"
+        },
+        {
+          "question": 6,
+          "answer": "a"
+        },
+        {
+          "question": 7,
+          "answer": "d"
+        },
+        {
+          "question": 8,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS323_B01_01+HK1-2026-2027+type@sequential+block@ff22f285bdd14deb846856bbbd74c4ac?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1. Trong cơ sở dữ liệu, database diagram có vai trò gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Giúp trực quan hóa mối quan hệ giữa các bảng dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chỉ dùng để nhập dữ liệu vào bảng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không liên quan đến việc tạo khóa chính và khóa ngoại"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ hiển thị các bảng mà không thể chỉnh sửa"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2. Vì sao thuộc tính MaSan trong bảng SAN được thiết lập ràng buộc NOT NULL?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Để đảm bảo mỗi sân bóng có một mã riêng biệt"
+            },
+            {
+              "letter": "b",
+              "text": "b. Để có thể nhập dữ liệu tùy ý mà không cần mã sân"
+            },
+            {
+              "letter": "c",
+              "text": "c. Để hạn chế số lượng sân bóng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Vì kiểu dữ liệu CHAR(3) bắt buộc có giá trị"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3. Khi thiết kế CSDL, tại sao cần tạo và kiểm tra database diagram?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Để có cái nhìn trực quan về cấu trúc bảng và quan hệ giữa các bảng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chỉ để trang trí cơ sở dữ liệu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Vì bắt buộc phải có để nhập dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần thiết, chỉ cần tạo bảng là đủ"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4. Trong SQL Server, hàm STR() dùng để làm gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chuyển số thực thành chuỗi ký tự"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tính tổng các số trong một cột"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chuyển đổi kiểu dữ liệu từ chuỗi sang số"
+            },
+            {
+              "letter": "d",
+              "text": "d. Kết hợp hai chuỗi thành một"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "iv. HAVING COUNT(*) > 2;",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Dùng để lọc dữ liệu sau khi nhóm bằng GROUP BY"
+            },
+            {
+              "letter": "b",
+              "text": "b. Dùng để sắp xếp dữ liệu theo số lượng trận đấu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Dùng để nhóm dữ liệu theo điều kiện cụ thể"
+            },
+            {
+              "letter": "d",
+              "text": "d. Dùng để lọc dữ liệu trước khi nhóm"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6. Trong SQL Server, GROUP BY thường đi kèm với hàm nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SUM, COUNT, AVG"
+            },
+            {
+              "letter": "b",
+              "text": "b. INSERT, DELETE, UPDATE"
+            },
+            {
+              "letter": "c",
+              "text": "c. LEFT JOIN, RIGHT JOIN"
+            },
+            {
+              "letter": "d",
+              "text": "d. HAVING, WHERE"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7. Khi nào nên sử dụng COUNT(*) trong SQL Server?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Khi cần đếm tổng số hàng trong bảng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Khi muốn tính tổng giá trị trong một cột"
+            },
+            {
+              "letter": "c",
+              "text": "c. Khi cần lấy giá trị trung bình của một cột"
+            },
+            {
+              "letter": "d",
+              "text": "d. Khi muốn kết hợp dữ liệu từ nhiều bảng"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8. Vì sao cần sao lưu dữ liệu trước khi thực hiện các thao tác cập nhật hoặc xóa dữ liệu?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Để có thể khôi phục dữ liệu nếu gặp lỗi"
+            },
+            {
+              "letter": "b",
+              "text": "b. Vì SQL Server không cho phép cập nhật trực tiếp"
+            },
+            {
+              "letter": "c",
+              "text": "c. Vì dữ liệu không thể bị mất trong SQL Server"
+            },
+            {
+              "letter": "d",
+              "text": "d. Vì sao lưu giúp tăng tốc truy vấn"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9. Khi thiết kế CSDL, tại sao cần đảm bảo thiết lập khóa chính và khóa ngoại hợp lý?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Giúp quản lý dữ liệu chính xác và tránh trùng lặp"
+            },
+            {
+              "letter": "b",
+              "text": "b. Để làm đẹp cấu trúc bảng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm dung lượng lưu trữ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần thiết, có thể nhập dữ liệu tự do"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "a"
+        },
+        {
+          "question": 7,
+          "answer": "a"
+        },
+        {
+          "question": 8,
+          "answer": "a"
+        },
+        {
+          "question": 9,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS323_B01_01+HK1-2026-2027+type@sequential+block@e8d3f9c0db3745779df7b9587ae3ac1a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1. Trong SQL Server, lệnh nào được sử dụng để tạo một cơ sở dữ liệu mới?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. CREATE TABLE"
+            },
+            {
+              "letter": "b",
+              "text": "b. INSERT INTO"
+            },
+            {
+              "letter": "c",
+              "text": "c. CREATE DATABASE"
+            },
+            {
+              "letter": "d",
+              "text": "d. USE DATABASE"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2. Trong quá trình tạo bảng trong SQL Server, để thiết lập mối quan hệ giữa các bảng, ta cần sử dụng loại khóa nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Khóa chính (Primary Key)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Khóa ngoại (Foreign Key)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Khóa duy nhất (Unique Key)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Khóa chỉ mục (Index Key)"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3. Tại sao MA_T_TP trong bảng BIENGIOI nên có kiểu dữ liệu giống với MA_T_TP trong bảng TINH_TP?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Để đảm bảo dữ liệu đồng nhất khi tham chiếu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Vì kiểu dữ liệu khác nhau sẽ gây lỗi hệ thống"
+            },
+            {
+              "letter": "c",
+              "text": "c. Do SQL Server yêu cầu bắt buộc"
+            },
+            {
+              "letter": "d",
+              "text": "d. Để tiết kiệm bộ nhớ"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4. Bảng LANGGIENG dùng để lưu trữ thông tin gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Dân số của từng tỉnh, thành phố"
+            },
+            {
+              "letter": "b",
+              "text": "b. Diện tích của các tỉnh"
+            },
+            {
+              "letter": "c",
+              "text": "c. Các tỉnh, thành phố có biên giới chung"
+            },
+            {
+              "letter": "d",
+              "text": "d. Các tỉnh, thành phố là láng giềng của nhau"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5. Tại sao trong bảng TINH_TP, MIEN được đặt ràng buộc CHECK?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Để chỉ cho phép giá trị thuộc miền Bắc, Trung hoặc Nam"
+            },
+            {
+              "letter": "b",
+              "text": "b. Để giới hạn độ dài dữ liệu nhập vào"
+            },
+            {
+              "letter": "c",
+              "text": "c. Để tự động tăng giá trị khi nhập dữ liệu mới"
+            },
+            {
+              "letter": "d",
+              "text": "d. Để đảm bảo nó là khóa chính của bảng"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6. Khi tạo bảng trong SQL Server, để đảm bảo không có giá trị NULL trong một cột, ta sử dụng ràng buộc nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. PRIMARY KEY"
+            },
+            {
+              "letter": "b",
+              "text": "b. FOREIGN KEY"
+            },
+            {
+              "letter": "c",
+              "text": "c. CHECK"
+            },
+            {
+              "letter": "d",
+              "text": "d. NOT NULL"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7. Khi sử dụng lệnh INSERT INTO, điều gì xảy ra nếu bạn không chỉ định danh sách các cột?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SQL Server sẽ tự động xác định các cột và nhập dữ liệu đúng thứ tự."
+            },
+            {
+              "letter": "b",
+              "text": "b. Lệnh sẽ bị lỗi nếu số lượng giá trị không khớp với số lượng cột."
+            },
+            {
+              "letter": "c",
+              "text": "c. Dữ liệu sẽ nhập vào bất kỳ cột nào có sẵn."
+            },
+            {
+              "letter": "d",
+              "text": "d. SQL Server sẽ yêu cầu nhập từng giá trị bằng cửa sổ nhập dữ liệu."
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8. Trước khi import dữ liệu từ Excel vào SQL Server, tại sao cần kiểm tra định dạng tệp Excel?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Để đảm bảo dữ liệu không bị lỗi hoặc không tương thích"
+            },
+            {
+              "letter": "b",
+              "text": "b. Để tăng tốc độ nhập dữ liệu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Để giảm dung lượng file Excel"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần kiểm tra vì SQL Server tự động điều chỉnh định dạng"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9. Sau khi nhập dữ liệu từ Excel vào SQL Server, cách nào sau đây có thể được sử dụng để kiểm tra dữ liệu đã nhập?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SELECT * FROM < tên_bảng >"
+            },
+            {
+              "letter": "b",
+              "text": "b. DELETE FROM < tên_bảng >"
+            },
+            {
+              "letter": "c",
+              "text": "c. DROP TABLE < tên_bảng >"
+            },
+            {
+              "letter": "d",
+              "text": "d. ALTER TABLE < tên_bảng >"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10. Khi nhập dữ liệu bằng cách copy-paste, cần chú ý điều gì để tránh lỗi?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Đảm bảo dữ liệu khớp với kiểu dữ liệu của bảng SQL"
+            },
+            {
+              "letter": "b",
+              "text": "b. Có thể copy bất kỳ dữ liệu nào mà không cần kiểm tra"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chỉ copy dữ liệu từ các bảng khác trong SQL Server"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần quan tâm đến thứ tự cột"
+            }
+          ]
+        },
+        {
+          "question": 11,
+          "text": "Câu 11. Kỹ thuật Detach - Attach trong SQL Server được sử dụng để làm gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Sao lưu và phục hồi dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Ngắt kết nối và gắn lại cơ sở dữ liệu với SQL Server"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xuất dữ liệu sang file Excel"
+            },
+            {
+              "letter": "d",
+              "text": "d. Xóa hoàn toàn cơ sở dữ liệu"
+            }
+          ]
+        },
+        {
+          "question": 12,
+          "text": "Câu 12. Khi nào cần sử dụng phương pháp Restore Database?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Khi muốn di chuyển cơ sở dữ liệu sang một server khác"
+            },
+            {
+              "letter": "b",
+              "text": "b. Khi muốn phục hồi dữ liệu từ một bản sao lưu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Khi muốn xóa cơ sở dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Khi muốn xuất dữ liệu sang Excel"
+            }
+          ]
+        },
+        {
+          "question": 13,
+          "text": "Câu 13. Câu lệnh nào dưới đây được sử dụng để lấy tất cả dữ liệu từ bảng TBL_SINHVIEN?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SELECT FROM TBL_SINHVIEN;"
+            },
+            {
+              "letter": "b",
+              "text": "b. SELECT * FROM TBL_SINHVIEN;"
+            },
+            {
+              "letter": "c",
+              "text": "c. GET * FROM TBL_SINHVIEN;"
+            },
+            {
+              "letter": "d",
+              "text": "d. SHOW * FROM TBL_SINHVIEN;"
+            }
+          ]
+        },
+        {
+          "question": 14,
+          "text": "Câu 14. Câu lệnh nào sau đây lấy danh sách các tỉnh thành có dân số trên 1 triệu?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SELECT * FROM TINH_TP WHERE DS > 1000000;"
+            },
+            {
+              "letter": "b",
+              "text": "b. SELECT * FROM TINH_TP ORDER BY DS > 1000000;"
+            },
+            {
+              "letter": "c",
+              "text": "c. SELECT * FROM TINH_TP HAVING DS > 1000000;"
+            },
+            {
+              "letter": "d",
+              "text": "d. SELECT * FROM TINH_TP GROUP BY DS > 1000000;"
+            }
+          ]
+        },
+        {
+          "question": 15,
+          "text": "Câu 15. Để sắp xếp kết quả truy vấn theo thứ tự giảm dần của dân số, ta dùng câu lệnh nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ORDER BY DS ASC;"
+            },
+            {
+              "letter": "b",
+              "text": "b. SORT DS DESC;"
+            },
+            {
+              "letter": "c",
+              "text": "c. ORDER BY DS DESC;"
+            },
+            {
+              "letter": "d",
+              "text": "d. GROUP BY DS DESC;"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "d"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        },
+        {
+          "question": 8,
+          "answer": "a"
+        },
+        {
+          "question": 9,
+          "answer": "a"
+        },
+        {
+          "question": 10,
+          "answer": "a"
+        },
+        {
+          "question": 11,
+          "answer": "b"
+        },
+        {
+          "question": 12,
+          "answer": "b"
+        },
+        {
+          "question": 13,
+          "answer": "b"
+        },
+        {
+          "question": 14,
+          "answer": "a"
+        },
+        {
+          "question": 15,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS323_B01_01+HK1-2026-2027+type@sequential+block@ece03abfe78c416f8d0af622fb29b7f5?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "1. Bảng CHUYENBAY chứa thông tin về gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Máy bay"
+            },
+            {
+              "letter": "b",
+              "text": "b. Nhân viên phi hành đoàn"
+            },
+            {
+              "letter": "c",
+              "text": "c. Khả năng điều khiển máy bay của phi công"
+            },
+            {
+              "letter": "d",
+              "text": "d. Thông tin về các chuyến bay"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "2. Trong bảng CHUYENBAY, thuộc tính GioDi có kiểu dữ liệu nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Int"
+            },
+            {
+              "letter": "b",
+              "text": "b. varchar(50)"
+            },
+            {
+              "letter": "c",
+              "text": "c. time"
+            },
+            {
+              "letter": "d",
+              "text": "d. datetime"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "3. Khi nhập dữ liệu vào CSDL, tại sao phải nhập dữ liệu theo thứ tự các bảng?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Để tránh vi phạm ràng buộc khóa chính và khóa ngoại"
+            },
+            {
+              "letter": "b",
+              "text": "b. Để đảm bảo dữ liệu được nhập nhanh hơn"
+            },
+            {
+              "letter": "c",
+              "text": "c. Để thuận tiện khi tạo báo cáo"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không quan trọng, có thể nhập theo bất kỳ thứ tự nào"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "4. Phép JOIN nào được sử dụng để lấy dữ liệu có liên quan giữa hai bảng?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. INNER JOIN"
+            },
+            {
+              "letter": "b",
+              "text": "b. LEFT JOIN"
+            },
+            {
+              "letter": "c",
+              "text": "c. RIGHT JOIN"
+            },
+            {
+              "letter": "d",
+              "text": "d. FULL OUTER JOIN"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "5. Câu lệnh nào dùng để đếm số bản ghi trong SQL?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. COUNT()"
+            },
+            {
+              "letter": "b",
+              "text": "b. SUM()"
+            },
+            {
+              "letter": "c",
+              "text": "c. AVG()"
+            },
+            {
+              "letter": "d",
+              "text": "d. MAX()"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "6. Để lấy danh sách nhân viên có tên bắt đầu bằng 'Nguyễn', ta sử dụng điều kiện nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. WHERE Ten LIKE 'Nguyễn%'"
+            },
+            {
+              "letter": "b",
+              "text": "b. WHERE Ten = 'Nguyễn'"
+            },
+            {
+              "letter": "c",
+              "text": "c. WHERE Ten LIKE '%Nguyễn%'"
+            },
+            {
+              "letter": "d",
+              "text": "d. WHERE Ten LIKE '%Nguyễn'"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "7. Phép GROUP BY trong SQL dùng để làm gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Nhóm dữ liệu theo một hoặc nhiều cột"
+            },
+            {
+              "letter": "b",
+              "text": "b. Lọc dữ liệu theo điều kiện"
+            },
+            {
+              "letter": "c",
+              "text": "c. Kết hợp hai bảng dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tính toán giá trị trung bình của một cột"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "8. Câu lệnh HAVING trong SQL được sử dụng khi nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Khi muốn lọc kết quả sau khi nhóm dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Khi muốn sắp xếp kết quả"
+            },
+            {
+              "letter": "c",
+              "text": "c. Khi muốn lấy dữ liệu từ nhiều bảng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Khi muốn lọc dữ liệu trước khi nhóm"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "9. Phép JOIN nào có thể lấy tất cả dữ liệu từ hai bảng dù không có dữ liệu liên quan?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. INNER JOIN"
+            },
+            {
+              "letter": "b",
+              "text": "b. LEFT JOIN"
+            },
+            {
+              "letter": "c",
+              "text": "c. RIGHT JOIN"
+            },
+            {
+              "letter": "d",
+              "text": "d. FULL OUTER JOIN"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "10. Trong SQL, phép nào được dùng để kiểm tra một giá trị có tồn tại trong tập kết quả con hay không?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. EXISTS"
+            },
+            {
+              "letter": "b",
+              "text": "b. NOT EXISTS"
+            },
+            {
+              "letter": "c",
+              "text": "c. BOTH A & B"
+            },
+            {
+              "letter": "d",
+              "text": "d. DISTINCT"
+            }
+          ]
+        },
+        {
+          "question": 11,
+          "text": "11. Câu lệnh nào dùng để lấy số chuyến bay xuất phát từ Sài Gòn?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SELECT * FROM CHUYENBAY WHERE GaDi = 'SGN'"
+            },
+            {
+              "letter": "b",
+              "text": "b. SELECT * FROM CHUYENBAY WHERE GaDen = 'SGN'"
+            },
+            {
+              "letter": "c",
+              "text": "c. SELECT COUNT(*) FROM CHUYENBAY WHERE GaDi = 'SGN'"
+            },
+            {
+              "letter": "d",
+              "text": "d. SELECT COUNT(*) FROM CHUYENBAY WHERE GaDen = 'SGN'"
+            }
+          ]
+        },
+        {
+          "question": 12,
+          "text": "12. Trong truy vấn lồng nhau, khi muốn lấy lương trung bình của phi công để so sánh với lương nhân viên, ta dùng câu lệnh nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SELECT AVG(Luong) FROM NHANVIEN WHERE MaNV IN (SELECT MaNV FROM CHUNGNHAN)"
+            },
+            {
+              "letter": "b",
+              "text": "b. SELECT * FROM NHANVIEN WHERE Luong > (SELECT AVG(Luong) FROM CHUNGNHAN)"
+            },
+            {
+              "letter": "c",
+              "text": "c. SELECT Luong FROM NHANVIEN WHERE Luong > ALL (SELECT AVG(Luong) FROM CHUNGNHAN)"
+            },
+            {
+              "letter": "d",
+              "text": "d. SELECT Luong FROM NHANVIEN WHERE Luong < ANY (SELECT AVG(Luong) FROM CHUNGNHAN)"
+            }
+          ]
+        },
+        {
+          "question": 13,
+          "text": "13. Kết quả của truy vấn SELECT COUNT(DISTINCT CHUNGNHAN.MaMB) FROM CHUNGNHAN; là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Số loại máy bay khác nhau mà các phi công có thể lái"
+            },
+            {
+              "letter": "b",
+              "text": "b. Số phi công trong bảng CHUNGNHAN"
+            },
+            {
+              "letter": "c",
+              "text": "c. Số lượng chuyến bay"
+            },
+            {
+              "letter": "d",
+              "text": "d. Số lượng phi công có thể lái từng loại máy bay"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "a"
+        },
+        {
+          "question": 7,
+          "answer": "a"
+        },
+        {
+          "question": 8,
+          "answer": "a"
+        },
+        {
+          "question": 9,
+          "answer": "d"
+        },
+        {
+          "question": 10,
+          "answer": "c"
+        },
+        {
+          "question": 11,
+          "answer": "c"
+        },
+        {
+          "question": 12,
+          "answer": "a"
+        },
+        {
+          "question": 13,
+          "answer": "a"
+        }
+      ]
+    }
+  ]
+}

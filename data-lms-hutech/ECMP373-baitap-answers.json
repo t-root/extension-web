@@ -1,0 +1,3511 @@
+{
+  "version": 1,
+  "courseCode": "ECMP373",
+  "exportedAt": "2026-09-14T15:56:11.769Z",
+  "answers": [
+    {
+      "title": "Kết Nối Thiết Bị",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@58fe346bff754ffcbdcecc416886f93b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Hãy chọn chế độ có thể cấu hình trên Switch",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. >"
+            },
+            {
+              "letter": "b",
+              "text": "b. #"
+            },
+            {
+              "letter": "c",
+              "text": "c. (config)#"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Hãy chọn chế độ người dùng khi cấu hình trên Switch",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. >"
+            },
+            {
+              "letter": "b",
+              "text": "b. #"
+            },
+            {
+              "letter": "c",
+              "text": "c. (config)#"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Hãy chọn chế độ trung gian giữa chế độ người dùng và chế độ cấu hình khi cấu hình trên Switch",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. >"
+            },
+            {
+              "letter": "b",
+              "text": "b. #"
+            },
+            {
+              "letter": "c",
+              "text": "c. (config)#"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "login",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Đặt mật khẩu cho người dùng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tính năng kết nối từ xa"
+            },
+            {
+              "letter": "c",
+              "text": "c. Bảo vệ cổng console"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "login",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Đặt mật khẩu cho người dùng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tính năng kết nối từ xa"
+            },
+            {
+              "letter": "c",
+              "text": "c. Bảo vệ cổng console"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Cấu Hình Cơ Bản S1 Và S2",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@f7718a9717364ba48d3cfec401e4a04b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Lệnh nào được sử dụng để đặt tên cho switch S1?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. hostname S1"
+            },
+            {
+              "letter": "b",
+              "text": "b. set name S1"
+            },
+            {
+              "letter": "c",
+              "text": "c. switchname S1"
+            },
+            {
+              "letter": "d",
+              "text": "d. config name S1"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Để đặt mật khẩu cho chế độ privileged EXEC trên switch S1, bạn sử dụng lệnh nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. password secret S1"
+            },
+            {
+              "letter": "b",
+              "text": "b. enable password S1"
+            },
+            {
+              "letter": "c",
+              "text": "c. enable secret S1"
+            },
+            {
+              "letter": "d",
+              "text": "d. set enable S1"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Lệnh nào dùng để lưu cấu hình hiện tại vào bộ nhớ NVRAM?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. save config"
+            },
+            {
+              "letter": "b",
+              "text": "b. copy running-config startup-config"
+            },
+            {
+              "letter": "c",
+              "text": "c. write memory"
+            },
+            {
+              "letter": "d",
+              "text": "d. commit save"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Cấu Hình Cho Pc",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@de4811b99da84e13be004c1f54d832ff?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Lệnh nào được sử dụng để kiểm tra địa chỉ IP của máy tính trong Windows?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ipconfig"
+            },
+            {
+              "letter": "b",
+              "text": "b. ifconfig"
+            },
+            {
+              "letter": "c",
+              "text": "c. show ip"
+            },
+            {
+              "letter": "d",
+              "text": "d. netstat"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Khi cấu hình IP tĩnh cho PC trong Windows, bạn cần truy cập vào đâu?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Control Panel > Network & Sharing Center > Manage Network Connections"
+            },
+            {
+              "letter": "b",
+              "text": "b. Control Panel > Network & Internet > Network & Sharing Center > Change adapter settings"
+            },
+            {
+              "letter": "c",
+              "text": "c. Device Manager > Network Adapters > Properties"
+            },
+            {
+              "letter": "d",
+              "text": "d. Windows Defender Firewall > Advanced Settings > IP Configuration"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong cấu hình mạng của PC, địa chỉ Gateway mặc định là gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Địa chỉ IP của PC"
+            },
+            {
+              "letter": "b",
+              "text": "b. Địa chỉ IP của router hoặc thiết bị mạng quản lý"
+            },
+            {
+              "letter": "c",
+              "text": "c. Địa chỉ IP của máy chủ DNS"
+            },
+            {
+              "letter": "d",
+              "text": "d. Địa chỉ MAC của router"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Để đặt địa chỉ IP tĩnh trên PC sử dụng dòng lệnh trong Windows, lệnh nào sau đây là đúng?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. set ip address 192.168.1.10 255.255.255.0 192.168.1.1"
+            },
+            {
+              "letter": "b",
+              "text": "b. netsh interface ip set address \"Ethernet\" static 192.168.1.10 255.255.255.0 192.168.1.1"
+            },
+            {
+              "letter": "c",
+              "text": "c. configure ip 192.168.1.10 255.255.255.0 192.168.1.1"
+            },
+            {
+              "letter": "d",
+              "text": "d. ip set static 192.168.1.10 255.255.255.0 192.168.1.1"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Hệ thống mạng dùng Router Và Switch",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@7d71aafd76ec40d2b8615162676de66f?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Trong một hệ thống mạng cơ bản, thiết bị nào chịu trách nhiệm định tuyến gói tin giữa các mạng khác nhau?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Switch"
+            },
+            {
+              "letter": "b",
+              "text": "b. Router"
+            },
+            {
+              "letter": "c",
+              "text": "c. Hub"
+            },
+            {
+              "letter": "d",
+              "text": "d. Access Point"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Khi kết nối Router với Switch, cổng nào trên Router thường được sử dụng để kết nối với mạng nội bộ (LAN)?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cổng WAN"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cổng Console"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cổng GigabitEthernet hoặc FastEthernet"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cổng AUX"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Để một PC trong mạng LAN có thể truy cập Internet thông qua Router, cần cấu hình thông tin nào trên PC?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Địa chỉ MAC của router"
+            },
+            {
+              "letter": "b",
+              "text": "b. Địa chỉ Gateway mặc định"
+            },
+            {
+              "letter": "c",
+              "text": "c. Địa chỉ DNS duy nhất"
+            },
+            {
+              "letter": "d",
+              "text": "d. Địa chỉ IPv6"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Trong một hệ thống mạng cơ bản, VLAN giúp thực hiện chức năng gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ kết nối giữa các thiết bị trong cùng VLAN"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chia sẻ tài nguyên mạng giữa tất cả các thiết bị"
+            },
+            {
+              "letter": "c",
+              "text": "c. Phân chia mạng thành nhiều nhóm logic để tăng bảo mật và hiệu suất"
+            },
+            {
+              "letter": "d",
+              "text": "d. Kết nối mạng LAN với Internet"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Cấu Hình Giao Diện Quản Lý Của Switch (Svi)",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@9384c8443a0f49f1b233bfb0f878798c?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Lệnh nào dùng để vào chế độ cấu hình giao diện VLAN 1 trên switch?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. interface vlan 1"
+            },
+            {
+              "letter": "b",
+              "text": "b. switchport vlan 1"
+            },
+            {
+              "letter": "c",
+              "text": "c. enable vlan 1"
+            },
+            {
+              "letter": "d",
+              "text": "d. vlan interface 1"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Khi cấu hình địa chỉ IP cho giao diện VLAN 1 trên switch, cần thực hiện bước nào để kích hoạt giao diện?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không cần thực hiện thêm bước nào"
+            },
+            {
+              "letter": "b",
+              "text": "b. ip enable vlan 1"
+            },
+            {
+              "letter": "c",
+              "text": "c. no shutdown"
+            },
+            {
+              "letter": "d",
+              "text": "d. switchport mode access"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Để đặt địa chỉ IP 192.168.1.100/24 cho giao diện quản lý của switch, lệnh nào là đúng?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ip address 192.168.1.100 255.255.0.0"
+            },
+            {
+              "letter": "b",
+              "text": "b. set ip vlan1 192.168.1.100 255.255.255.0"
+            },
+            {
+              "letter": "c",
+              "text": "c. ip address 192.168.1.100 255.255.255.0"
+            },
+            {
+              "letter": "d",
+              "text": "d. assign ip 192.168.1.100/24 vlan1"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Sau khi cấu hình giao diện quản lý của switch, lệnh nào giúp kiểm tra kết nối giữa PC và switch?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. show vlan brief"
+            },
+            {
+              "letter": "b",
+              "text": "b. ping 192.168.1.100"
+            },
+            {
+              "letter": "c",
+              "text": "c. traceroute 192.168.1.100"
+            },
+            {
+              "letter": "d",
+              "text": "d. show running-config"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Bộ giao thức tcp/ip",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@83a931182ce548afa593e31e93e70305?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Bộ giao thức TCP/IP có bao nhiêu tầng chính?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 3"
+            },
+            {
+              "letter": "b",
+              "text": "b. 4"
+            },
+            {
+              "letter": "c",
+              "text": "c. 5"
+            },
+            {
+              "letter": "d",
+              "text": "d. 7"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Trong mô hình TCP/IP, tầng nào chịu trách nhiệm gán địa chỉ IP và định tuyến gói tin?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tầng Giao vận (Transport Layer)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tầng Internet (Internet Layer)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tầng Ứng dụng (Application Layer)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tầng Liên kết dữ liệu (Data Link Layer)"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Giao thức nào trong bộ TCP/IP đảm bảo truyền dữ liệu đáng tin cậy giữa hai thiết bị mạng?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. UDP"
+            },
+            {
+              "letter": "b",
+              "text": "b. TCP"
+            },
+            {
+              "letter": "c",
+              "text": "c. ICMP"
+            },
+            {
+              "letter": "d",
+              "text": "d. ARP"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Kết nối đến Cloud",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@c8072fcd871c4a729e425bb2bd844a48?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mô hình kết nối nào sau đây là một cách phổ biến để doanh nghiệp kết nối hệ thống mạng nội bộ với Cloud?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. VPN (Virtual Private Network)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Direct Connect hoặc VPN"
+            },
+            {
+              "letter": "c",
+              "text": "c. SSH Tunnel"
+            },
+            {
+              "letter": "d",
+              "text": "d. Bluetooth"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Giao thức nào thường được sử dụng để truyền dữ liệu an toàn giữa thiết bị cục bộ và Cloud?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. HTTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. HTTPS hoặc SFTP"
+            },
+            {
+              "letter": "c",
+              "text": "c. FTP"
+            },
+            {
+              "letter": "d",
+              "text": "d. Telnet"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Khi kết nối hệ thống mạng doanh nghiệp đến Cloud, việc cấu hình public IP có tác dụng gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Giới hạn quyền truy cập vào Cloud"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tăng tốc độ kết nối nội bộ"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cho phép truy cập tài nguyên Cloud từ Internet"
+            },
+            {
+              "letter": "d",
+              "text": "d. Ngăn chặn các cuộc tấn công DDoS"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Cấu hình một số thiết bị",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@bc6af2b0872445a792fe95db5d3cf9e6?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Cổng nào trên router thường được sử dụng để kết nối với modem hoặc nhà cung cấp dịch vụ Internet (ISP)?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cổng LAN"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cổng WAN"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cổng Console"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cổng AUX"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Loại cáp nào thường được sử dụng để kết nối router với modem cáp?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cáp Serial"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cáp Ethernet (RJ-45)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cáp Coaxial"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cáp Console (RJ-45 to DB9)"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Lệnh nào có thể được sử dụng trên router Cisco để kiểm tra địa chỉ IP WAN nhận từ modem?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. show running-config"
+            },
+            {
+              "letter": "b",
+              "text": "b. show ip interface brief"
+            },
+            {
+              "letter": "c",
+              "text": "c. show dhcp status"
+            },
+            {
+              "letter": "d",
+              "text": "d. ping 8.8.8.8"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Khi kết nối modem cáp với mạng nội bộ, thiết bị nào sẽ cấp phát địa chỉ IP cho các thiết bị trong mạng?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cable modem"
+            },
+            {
+              "letter": "b",
+              "text": "b. Switch"
+            },
+            {
+              "letter": "c",
+              "text": "c. Router (nếu có DHCP)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Hub"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Nếu không thể kết nối Internet qua modem cáp, bước khắc phục sự cố đầu tiên là gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Kiểm tra kết nối vật lý và khởi động lại modem"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cấu hình lại địa chỉ IP tĩnh trên máy tính"
+            },
+            {
+              "letter": "c",
+              "text": "c. Thay đổi địa chỉ MAC của router"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tắt tường lửa trên máy tính"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Mô hình thiết lập kết nối",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@b3fb77f0696c41d882dbd9dd0d3d0144?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Trong mô hình thiết lập kết nối TCP, quá trình bắt tay ba bước (Three-way Handshake) bao gồm các giai đoạn nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SYN → SYN-ACK → ACK"
+            },
+            {
+              "letter": "b",
+              "text": "b. SYN → ACK → SYN-ACK"
+            },
+            {
+              "letter": "c",
+              "text": "c. SYN-ACK → SYN → ACK"
+            },
+            {
+              "letter": "d",
+              "text": "d. ACK → SYN → FIN"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Trong quá trình thiết lập kết nối TCP, gói tin nào được gửi đầu tiên từ client đến server?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SYN"
+            },
+            {
+              "letter": "b",
+              "text": "b. ACK"
+            },
+            {
+              "letter": "c",
+              "text": "c. SYN-ACK"
+            },
+            {
+              "letter": "d",
+              "text": "d. FIN"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Giai đoạn nào trong kết nối TCP được sử dụng để chấm dứt một phiên truyền dữ liệu giữa hai thiết bị?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Three-way Handshake"
+            },
+            {
+              "letter": "b",
+              "text": "b. Slow Start"
+            },
+            {
+              "letter": "c",
+              "text": "c. Congestion Avoidance"
+            },
+            {
+              "letter": "d",
+              "text": "d. Four-way Handshake (FIN, ACK, FIN, ACK)"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Kiểm tra kết nối",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@efd463bb021f4ae0a89575593149ea6c?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Lệnh nào được sử dụng để kiểm tra xem một thiết bị có thể kết nối với một địa chỉ IP cụ thể hay không?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ping"
+            },
+            {
+              "letter": "b",
+              "text": "b. tracert"
+            },
+            {
+              "letter": "c",
+              "text": "c. nslookup"
+            },
+            {
+              "letter": "d",
+              "text": "d. netstat"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Lệnh nào giúp kiểm tra đường đi của gói tin từ thiết bị nguồn đến đích?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ping"
+            },
+            {
+              "letter": "b",
+              "text": "b. tracert (Windows) / traceroute (Linux)"
+            },
+            {
+              "letter": "c",
+              "text": "c. ipconfig"
+            },
+            {
+              "letter": "d",
+              "text": "d. arp -a"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Công cụ nào có thể được sử dụng để kiểm tra cổng mở trên một thiết bị mạng từ xa?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ping"
+            },
+            {
+              "letter": "b",
+              "text": "b. tracert"
+            },
+            {
+              "letter": "c",
+              "text": "c. ipconfig"
+            },
+            {
+              "letter": "d",
+              "text": "d. telnet hoặc nc (netcat)"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Cấu hình router cơ bản",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@48105e70645f4356813edd431807a4c6?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Hãy cho biết địa chỉ sau thuộc lớp mạng nào : 224.16.1.1",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. A"
+            },
+            {
+              "letter": "b",
+              "text": "b. B"
+            },
+            {
+              "letter": "c",
+              "text": "c. C"
+            },
+            {
+              "letter": "d",
+              "text": "d. D"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Hãy cho biết địa chỉ sau thuộc lớp mạng nào : 12.16.1.1",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. A"
+            },
+            {
+              "letter": "b",
+              "text": "b. B"
+            },
+            {
+              "letter": "c",
+              "text": "c. C"
+            },
+            {
+              "letter": "d",
+              "text": "d. D"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Hãy cho biết địa chỉ sau thuộc lớp mạng nào : 192.168.1.1",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. A"
+            },
+            {
+              "letter": "b",
+              "text": "b. B"
+            },
+            {
+              "letter": "c",
+              "text": "c. C"
+            },
+            {
+              "letter": "d",
+              "text": "d. D"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Hãy cho biết địa chỉ sau thuộc lớp mạng nào : 172.16.1.1",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. A"
+            },
+            {
+              "letter": "b",
+              "text": "b. B"
+            },
+            {
+              "letter": "c",
+              "text": "c. C"
+            },
+            {
+              "letter": "d",
+              "text": "d. D"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Hãy cho biết chức năng của dịch vụ DHCP?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cấp địa chỉ IP"
+            },
+            {
+              "letter": "b",
+              "text": "b.Cấp mặt nạ mạng (netmask)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cấp Default Gateway"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Hãy cho biết tốc độ truyền 10mb/s thuộc chuẩn nào",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. GigabitEthernet"
+            },
+            {
+              "letter": "b",
+              "text": "b. FastEthernet"
+            },
+            {
+              "letter": "c",
+              "text": "c. Ethernet"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đề sai"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 6: Hãy cho biết tốc độ truyền 100mb/s thuộc chuẩn nào",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. GigabitEthernet"
+            },
+            {
+              "letter": "b",
+              "text": "b. FastEthernet"
+            },
+            {
+              "letter": "c",
+              "text": "c. Ethernet"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đề sai"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "d"
+        },
+        {
+          "question": 6,
+          "answer": "c"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Chọn mô đun cho kết nối",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@6e7d1fcb80b64e09af6357c0d8facccf?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Khi cần kết nối switch với mạng quang học, mô-đun nào thường được sử dụng?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. RJ45"
+            },
+            {
+              "letter": "b",
+              "text": "b. ADSL"
+            },
+            {
+              "letter": "c",
+              "text": "c. SFP (Small Form-factor Pluggable)"
+            },
+            {
+              "letter": "d",
+              "text": "d. HDMI"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Mô-đun GBIC (Gigabit Interface Converter) chủ yếu được sử dụng để kết nối với loại cáp nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cáp xoắn đôi UTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cáp quang"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cáp đồng trục"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cáp USB"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Khi cần kết nối một router với một đường truyền mạng WAN sử dụng cáp đồng, mô-đun nào phù hợp nhất?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SFP"
+            },
+            {
+              "letter": "b",
+              "text": "b. HDMI"
+            },
+            {
+              "letter": "c",
+              "text": "c. Serial (WIC – WAN Interface Card)"
+            },
+            {
+              "letter": "d",
+              "text": "d. DAC (Direct Attach Cable)"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Trong một hệ thống mạng doanh nghiệp, khi cần mở rộng số cổng kết nối trên switch, loại mô-đun nào thường được sử dụng?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. GBIC"
+            },
+            {
+              "letter": "b",
+              "text": "b. StackWise hoặc Expansion Module"
+            },
+            {
+              "letter": "c",
+              "text": "c. Console Module"
+            },
+            {
+              "letter": "d",
+              "text": "d. PoE Injector"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Kết nối thiết bị",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@05b725eda2c741f3a0229c12460a2dd4?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Trong một mạng LAN, thiết bị nào có chức năng kết nối các máy tính và giúp chúng trao đổi dữ liệu với nhau?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Router"
+            },
+            {
+              "letter": "b",
+              "text": "b. Switch"
+            },
+            {
+              "letter": "c",
+              "text": "c. Modem"
+            },
+            {
+              "letter": "d",
+              "text": "d. Firewall"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Khi kết nối một máy tính với switch bằng cáp mạng, loại cáp nào thường được sử dụng?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cáp chéo (Crossover)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cáp thẳng (Straight-through)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cáp quang"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cáp đồng trục"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Khi một máy tính không thể kết nối với mạng, lệnh nào có thể được sử dụng để kiểm tra kết nối đến gateway mặc định?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. netstat"
+            },
+            {
+              "letter": "b",
+              "text": "b. tracert"
+            },
+            {
+              "letter": "c",
+              "text": "c. ping"
+            },
+            {
+              "letter": "d",
+              "text": "d. nslookup"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Cấu hình các thiết bị trong mô hình",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@ba46cd55caf747f5804b31fc8186f4f9?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Lệnh nào được sử dụng để đặt địa chỉ IP cho cổng GigabitEthernet 0/0 trên router?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. set ip address Gig0/0 192.168.1.1 255.255.255.0"
+            },
+            {
+              "letter": "b",
+              "text": "b. interface GigabitEthernet 0/0 \\n ip address 192.168.1.1 255.255.255.0"
+            },
+            {
+              "letter": "c",
+              "text": "c. config ip Gig0/0 192.168.1.1 255.255.255.0"
+            },
+            {
+              "letter": "d",
+              "text": "d. assign ip 192.168.1.1 255.255.255.0 Gig0/0"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Lệnh nào giúp lưu lại cấu hình sau khi cấu hình xong trên router?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. save running-config"
+            },
+            {
+              "letter": "b",
+              "text": "b. write config"
+            },
+            {
+              "letter": "c",
+              "text": "c. backup config"
+            },
+            {
+              "letter": "d",
+              "text": "d. copy running-config startup-config"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Để kiểm tra danh sách các cổng và địa chỉ IP đã được cấu hình trên router, sử dụng lệnh nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. show running-config"
+            },
+            {
+              "letter": "b",
+              "text": "b. show ip interface brief"
+            },
+            {
+              "letter": "c",
+              "text": "c. show version"
+            },
+            {
+              "letter": "d",
+              "text": "d. show interfaces status"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Định tuyến",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@ad05a2ba7166459188166b2c267868c4?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Thiết bị nào trong mạng có chức năng chính là thực hiện định tuyến gói tin giữa các mạng khác nhau?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Switch"
+            },
+            {
+              "letter": "b",
+              "text": "b. Router"
+            },
+            {
+              "letter": "c",
+              "text": "c. Hub"
+            },
+            {
+              "letter": "d",
+              "text": "d. Access Point"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Giao thức định tuyến nào là giao thức định tuyến động sử dụng thuật toán Bellman-Ford?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. OSPF"
+            },
+            {
+              "letter": "b",
+              "text": "b. RIP (Routing Information Protocol)"
+            },
+            {
+              "letter": "c",
+              "text": "c. EIGRP"
+            },
+            {
+              "letter": "d",
+              "text": "d. BGP"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Lệnh nào được sử dụng để cấu hình một tuyến tĩnh trên router Cisco?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. set route static 192.168.2.0 255.255.255.0 192.168.1.1"
+            },
+            {
+              "letter": "b",
+              "text": "b. ip route 192.168.2.0 255.255.255.0 192.168.1.1"
+            },
+            {
+              "letter": "c",
+              "text": "c. route add 192.168.2.0 mask 255.255.255.0 gateway 192.168.1.1"
+            },
+            {
+              "letter": "d",
+              "text": "d. configure route 192.168.2.0/24 via 192.168.1.1"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Xác định đặc điểm kết nối vật lý của thiết bị",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@560649fcc54d41969838437f75adb5af?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Loại cáp mạng nào thường được sử dụng để kết nối hai switch với nhau trong mạng có dây?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cáp thẳng (Straight-through)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cáp chéo (Crossover)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cáp đồng trục (Coaxial)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cáp HDMI"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Cổng RJ45 trên thiết bị mạng thường được sử dụng cho loại kết nối nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Kết nối Ethernet có dây"
+            },
+            {
+              "letter": "b",
+              "text": "b. Kết nối quang học"
+            },
+            {
+              "letter": "c",
+              "text": "c. Kết nối USB"
+            },
+            {
+              "letter": "d",
+              "text": "d. Kết nối âm thanh"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trên switch, trạng thái amber (màu cam) của đèn LED trên cổng Ethernet có thể biểu thị điều gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Kết nối đang hoạt động tốt"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cổng gặp lỗi hoặc đang ở chế độ bị vô hiệu hóa"
+            },
+            {
+              "letter": "c",
+              "text": "c. Kết nối đang chạy ở tốc độ cao nhất"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không có thiết bị nào kết nối với cổng"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Mô hình thiết lập kết nối",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@e59b0e818b5740ebb409de8169a152ff?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Trong một mạng LAN sử dụng router, thiết bị nào chịu trách nhiệm cấp phát địa chỉ IP động cho các máy trạm?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Router (nếu có DHCP server được bật)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Switch"
+            },
+            {
+              "letter": "c",
+              "text": "c. Modem"
+            },
+            {
+              "letter": "d",
+              "text": "d. Access Point"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Khi một máy tính trong LAN gửi dữ liệu đến một thiết bị trong mạng khác, router sẽ làm gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chuyển gói tin trực tiếp đến thiết bị đích"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chuyển gói tin đến switch để xử lý"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tra cứu bảng định tuyến và gửi gói tin ra cổng phù hợp"
+            },
+            {
+              "letter": "d",
+              "text": "d. Gửi lại gói tin về chính thiết bị nguồn"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong mô hình mạng LAN có router, máy tính cần cấu hình thông tin nào để có thể truy cập Internet?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chỉ cần địa chỉ IP"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chỉ cần địa chỉ Gateway mặc định"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chỉ cần địa chỉ DNS"
+            },
+            {
+              "letter": "d",
+              "text": "d. Địa chỉ IP, Subnet Mask, Gateway mặc định và DNS"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Cổng nào trên router thường được sử dụng để kết nối với switch trong mô hình mạng LAN?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cổng WAN"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cổng LAN (FastEthernet/GigabitEthernet)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cổng Console"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cổng AUX"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Cấu hình địa chỉ IPv6 trên Router",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@ea43e39961ca433eb970ebf5fc35a92e?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Lệnh nào trên router Cisco được sử dụng để bật IPv6 trên một giao diện?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. enable ipv6"
+            },
+            {
+              "letter": "b",
+              "text": "b. ipv6 enable"
+            },
+            {
+              "letter": "c",
+              "text": "c. set ipv6 on"
+            },
+            {
+              "letter": "d",
+              "text": "d. ip enable v6"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Để gán địa chỉ IPv6 tĩnh 2001:db8::1/64 cho giao diện GigabitEthernet 0/0 trên router, lệnh nào là đúng?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ip address 2001:db8::1/64"
+            },
+            {
+              "letter": "b",
+              "text": "b. set ipv6 2001:db8::1/64"
+            },
+            {
+              "letter": "c",
+              "text": "c. interface GigabitEthernet 0/0 \\n ipv6 address 2001:db8::1/64"
+            },
+            {
+              "letter": "d",
+              "text": "d. assign ipv6 address 2001:db8::1/64 GigabitEthernet 0/0"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Lệnh nào trên router giúp kiểm tra danh sách các địa chỉ IPv6 đã được cấu hình trên các giao diện?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. show ip address"
+            },
+            {
+              "letter": "b",
+              "text": "b. show running-config ipv6"
+            },
+            {
+              "letter": "c",
+              "text": "c. show ipv6 interface brief"
+            },
+            {
+              "letter": "d",
+              "text": "d. show interfaces status"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Cấu hình địa chỉ IPv6 trên Client",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@ec90880ff7bd4ba0a2fff41b1b71a417?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Trong Windows, lệnh nào được sử dụng để kiểm tra địa chỉ IPv6 của máy tính client?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ipconfig /all"
+            },
+            {
+              "letter": "b",
+              "text": "b. show ipv6"
+            },
+            {
+              "letter": "c",
+              "text": "c. netsh ipv6 show"
+            },
+            {
+              "letter": "d",
+              "text": "d. ping6"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Khi cấu hình địa chỉ IPv6 tĩnh trên máy tính chạy Windows, bạn cần truy cập vào đâu?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Control Panel > Device Manager > Network Adapters"
+            },
+            {
+              "letter": "b",
+              "text": "b. Control Panel > Network and Sharing Center > Change adapter settings"
+            },
+            {
+              "letter": "c",
+              "text": "c. Windows Defender Firewall > Advanced Settings > IPv6 Configuration"
+            },
+            {
+              "letter": "d",
+              "text": "d. CMD > ipconfig /set ipv6"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Lệnh nào trên Linux được sử dụng để gán địa chỉ IPv6 tĩnh cho giao diện mạng eth0?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. set ipv6 eth0 2001:db8::100/64"
+            },
+            {
+              "letter": "b",
+              "text": "b. ipconfig eth0 add ipv6 2001:db8::100/64"
+            },
+            {
+              "letter": "c",
+              "text": "c. ip -6 addr add 2001:db8::100/64 dev eth0"
+            },
+            {
+              "letter": "d",
+              "text": "d. ipv6 address add eth0 2001:db8::100/64"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Kiểm tra kết nối mạng",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@41b3088ddb3c476b9cbd1adcf1bc2c3c?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Lệnh nào được sử dụng để kiểm tra xem một thiết bị có thể kết nối với một địa chỉ IP cụ thể không?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ping"
+            },
+            {
+              "letter": "b",
+              "text": "b. tracert"
+            },
+            {
+              "letter": "c",
+              "text": "c. netstat"
+            },
+            {
+              "letter": "d",
+              "text": "d. ipconfig"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Trong Windows, lệnh nào giúp kiểm tra đường đi của gói tin từ thiết bị đến đích?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ping"
+            },
+            {
+              "letter": "b",
+              "text": "b. tracert"
+            },
+            {
+              "letter": "c",
+              "text": "c. nslookup"
+            },
+            {
+              "letter": "d",
+              "text": "d. arp -a"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Lệnh nào trên Linux có thể được sử dụng để kiểm tra tất cả các kết nối mạng đang hoạt động?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ping -a"
+            },
+            {
+              "letter": "b",
+              "text": "b. tracert"
+            },
+            {
+              "letter": "c",
+              "text": "c. netstat -tulnp"
+            },
+            {
+              "letter": "d",
+              "text": "d. ipconfig /all"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Mô hình thiết lập kết nối",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@dd7a7167a8654effa17e2883eebd306b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Địa chỉ IPv6 có độ dài bao nhiêu bit?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 32 bit"
+            },
+            {
+              "letter": "b",
+              "text": "b. 64 bit"
+            },
+            {
+              "letter": "c",
+              "text": "c. 128 bit"
+            },
+            {
+              "letter": "d",
+              "text": "d. 256 bit"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Trong IPv6, loại địa chỉ nào được sử dụng để gửi dữ liệu đến tất cả các thiết bị trong một nhóm?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Unicast"
+            },
+            {
+              "letter": "b",
+              "text": "b. Multicast"
+            },
+            {
+              "letter": "c",
+              "text": "c. Anycast"
+            },
+            {
+              "letter": "d",
+              "text": "d. Broadcast"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Địa chỉ nào sau đây là một địa chỉ link-local trong IPv6?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 2001:db8::1"
+            },
+            {
+              "letter": "b",
+              "text": "b. fe80::1"
+            },
+            {
+              "letter": "c",
+              "text": "c. ff02::1"
+            },
+            {
+              "letter": "d",
+              "text": "d. ::1"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Lệnh nào trên router Cisco được sử dụng để gán địa chỉ IPv6 tĩnh cho một giao diện?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ip address ipv6 2001:db8::1/64"
+            },
+            {
+              "letter": "b",
+              "text": "b. set ipv6 address 2001:db8::1/64"
+            },
+            {
+              "letter": "c",
+              "text": "c. ipv6 address 2001:db8::1/64"
+            },
+            {
+              "letter": "d",
+              "text": "d. assign ipv6 2001:db8::1/64"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Variable length subnet masking",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@05a97144b73d4ac2acad43a4a68fc9b1?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Kỹ thuật VLSM (Variable Length Subnet Masking) cho phép thực hiện điều gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chia mạng con với các subnet có cùng kích thước"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chia mạng con với subnet có kích thước khác nhau tùy theo nhu cầu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm số lượng subnet có thể tạo ra"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ áp dụng cho IPv6"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Một công ty có mạng 192.168.1.0/24 và cần chia thành 3 subnet với số host lần lượt là 100, 50, 25. Subnet mask phù hợp cho mạng con lớn nhất là gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. /25"
+            },
+            {
+              "letter": "b",
+              "text": "b. /26"
+            },
+            {
+              "letter": "c",
+              "text": "c. /27"
+            },
+            {
+              "letter": "d",
+              "text": "d. /28"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Khi sử dụng VLSM, địa chỉ mạng nào nên được cấp phát trước?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Subnet có số lượng host nhỏ nhất"
+            },
+            {
+              "letter": "b",
+              "text": "b. Subnet có số lượng host lớn nhất"
+            },
+            {
+              "letter": "c",
+              "text": "c. Subnet có địa chỉ cao nhất"
+            },
+            {
+              "letter": "d",
+              "text": "d. Subnet bất kỳ, không ảnh hưởng đến thiết kế"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Cấu hình địa chỉ IPv6 trên Server",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@d900bf0e5a084869bec19416abb76c2c?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Trong Windows Server, lệnh nào được sử dụng để kiểm tra cấu hình địa chỉ IPv6 của máy chủ?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. show ipv6"
+            },
+            {
+              "letter": "b",
+              "text": "b. ipconfig /all"
+            },
+            {
+              "letter": "c",
+              "text": "c. netstat -6"
+            },
+            {
+              "letter": "d",
+              "text": "d. tracert6"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Khi cấu hình địa chỉ IPv6 tĩnh trên máy chủ Linux, file nào thường được chỉnh sửa?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. /etc/network/interfaces"
+            },
+            {
+              "letter": "b",
+              "text": "b. /etc/sysconfig/network-scripts/ifcfg-eth0"
+            },
+            {
+              "letter": "c",
+              "text": "c. /etc/ipv6.conf"
+            },
+            {
+              "letter": "d",
+              "text": "d. /etc/hosts"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Để thêm một địa chỉ IPv6 tĩnh 2001:db8::10/64 trên máy chủ Windows, lệnh nào là đúng?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. set ipv6 address 2001:db8::10/64"
+            },
+            {
+              "letter": "b",
+              "text": "b. netsh interface ipv6 add address \"Ethernet\" 2001:db8::10/64"
+            },
+            {
+              "letter": "c",
+              "text": "c. ipv6 config address 2001:db8::10/64"
+            },
+            {
+              "letter": "d",
+              "text": "d. ipconfig /set6 2001:db8::10/64"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Địa chỉ ipv6",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@a6156c4afde34d0689bd99a9d79f02ff?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Hãy cho biết mô tả nào nói về cơ chế Dual-Stack",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cho phép 2 nút mạng dùng chung IPv6"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cho phép 2 loại Gloabal Unicast và Link-Local cùng hoạt động trên một nút mạng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cho phép IPv4 và IPv6 cùng hoạt động trên một cổng mạng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Hãy cho biết mô tả nào nói về cơ chế NAT trong IPv6",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cho phép thiết bị hỗ trợ IPv6 giao tiếp với thiết bị hỗ trợ IPv4"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cho phép chuyển Gloabal Unicast thành Link-Local"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cho phép chuyển Link-Local thành Gloabal Unicast"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Hãy cho biết mô tả nào nói về cơ chế Tunnelling trong IPv6",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cho phép IPv4 và IPv6 cùng hoạt động trên một cổng mạng"
+            },
+            {
+              "letter": "b",
+              "text": "b.Sử dụng cơ sở hạ tầng mạng IPv4 để truyền tải gói tin IPv6"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cho phép chuyển Link-Local thành Gloabal Unicast"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Hãy cho biết IPv4 giao tiếp được với IPv6 là nhờ kỹ thuật nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Dual-stack"
+            },
+            {
+              "letter": "b",
+              "text": "b.Tunnelling"
+            },
+            {
+              "letter": "c",
+              "text": "c. NAT"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Từ một địa chỉ mạng thuộc IPv6, có thể chia tối đa bao nhiêu mạng con ?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a.8192"
+            },
+            {
+              "letter": "b",
+              "text": "b.16384"
+            },
+            {
+              "letter": "c",
+              "text": "c. 32768"
+            },
+            {
+              "letter": "d",
+              "text": "d. 65536"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Phân tích chức năng của giao thức tcp và udp",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@3b869f59e69241e79471ec046f3ee6ae?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Điểm khác biệt chính giữa TCP và UDP là gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. TCP đảm bảo truyền dữ liệu tin cậy, UDP không đảm bảo"
+            },
+            {
+              "letter": "b",
+              "text": "b. UDP sử dụng bắt tay ba bước, TCP thì không"
+            },
+            {
+              "letter": "c",
+              "text": "c. TCP chỉ được dùng cho truyền phát video, UDP thì không"
+            },
+            {
+              "letter": "d",
+              "text": "d. UDP yêu cầu xác nhận từ máy nhận, TCP thì không"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Trong giao thức TCP, cơ chế nào giúp đảm bảo dữ liệu được truyền đầy đủ và theo đúng thứ tự?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không có cơ chế nào đảm bảo điều này"
+            },
+            {
+              "letter": "b",
+              "text": "b. UDP Checksum"
+            },
+            {
+              "letter": "c",
+              "text": "c. Số thứ tự (Sequence Number) và cơ chế xác nhận (ACK)"
+            },
+            {
+              "letter": "d",
+              "text": "d. TTL (Time To Live)"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Ứng dụng nào sau đây thường sử dụng UDP thay vì TCP?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Truyền file qua FTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. Truyền email qua SMTP"
+            },
+            {
+              "letter": "c",
+              "text": "c. Truyền video trực tuyến (Streaming)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Truy cập website qua HTTP"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Chia mạng con",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@06374f4a84b84c27a7e0f2e948514e63?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Subnet mask 255.255.255.240 tương ứng với bao nhiêu địa chỉ IP trong mỗi mạng con?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 16"
+            },
+            {
+              "letter": "b",
+              "text": "b. 30"
+            },
+            {
+              "letter": "c",
+              "text": "c. 14"
+            },
+            {
+              "letter": "d",
+              "text": "d. 32"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Khi chia địa chỉ 192.168.1.0/24 thành 4 mạng con có kích thước bằng nhau, subnet mask mới sẽ là gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 255.255.255.128"
+            },
+            {
+              "letter": "b",
+              "text": "b. 255.255.255.192"
+            },
+            {
+              "letter": "c",
+              "text": "c. 255.255.255.224"
+            },
+            {
+              "letter": "d",
+              "text": "d. 255.255.255.240"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Địa chỉ 172.16.10.35/29 thuộc subnet nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 172.16.10.0/29"
+            },
+            {
+              "letter": "b",
+              "text": "b. 172.16.10.32/29"
+            },
+            {
+              "letter": "c",
+              "text": "c. 172.16.10.40/29"
+            },
+            {
+              "letter": "d",
+              "text": "d. 172.16.10.8/29"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Một công ty có mạng 10.0.0.0/8 và cần chia thành ít nhất 500 mạng con. Độ dài prefix mới cần sử dụng là bao nhiêu?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. /10"
+            },
+            {
+              "letter": "b",
+              "text": "b. /12"
+            },
+            {
+              "letter": "c",
+              "text": "c. /14"
+            },
+            {
+              "letter": "d",
+              "text": "d. /17"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Thiết lập mô hình kết nối",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@360993b46c434c3dab930c1f70fb1fe5?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Tầng Transport trong mô hình OSI chịu trách nhiệm gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Định tuyến gói tin giữa các mạng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Đảm bảo truyền dữ liệu tin cậy giữa các thiết bị"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mã hóa và nén dữ liệu trước khi gửi"
+            },
+            {
+              "letter": "d",
+              "text": "d. Gán địa chỉ IP cho thiết bị đầu cuối"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Giao thức nào trong tầng Transport cung cấp dịch vụ truyền dữ liệu không tin cậy nhưng có tốc độ cao?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. TCP"
+            },
+            {
+              "letter": "b",
+              "text": "b. UDP"
+            },
+            {
+              "letter": "c",
+              "text": "c. ICMP"
+            },
+            {
+              "letter": "d",
+              "text": "d. ARP"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Khi một kết nối TCP được thiết lập, quá trình bắt tay ba bước (Three-way Handshake) bao gồm các giai đoạn nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SYN → SYN-ACK → ACK"
+            },
+            {
+              "letter": "b",
+              "text": "b. SYN → ACK → SYN-ACK"
+            },
+            {
+              "letter": "c",
+              "text": "c. SYN-ACK → SYN → ACK"
+            },
+            {
+              "letter": "d",
+              "text": "d. ACK → SYN → FIN"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Tạo lưu lượng mạng (trong chế độ mô phỏng)",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@10a375ccdc694e82bef758bb53b65cbe?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Trong phần mềm mô phỏng như Cisco Packet Tracer, chế độ nào cho phép quan sát cách gói tin di chuyển trong mạng?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Realtime Mode"
+            },
+            {
+              "letter": "b",
+              "text": "b. Simulation Mode"
+            },
+            {
+              "letter": "c",
+              "text": "c. Debug Mode"
+            },
+            {
+              "letter": "d",
+              "text": "d. Capture Mode"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Khi tạo lưu lượng mạng trong chế độ mô phỏng, giao thức nào có thể được sử dụng để kiểm tra khả năng kết nối giữa hai thiết bị?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ICMP (ping)"
+            },
+            {
+              "letter": "b",
+              "text": "b. ARP"
+            },
+            {
+              "letter": "c",
+              "text": "c. FTP"
+            },
+            {
+              "letter": "d",
+              "text": "d. DHCP"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong Cisco Packet Tracer, công cụ nào cho phép theo dõi từng bước của gói tin khi nó di chuyển trong mạng?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Command Line Interface (CLI)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Event List"
+            },
+            {
+              "letter": "c",
+              "text": "c. NetFlow"
+            },
+            {
+              "letter": "d",
+              "text": "d. Firewall Analyzer"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Khi mô phỏng một mạng, loại lưu lượng nào có thể được tạo ra để kiểm tra khả năng truyền dữ liệu giữa máy chủ và máy trạm?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chỉ lưu lượng ICMP"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chỉ lưu lượng UDP"
+            },
+            {
+              "letter": "c",
+              "text": "c. Lưu lượng ICMP, TCP, UDP, HTTP, FTP,..."
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ lưu lượng HTTP"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Cấu hình và kiểm tra dịch vụ web",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@29de63854fee4d548b2833b0c58b489a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Trong máy chủ web Apache, file cấu hình chính thường nằm ở đâu trên hệ điều hành Linux?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. /var/www/html/httpd.conf"
+            },
+            {
+              "letter": "b",
+              "text": "b. /etc/apache2/apache2.conf hoặc /etc/httpd/conf/httpd.conf"
+            },
+            {
+              "letter": "c",
+              "text": "c. /usr/local/apache/config.conf"
+            },
+            {
+              "letter": "d",
+              "text": "d. /opt/webserver/apache.conf"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Lệnh nào trên Windows có thể được sử dụng để kiểm tra xem máy chủ web có đang lắng nghe trên cổng 80 hay không?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ping localhost"
+            },
+            {
+              "letter": "b",
+              "text": "b. tracert 127.0.0.1"
+            },
+            {
+              "letter": "c",
+              "text": "c. ipconfig /all"
+            },
+            {
+              "letter": "d",
+              "text": "d. netstat -an | find \":80\""
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Khi kiểm tra dịch vụ web, công cụ nào sau đây có thể được sử dụng để gửi yêu cầu HTTP đến máy chủ?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ping"
+            },
+            {
+              "letter": "b",
+              "text": "b. tracert"
+            },
+            {
+              "letter": "c",
+              "text": "c. curl hoặc wget"
+            },
+            {
+              "letter": "d",
+              "text": "d. nslookup"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Cấu hình và kiểm tra dịch vụ thư điện tử trên email servers",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@b4f22650135340ff9450e911ffcf36a8?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Giao thức nào được sử dụng để gửi email từ client đến máy chủ email?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SMTP (Simple Mail Transfer Protocol)"
+            },
+            {
+              "letter": "b",
+              "text": "b. POP3 (Post Office Protocol 3)"
+            },
+            {
+              "letter": "c",
+              "text": "c. IMAP (Internet Message Access Protocol)"
+            },
+            {
+              "letter": "d",
+              "text": "d. FTP (File Transfer Protocol)"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Để kiểm tra xem máy chủ email có đang lắng nghe trên cổng SMTP hay không, lệnh nào có thể được sử dụng trên Linux?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ping mail.example.com"
+            },
+            {
+              "letter": "b",
+              "text": "b. telnet mail.example.com 25"
+            },
+            {
+              "letter": "c",
+              "text": "c. netstat -r"
+            },
+            {
+              "letter": "d",
+              "text": "d. dig MX example.com"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Khi cấu hình dịch vụ nhận email trên máy chủ, hai giao thức nào thường được sử dụng?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SMTP và FTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. HTTP và SNMP"
+            },
+            {
+              "letter": "c",
+              "text": "c. POP3 và IMAP"
+            },
+            {
+              "letter": "d",
+              "text": "d. ICMP và ARP"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Mô hình thiết lập kết nối",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@acd64d160a494955a32d0de95217f0bf?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Giao thức nào sau đây được sử dụng để truyền tải trang web từ máy chủ đến trình duyệt của người dùng?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SMTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. HTTP/HTTPS"
+            },
+            {
+              "letter": "c",
+              "text": "c. FTP"
+            },
+            {
+              "letter": "d",
+              "text": "d. SNMP"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Khi một client muốn gửi email đến máy chủ mail, giao thức nào sẽ được sử dụng?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SMTP (Simple Mail Transfer Protocol)"
+            },
+            {
+              "letter": "b",
+              "text": "b. POP3 (Post Office Protocol 3)"
+            },
+            {
+              "letter": "c",
+              "text": "c. IMAP (Internet Message Access Protocol)"
+            },
+            {
+              "letter": "d",
+              "text": "d. DNS (Domain Name System)"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Khi người dùng muốn tải email từ máy chủ về thiết bị của mình, họ có thể sử dụng giao thức nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. HTTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. SMTP"
+            },
+            {
+              "letter": "c",
+              "text": "c. SNMP"
+            },
+            {
+              "letter": "d",
+              "text": "d. POP3 hoặc IMAP"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "DHCP - DNS Servers",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@1774808862a2407fa303e8d3d15c4586?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Dịch vụ DHCP (Dynamic Host Configuration Protocol) có chức năng gì trong mạng?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cấp phát địa chỉ IP tự động cho các thiết bị trong mạng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Dịch địa chỉ IP sang tên miền"
+            },
+            {
+              "letter": "c",
+              "text": "c. Kiểm tra tính toàn vẹn của dữ liệu truyền tải"
+            },
+            {
+              "letter": "d",
+              "text": "d. Định tuyến gói tin giữa các mạng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Giao thức DNS (Domain Name System) hoạt động trên cổng mặc định nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 53/TCP"
+            },
+            {
+              "letter": "b",
+              "text": "b. 53/UDP và 53/TCP"
+            },
+            {
+              "letter": "c",
+              "text": "c. 67/UDP"
+            },
+            {
+              "letter": "d",
+              "text": "d. 80/TCP"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Lệnh nào có thể được sử dụng trên Windows để kiểm tra phân giải tên miền bằng DNS?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ping"
+            },
+            {
+              "letter": "b",
+              "text": "b. tracert"
+            },
+            {
+              "letter": "c",
+              "text": "c. nslookup"
+            },
+            {
+              "letter": "d",
+              "text": "d. netstat"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "FTP Servers",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@97900102ae314f70a28e5e3df351e73c?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Giao thức FTP (File Transfer Protocol) thường sử dụng cổng nào để truyền tải dữ liệu?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 20/UDP và 21/UDP"
+            },
+            {
+              "letter": "b",
+              "text": "b. 20/TCP và 21/TCP"
+            },
+            {
+              "letter": "c",
+              "text": "c. 53/TCP và 53/UDP"
+            },
+            {
+              "letter": "d",
+              "text": "d. 443/TCP"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Chế độ nào của FTP yêu cầu client mở cổng để nhận dữ liệu từ server?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Active Mode"
+            },
+            {
+              "letter": "b",
+              "text": "b. Passive Mode"
+            },
+            {
+              "letter": "c",
+              "text": "c. Secure Mode"
+            },
+            {
+              "letter": "d",
+              "text": "d. Anonymous Mode"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Lệnh nào trên Windows có thể được sử dụng để kết nối đến một máy chủ FTP từ dòng lệnh?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. scp"
+            },
+            {
+              "letter": "b",
+              "text": "b. sftp"
+            },
+            {
+              "letter": "c",
+              "text": "c. ftp"
+            },
+            {
+              "letter": "d",
+              "text": "d. curl"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Cấu hình secure passwords và ssh",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@e3dad4e1e47a4dc1b6f158dcec914902?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Lệnh nào trên thiết bị Cisco giúp mã hóa mật khẩu để tránh hiển thị ở dạng văn bản thuần túy trong cấu hình?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. enable secret encryption"
+            },
+            {
+              "letter": "b",
+              "text": "b. password encrypt"
+            },
+            {
+              "letter": "c",
+              "text": "c. service password-encryption"
+            },
+            {
+              "letter": "d",
+              "text": "d. encrypt all passwords"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Giao thức nào được sử dụng để thiết lập kết nối từ xa an toàn với switch hoặc router?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Telnet"
+            },
+            {
+              "letter": "b",
+              "text": "b. SSH (Secure Shell)"
+            },
+            {
+              "letter": "c",
+              "text": "c. FTP"
+            },
+            {
+              "letter": "d",
+              "text": "d. SNMP"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Khi cấu hình SSH trên thiết bị Cisco, lệnh nào dùng để đặt tên miền bắt buộc trước khi tạo khóa mã hóa RSA?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. set domain-name"
+            },
+            {
+              "letter": "b",
+              "text": "b. ip domain-name"
+            },
+            {
+              "letter": "c",
+              "text": "c. configure domain ssh"
+            },
+            {
+              "letter": "d",
+              "text": "d. enable ssh domain"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Lệnh nào dùng để chỉ cho phép SSH và vô hiệu hóa Telnet trên các dòng VTY (Virtual Terminal)?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. transport input telnet"
+            },
+            {
+              "letter": "b",
+              "text": "b. enable ssh only"
+            },
+            {
+              "letter": "c",
+              "text": "c. transport input ssh"
+            },
+            {
+              "letter": "d",
+              "text": "d. ip ssh enable"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Xử lý sự cố",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@ab472c1946c04c3cb68c9e2ea35156d7?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Khi một máy tính trong mạng không thể nhận địa chỉ IP từ DHCP server, bước kiểm tra đầu tiên là gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Kiểm tra kết nối vật lý và cài đặt DHCP trên client"
+            },
+            {
+              "letter": "b",
+              "text": "b. Thay đổi địa chỉ MAC của máy tính"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cấu hình lại firewall của router"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cài đặt lại hệ điều hành"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Trong một mạng vừa và nhỏ, nếu người dùng không thể truy cập Internet nhưng vẫn có thể ping đến router, nguyên nhân có thể là gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cáp mạng bị lỗi"
+            },
+            {
+              "letter": "b",
+              "text": "b. DNS server không hoạt động"
+            },
+            {
+              "letter": "c",
+              "text": "c. Card mạng của máy bị hỏng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Địa chỉ IP của router bị thay đổi"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Công cụ nào sau đây có thể được sử dụng để kiểm tra đường đi của gói tin khi khắc phục sự cố mạng?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ipconfig"
+            },
+            {
+              "letter": "b",
+              "text": "b. traceroute (Linux) / tracert (Windows)"
+            },
+            {
+              "letter": "c",
+              "text": "c. netstat"
+            },
+            {
+              "letter": "d",
+              "text": "d. arp -a"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        }
+      ]
+    }
+  ]
+}

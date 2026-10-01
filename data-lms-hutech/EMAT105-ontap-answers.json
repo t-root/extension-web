@@ -1,0 +1,3435 @@
+{
+  "version": 1,
+  "courseCode": "EMAT105",
+  "exportedAt": "2026-09-17T18:36:56.238Z",
+  "answers": [
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@67e410566ce240db8954aff60722f30a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Ta có giá trị của a là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 0,05"
+            },
+            {
+              "letter": "b",
+              "text": "B. 0,15"
+            },
+            {
+              "letter": "c",
+              "text": "C. 0,10"
+            },
+            {
+              "letter": "d",
+              "text": "D. 0,20"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Ta có giá trị của là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 4,5"
+            },
+            {
+              "letter": "b",
+              "text": "B. 5,15"
+            },
+            {
+              "letter": "c",
+              "text": "C. 3,10"
+            },
+            {
+              "letter": "d",
+              "text": "D. 6,20"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Ta có giá trị của \\(E_x (x)\\) là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 4,5"
+            },
+            {
+              "letter": "b",
+              "text": "B. 5,15"
+            },
+            {
+              "letter": "c",
+              "text": "C. 3,10"
+            },
+            {
+              "letter": "d",
+              "text": "D. 3,45"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "4) Cho hàm số \\(f(x,y)= \\begin {cases} x+y & khi x \\in [0,1], y \\in [0,1]\\\\ 0 & khi x \\notin [0,1], y \\notin [0,1] \\end{cases}\\) . Giá trị P(X+Y<1) đúng là",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A . 1/2"
+            },
+            {
+              "letter": "b",
+              "text": "B. 1/4"
+            },
+            {
+              "letter": "c",
+              "text": "C. 2/3"
+            },
+            {
+              "letter": "d",
+              "text": "D. 1/3"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "\\(f(x,y)= \\begin {cases} x+y & khi x \\in [0,1], y \\in [0,1]\\\\ 0 & khi x \\notin [0,1], y \\notin [0,1] \\end{cases}\\) . Ta có hàm mật độ xác suất của X",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A . y+1/2"
+            },
+            {
+              "letter": "b",
+              "text": "B. x+1/2"
+            },
+            {
+              "letter": "c",
+              "text": "C. \\(\\frac{x^2}{2} + xy\\)"
+            },
+            {
+              "letter": "d",
+              "text": "D. \\(\\frac{y^2}{2} + xy\\)"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "\\(f(x,y)= \\begin {cases} \\frac{6}{7}(x^2 + \\frac{xy}{2}) & khi x \\in [0,1], y \\in [0,2]\\\\ 0 & khi x \\notin [0,1], y \\notin [0,2] \\end{cases}\\) . Hàm mật độ xác suất của X",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A . y + 1/2"
+            },
+            {
+              "letter": "b",
+              "text": "B. x + 1/2"
+            },
+            {
+              "letter": "c",
+              "text": "C. \\(\\frac{x^2}{2} + xy\\)"
+            },
+            {
+              "letter": "d",
+              "text": "D. \\(\\frac{3y + 4}{14}\\)"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@e8d3f9c0db3745779df7b9587ae3ac1a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1/13"
+            },
+            {
+              "letter": "b",
+              "text": "b. 4/52"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1/52"
+            },
+            {
+              "letter": "d",
+              "text": "d. 13/52"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 1. Một bộ bài gồm 52 lá. Xác suất để rút ra được lá bài là một quân bài rô (bất kỳ quân bài nào thuộc chất rô) là:\na. 1/13\nb. 4/52\nc. 1/52\nd. 13/52\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. {0, 1}"
+            },
+            {
+              "letter": "b",
+              "text": "b. {S, N}"
+            },
+            {
+              "letter": "c",
+              "text": "c. {1, 2, 3}"
+            },
+            {
+              "letter": "d",
+              "text": "d. {a, b, c}"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1/15"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1/3"
+            },
+            {
+              "letter": "c",
+              "text": "c. 3/15"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1/6"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 3. Từ hộp có 6 bi xanh và 4 bi đỏ, lấy ngẫu nhiên 2 bi. Xác suất lấy được 2 bi xanh là:\na. 1/15\nb. 1/3\nc. 3/15\nd. 1/6\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1/9"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1/6"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1/12"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1/18"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 4. Tung 2 con xúc xắc, xác suất tổng số chấm là 5 là:\na. 1/9\nb. 1/6\nc. 1/12\nd. 1/18\nsai",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 3/5"
+            },
+            {
+              "letter": "b",
+              "text": "b. 5/15"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1/3"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1/15"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1/2"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1/3"
+            },
+            {
+              "letter": "c",
+              "text": "c. 5/12"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2/3"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 6. Tung 2 con xúc xắc. Xác suất để tổng số chấm của hai con là một số lẻ là:\na. 1/2\nb. 1/3\nc. 5/12\nd. 2/3\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 20/42"
+            },
+            {
+              "letter": "b",
+              "text": "B. 15/42"
+            },
+            {
+              "letter": "c",
+              "text": "C. 25/42"
+            },
+            {
+              "letter": "d",
+              "text": "D. 30/42"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 7. Một hộp có 6 chính phẩm và 4 phế phẩm. Lấy ngẫu nhiên không hoàn lại 3 sản phẩm. Xác suất để có đúng 1 phế phẩm là:\nA. 20/42\nB. 15/42\nC. 25/42\nD. 30/42\nsai",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 8/17"
+            },
+            {
+              "letter": "b",
+              "text": "b. 9/17"
+            },
+            {
+              "letter": "c",
+              "text": "c. 11/17"
+            },
+            {
+              "letter": "d",
+              "text": "d. 13/17"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 8. Một hộp có 8 bi đỏ, 6 bi xanh và 4 bi vàng. Lấy ngẫu nhiên 2 bi. Xác suất để 2 bi có màu khác nhau là:\na. 8/17\nb. 9/17\nc. 11/17\nd. 13/17\nsai",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1/8"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2/8"
+            },
+            {
+              "letter": "c",
+              "text": "c. 3/8"
+            },
+            {
+              "letter": "d",
+              "text": "d. 4/8"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 9. Tung 3 đồng xu đồng thời. Xác suất để cả 3 đồng xu xuất hiện cùng một mặt là:\na. 1/8\nb. 2/8\nc. 3/8\nd. 4/8\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 4/15"
+            },
+            {
+              "letter": "b",
+              "text": "b. 3/10"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1/5"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2/5"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "a"
+        },
+        {
+          "question": 7,
+          "answer": "d"
+        },
+        {
+          "question": 8,
+          "answer": "b"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@ece03abfe78c416f8d0af622fb29b7f5?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1. Một hộp có 10 bóng đèn, trong đó có 3 bóng bị hỏng. Lấy ngẫu nhiên 4 bóng đèn. Tính xác suất có đúng 2 bóng đèn hỏng trong 4 bóng lấy ra.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.2647"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.3"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.5"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.4"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2. Xác suất để một máy sản xuất ra phế phẩm là 0.02. Kiểm tra ngẫu nhiên 50 sản phẩm. Tính xác suất có ít nhất 1 phế phẩm.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1 - (0.98)⁵⁰"
+            },
+            {
+              "letter": "b",
+              "text": "b. (0.98)⁵⁰"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.02"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1 - (0.02)⁵⁰"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3. Một tổng đài điện thoại nhận được trung bình 6 cuộc gọi mỗi phút. Tính xác suất tổng đài nhận được 4 cuộc gọi trong 1 phút.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.1339"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.1680"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.0446"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.0892"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4. Cho biến ngẫu nhiên X có phân phối chuẩn với trung bình 75 và độ lệch chuẩn 10. Tính xác suất X nhận giá trị từ 65 đến 85.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.6827"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.9545"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.3413"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.4772"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5. Trung bình mỗi giờ có 4 khách hàng đến một cửa hàng. Tính xác suất có ít nhất 2 khách hàng đến trong 1 giờ.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.7619"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.9084"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.0916"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.2381"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Tìm giá trị t sao cho P(Z < t) = 0.975.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1.96"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1.645"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2.33"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2.58"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Tìm giá trị z sao cho P(-t < Z > t) = 0.95.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1.645"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1.96"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2.33"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2.58"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8. Một công ty có 80% sản phẩm đạt tiêu chuẩn. Chọn ngẫu nhiên 10 sản phẩm. Tính kỳ vọng số sản phẩm đạt tiêu chuẩn.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 8"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1.6"
+            },
+            {
+              "letter": "d",
+              "text": "d. 6.4"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9. Cho Z ~ N(0,1). Tính P(Z > 1.28).",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.1"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.9"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.4"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.6"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10. Cho biến ngẫu nhiên X ~ N(10,0.01). Tính P(9.9 < X > 10.01).",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.9545"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.6827"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.9973"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.3413"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "a"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        },
+        {
+          "question": 8,
+          "answer": "a"
+        },
+        {
+          "question": 9,
+          "answer": "a"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@87fd8e2b06bc4ccab766b9ea5dec1407?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1. Một trò chơi có hai cửa: cửa A và cửa B. Mỗi lần chọn cửa A có xác suất thắng là 0.4 và cửa B có xác suất thắng là 0.5. Bạn chọn cửa A. Xác suất không thắng là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.4"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.6"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.5"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.1"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2. Một túi có 4 viên bi đỏ, 3 viên bi xanh và 2 viên bi vàng. Chọn ngẫu nhiên 3 viên bi. Xác suất để ít nhất một viên bi đỏ là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 4/9"
+            },
+            {
+              "letter": "b",
+              "text": "b. 5/9"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2/9"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1/9"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3. Hai người chơi xí ngầu. Mỗi người ném một viên xí ngầu. Xác suất để ít nhất một trong hai người ra mặt 6 là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1/6"
+            },
+            {
+              "letter": "b",
+              "text": "b. 11/36"
+            },
+            {
+              "letter": "c",
+              "text": "c. 5/36"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1/36"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4. Hộp thứ nhất có 5 chính phẩm và 3 phế phẩm. Hộp thứ hai có 3 chính phẩm và 2 phế phẩm. Lấy ngẫu nhiên từ mỗi hộp ra 1 sản phẩm. Tính xác suất lấy được 2 chính phẩm.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.25"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.36"
+            },
+            {
+              "letter": "c",
+              "text": "c. 3/8"
+            },
+            {
+              "letter": "d",
+              "text": "d. 17/40"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5. Hộp thứ nhất có 7 bi đỏ, 3 bi xanh. Hộp thứ hai có 5 bi đỏ, 5 bi xanh. Lấy ngẫu nhiên từ mỗi hộp 1 viên bi. Tính xác suất lấy được 2 bi đỏ.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.35"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.7"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.5"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.15"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6. Điều kiện để áp dụng công thức cộng xác suất P(A+B) = P(A) + P(B) là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. A và B là hai biến cố bất kỳ."
+            },
+            {
+              "letter": "b",
+              "text": "b. A và B là hai biến cố độc lập."
+            },
+            {
+              "letter": "c",
+              "text": "c. A và B là hai biến cố xung khắc."
+            },
+            {
+              "letter": "d",
+              "text": "d. A và B là hai biến cố đối nhau."
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7. Một hộp có 5 bi xanh và 3 bi đỏ. Lấy ngẫu nhiên 2 bi (không hoàn lại). Tính xác suất lấy được 1 bi xanh và 1 bi đỏ.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 15/28"
+            },
+            {
+              "letter": "b",
+              "text": "b. 15/56"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1/2"
+            },
+            {
+              "letter": "d",
+              "text": "d. 3/8"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8. Xác suất để An giải được một bài toán là 0.7. Xác suất để Bình giải được bài toán đó là 0.8. Tính xác suất để bài toán đó được giải bởi ít nhất một trong hai bạn An hoặc Bình.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.56"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.94"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.44"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.06"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9. Một hộp có 6 bi đỏ và 4 bi xanh. Lấy ngẫu nhiên 2 bi. Tính xác suất lấy được bi thứ hai màu đỏ, biết rằng bi thứ nhất màu xanh (lấy không hoàn lại).",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 6/10"
+            },
+            {
+              "letter": "b",
+              "text": "b. 6/9"
+            },
+            {
+              "letter": "c",
+              "text": "c. 4/9"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2/5"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10. Một nhà máy có 3 phân xưởng I, II, III sản xuất lần lượt 25%, 35% và 40% tổng sản phẩm. Tỷ lệ phế phẩm của ba phân xưởng lần lượt là 1%, 2% và 3%. Lấy ngẫu nhiên một sản phẩm. Tính xác suất sản phẩm đó là phế phẩm.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.0205"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.0215"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.06"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.02"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "c"
+        },
+        {
+          "question": 7,
+          "answer": "a"
+        },
+        {
+          "question": 8,
+          "answer": "b"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@ff22f285bdd14deb846856bbbd74c4ac?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 3/8"
+            },
+            {
+              "letter": "b",
+              "text": "b. 8/3"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1/4"
+            },
+            {
+              "letter": "d",
+              "text": "d. 4"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 1. Cho biến ngẫu nhiên X có hàm mật độ xác suất f(x) = kx^2 khi 0 ≤ x ≤ 2 và f(x) = 0 khi x < 0 hoặc x > 2. Giá trị của k là:\na. 3/8\nb. 8/3\nc. 1/4\nd. 4\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1/4"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1/2"
+            },
+            {
+              "letter": "c",
+              "text": "c. 3/4"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Giá trị của Mod(X) là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2"
+            },
+            {
+              "letter": "d",
+              "text": "d. 3"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Giá trị của E(X) là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1.5"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1.6"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1.7"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1.8"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Giá trị của V(X) là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.81"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.9"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1.7"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "a. 0.81\nb. 0.9\nc. 1.7\nd. 2\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 10"
+            },
+            {
+              "letter": "b",
+              "text": "b. 13"
+            },
+            {
+              "letter": "c",
+              "text": "c. 16"
+            },
+            {
+              "letter": "d",
+              "text": "d. 23"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 6. Cho X là biến ngẫu nhiên có E(X) = 5 và Var(X) = 4. Giá trị của E(2X + 3) là:\na. 10\nb. 13\nc. 16\nd. 23\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 2"
+            },
+            {
+              "letter": "b",
+              "text": "b. 25"
+            },
+            {
+              "letter": "c",
+              "text": "c. 16"
+            },
+            {
+              "letter": "d",
+              "text": "d. √5"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 7. Cho X là biến ngẫu nhiên có E(X) = 5 và Var(X) = 4. Độ lệch chuẩn của X là:\na. 2\nb. 25\nc. 16\nd. √5\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 9"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1"
+            },
+            {
+              "letter": "c",
+              "text": "c. 8"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Biểu thức P(a≤X≤b) tương đương với:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. F(b) - F(a)"
+            },
+            {
+              "letter": "b",
+              "text": "b. F(a) - F(b)"
+            },
+            {
+              "letter": "c",
+              "text": "c. F(b) + F(a)"
+            },
+            {
+              "letter": "d",
+              "text": "d. F(a)·F(b)"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Giá trị của Med(X) là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0."
+            },
+            {
+              "letter": "b",
+              "text": "b. 1."
+            },
+            {
+              "letter": "c",
+              "text": "c. 2."
+            },
+            {
+              "letter": "d",
+              "text": "d. 3."
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "a"
+        },
+        {
+          "question": 8,
+          "answer": "c"
+        },
+        {
+          "question": 9,
+          "answer": "a"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@9f00a1673f82470191aa42e9174e02bd?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "1/ Khảo sát thu nhập X (triệu đồng/tháng) của 458 nhân viên văn phòng được chọn ngẫu nhiên trong thành phố, ta được trung bình (thu nhập) là 5,3755 triệu đồng/tháng và độ lệch chuẩn là 1,73 triệu đồng/tháng. Với độ tin cậy 95% hãy ước lượng khoảng đối xứng cho thu nhập trung bình của một nhân viên văn phòng trong thành phố.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (5,217 ; 5,534)"
+            },
+            {
+              "letter": "b",
+              "text": "b. (5,391 ; 5,872)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (4,992 ; 5,956)"
+            },
+            {
+              "letter": "d",
+              "text": "d. (5,028 ; 5,688)"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "2/ Nhà trường muốn đánh giá số giờ tự học của sinh viên trong tuần. Khảo sát 236 sinh viên, nhận được số giờ tự học trung bình là 5,58 giờ và độ lệch chuẩn là 2,34 giờ. Hãy ước lượng khoảng đối xứng cho số giờ tự học trung bình của sinh viên trong tuần với độ tin cậy 95% .",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (5,28 ; 5,88)"
+            },
+            {
+              "letter": "b",
+              "text": "b. (5,31 ; 5,96)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (5,27 ; 5,78)"
+            },
+            {
+              "letter": "d",
+              "text": "d. (5,37 ; 6,02)"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "3/ Chọn ngẫu nhiên 400 trái của một loại trái cây để khảo sát, ta được trọng lượng trung bình là 397,5 gram và độ lệch chuẩn là 114,1329 gram. Hãy ước lượng khoảng đối xứng cho trọng lượng trung bình của loại trái cây này với độ tin cậy 95%.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (386,315; 408,685)"
+            },
+            {
+              "letter": "b",
+              "text": "b. (376,315; 408,685)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (386,315; 410,685)"
+            },
+            {
+              "letter": "d",
+              "text": "d. (376,315; 410,685)"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "4/ Khảo sát ngẫu nhiên 100 nhân viên của một công ty ta được thu nhập trung bình là 9,2 triệu đồng/tháng và độ lệch chuẩn là 3,6459 triệu đồng/tháng. Hãy ước lượng khoảng đối xứng cho thu nhập trung bình của một nhân viên với độ tin cậy 95%.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. [2,909; 3,090]"
+            },
+            {
+              "letter": "b",
+              "text": "b. [6,231; 7,455]"
+            },
+            {
+              "letter": "c",
+              "text": "c. [7,982; 8,781]"
+            },
+            {
+              "letter": "d",
+              "text": "d. [8,485; 9,915]"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "5/ Độ dài của một chi tiết máy được sản xuất trên một dây chuyền tự động. Khảo sát 50 chi tiết máy do dây chuyền này sản xuất, ta được độ dài trung bình là 25,15cm và độ lệch chuẩn là 1,21cm. Với độ tin cậy 95%, hãy xác định khoảng ước lượng đối xứng dành cho độ dài trung bình của chi tiết máy được sản xuất từ dây chuyền trên.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (23,8294; 26,4706)"
+            },
+            {
+              "letter": "b",
+              "text": "b. (24,8146; 25,4854)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (23,1337; 27,1663)"
+            },
+            {
+              "letter": "d",
+              "text": "d. (22,3487; 28,3481)"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "6/ Ở một trang trại người ta cân thử 145 trái của một loại trái cây đang lúc thu hoạch, được trọng lượng trung bình là 255,5172gram và độ lệch chuẩn là 23,5092gram. Hãy ước lượng khoảng đối xứng cho trọng lượng trung bình của loại trái cây trên với độ tin cậy 95%.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (251,7; 259,3)"
+            },
+            {
+              "letter": "b",
+              "text": "b. (247,7; 260,9)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (249,8; 261,1)"
+            },
+            {
+              "letter": "d",
+              "text": "d. (253,7; 257,9)"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "7/ Ở một nhà máy dệt, người ta muốn kiểm tra lỗi trên các cuộn vải thành phẩm. Khảo sát ngẫu nhiên 150 cuộn vải, ta được số lỗi trung bình là 3,38 với độ lệch chuẩn là 1,604. Hãy ước lượng số lỗi trung bình của một cuộn vải ở nhà máy trên với độ tin cậy 95%.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 3,5623 ≤ μ ≤ 3, 2566"
+            },
+            {
+              "letter": "b",
+              "text": "b. 3, 4065 ≤ μ ≤ 3, 7642"
+            },
+            {
+              "letter": "c",
+              "text": "c. 3,1233 ≤ μ ≤ 3, 6367"
+            },
+            {
+              "letter": "d",
+              "text": "d. 3,1246 ≤ μ ≤ 3, 6667"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "8/ Để kiểm tra tuổi thọ của bóng đèn do nhà máy M sản xuất, người ta khảo sát ngẫu nhiên 256 bóng đèn thì thấy tuổi thọ trung bình là 1587,5 (giờ) với độ lệch chuẩn là 226,8281 (giờ). Hãy ước lượng tuổi thọ trung bình của bóng đèn do nhà máy M sản suất với độ tin cậy 95%.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (1449,724; 1559,714)"
+            },
+            {
+              "letter": "b",
+              "text": "b. (1449,213; 1615,286)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (1349,213; 1615,286)"
+            },
+            {
+              "letter": "d",
+              "text": "d. (1559,714; 1615,286)"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "9/ Thử nghiệm giống lúa A trên đất trồng ở huyện X cho vụ hè thu. Cuối vụ mùa, gặt ngẫu nhiên 187 thửa ruộng trồng giống lúa này ở huyện X, ta được năng suất trung bình là 35,4225 tạ/ha với độ lệch chuẩn là 3,0967 tạ/ha.Với độ tin cậy 95%, hãy ước lượng khoảng đối xứng cho năng suất trung bình của giống lúa A ở huyện X.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (32,3625; 37,7552)"
+            },
+            {
+              "letter": "b",
+              "text": "b. (34,9786; 35,8663)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (33,4246; 36,7264)"
+            },
+            {
+              "letter": "d",
+              "text": "d. (31,8672; 38,4321)"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "10/ Tại một trại nuôi heo, người ta áp dụng thử một loại thuốc bổ sung vào khẩu phần ăn. Sau thời gian 3 tháng, khảo sát 44 con heo đã ăn thức ăn có thuốc, ta được trọng lượng trung bình là 69,1136 (kg) với độ lệch chuẩn là 1,4661 (kg). Với độ tin cậy 95%, hãy ước lượng khoảng đối xứng cho trọng lượng trung bình của heo sau 3 tháng ăn thức ăn có bổ sung thuốc.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (64,68; 73,55)"
+            },
+            {
+              "letter": "b",
+              "text": "b. (68,85; 69,37)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (65,24; 71,48)"
+            },
+            {
+              "letter": "d",
+              "text": "d. (66,72; 73,32)"
+            }
+          ]
+        },
+        {
+          "question": 11,
+          "text": "11/ Khảo sát năng suất của một giống lúa ở 100 hecta tại một tỉnh thành ta được năng suất trung bình là 57,5 tạ/ha với độ lệch chuẩn là 8,3182 tạ/ha~. Cho biết khoảng ước lượng đối xứng của năng suất trung bình của giống lúa trên với độ tin cậy 95%.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (55,3412 ; 58,4571)"
+            },
+            {
+              "letter": "b",
+              "text": "b. (54,7322 ; 59,1659)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (56,8291 ; 57,3191)"
+            },
+            {
+              "letter": "d",
+              "text": "d. (55,8696 ; 59,1304)"
+            }
+          ]
+        },
+        {
+          "question": 12,
+          "text": "12/ Để biết sản lượng của một giống tiêu, chọn ngẫu nhiên 115 cây tiêu ra khảo sát, ta được sản lượng trung bình là 6,6087 kg/cây với độ lệch chuẩn là 2,3571 kg/cây. Khoảng ước lượng đối xứng cho sản lượng trung bình của giống tiêu này với độ tin cậy 95% là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (6,18 ; 7,04)"
+            },
+            {
+              "letter": "b",
+              "text": "b. (6,31 ; 7,97)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (6,5 ; 7,38)"
+            },
+            {
+              "letter": "d",
+              "text": "d. (5,09 ; 7,26)"
+            }
+          ]
+        },
+        {
+          "question": 13,
+          "text": "1/ Khảo sát thu nhập X (triệu đồng/tháng) của 458 nhân viên văn phòng được chọn ngẫu nhiên trong thành phố, người ta thấy có 183 nhân viên có mức thu nhập trung bình. Với độ tin cậy 90%, hãy ước lượng khoảng tin cậy đối xứng cho tỉ lệ nhân viên văn phòng có thu nhập trung bình.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (0,3619; 0,4372)"
+            },
+            {
+              "letter": "b",
+              "text": "b. (0,5484; 0,7356)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (0,5284; 0,7156)"
+            },
+            {
+              "letter": "d",
+              "text": "d. (0,3818; 0,4574)"
+            }
+          ]
+        },
+        {
+          "question": 14,
+          "text": "2/ Để ước lượng tỉ lệ hạt nảy mầm của một giống lúa mới trong môi trường đất phèn, khảo sát 1000 hạt đem gieo trong môi trường đất phèn, thì thấy có 760 hạt nảy mầm.Với độ tin cậy 98% hãy ước lượng khoảng đối xứng cho tỉ lệ hạt nảy mầm của giống lúa này.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (73,87; 78,13)%"
+            },
+            {
+              "letter": "b",
+              "text": "b. (74,35; 77,65)%"
+            },
+            {
+              "letter": "c",
+              "text": "c. (72,85; 79,15)%"
+            },
+            {
+              "letter": "d",
+              "text": "d. (70,42; 82,73)%"
+            }
+          ]
+        },
+        {
+          "question": 15,
+          "text": "3/ Khảo sát ngẫu nhiên 100 áo sơ mi của công ty may mặc M, thì thấy có 18 sản phẩm bị lỗi. Với độ tin cậy 90%, hãy ước lượng khoảng đối xứng cho tỉ lệ áo sơ mi bị lỗi của công ty may mặc M.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (15,84; 20,16)%"
+            },
+            {
+              "letter": "b",
+              "text": "b. (11,66; 24,34)%"
+            },
+            {
+              "letter": "c",
+              "text": "c. (13,63; 22,37)%"
+            },
+            {
+              "letter": "d",
+              "text": "d. (12,87; 23,89)%"
+            }
+          ]
+        },
+        {
+          "question": 16,
+          "text": "4/ Để ước lượng trong hồ có bao nhiêu cá, người ta bắt lên 1000 con, đánh dấu, rồi thả trở lại hồ. Một thời gian sau, bắt lên 100 con thì thấy có 80 con có dấu của lần bắt trước. Hãy ước lượng khoảng đối xứng cho số cá có trong hồ với mức ý nghĩa a = 5%.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. [120; 780]"
+            },
+            {
+              "letter": "b",
+              "text": "b. [1138; 1386]"
+            },
+            {
+              "letter": "c",
+              "text": "c. [678; 870]"
+            },
+            {
+              "letter": "d",
+              "text": "d. [900; 1000]"
+            }
+          ]
+        },
+        {
+          "question": 17,
+          "text": "5/ Nhà trường muốn đánh giá tỉ lệ chăm học của sinh viên (trong một tuần). Khảo sát 236 sinh viên thì thấy có 32 sinh viên chăm học . Hãy ước lượng khoảng đối xứng cho tỉ lệ sinh viên chăm học của trường với độ tin cậy 95%.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (0,087; 0,192)"
+            },
+            {
+              "letter": "b",
+              "text": "b. (0,092; 0,179)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (0,076; 0,204)"
+            },
+            {
+              "letter": "d",
+              "text": "d. (0,077; 0.164)"
+            }
+          ]
+        },
+        {
+          "question": 18,
+          "text": "6/ Để ước lượng tỉ lệ sản phẩm xấu của một kho đồ hộp, người ta kiểm tra ngẫu nhiên 100 hộp thấy có 11 hộp là sản phẩm xấu. Ước lượng khoảng đối xứng cho tỉ lệ sản phẩm xấu với độ tin cậy 94%.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (8.19%; 19,57%)"
+            },
+            {
+              "letter": "b",
+              "text": "b. (13,2%; 21,7%)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (7,3%; 18,7%)"
+            },
+            {
+              "letter": "d",
+              "text": "d. (5,1%; 16,9%)"
+            }
+          ]
+        },
+        {
+          "question": 19,
+          "text": "7/ Khảo sất ngẫu nhiên 100 nhân viên của một công ty, người ta thấy có 20 nhân viên có thu nhập cao. Biết rằng hiện nay công ty có 1000 người đang làm việc, hãy ước lượng khoảng đối xướng cho số người có thu nhập cao hiện nay của công ty với mức ý nghĩa α=5%.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. [122;278]"
+            },
+            {
+              "letter": "b",
+              "text": "b. [141;255]"
+            },
+            {
+              "letter": "c",
+              "text": "c. [167;287]"
+            },
+            {
+              "letter": "d",
+              "text": "d. [115;285]"
+            }
+          ]
+        },
+        {
+          "question": 20,
+          "text": "8/ Ở một trang trại, người ta cân thử 145 trái của một loại trái cây đang lúc thu hoạch thì thấy có 35 trái trọng lượng cao. Với độ tin cậy 95%, hãy xác định khoảng ước lượng đối xứng cho tỉ lệ trái có trọng lượng cao của trang trại này.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (0,0435;0,1237)"
+            },
+            {
+              "letter": "b",
+              "text": "b. (0,2156;0,4235)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (0,1717;0,3110)"
+            },
+            {
+              "letter": "d",
+              "text": "d. (0,1625;0,3725)"
+            }
+          ]
+        },
+        {
+          "question": 21,
+          "text": "9/ Ở một nhà máy dệt, kiểm tra ngẫu nhiên 150 cuộn vải thành phẩm, người ta thấy 19 cuộn có số khuyết tật cao. Hãy ước lượng khoảng cho tỉ lệ cuộn vải có số khuyết tật cao của nhà máy trên với độ tin cây 95%.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (0,0538;0,1973)"
+            },
+            {
+              "letter": "b",
+              "text": "b. (0,0734;0,1799)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (0,0628;0,1624)"
+            },
+            {
+              "letter": "d",
+              "text": "d. (0.0738;0,2183)"
+            }
+          ]
+        },
+        {
+          "question": 22,
+          "text": "10/ Kiểm tra ngẫu nhiên 400 hộp sữa trong kho, thấy có 20 hộp đã quá hạn sử dụng. Hãy ước lượng khoảng đối xứng tỉ lệ hộp sữa đã quá hạn sử dụng có trong kho với mức ý nghĩa là 5%.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (0,1968;0,3032)"
+            },
+            {
+              "letter": "b",
+              "text": "b. (0,0286;0,0714)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (0,4098;0,8632)"
+            },
+            {
+              "letter": "d",
+              "text": "d. (0,1783; 0,5437)"
+            }
+          ]
+        },
+        {
+          "question": 23,
+          "text": "1/ Để ước lượng thu nhập trung bình của công nhân trong một tháng, người ta khảo sát ngẫu nhiên 100 công nhân. Biết độ lệch chuẩn của mẫu là s=4 (triệu đồng/tháng) với độ tin cậy 95%. Để sai số của phép ước lượng trên không quá 0,7 triệu đồng/tháng thì cần khảo sát thêm ít nhất bao nhiêu công nhân nữa?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 26"
+            },
+            {
+              "letter": "b",
+              "text": "b. 126"
+            },
+            {
+              "letter": "c",
+              "text": "c. 74"
+            },
+            {
+              "letter": "d",
+              "text": "d. 174"
+            }
+          ]
+        },
+        {
+          "question": 24,
+          "text": "2/ Nhà trường muốn đánh giá số giờ tự học của sinh viên trong tuần. Khảo sát 236 sinh viên, thấy có 32 sinh viên chăm học. Nếu muốn phép ước lượng khoảng đối xứng cho tỉ lệ sinh viên chăm học đạt được độ chính xác là 0,04 với độ tin cậy 95% thì cần khảo sát thêm ít nhất bao nhiêu sinh viên nữa?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 282"
+            },
+            {
+              "letter": "b",
+              "text": "b. 46"
+            },
+            {
+              "letter": "c",
+              "text": "c. 271"
+            },
+            {
+              "letter": "d",
+              "text": "d. 57"
+            }
+          ]
+        },
+        {
+          "question": 25,
+          "text": "3/ Nhà trường muốn đánh giá số giờ tự học của sinh viên trong tuần. Khảo sát 236 sinh viên, thấy có 32 sinh viên chăm học. Nếu phép ước lượng khoảng đối xứng cho tỉ lệ sinh viên chăm học đạt được độ chính xác là 0,05 thì độ tin cậy của phép ước lượng đó bằng bao nhiêu?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 99,2%"
+            },
+            {
+              "letter": "b",
+              "text": "b. 97,5%"
+            },
+            {
+              "letter": "c",
+              "text": "c. 98,6%"
+            },
+            {
+              "letter": "d",
+              "text": "d. 96,4%"
+            }
+          ]
+        },
+        {
+          "question": 26,
+          "text": "4/ Trọng lượng các bao bột mì tại một cửa hàng lương thực tuân theo quy luật chuẩn. Kiểm tra ngẫu nhiên 25 bao, thấy trọng lượng trung bình là 48 kg và độ lệch chuẩn là 0,5 kg. Ước lượng khoảng đối xứng đối với trọng lượng trung bình của một bao gạo tại của hàng với độ chính xác 0,25 kg, hãy xác định độ tin cậy của ước lượng đó.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 92%"
+            },
+            {
+              "letter": "b",
+              "text": "b. 96%"
+            },
+            {
+              "letter": "c",
+              "text": "c. 98%"
+            },
+            {
+              "letter": "d",
+              "text": "d. 95%"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "a"
+        },
+        {
+          "question": 7,
+          "answer": "c"
+        },
+        {
+          "question": 8,
+          "answer": "d"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        },
+        {
+          "question": 11,
+          "answer": "d"
+        },
+        {
+          "question": 12,
+          "answer": "a"
+        },
+        {
+          "question": 13,
+          "answer": "a"
+        },
+        {
+          "question": 14,
+          "answer": "a"
+        },
+        {
+          "question": 15,
+          "answer": "c"
+        },
+        {
+          "question": 16,
+          "answer": "b"
+        },
+        {
+          "question": 17,
+          "answer": "b"
+        },
+        {
+          "question": 18,
+          "answer": "d"
+        },
+        {
+          "question": 19,
+          "answer": "a"
+        },
+        {
+          "question": 20,
+          "answer": "c"
+        },
+        {
+          "question": 21,
+          "answer": "b"
+        },
+        {
+          "question": 22,
+          "answer": "b"
+        },
+        {
+          "question": 23,
+          "answer": "a"
+        },
+        {
+          "question": 24,
+          "answer": "b"
+        },
+        {
+          "question": 25,
+          "answer": "d"
+        },
+        {
+          "question": 26,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@38d0140ff3db441ba988c7f1684c2a51?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "1/ Khảo sát ngẫu nhiên 400 trái của một loại trái cây, thấy trọng lượng trung bình là 397,5 gram/trái và độ lệch chuẩn là 114,1329 gram/trái. Có ý kiến cho rằng trọng lượng trung bình của loại trái cây này là 400 gram/trái thì có chấp nhận được không (với mức ý nghĩa 5%)? Yêu cầu tính giá trị kiểm định và đưa ra kết luận.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. -1,2314. Chấp nhận ý kiến."
+            },
+            {
+              "letter": "b",
+              "text": "B. -1,8905. Không chấp nhận ý kiến"
+            },
+            {
+              "letter": "c",
+              "text": "C. -0,44. Không chấp nhận ý kiến."
+            },
+            {
+              "letter": "d",
+              "text": "D. -0,44. Chấp nhận ý kiến."
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "2/ Khảo sát năng suất (tạ/ha) của một giống lúa tại 100 ha của một tỉnh X, được năng suất trung bình là 57,5 tạ/ha và độ lệch chuẩn là 8,3182 tạ/ha. Một nông dân cho rằng năng suất trung bình của giống lúa này ở tỉnh X là 60 (tạ/ha). Với mức ý nghĩa là 1%, hãy xác định giá trị kiểm định và cho nhận xét về ý kiến trên?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. -3. Chấp nhận nhận xét trên."
+            },
+            {
+              "letter": "b",
+              "text": "B. 3. Chấp nhận nhận xét trên."
+            },
+            {
+              "letter": "c",
+              "text": "C. 3. Bác bỏ nhận xét trên."
+            },
+            {
+              "letter": "d",
+              "text": "D. -3. Bác bỏ nhận xét trên ."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "3/ Một chuyên gia lai tạo giống cây trồng cho rằng giống lúa thân cao chống lụt vừa được lai tạo có chiều cao trung bình la 105cm. Người ta chọn ngẫu nhiên 60 cây đo thử thì được x = 112 (cm) và s = 8 (cm). Với mức ý nghĩa 5%, hãy chọn câu trả lời đúng (a là chiều cao trung bình của một cây lúa được lai tạo, g là giá trị kiểm định).",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. H0: a = 105; H1: a ≠ 105; g = 6,78 > z0,025 = 1,96; bác bỏ ý kiến."
+            },
+            {
+              "letter": "b",
+              "text": "B. H0: a = 105; H1: a ≠ 105; g = -6,78 < -z0,025 = -1,96; chấp nhận ý kiến."
+            },
+            {
+              "letter": "c",
+              "text": "C. H0: a = 105; H1: a ≠ 105; g = -6,78 < -z0,025 = -1,96; bác bỏ ý kiến."
+            },
+            {
+              "letter": "d",
+              "text": "D. H0: a = 105; H1: a ≠ 105; g = 6,78 > z0,025 = 1,96; chấp nhận ý kiến."
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "4/ Nếu máy móc hoạt động bình thường thì trọng lượng trung bình của một sản phẩm do một máy sản xuất là 12 (kg). Nghi ngờ máy hoạt động không bình thường, người ta cân thử 136 sản phẩm thì thấy trọng lượng trung bình là 12,9 (kg) và độ lệch chuẩn trọng lượng là 5,6 (kg). Với mức ý nghĩa 5%, hãy chọn câu trả lời đúng (a là trọng lượng trung bình một sản phẩm, g là giá trị kiểm định).",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. H0: a = 12; H1: a ≠ 12 ; g = -1,87 < z0,025 = 1,96; máy vẫn hoạt động bình thường."
+            },
+            {
+              "letter": "b",
+              "text": "B. H0: a = 12; H1: a ≠ 12 ; g = -1,87 > -z0,025 = -1,96; máy vẫn hoạt động bình thường."
+            },
+            {
+              "letter": "c",
+              "text": "C. H0: a = 12; H1: a ≠ 12 ; g = 1,87 > -z0,025 = -1,96; máy vẫn hoạt động bình thường."
+            },
+            {
+              "letter": "d",
+              "text": "D. H0: a = 12; H1: a ≠ 12 ; g = 1,87 < z0,025 = 1,96; máy vẫn hoạt động bình thường."
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "5/ Theo thiết kế, một dây chuyền sản xuất tự động sản xuất các chi tiết máy có đường kính là 25cm. Nghi ngờ dây chuyền này không còn hoạt động hiệu quả nữa, làm cho đường kính của chi tiết máy thay đổi, người ta khảo sát 50 chi tiết máy được sản xuất từ dây chuyền trên, thì thấy đường kính trung bình là 25,64cm và độ lệch chuẩn là 2,25cm. Với mức ý nghĩa 2%, hãy chọn phát biểu đúng (a là đường kính trung bình của chi tiết máy, g là giá trị kiểm định):",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. H0: a = 25; H1: a ≠ 25; |g| = 2,01 < z0,01 = 2,33; chấp nhận nghi ngờ."
+            },
+            {
+              "letter": "b",
+              "text": "B. H0: a = 25; H1: a ≠ 25; |g| = 2,01 < z0,01 = 2,33; bác bỏ nghi ngờ."
+            },
+            {
+              "letter": "c",
+              "text": "C. H0: a = 25; H1: a ≠ 25; g = 3,24 > z0,01 = 2,33; chấp nhận nghi ngờ."
+            },
+            {
+              "letter": "d",
+              "text": "D. H0: a = 25; H1: a ≠ 25; g = 2,01 > -z0,01 = -2,33; bác bỏ nghi ngờ."
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "6/ Nhà trường muốn đánh giá số giờ tự học của sinh viên, khảo sát 36 sinh viên thì thấy số giờ tự học trung bình của một sinh viên là 5,58 giờ/tuần và độ lệch chuẩn là 2,3467 giờ/tuần. Có ý kiến cho rằng số giờ tự học trung bình của sinh viên là 6 giờ/tuần. Với mức ý nghĩa 5%, hãy tính giá trị kiểm định và cho nhận xét về ý kiến trên.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. -1,065. Chấp nhận với ý kiến trên."
+            },
+            {
+              "letter": "b",
+              "text": "B. -1,065. Bác bỏ ý kiến trên."
+            },
+            {
+              "letter": "c",
+              "text": "C. -1,86. Chấp nhận ý kiến trên."
+            },
+            {
+              "letter": "d",
+              "text": "D. -1,86. Bác bỏ ý kiến trên."
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "7/ Một công ty nhà nước muốn đánh giá số giờ làm việc thực sự trong ngày của các nhân viên. Khảo sát 144 nhân viên trong một tuần, thấy số giờ làm việc thực sự trung bình là 5,8 giờ/ngày và độ lệch chuẩn mẫu là 11,43 giờ/ngày. Có ý kiến cho rằng số giờ làm việc thực sự trung bình của một nhân viên là 6 giờ/ngày. Với mức ý nghĩa 5%, hãy tính giá trị kiểm định và cho nhận xét về ý kiến trên.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. -0,21. Bác bỏ ý kiến trên."
+            },
+            {
+              "letter": "b",
+              "text": "B. -0,21. Chấp nhận ý kiến trên."
+            },
+            {
+              "letter": "c",
+              "text": "C. -1,34. Bác bỏ ý kiến trên."
+            },
+            {
+              "letter": "d",
+              "text": "D. -1,34. Chấp nhận ý kiến trên"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "8/ Để biết chỉ tiêu chất lượng X (gam) của một loại sản phẩm, người ta khảo sát 50 sản phẩm thì được trung bình chỉ tiêu chất lượng là 253,7gam và độ lệch chuẩn là 26,1208 gam. Có tài liệu cho rằng trung bình chỉ tiêu X của các sản phẩm loại này là 250gam. Với mức ý nghĩa 2%, hãy chọn phát biểu đúng. ( µ là trung bình chỉ tiêu chất lượng và g là giá trị kiểm định)",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. H0 : µ = 250, H1 : µ ≠ 250. g = 1. Bác bỏ ý kiến trên."
+            },
+            {
+              "letter": "b",
+              "text": "B. H0 : µ = 250, H1 : µ ≠ 250. g = -1. Chấp nhận ý kiến trên."
+            },
+            {
+              "letter": "c",
+              "text": "C. H0 : µ = 250, H1 : µ ≠ 250. g = -1. Bác bỏ ý kiến trên."
+            },
+            {
+              "letter": "d",
+              "text": "D. H0 : µ = 250, H1 : µ ≠ 250. g =1. Chấp nhận ý kiến trên."
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "9/ Khảo sát ngẫu nhiên 168 gia đình trong một khu vực, người ta thấy chi tiêu trung bình của một gia đình là 2,455 triệu đồng/tháng và độ lệch chuẩn là 0,56 triệu đồng/tháng. Có ý kiến cho rằng chi tiêu trung bình của một gia đình trong khu vực đó là 2,5 triệu đồng/tháng. Hãy tính giá trị kiểm định và cho nhận xét về ý kiến trên với mức ý nghĩa 5%.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. -1,0416. Chấp nhận ý kiến."
+            },
+            {
+              "letter": "b",
+              "text": "B. -1,0416. Bác bỏ ý kiến."
+            },
+            {
+              "letter": "c",
+              "text": "C. -1,9648. Chấp nhận ý kiến."
+            },
+            {
+              "letter": "d",
+              "text": "D. -1,9648. Bác bỏ ý kiến."
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "10/ Khảo sát ngẫu nhiên 967 khách hàng năm nay thì nhận thấy số tiền gửi tiết kiệm trung bình của họ là 987,75 USD và độ lệch chuẩn mẫu là 162,95 USD~. Có ý kiến cho rằng số tiền gửi tiết kiệm trung bình của một khách hàng năm nay đã thay đổi so với năm trước . Hãy tính giá trị kiểm định và cho nhận xét về ý kiến trên với mức ý nghĩa 5%, biết rằng số tiền gửi tiết kiệm trung bình của một khách hàng năm trước là 1012 USD~.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. -4,6278. Chấp nhận ý kiến."
+            },
+            {
+              "letter": "b",
+              "text": "B. -4,6278. Bác bỏ ý kiến."
+            },
+            {
+              "letter": "c",
+              "text": "C. -3,2459. Chấp nhận ý kiến."
+            },
+            {
+              "letter": "d",
+              "text": "D. -3,2459. Bác bỏ ý kiến."
+            }
+          ]
+        },
+        {
+          "question": 11,
+          "text": "1/ Khảo sát ngẫu nhiên 400 trái của một loại trái cây, người ta thấy có 180 trái loại I. Nếu cho rằng tỉ lệ trái loại I là 50% thì có chấp nhận được không, với mức ý nghĩa 5%? Yêu cầu tính giá trị kiểm định và đưa ra nhận xét.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. -3,125. Không chấp nhận"
+            },
+            {
+              "letter": "b",
+              "text": "B. -1,125. Chấp nhận được"
+            },
+            {
+              "letter": "c",
+              "text": "C. -2. Không chấp nhận"
+            },
+            {
+              "letter": "d",
+              "text": "D. -2. Chấp nhận được"
+            }
+          ]
+        },
+        {
+          "question": 12,
+          "text": "2/ Tỉ lệ sản phẩm tốt theo qui định của một máy là 0,85. Sau một thời gian hoạt động, nghi ngờ máy hoạt động không bình thường, người ta kiểm tra 100 sản phẩm thì thấy có 77 sản phẩm tốt. Với mức ý nghĩa 1%, hãy cho nhận xét về nghi ngờ trên (với p là tỉ lệ sản phẩm tốt của máy, g là giá trị kiểm định).",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. H0: p = 0,85; H1: p ≠ 0,85 ; g=-2,24 <> z0,005 =2,58; máy hoạt động không bình thường."
+            },
+            {
+              "letter": "b",
+              "text": "B. H0: p = 0,85; H1: p ≠ 0,85 ; g=2,24 < z0,005 =2,58; máy hoạt động bình thường."
+            },
+            {
+              "letter": "c",
+              "text": "C. H0: p = 0,85; H1: p ≠ 0,85 ; g=2,24 > - z0,005 =-2,58; máy hoạt không động bình thường."
+            },
+            {
+              "letter": "d",
+              "text": "D. H0: p = 0,85; H1: p ≠ 0,85 ; g=-3,45 < - z0,005 =-2,58; máy hoạt động bình thường."
+            }
+          ]
+        },
+        {
+          "question": 13,
+          "text": "3/ Công ti X tuyên bố rằng 75% khách hàng của công ti ưa thích sản phẩm của họ. Khảo sát 400 khách hàng của X, người ta thấy có 260 người ưa thích sản phẩm của X. Với mức ý nghĩa 1%, cho biết tuyên bố trên có chấp nhận được hay không? (Với p là tỉ lệ khách hàng ưa thích sản phẩm của công ti X và g là giá trị kiểm định).",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. H0: p = 0, 75; H1: p ≠ 0, 75 ; g= -4,62 < z0,005 =2,58; chấp nhận tuyên bố."
+            },
+            {
+              "letter": "b",
+              "text": "B. H0: p = 0, 75; H1: p ≠ 0, 75 ; g= -4,62 <- z0,005 =-2,58; bác bỏ tuyên bố."
+            },
+            {
+              "letter": "c",
+              "text": "C. H0: p = 0, 75; H1: p ≠ 0, 75 ; g= 3,24 > z0,005 =2,58; bác bỏ tuyên bố."
+            },
+            {
+              "letter": "d",
+              "text": "D. H0: p = 0, 75; H1: p ≠ 0, 75 ; g= 4,62 > z0,005 =2,58; bác bỏ tuyên bố."
+            }
+          ]
+        },
+        {
+          "question": 14,
+          "text": "4/ Một nhà máy chế tạo ô tô cho rằng có 12% ô tô do nhà máy này sản xuất cần phải điều chỉnh trong 2 năm đầu hoạt động. Người ta tiến hành khảo sát 100 ô tô của nhà máy, thấy có 14 ô tô cần phải điều chỉnh trong 2 năm đầu hoạt động. Với mức ý nghĩa 1%, hãy đánh giá về nhận định ban đầu của nhà máy chế tạo ôtô. Với p là tỉ lệ ô tô cần phải điều chỉnh trong 2 năm đầu hoạt động và g là giá trị kiểm định, hãy chọn đáp án đúng.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. H0: p = 0,12; H1: p ≠ 0,12 ; g= 0,62 < z0,005 = 2,58 ⇾ chấp nhận nhận định ban đầu."
+            },
+            {
+              "letter": "b",
+              "text": "B. H0: p = 0,12; H1: p ≠ 0,12 ; g= -0,62 > - z0,005 = -2,58 ⇾ chấp nhận nhận định ban đầu."
+            },
+            {
+              "letter": "c",
+              "text": "C. H0: p = 0,12; H1: p ≠ 0,12 ; g= 3,24 > z0,005 =2,58 ⇾ bác bỏ nhận định ban đầu."
+            },
+            {
+              "letter": "d",
+              "text": "D. H0: p = 0,12; H1: p ≠ 0,12 ; g= -4,62 <- z0,005 =-2,58 ⇾ bác bỏ nhận định ban đầu."
+            }
+          ]
+        },
+        {
+          "question": 15,
+          "text": "5/ Khảo sát 100 hộ kinh doanh trong cùng một lĩnh vực, thấy có 26 hộ kinh doanh đạt doanh số cao. Có một người trong lĩnh vực kinh doanh này tuyên bố tỉ lệ hộ kinh doanh đạt doanh số cao trong lĩnh vực này là 35%. Cho nhận xét về tuyên bố của người đó với mức ý nghĩa 5%?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. H0: p = 0,35, H1: p ≠ 0,35. g=-1,8869. Bác bỏ ý kiến trên."
+            },
+            {
+              "letter": "b",
+              "text": "B. H0: p = 0,35, H1: p ≠ 0,35. g=-1,8869. Chấp nhận ý kiến trên."
+            },
+            {
+              "letter": "c",
+              "text": "C. H0: p = 0,35, H1: p ≠ 0,35. g=-2,0518. Bác bỏ ý kiến trên."
+            },
+            {
+              "letter": "d",
+              "text": "D. H0: p = 0,35, H1: p ≠ 0,35. g=-2,0518. Chấp nhận ý kiến trên."
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "a"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        },
+        {
+          "question": 8,
+          "answer": "d"
+        },
+        {
+          "question": 9,
+          "answer": "a"
+        },
+        {
+          "question": 10,
+          "answer": "a"
+        },
+        {
+          "question": 11,
+          "answer": "d"
+        },
+        {
+          "question": 12,
+          "answer": "a"
+        },
+        {
+          "question": 13,
+          "answer": "b"
+        },
+        {
+          "question": 14,
+          "answer": "a"
+        },
+        {
+          "question": 15,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@9b1238de6b3646609c9db04dfab11835?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Với mức ý nghĩa 5%, hãy cho nhận xét về ý kiến cho rằng doanh thu trung bình theo ngày của chi nhánh A thấp hơn so với chi nhánh B.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. – 1,376. Chấp nhận H_0"
+            },
+            {
+              "letter": "b",
+              "text": "b. – 1,376. Bác bỏ H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. – 1,567. Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. – 1,567. Bác bỏ H_0"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Với mức ý nghĩa 1%, Có bằng chứng để khẳng định rằng chất xúc tác 1 tạo ra năng suất trung bình cao hơn chất xúc tác 2 hay không?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 3,11. Chấp nhận H_0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 3,11. Bác bỏ H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2,26. Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2,26. Bác bỏ H_0."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Với mức ý nghĩa 5%, có thể cho rằng giá cổ phiếu trung bình của công ty B cao hơn của công ty A hay không?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. H_0: μ_1=μ_2 ; H_1: μ_1≠μ_2 ; Chấp nhận H_1"
+            },
+            {
+              "letter": "b",
+              "text": "b. H_0: μ_1=μ_2 ; H_1: μ_1≠μ_2 ; Chấp nhận H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. H_0: μ_1=μ_2 ; H_1: μ_1 < μ_2 ; Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. H_0: μ_1=μ_2 ; H_1: μ_1 < μ_2 ; Chấp nhận H_1"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4. Khảo sát ngẫu nhiên 986 người đang ở độ tuổi lao động của thành phố A thì nhận thấy có 142 người đang thất nghiệp. Khảo sát ngẫu nhiên 861 người đang ở độ tuổi lao động của thành phố B thì nhận thấy có 108 người đang thất nghiệp. Có ý kiến cho rằng tỉ lệ người thất nghiệp của hai thành phố này giống nhau. Hãy tính giá trị tiêu chuẩn kiểm định và cho nhận xét về ý kiến trên với mức ý nghĩa 5%.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1,1644. Chấp nhận ý kiến."
+            },
+            {
+              "letter": "b",
+              "text": "b. 1,1644. Bác bỏ ý kiến."
+            },
+            {
+              "letter": "c",
+              "text": "c. 2,6248. Chấp nhận ý kiến."
+            },
+            {
+              "letter": "d",
+              "text": "d. 2,6248. Bác bỏ ý kiến."
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5. Kiểm tra chất lượng sản phẩm về một loại hàng do hai nhà máy A và B sản xuất cho kết quả: trong 500 sản phẩm của A có 50 phế phẩm; trong 400 sản phẩm của B có 60 phế phẩm. Với mức ý nghĩa 5% hãy xem chất lượng sản phẩm của A và B có khác nhau không?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. – 2,276. Chấp nhận H_0"
+            },
+            {
+              "letter": "b",
+              "text": "b. – 2,276. Bác bỏ H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. – 1,576. Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. – 1,576. Bác bỏ H_0"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6. Giám đốc một hãng sản xuất thép muốn xác định xem có sự khác nhau về năng suất giữa ca ngày và ca tối không. Một mẫu 100 công nhân ca ngày sản xuất được ¯x = 74,3 với độ lệch chuẩn s_1=16 ; một mẫu khác 100 công nhân ca tối sản xuất được ¯y = 69,7 với độ lệch chuẩn s_2=18 (đơn vị: phần/ 1 giờ). Với mức ý nghĩa 0,1 , hãy xem có sự khác nhau về năng suất giữa 2 ca không?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1,91. Chấp nhận H_0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1,91. Bác bỏ H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1,825. Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1,825. Bác bỏ H_0"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7. Người ta dùng phương sai hay độ lệch chuẩn làm độ đo đánh giá sự sự rủi ro của cổ phiếu. Điều tra ngẫu nhiên giá cổ phiếu của công ty A trong 25 ngày tính được s_□1^2=6,52 ; của công ty B trong 22 ngày tính được s_2^2=3,47. Với mức ý nghĩa 5% có thể cho rằng độ rủi ro cổ phiếu của công ty A cao hơn của công ty B không?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1,879. Chấp nhận H_0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1,879. Bác bỏ H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1,625. Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1,625. Bác bỏ H_0"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Có thể kết luận hai máy có độ chính xác như nhau không? Với mức ý nghĩa 5%.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1,33. Chấp nhận H_0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1,33. Bác bỏ H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1,85. Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1,85. Bác bỏ H_0"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Với mức ý nghĩa 5% có thể cho rằng máy 2 tốt hơn máy 1 không? Giả sử thời gian sản xuất của các máy có phân phối chuẩn và có cùng phương sai.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0,7966. Chấp nhận H_0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0,7966. Bác bỏ H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0,825. Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0,825. Bác bỏ H_0"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10. Có hai lô hạt giống. Từ lô thứ nhất gieo thử ngẫu nhiên 850 hạt thấy có 680 hạt nảy mầm. Từ lô thứ hai gieo thử 1200 hạt thấy có 1020 hạt nảy mầm. Với mức ý nghĩa 5% có thể coi tỉ lệ hạt giống nảy mầm của hai lô là khác nhau không?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. - 2,9643. Chấp nhận H_0"
+            },
+            {
+              "letter": "b",
+              "text": "b. - 2,9643. Bác bỏ H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. - 2,8625. Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. - 2,8625. Bác bỏ H_0"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "a"
+        },
+        {
+          "question": 8,
+          "answer": "a"
+        },
+        {
+          "question": 9,
+          "answer": "a"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@45ff993dd91c4990aeeb1def95c51eb6?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Xác định năng suất trung bình mẫu của giống lúa trên.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 71,12"
+            },
+            {
+              "letter": "b",
+              "text": "B. 68,41"
+            },
+            {
+              "letter": "c",
+              "text": "C. 62,16"
+            },
+            {
+              "letter": "d",
+              "text": "D. 74,39"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Xác định đường kính trung bình mẫu của số táo trên.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 8,33"
+            },
+            {
+              "letter": "b",
+              "text": "B. 7,51"
+            },
+            {
+              "letter": "c",
+              "text": "C. 7,26"
+            },
+            {
+              "letter": "d",
+              "text": "D. 9,14"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Xác định độ lệch chuẩn mẫu của đường kính của số táo trên.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 0,903"
+            },
+            {
+              "letter": "b",
+              "text": "B. 0,816"
+            },
+            {
+              "letter": "c",
+              "text": "C. 1,027"
+            },
+            {
+              "letter": "d",
+              "text": "D. 1,115"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Xác định tỉ lệ mẫu của táo có đường kính không quá 8cm trong số táo trên.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 0,295"
+            },
+            {
+              "letter": "b",
+              "text": "B. 23"
+            },
+            {
+              "letter": "c",
+              "text": "C. 0,03"
+            },
+            {
+              "letter": "d",
+              "text": "D. 0,197"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Xác định tỉ lệ mẫu của trái cây chín có trọng lượng không quá 300gram trong số trái cây trên.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 0,4125"
+            },
+            {
+              "letter": "b",
+              "text": "B. 33"
+            },
+            {
+              "letter": "c",
+              "text": "C. 0,15"
+            },
+            {
+              "letter": "d",
+              "text": "D. 0,2361"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Xác định trọng lượng trung bình mẫu của số trái cây chín trên.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 302,5"
+            },
+            {
+              "letter": "b",
+              "text": "B. 332,1"
+            },
+            {
+              "letter": "c",
+              "text": "C. 269,7"
+            },
+            {
+              "letter": "d",
+              "text": "D. 287,4"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Xác định độ lệch chuẩn mẫu của trọng lượng số trái cây chín trên.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 44,22"
+            },
+            {
+              "letter": "b",
+              "text": "B. 33,11"
+            },
+            {
+              "letter": "c",
+              "text": "C. 1980,9"
+            },
+            {
+              "letter": "d",
+              "text": "D. 1955,7"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Xác định độ lệch chuẩn mẫu của năng suất giống lúa trên.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 4,51"
+            },
+            {
+              "letter": "b",
+              "text": "B. 6,23"
+            },
+            {
+              "letter": "c",
+              "text": "C. 4,16"
+            },
+            {
+              "letter": "d",
+              "text": "D. 3,25"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Tìm trọng lượng trung bình của số heo nói trên.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 69,02"
+            },
+            {
+              "letter": "b",
+              "text": "B. 68,23"
+            },
+            {
+              "letter": "c",
+              "text": "C. 67,95"
+            },
+            {
+              "letter": "d",
+              "text": "D. 69,86"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Tìm năng suất trung bình mẫu của giống lúa trên.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 32,15"
+            },
+            {
+              "letter": "b",
+              "text": "B. 34,99"
+            },
+            {
+              "letter": "c",
+              "text": "C. 33,62"
+            },
+            {
+              "letter": "d",
+              "text": "D. 35,86"
+            }
+          ]
+        },
+        {
+          "question": 11,
+          "text": "Tìm độ lệch chuẩn mẫu của năng suất giống lúa trên.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 2,36"
+            },
+            {
+              "letter": "b",
+              "text": "B. 2,28"
+            },
+            {
+              "letter": "c",
+              "text": "C. 1,37"
+            },
+            {
+              "letter": "d",
+              "text": "D. 3,62"
+            }
+          ]
+        },
+        {
+          "question": 12,
+          "text": "Tỉ lệ lá có chiều dài từ 30cm đến 50cm và chiều dài trung bình của một lá dương xỉ trong mẫu trên là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 56,67% và 31cm"
+            },
+            {
+              "letter": "b",
+              "text": "B. 56,00% và 26cm"
+            },
+            {
+              "letter": "c",
+              "text": "C. 56,67% và 36cm"
+            },
+            {
+              "letter": "d",
+              "text": "D. 57,00% và 36cm"
+            }
+          ]
+        },
+        {
+          "question": 13,
+          "text": "13/ Tỉ lệ phế phẩm của một máy sản xuất là 3%. Nếu kiểm tra 100 sản phẩm do máy này sản xuất thì khẳng định nào sau đây đúng?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. Số phế phẩm trong 100 sản phẩm được kiểm tra bằng 3."
+            },
+            {
+              "letter": "b",
+              "text": "B. Số phế phẩm trong 100 sản phẩm được kiểm tra không thể lớn hơn 3."
+            },
+            {
+              "letter": "c",
+              "text": "C. Số phế phẩm trong 100 sản phẩm được kiểm tra không thể nhỏ hơn 3."
+            },
+            {
+              "letter": "d",
+              "text": "D. Số phế phẩm trong 100 sản phẩm được kiểm tra có thể khác 3."
+            }
+          ]
+        },
+        {
+          "question": 14,
+          "text": "Tìm số giờ tự học trung bình mẫu của sinh viên.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 6,27"
+            },
+            {
+              "letter": "b",
+              "text": "B, 7,96"
+            },
+            {
+              "letter": "c",
+              "text": "C. 8,34"
+            },
+            {
+              "letter": "d",
+              "text": "D. 7,05"
+            }
+          ]
+        },
+        {
+          "question": 15,
+          "text": "Hãy tính tỉ lệ bé sơ sinh có cân nặng ít hơn 3,1kg trong mẫu trên.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "A. 0,13"
+            },
+            {
+              "letter": "b",
+              "text": "B. 0,4"
+            },
+            {
+              "letter": "c",
+              "text": "C. 0,78"
+            },
+            {
+              "letter": "d",
+              "text": "D. 0,27"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "a"
+        },
+        {
+          "question": 7,
+          "answer": "a"
+        },
+        {
+          "question": 8,
+          "answer": "c"
+        },
+        {
+          "question": 9,
+          "answer": "a"
+        },
+        {
+          "question": 10,
+          "answer": "c"
+        },
+        {
+          "question": 11,
+          "answer": "a"
+        },
+        {
+          "question": 12,
+          "answer": "c"
+        },
+        {
+          "question": 13,
+          "answer": "d"
+        },
+        {
+          "question": 14,
+          "answer": "d"
+        },
+        {
+          "question": 15,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@54610c34f66f4fc8823198563288e2f3?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1. Mối quan hệ giữa hai biến số được gọi là tương quan thuận (đồng biến) khi:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. r = 0."
+            },
+            {
+              "letter": "b",
+              "text": "b. r < 0."
+            },
+            {
+              "letter": "c",
+              "text": "c. r > 0."
+            },
+            {
+              "letter": "d",
+              "text": "d. r = -1."
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2. Cho phương trình hồi quy Y = 10 + 5X. Khi X = 4, giá trị dự báo cho Y là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 10."
+            },
+            {
+              "letter": "b",
+              "text": "b. 30."
+            },
+            {
+              "letter": "c",
+              "text": "c. 14."
+            },
+            {
+              "letter": "d",
+              "text": "d. 54."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3. Nếu hệ số tương quan r = -0.6, có thể kết luận gì về mối quan hệ giữa hai biến số?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Hai biến số có mối tương quan nghịch biến mức độ trung bình."
+            },
+            {
+              "letter": "b",
+              "text": "b. Hai biến số có mối tương quan nghịch biến mạnh."
+            },
+            {
+              "letter": "c",
+              "text": "c. Hai biến số có mối tương quan đồng biến yếu."
+            },
+            {
+              "letter": "d",
+              "text": "d. Hai biến số không có mối tương quan."
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4. Hệ số tương quan r = 0.9 cho thấy:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 90% sự thay đổi của Y được giải thích bởi X."
+            },
+            {
+              "letter": "b",
+              "text": "b. Mối quan hệ tuyến tính đồng biến mạnh giữa X và Y."
+            },
+            {
+              "letter": "c",
+              "text": "c. Khi X tăng 1 đơn vị, Y tăng 0.9 đơn vị."
+            },
+            {
+              "letter": "d",
+              "text": "d. X là nguyên nhân trực tiếp làm tăng Y."
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5. Nếu hệ số tương quan giữa X và Y là 0, thì phương trình hồi quy tuyến tính giữa X và Y sẽ có dạng:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Y = a + bX (với b khác 0)."
+            },
+            {
+              "letter": "b",
+              "text": "b. Y = a."
+            },
+            {
+              "letter": "c",
+              "text": "c. X = b."
+            },
+            {
+              "letter": "d",
+              "text": "d. Không thể xác định."
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6. Hệ số tương quan mẫu (r) giữa hai biến X và Y cho biết:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mức độ ảnh hưởng của X lên Y."
+            },
+            {
+              "letter": "b",
+              "text": "b. Mức độ và chiều hướng của mối quan hệ tuyến tính giữa X và Y."
+            },
+            {
+              "letter": "c",
+              "text": "c. Giá trị của Y khi X thay đổi."
+            },
+            {
+              "letter": "d",
+              "text": "d. Nguyên nhân và kết quả giữa X và Y."
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7. Nếu hệ số tương quan mẫu giữa hai biến là r = -0.2, thì hai biến đó có mối tương quan:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Đồng biến mạnh."
+            },
+            {
+              "letter": "b",
+              "text": "b. Nghịch biến mạnh."
+            },
+            {
+              "letter": "c",
+              "text": "c. Đồng biến yếu."
+            },
+            {
+              "letter": "d",
+              "text": "d. Nghịch biến yếu."
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8. Cho phương trình hồi quy tuyến tính mẫu Y = 15 - 3X. Khi X tăng 2 đơn vị, Y sẽ thay đổi như thế nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng 6 đơn vị."
+            },
+            {
+              "letter": "b",
+              "text": "b. Giảm 6 đơn vị."
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng 30 đơn vị."
+            },
+            {
+              "letter": "d",
+              "text": "d. Giảm 30 đơn vị."
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9. Nếu hệ số tương quan giữa hai biến X và Y là r = 0.7, thì hệ số tương quan giữa Y và X sẽ là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. -0.7"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.3"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.7"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.49"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10. Cho phương trình hồi quy Y = 5 + 4X. Dự báo giá trị của Y khi X = 3.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 9"
+            },
+            {
+              "letter": "b",
+              "text": "b. 17"
+            },
+            {
+              "letter": "c",
+              "text": "c. 23"
+            },
+            {
+              "letter": "d",
+              "text": "d. 12."
+            }
+          ]
+        },
+        {
+          "question": 11,
+          "text": "Câu 11. Một nghiên cứu cho thấy hệ số tương quan giữa số giờ nắng (X) và lượng kem bán ra (Y) là r = 0.8. Điều này KHÔNG có nghĩa là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Số giờ nắng và lượng kem bán ra có tương quan đồng biến mạnh."
+            },
+            {
+              "letter": "b",
+              "text": "b. Số giờ nắng là nguyên nhân chính làm tăng lượng kem bán ra."
+            },
+            {
+              "letter": "c",
+              "text": "c. Khi số giờ nắng tăng, lượng kem bán ra có xu hướng tăng."
+            },
+            {
+              "letter": "d",
+              "text": "d. Có mối quan hệ tuyến tính mạnh giữa số giờ nắng và lượng kem bán ra."
+            }
+          ]
+        },
+        {
+          "question": 12,
+          "text": "Phương trình hồi quy tuyến tính mẫu của Y theo X là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Y = X + 1"
+            },
+            {
+              "letter": "b",
+              "text": "b. Y = 2X"
+            },
+            {
+              "letter": "c",
+              "text": "c. Y = 0.5 + X"
+            },
+            {
+              "letter": "d",
+              "text": "d. Y = 1 + X"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "d"
+        },
+        {
+          "question": 8,
+          "answer": "b"
+        },
+        {
+          "question": 9,
+          "answer": "c"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        },
+        {
+          "question": 11,
+          "answer": "b"
+        },
+        {
+          "question": 12,
+          "answer": "a"
+        }
+      ]
+    }
+  ]
+}
