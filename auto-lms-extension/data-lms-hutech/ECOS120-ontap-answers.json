@@ -1,0 +1,2489 @@
+{
+  "version": 1,
+  "courseCode": "ECOS120",
+  "exportedAt": "2026-09-14T16:00:49.398Z",
+  "answers": [
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS120_A01+HK1-2026-2027+type@sequential+block@67e410566ce240db8954aff60722f30a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Cấu trúc hoạt động của ngăn xếp là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. FIFO"
+            },
+            {
+              "letter": "b",
+              "text": "b. LIFO"
+            },
+            {
+              "letter": "c",
+              "text": "c. FILO"
+            },
+            {
+              "letter": "d",
+              "text": "d. LILO"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Thao tác push là gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Lấy phần tử ở đáy stack"
+            },
+            {
+              "letter": "b",
+              "text": "b. Thêm phần tử vào giữa stack"
+            },
+            {
+              "letter": "c",
+              "text": "c. Thêm phần tử vào đỉnh stack"
+            },
+            {
+              "letter": "d",
+              "text": "d. Xóa toàn bộ stack"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Ứng dụng phổ biến của stack là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Quản lý truy cập file"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tính biểu thức và kiểm tra ngoặc"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tìm kiếm tuyến tính"
+            },
+            {
+              "letter": "d",
+              "text": "d. Vẽ đồ thị"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Thao tác nào không thuộc stack?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Push"
+            },
+            {
+              "letter": "b",
+              "text": "b. Pop"
+            },
+            {
+              "letter": "c",
+              "text": "c. Peek"
+            },
+            {
+              "letter": "d",
+              "text": "d. Enqueue"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Khi thực hiện Pop, điều gì xảy ra?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Lấy phần tử đỉnh và xóa nó"
+            },
+            {
+              "letter": "b",
+              "text": "b. Lấy phần tử cuối"
+            },
+            {
+              "letter": "c",
+              "text": "c. Lấy phần tử đầu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng kích thước stack"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Hàng đợi hoạt động theo nguyên tắc:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. LIFO"
+            },
+            {
+              "letter": "b",
+              "text": "b. FIFO"
+            },
+            {
+              "letter": "c",
+              "text": "c. FILO"
+            },
+            {
+              "letter": "d",
+              "text": "d. LILO"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Enqueue là thao tác:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Lấy phần tử đầu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Đổi chỗ hai phần tử"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xóa phần tử cuối"
+            },
+            {
+              "letter": "d",
+              "text": "d. Thêm phần tử vào cuối hàng"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Thao tác Dequeue sẽ:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Thêm phần tử vào đầu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Lấy phần tử đầu và xóa nó"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xóa phần tử cuối"
+            },
+            {
+              "letter": "d",
+              "text": "d. Thêm phần tử ngẫu nhiên"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Ứng dụng thực tế của hàng đợi là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Quản lý biến toàn cục"
+            },
+            {
+              "letter": "b",
+              "text": "b. Lập trình hướng đối tượng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mô phỏng xếp hàng chờ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Lưu trữ vĩnh viễn"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Trong hàng đợi tuyến tính dùng mảng, nếu rear == MAX - 1 và còn chỗ trống phía trước:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Hàng đợi bị tràn"
+            },
+            {
+              "letter": "b",
+              "text": "b. Có thể dùng lại bằng cách dịch trái"
+            },
+            {
+              "letter": "c",
+              "text": "c. Phải cấp phát động"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không thể sửa được"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "d"
+        },
+        {
+          "question": 8,
+          "answer": "b"
+        },
+        {
+          "question": 9,
+          "answer": "c"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS120_A01+HK1-2026-2027+type@sequential+block@e8d3f9c0db3745779df7b9587ae3ac1a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Loại kiểu dữ liệu nào sau đây không phải là kiểu dữ liệu cơ bản?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. int"
+            },
+            {
+              "letter": "b",
+              "text": "b. struct"
+            },
+            {
+              "letter": "c",
+              "text": "c. float"
+            },
+            {
+              "letter": "d",
+              "text": "d. char"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Kiểu dữ liệu char trong ngôn ngữ C thường có kích thước bao nhiêu byte (trên hệ thống 16-bit)?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 2 byte"
+            },
+            {
+              "letter": "b",
+              "text": "b. 4 byte"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1 byte"
+            },
+            {
+              "letter": "d",
+              "text": "d. 8 byte"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong các kiểu sau, kiểu nào được xem là không rời rạc?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. int"
+            },
+            {
+              "letter": "b",
+              "text": "b. enum"
+            },
+            {
+              "letter": "c",
+              "text": "c. float"
+            },
+            {
+              "letter": "d",
+              "text": "d. bool"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Kiểu dữ liệu unsigned int có miền giá trị là gì (trên hệ 16-bit)?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Từ -32,768 đến 32,767"
+            },
+            {
+              "letter": "b",
+              "text": "b. Từ 0 đến 65,535"
+            },
+            {
+              "letter": "c",
+              "text": "c. Từ -128 đến 127"
+            },
+            {
+              "letter": "d",
+              "text": "d. Từ 0 đến 255"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Lý do kiểu dữ liệu cơ bản được gọi là \"định sẵn\" là vì:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chúng có thể dùng cho lập trình hướng đối tượng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chúng chỉ dùng trong các hệ điều hành 64-bit"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chúng được ngôn ngữ lập trình xây dựng sẵn"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chúng có thể được tạo ra bởi người lập trình"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Biểu thức T(n) = C * n biểu diễn loại độ phức tạp nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. O(1)"
+            },
+            {
+              "letter": "b",
+              "text": "b. O(n²)"
+            },
+            {
+              "letter": "c",
+              "text": "c. O(log n)"
+            },
+            {
+              "letter": "d",
+              "text": "d. O(n)"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Ký hiệu nào sau đây biểu diễn độ phức tạp thấp nhất?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. O(n²)"
+            },
+            {
+              "letter": "b",
+              "text": "b. O(n log n)"
+            },
+            {
+              "letter": "c",
+              "text": "c. O(log n)"
+            },
+            {
+              "letter": "d",
+              "text": "d. O(n!)"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Trong đánh giá độ phức tạp, \"worst case\" nghĩa là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Trường hợp xảy ra lỗi cú pháp"
+            },
+            {
+              "letter": "b",
+              "text": "b. Trường hợp chương trình cho kết quả sai"
+            },
+            {
+              "letter": "c",
+              "text": "c. Trường hợp tốn ít phép tính nhất"
+            },
+            {
+              "letter": "d",
+              "text": "d. Trường hợp cần nhiều bước xử lý nhất"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Quy tắc bỏ hằng trong phân tích độ phức tạp nghĩa là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bỏ hệ số là hằng số trong biểu thức"
+            },
+            {
+              "letter": "b",
+              "text": "b. Bỏ qua các phép cộng trong công thức"
+            },
+            {
+              "letter": "c",
+              "text": "c. Bỏ qua tất cả các biến trong T(n)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Bỏ qua các trường hợp tốt nhất"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Nếu một thuật toán có T(n) = O(n × log n), thì độ phức tạp của nó thuộc loại nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tuyến tính"
+            },
+            {
+              "letter": "b",
+              "text": "b. Logarit"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tuyến tính-logarit"
+            },
+            {
+              "letter": "d",
+              "text": "d. Hằng số"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        },
+        {
+          "question": 6,
+          "answer": "d"
+        },
+        {
+          "question": 7,
+          "answer": "c"
+        },
+        {
+          "question": 8,
+          "answer": "d"
+        },
+        {
+          "question": 9,
+          "answer": "a"
+        },
+        {
+          "question": 10,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS120_A01+HK1-2026-2027+type@sequential+block@ece03abfe78c416f8d0af622fb29b7f5?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Danh sách là gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Một kiểu dữ liệu dạng số nguyên"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tập hợp các phần tử cùng kiểu, có thứ tự"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tập hợp các phần tử khác kiểu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Một biến toàn cục chứa ký tự"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Mỗi phần tử trong danh sách được gọi là gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Node"
+            },
+            {
+              "letter": "b",
+              "text": "b. Entry"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cell"
+            },
+            {
+              "letter": "d",
+              "text": "d. Stack"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Phép toán nào không phải là thao tác cơ bản trên danh sách?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Duyệt"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chèn"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xóa"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giải mã"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Trong danh sách, các phần tử được sắp xếp theo:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Kích thước bộ nhớ"
+            },
+            {
+              "letter": "b",
+              "text": "b. Thứ tự tăng dần mặc định"
+            },
+            {
+              "letter": "c",
+              "text": "c. Vị trí logic xác định bởi thứ tự chèn vào"
+            },
+            {
+              "letter": "d",
+              "text": "d. Ngẫu nhiên"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Loại danh sách nào không thuộc phạm vi bài học này?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Danh sách liên kết"
+            },
+            {
+              "letter": "b",
+              "text": "b. Danh sách phi tuyến"
+            },
+            {
+              "letter": "c",
+              "text": "c. Danh sách các số nguyên"
+            },
+            {
+              "letter": "d",
+              "text": "d. Danh sách chuỗi ký tự"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Danh sách tuyến tính dùng mảng có đặc điểm gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không giới hạn kích thước"
+            },
+            {
+              "letter": "b",
+              "text": "b. Có độ dài cố định"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tự động sắp xếp phần tử"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ dùng cho số nguyên"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Thao tác thêm phần tử ở giữa mảng cần:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Gán trực tiếp vào chỉ số"
+            },
+            {
+              "letter": "b",
+              "text": "b. Không cần thao tác gì"
+            },
+            {
+              "letter": "c",
+              "text": "c. Dịch chuyển các phần tử phía sau"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tạo mảng phụ"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Thời gian truy cập phần tử tại vị trí i trong mảng:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. O(n)"
+            },
+            {
+              "letter": "b",
+              "text": "b. O(1)"
+            },
+            {
+              "letter": "c",
+              "text": "c. O(log n)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không xác định được"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Điểm yếu lớn nhất của danh sách là mảng một chiều:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không thể truy cập ngẫu nhiên"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quản lý bộ nhớ động phức tạp"
+            },
+            {
+              "letter": "c",
+              "text": "c. Kém hiệu quả khi chèn/xóa ở giữa"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không thể lưu chuỗi"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Để duyệt qua danh sách mảng, cần:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Dùng con trỏ"
+            },
+            {
+              "letter": "b",
+              "text": "b. Sử dụng vòng lặp từ 0 đến n–1"
+            },
+            {
+              "letter": "c",
+              "text": "c. Duyệt từ cuối lên đầu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Dùng hàm đệ quy"
+            }
+          ]
+        },
+        {
+          "question": 11,
+          "text": "Câu 11: Node trong danh sách liên kết đơn chứa gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chỉ dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Dữ liệu và chỉ số"
+            },
+            {
+              "letter": "c",
+              "text": "c. Dữ liệu và con trỏ đến node kế"
+            },
+            {
+              "letter": "d",
+              "text": "d. Dữ liệu và địa chỉ mảng"
+            }
+          ]
+        },
+        {
+          "question": 12,
+          "text": "Câu 12: Trong danh sách liên kết đơn, node cuối có gì trong trường pnext?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. NULL"
+            },
+            {
+              "letter": "b",
+              "text": "b. Địa chỉ node đầu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giá trị lớn nhất"
+            },
+            {
+              "letter": "d",
+              "text": "d. Địa chỉ bất kỳ"
+            }
+          ]
+        },
+        {
+          "question": 13,
+          "text": "Câu 13: Ưu điểm chính của danh sách liên kết:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Truy cập ngẫu nhiên nhanh"
+            },
+            {
+              "letter": "b",
+              "text": "b. Không cần cấp phát trước kích thước"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không cần bộ nhớ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tự động sắp xếp"
+            }
+          ]
+        },
+        {
+          "question": 14,
+          "text": "Câu 14: Muốn chèn node ở đầu danh sách liên kết, cần:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tạo node mới, pnext trỏ đến node đầu, cập nhật head"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tạo node mới ở cuối"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tạo node mới rồi hoán đổi dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chèn sau node đầu"
+            }
+          ]
+        },
+        {
+          "question": 15,
+          "text": "Câu 15: Để duyệt danh sách liên kết đơn, ta thường:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Dùng đệ quy"
+            },
+            {
+              "letter": "b",
+              "text": "b. Duyệt ngược từ node cuối"
+            },
+            {
+              "letter": "c",
+              "text": "c. Duyệt từ đầu danh sách, theo con trỏ pnext"
+            },
+            {
+              "letter": "d",
+              "text": "d. Duyệt mảng rồi ép kiểu"
+            }
+          ]
+        },
+        {
+          "question": 16,
+          "text": "Câu 16: Để thêm phần tử vào cuối danh sách liên kết, cần:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Gán node mới làm head"
+            },
+            {
+              "letter": "b",
+              "text": "b. Gán node mới trỏ vào head"
+            },
+            {
+              "letter": "c",
+              "text": "c. Duyệt đến cuối và gán pnext của node cuối bằng node mới"
+            },
+            {
+              "letter": "d",
+              "text": "d. Duyệt đến giữa danh sách"
+            }
+          ]
+        },
+        {
+          "question": 17,
+          "text": "Câu 17: Khi xóa node đầu danh sách, cần:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Gán head = NULL"
+            },
+            {
+              "letter": "b",
+              "text": "b. Gán head = head->pnext và giải phóng node head cũ"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chuyển dữ liệu sang node kế"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần thao tác gì"
+            }
+          ]
+        },
+        {
+          "question": 18,
+          "text": "Câu 18: Để thêm node sau node thứ k, ta cần:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Trỏ node mới vào head"
+            },
+            {
+              "letter": "b",
+              "text": "b. Trỏ node mới vào NULL"
+            },
+            {
+              "letter": "c",
+              "text": "c. Duyệt đến node k, gán pnext của node mới = pnext của node k"
+            },
+            {
+              "letter": "d",
+              "text": "d. Duyệt đến node cuối rồi gán vào"
+            }
+          ]
+        },
+        {
+          "question": 19,
+          "text": "Câu 19: Nếu duyệt danh sách để hiển thị, ta cần:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Con trỏ p chạy từ head đến NULL"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chuyển danh sách sang mảng"
+            },
+            {
+              "letter": "c",
+              "text": "c. In địa chỉ node"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần biến trung gian"
+            }
+          ]
+        },
+        {
+          "question": 20,
+          "text": "Câu 20: Để xóa một node có giá trị x bất kỳ, cần:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Duyệt đến node đó và bỏ qua node tiếp theo"
+            },
+            {
+              "letter": "b",
+              "text": "b. Duyệt tìm node trước đó, cập nhật pnext, rồi giải phóng node cần xóa"
+            },
+            {
+              "letter": "c",
+              "text": "c. Gán giá trị NULL cho node"
+            },
+            {
+              "letter": "d",
+              "text": "d. Gán lại head bằng NULL"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "c"
+        },
+        {
+          "question": 8,
+          "answer": "b"
+        },
+        {
+          "question": 9,
+          "answer": "c"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        },
+        {
+          "question": 11,
+          "answer": "c"
+        },
+        {
+          "question": 12,
+          "answer": "a"
+        },
+        {
+          "question": 13,
+          "answer": "b"
+        },
+        {
+          "question": 14,
+          "answer": "a"
+        },
+        {
+          "question": 15,
+          "answer": "c"
+        },
+        {
+          "question": 16,
+          "answer": "c"
+        },
+        {
+          "question": 17,
+          "answer": "b"
+        },
+        {
+          "question": 18,
+          "answer": "c"
+        },
+        {
+          "question": 19,
+          "answer": "a"
+        },
+        {
+          "question": 20,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS120_A01+HK1-2026-2027+type@sequential+block@87fd8e2b06bc4ccab766b9ea5dec1407?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Tìm kiếm tuyến tính áp dụng cho loại mảng nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mảng sắp xếp giảm"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mảng sắp xếp tăng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mảng bất kỳ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mảng chỉ chứa ký tự"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Cải tiến \"lính canh\" có tác dụng gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Giảm phép so sánh cần thiết"
+            },
+            {
+              "letter": "b",
+              "text": "b. Giảm kích thước mảng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm số lượng phần tử"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng tính bảo mật"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trường hợp xấu nhất của tìm kiếm tuyến tính là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tìm thấy x ở đầu mảng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tìm thấy x ở giữa mảng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không tìm thấy x"
+            },
+            {
+              "letter": "d",
+              "text": "d. X không phải số nguyên"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Độ phức tạp trung bình của Linear Search là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. O(1)"
+            },
+            {
+              "letter": "b",
+              "text": "b. O(n²)"
+            },
+            {
+              "letter": "c",
+              "text": "c. O(log n)"
+            },
+            {
+              "letter": "d",
+              "text": "d. O(n)"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Lợi thế của tìm kiếm tuyến tính là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Nhanh hơn nhị phân"
+            },
+            {
+              "letter": "b",
+              "text": "b. Không cần mảng có thứ tự"
+            },
+            {
+              "letter": "c",
+              "text": "c. Độ phức tạp thấp"
+            },
+            {
+              "letter": "d",
+              "text": "d. Luôn chính xác"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Điều kiện tiên quyết để áp dụng tìm kiếm nhị phân là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mảng không có số âm"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mảng phải có ít nhất 10 phần tử"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mảng đã được sắp xếp"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mảng phải chứa số nguyên"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Kỹ thuật chính của tìm kiếm nhị phân là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Lặp tuyến tính"
+            },
+            {
+              "letter": "b",
+              "text": "b. Duyệt ngẫu nhiên"
+            },
+            {
+              "letter": "c",
+              "text": "c. So sánh theo từng nhóm 3 phần tử"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chia đôi dãy tìm kiếm liên tục"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Tìm kiếm nhị phân có độ phức tạp thời gian là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. O(n)"
+            },
+            {
+              "letter": "b",
+              "text": "b. O(n²)"
+            },
+            {
+              "letter": "c",
+              "text": "c. O(log n)"
+            },
+            {
+              "letter": "d",
+              "text": "d. O(1)"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Nếu mảng gồm 16 phần tử, tìm kiếm nhị phân tối đa cần:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 2 phép so sánh"
+            },
+            {
+              "letter": "b",
+              "text": "b. 4 phép so sánh"
+            },
+            {
+              "letter": "c",
+              "text": "c. 8 phép so sánh"
+            },
+            {
+              "letter": "d",
+              "text": "d. 16 phép so sánh"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Trong trường hợp tốt nhất, Binary Search tìm ra kết quả sau:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1 phép so sánh"
+            },
+            {
+              "letter": "b",
+              "text": "b. n phép so sánh"
+            },
+            {
+              "letter": "c",
+              "text": "c. logn phép so sánh"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không có phép so sánh"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "c"
+        },
+        {
+          "question": 7,
+          "answer": "d"
+        },
+        {
+          "question": 8,
+          "answer": "c"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS120_A01+HK1-2026-2027+type@sequential+block@ff22f285bdd14deb846856bbbd74c4ac?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Tại sao gọi là \"Bubble Sort\"?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Vì phần tử nhỏ chìm xuống dưới"
+            },
+            {
+              "letter": "b",
+              "text": "b. Vì phần tử nhỏ nổi dần lên đầu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Vì dùng đệ quy giống bọt nước"
+            },
+            {
+              "letter": "d",
+              "text": "d. Vì mảng được chia làm nhiều bong bóng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Bubble Sort có độ phức tạp:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. O(n)"
+            },
+            {
+              "letter": "b",
+              "text": "b. O(log n)"
+            },
+            {
+              "letter": "c",
+              "text": "c. O(n²)"
+            },
+            {
+              "letter": "d",
+              "text": "d. O(n log n)"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Cải tiến Bubble Sort bằng cách:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Dùng thêm mảng phụ"
+            },
+            {
+              "letter": "b",
+              "text": "b. Dùng tìm kiếm nhị phân"
+            },
+            {
+              "letter": "c",
+              "text": "c. Thêm hoán vị ngẫu nhiên"
+            },
+            {
+              "letter": "d",
+              "text": "d. Kiểm tra nếu lượt sắp không có hoán vị thì dừng"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Bubble Sort phù hợp nhất khi:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cần thuật toán dễ hiểu để minh họa"
+            },
+            {
+              "letter": "b",
+              "text": "b. Dữ liệu có nhiều phần tử giống nhau"
+            },
+            {
+              "letter": "c",
+              "text": "c. Dữ liệu lớn"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cần sắp theo nhiều khóa"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Nhược điểm chính của Bubble Sort:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Khó cài đặt"
+            },
+            {
+              "letter": "b",
+              "text": "b. Không ổn định"
+            },
+            {
+              "letter": "c",
+              "text": "c. Rất chậm với dữ liệu lớn"
+            },
+            {
+              "letter": "d",
+              "text": "d. Dùng nhiều bộ nhớ phụ"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Thuật toán nào mô phỏng cách xếp bài trên tay – tức là mỗi lần lấy một lá bài từ bộ và chèn vào đúng vị trí trong tay sao cho dãy bài luôn được sắp xếp?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Interchange Sort"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quick Sort"
+            },
+            {
+              "letter": "c",
+              "text": "c. Insertion Sort"
+            },
+            {
+              "letter": "d",
+              "text": "d. Merge Sort"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Insertion Sort hoạt động tốt nhất khi:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mảng có phần tử âm"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mảng rỗng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mảng có phần tử lớn ở đầu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mảng đã gần sắp xếp"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Độ phức tạp trung bình của Insertion Sort là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. O(log n)"
+            },
+            {
+              "letter": "b",
+              "text": "b. O(n²)"
+            },
+            {
+              "letter": "c",
+              "text": "c. O(n log n)"
+            },
+            {
+              "letter": "d",
+              "text": "d. O(n)"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Trong Insertion Sort, mỗi phần tử được:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Nhân đôi trước khi chèn"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chèn vào vị trí thích hợp trong đoạn đã sắp"
+            },
+            {
+              "letter": "c",
+              "text": "c. Đặt ngẫu nhiên vào vị trí mới"
+            },
+            {
+              "letter": "d",
+              "text": "d. Xóa khỏi mảng sau khi sắp"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: So với Selection và Interchange, Insertion Sort có lợi thế gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tốt hơn với dữ liệu gần sắp xếp"
+            },
+            {
+              "letter": "b",
+              "text": "b. Luôn dùng ít vòng lặp hơn"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không dùng hoán vị"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chạy được trên mảng âm"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        },
+        {
+          "question": 6,
+          "answer": "c"
+        },
+        {
+          "question": 7,
+          "answer": "d"
+        },
+        {
+          "question": 8,
+          "answer": "b"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS120_A01+HK1-2026-2027+type@sequential+block@6921c6a1ace44f729d2463de4e90f1db?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mục đích chính của việc sử dụng bảng băm là gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Giảm bộ nhớ lưu trữ"
+            },
+            {
+              "letter": "b",
+              "text": "b. Truy xuất dữ liệu nhanh, trung bình gần O(1)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Dễ dàng sắp xếp dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Loại bỏ hoàn toàn xung đột dữ liệu"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Trong bảng băm, xung đột xảy ra khi:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Hai phần tử có cùng giá trị dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Hai khóa khác nhau được ánh xạ vào cùng một vị trí"
+            },
+            {
+              "letter": "c",
+              "text": "c. Hàm băm tạo ra giá trị âm"
+            },
+            {
+              "letter": "d",
+              "text": "d. Bảng băm bị đầy"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Phương pháp kết nối riêng biệt (Separate Chaining) xử lý xung đột bằng cách:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Lưu dữ liệu tràn vào vị trí kế tiếp trong bảng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tạo danh sách liên kết tại mỗi ô băm"
+            },
+            {
+              "letter": "c",
+              "text": "c. Thay thế phần tử cũ bằng phần tử mới"
+            },
+            {
+              "letter": "d",
+              "text": "d. Bỏ qua dữ liệu bị xung đột"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Nhược điểm của Separate Chaining là gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Khó cài đặt"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tốn thêm bộ nhớ để quản lý danh sách liên kết"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không thể lưu trữ dữ liệu trùng khóa"
+            },
+            {
+              "letter": "d",
+              "text": "d. Thời gian tìm kiếm luôn lớn hơn O(n)"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Trong phương pháp kết nối không thay thế (Open Addressing – without replacement), phần tử mới khi gặp xung đột sẽ:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bỏ qua, không được chèn"
+            },
+            {
+              "letter": "b",
+              "text": "b. Lưu vào ô trống tiếp theo theo một quy tắc dò"
+            },
+            {
+              "letter": "c",
+              "text": "c. Thay thế phần tử đang tồn tại"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chèn vào danh sách liên kết tại ô băm"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Trong phương pháp kết nối có thay thế (Open Addressing – with replacement), khi xảy ra xung đột thì:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Luôn bỏ qua phần tử mới"
+            },
+            {
+              "letter": "b",
+              "text": "b. Thay thế phần tử cũ nếu nó không ở vị trí đúng của nó"
+            },
+            {
+              "letter": "c",
+              "text": "c. Luôn thay thế phần tử cũ, bất kể vị trí đúng hay sai"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không có sự khác biệt so với không thay thế"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Nhược điểm lớn nhất của dò tuyến tính (Linear Probing) là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không áp dụng được cho bảng băm nhỏ"
+            },
+            {
+              "letter": "b",
+              "text": "b. Gây ra hiện tượng cụm hóa sơ cấp (primary clustering)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Yêu cầu thêm bộ nhớ ngoài"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không thể kết hợp với phương pháp open addressing"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: So sánh dò tuyến tính và kết nối riêng biệt, ưu điểm của dò tuyến tính là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không tốn thêm bộ nhớ ngoài để quản lý danh sách"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tránh được cụm hóa"
+            },
+            {
+              "letter": "c",
+              "text": "c. Luôn tìm kiếm nhanh hơn"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần dùng hàm băm"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        },
+        {
+          "question": 8,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS120_A01+HK1-2026-2027+type@sequential+block@02cd8349ada1425ca9c4a7972fe6f911?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Cây là một cấu trúc dữ liệu có đặc điểm nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không có gốc"
+            },
+            {
+              "letter": "b",
+              "text": "b. Phân cấp, không có chu trình"
+            },
+            {
+              "letter": "c",
+              "text": "c. Có chu trình"
+            },
+            {
+              "letter": "d",
+              "text": "d. Gồm các node độc lập"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Trong cây, node không có con gọi là gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Node cha"
+            },
+            {
+              "letter": "b",
+              "text": "b. Node gốc"
+            },
+            {
+              "letter": "c",
+              "text": "c. Node rỗng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Node lá"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Mỗi node trong cây (trừ gốc) có:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Một node cha duy nhất"
+            },
+            {
+              "letter": "b",
+              "text": "b. Nhiều node cha"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không có node cha"
+            },
+            {
+              "letter": "d",
+              "text": "d. Gắn với node gốc"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Cây con (subtree) là gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Một danh sách các node con"
+            },
+            {
+              "letter": "b",
+              "text": "b. Một phần tử trong mảng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Một cây nhỏ nằm trong cây lớn"
+            },
+            {
+              "letter": "d",
+              "text": "d. Một node không có con"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Cấu trúc dữ liệu cây có thể được dùng để:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Lưu bảng biến toàn cục"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tổ chức dữ liệu phân cấp như hệ thống file"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mô phỏng xếp hàng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Lưu danh sách liên kết đơn"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Cây nhị phân là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cây có đúng 2 con ở mọi node"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cây có không quá 2 con ở mỗi node"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cây có 3 con ở mỗi node"
+            },
+            {
+              "letter": "d",
+              "text": "d. Danh sách liên kết có nhánh"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Cây nhị phân đầy đủ là cây:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tất cả các node đều có đúng 2 con hoặc không có con"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chỉ có một nhánh trái"
+            },
+            {
+              "letter": "c",
+              "text": "c. Có các node chỉ có 1 con"
+            },
+            {
+              "letter": "d",
+              "text": "d. Có chu trình"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Kiểu duyệt nào có thứ tự: Nút - Trái - Phải?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Trung tự (LNR)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Hậu tự (LRN)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tiền tự (NLR)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Ngẫu nhiên"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Trong cây nhị phân, node không có con gọi là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Node giữa"
+            },
+            {
+              "letter": "b",
+              "text": "b. Node gốc"
+            },
+            {
+              "letter": "c",
+              "text": "c. Node nhánh"
+            },
+            {
+              "letter": "d",
+              "text": "d. Node lá"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Duyệt trung tự (LNR) sẽ duyệt theo thứ tự:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Trái – Nút – Phải"
+            },
+            {
+              "letter": "b",
+              "text": "b. Nút – Trái – Phải"
+            },
+            {
+              "letter": "c",
+              "text": "c. Phải – Trái – Nút"
+            },
+            {
+              "letter": "d",
+              "text": "d. Nút – Phải – Trái"
+            }
+          ]
+        },
+        {
+          "question": 11,
+          "text": "Câu 11: Cây nhị phân tìm kiếm có quy tắc gì?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mọi phần tử đều nhỏ hơn gốc"
+            },
+            {
+              "letter": "b",
+              "text": "b. Trái < gốc < Phải"
+            },
+            {
+              "letter": "c",
+              "text": "c. Gốc < tất cả node"
+            },
+            {
+              "letter": "d",
+              "text": "d. Trái = phải"
+            }
+          ]
+        },
+        {
+          "question": 12,
+          "text": "Câu 12: Tìm kiếm trong BST, ta sẽ đi về đâu nếu node hiện tại lớn hơn khóa cần tìm?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Trái"
+            },
+            {
+              "letter": "b",
+              "text": "b. Phải"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không di chuyển"
+            },
+            {
+              "letter": "d",
+              "text": "d. Quay lại gốc"
+            }
+          ]
+        },
+        {
+          "question": 13,
+          "text": "Câu 13: Duyệt trung tự BST sẽ cho:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Dãy giảm dần"
+            },
+            {
+              "letter": "b",
+              "text": "b. Dãy ngẫu nhiên"
+            },
+            {
+              "letter": "c",
+              "text": "c. Dãy tăng dần"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không xác định"
+            }
+          ]
+        },
+        {
+          "question": 14,
+          "text": "Câu 14: Thêm một phần tử vào BST sẽ cần:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tìm vị trí theo quy tắc <, >"
+            },
+            {
+              "letter": "b",
+              "text": "b. Gán trực tiếp vào root"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xóa node cuối trước"
+            },
+            {
+              "letter": "d",
+              "text": "d. Duyệt hậu tự trước"
+            }
+          ]
+        },
+        {
+          "question": 15,
+          "text": "Câu 15: Điểm yếu của BST thông thường:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không duyệt được"
+            },
+            {
+              "letter": "b",
+              "text": "b. Dễ tạo chu trình"
+            },
+            {
+              "letter": "c",
+              "text": "c. Có thể trở thành cây lệch (giảm hiệu suất)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ lưu số nguyên"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "a"
+        },
+        {
+          "question": 8,
+          "answer": "c"
+        },
+        {
+          "question": 9,
+          "answer": "d"
+        },
+        {
+          "question": 10,
+          "answer": "a"
+        },
+        {
+          "question": 11,
+          "answer": "b"
+        },
+        {
+          "question": 12,
+          "answer": "a"
+        },
+        {
+          "question": 13,
+          "answer": "c"
+        },
+        {
+          "question": 14,
+          "answer": "a"
+        },
+        {
+          "question": 15,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS120_A01+HK1-2026-2027+type@sequential+block@dab56118431346cf8ebdfba30e85aed2?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Khi cây lệch trái, cần thực hiện:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xoay trái"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xoay phải"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xoay trái-phải"
+            },
+            {
+              "letter": "d",
+              "text": "d. Xoay ngẫu nhiên"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Khi cây lệch phải, cần thực hiện:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xoay phải"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xoay trái"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xoay phải-trái"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần xoay"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Kiểu lệch trái-phải (trái con - phải cha) cần:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xoay đơn trái"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xoay đơn phải"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xoay kép trái-phải"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần xử lý"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Xoay kép trong cây AVL là:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Hai lần xoay liên tiếp"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xoay từ lá lên gốc"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xoay root với node cuối"
+            },
+            {
+              "letter": "d",
+              "text": "d. Đổi vị trí root với node lá"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Sau khi chèn node và phát hiện mất cân bằng, thao tác đầu tiên cần:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xóa cây"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tính lại độ cao toàn cây"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xác định loại lệch và xoay phù hợp"
+            },
+            {
+              "letter": "d",
+              "text": "d. Đổi con trỏ gốc"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Khi chèn node mới vào cây AVL:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Luôn chèn vào giữa"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chèn như BST, sau đó kiểm tra cân bằng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chèn node vào gốc"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tự động xóa node cũ"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Sau khi chèn, nếu cây mất cân bằng thì:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Thêm node mới"
+            },
+            {
+              "letter": "b",
+              "text": "b. Thực hiện tìm kiếm"
+            },
+            {
+              "letter": "c",
+              "text": "c. Thực hiện xoay phù hợp"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng root lên 1"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Sau mỗi thao tác thêm, cần cập nhật:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Dữ liệu node"
+            },
+            {
+              "letter": "b",
+              "text": "b. Độ cao và balance factor"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tên biến node"
+            },
+            {
+              "letter": "d",
+              "text": "d. Con trỏ head"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Trường hợp cây lệch phải-trái sau khi chèn cần:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xoay trái đơn"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xoay phải đơn"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xoay kép phải-trái"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần xử lý"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Nếu sau khi chèn mà cây vẫn cân bằng (balance factor ∈ {–1, 0, 1}), ta:",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xoay cây để giảm chiều cao"
+            },
+            {
+              "letter": "b",
+              "text": "b. Không cần làm gì thêm"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xóa node vừa chèn"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tạo cây mới"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "c"
+        },
+        {
+          "question": 8,
+          "answer": "b"
+        },
+        {
+          "question": 9,
+          "answer": "c"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        }
+      ]
+    }
+  ]
+}

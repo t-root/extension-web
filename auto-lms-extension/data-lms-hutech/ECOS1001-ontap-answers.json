@@ -1,0 +1,2231 @@
+{
+  "version": 1,
+  "courseCode": "ECOS1001",
+  "exportedAt": "2026-09-17T18:02:42.603Z",
+  "answers": [
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@df76be36ddf74a7284311aad20bca536?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Bước đầu tiên trong quản lý rủi ro là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mua thiết bị bảo mật"
+            },
+            {
+              "letter": "b",
+              "text": "b. Nhận diện tài sản, mối đe dọa và lỗ hổng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cài lại hệ điều hành"
+            },
+            {
+              "letter": "d",
+              "text": "d. Khóa toàn bộ tài khoản"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Một trong bốn hướng xử lý rủi ro là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Phóng đại"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chấp nhận"
+            },
+            {
+              "letter": "c",
+              "text": "c. Ẩn rủi ro"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chuyển sang người dùng"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Kiểm soát nào thuộc nhóm phát hiện?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. MFA"
+            },
+            {
+              "letter": "b",
+              "text": "b. Firewall rule"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giám sát log"
+            },
+            {
+              "letter": "d",
+              "text": "d. Phân quyền tối thiểu"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: RTO phản ánh:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mức mất dữ liệu cho phép"
+            },
+            {
+              "letter": "b",
+              "text": "b. Thời gian khôi phục mục tiêu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Số lượng máy chủ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tốc độ mạng tối thiểu"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: RPO phản ánh:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Khả năng mã hóa dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mức dữ liệu có thể mất chấp nhận được"
+            },
+            {
+              "letter": "c",
+              "text": "c. Số bản sao lưu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Số lượng tài khoản quản trị"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: ISO/IEC 27001 là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chuẩn quản lý an toàn thông tin"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chuẩn nén dữ liệu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Công cụ quét lỗ hổng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mô hình mã hóa khóa công khai"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Chính sách an toàn thông tin tốt cần:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Càng dài càng tốt"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chỉ phù hợp bộ phận CNTT"
+            },
+            {
+              "letter": "c",
+              "text": "c. Khả thi và có cơ chế giám sát"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần cập nhật định kỳ"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Mô hình nào nhấn mạnh nhiều lớp bảo vệ phối hợp?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Zero trust"
+            },
+            {
+              "letter": "b",
+              "text": "b. Defense in depth"
+            },
+            {
+              "letter": "c",
+              "text": "c. Open access"
+            },
+            {
+              "letter": "d",
+              "text": "d. Flat network"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Zero trust phù hợp với môi trường:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không có Internet"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chỉ dùng máy độc lập"
+            },
+            {
+              "letter": "c",
+              "text": "c. Phân tán, cloud và làm việc từ xa"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không dùng xác thực"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Sao lưu mà không kiểm thử khôi phục sẽ dẫn đến rủi ro:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không đủ căn cứ đảm bảo khả năng phục hồi"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tăng tốc độ mạng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng quyền quản trị"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giảm dung lượng lưu trữ"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "a"
+        },
+        {
+          "question": 7,
+          "answer": "c"
+        },
+        {
+          "question": 8,
+          "answer": "b"
+        },
+        {
+          "question": 9,
+          "answer": "c"
+        },
+        {
+          "question": 10,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@f469e4fd0d174987b4d1a62d2e766e2b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mục tiêu cốt lõi của an toàn thông tin là bảo vệ:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chỉ phần mềm ứng dụng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tính bí mật, toàn vẹn và sẵn sàng của thông tin"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chỉ phần cứng máy chủ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ mạng nội bộ"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Thành phần nào sau đây thuộc bộ ba CIA?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Compliance"
+            },
+            {
+              "letter": "b",
+              "text": "b. Availability"
+            },
+            {
+              "letter": "c",
+              "text": "c. Audit"
+            },
+            {
+              "letter": "d",
+              "text": "d. Authentication"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Ví dụ nào là lỗ hổng bảo mật?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Dữ liệu điểm sinh viên"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chính sách mật khẩu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Máy chủ chưa vá lỗi"
+            },
+            {
+              "letter": "d",
+              "text": "d. Nhật ký hệ thống"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Mối đe dọa trong an toàn thông tin là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Công cụ sao lưu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tác nhân có thể gây hại đến tài sản"
+            },
+            {
+              "letter": "c",
+              "text": "c. Quyền truy cập hợp lệ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Quy trình cấp phát IP"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Nội dung nào phản ánh đúng giải pháp phòng thủ nhiều lớp?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chỉ dùng tường lửa là đủ"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chỉ đào tạo người dùng là đủ"
+            },
+            {
+              "letter": "c",
+              "text": "c. Kết hợp kỹ thuật, quản lý và con người"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ cài phần mềm chống virus"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Hành vi quét cổng hệ thống mà không được cho phép có thể vi phạm:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chỉ quy tắc trình bày báo cáo"
+            },
+            {
+              "letter": "b",
+              "text": "b. Pháp luật và đạo đức nghề nghiệp"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chỉ nội quy lớp học"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không vi phạm nếu dùng mục đích học tập"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Chính sách an toàn thông tin của tổ chức dùng để:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Thay thế hoàn toàn pháp luật"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chuẩn hóa hành vi và trách nhiệm nội bộ"
+            },
+            {
+              "letter": "c",
+              "text": "c. Loại bỏ toàn bộ rủi ro"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giảm dung lượng dữ liệu"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Tổ chức nào nổi tiếng với OWASP Top 10?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ISO"
+            },
+            {
+              "letter": "b",
+              "text": "b. OWASP"
+            },
+            {
+              "letter": "c",
+              "text": "c. ISC2"
+            },
+            {
+              "letter": "d",
+              "text": "d. FIRST"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Yếu tố nào làm nhu cầu an toàn thông tin tăng cao trong thời đại số?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Giảm sử dụng dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tăng phụ thuộc vào dịch vụ số và dữ liệu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Hạn chế kết nối Internet"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giảm số lượng người dùng"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Kiểm soát nào sau đây giúp giảm rủi ro lộ tài khoản quản trị?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Dùng chung một tài khoản cho mọi người"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xác thực đa yếu tố"
+            },
+            {
+              "letter": "c",
+              "text": "c. Ghi mật khẩu ra giấy và dán lên màn hình"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tắt ghi log"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        },
+        {
+          "question": 8,
+          "answer": "b"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@3e1479b7298340f19b9aeb327a2773b0?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Hoạt động nào thuộc bảo trì phòng ngừa?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Vá lỗi định kỳ"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chờ sự cố rồi mới xử lý"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xóa toàn bộ log"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tắt giám sát hệ thống"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Bảo trì phản ứng là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xử lý khi sự cố đã xảy ra"
+            },
+            {
+              "letter": "b",
+              "text": "b. Dự báo trước bằng dữ liệu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cập nhật định kỳ theo lịch"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mở thêm dịch vụ mới"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Dữ liệu nào quan trọng cho giám sát và điều tra sự cố?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Hình nền desktop"
+            },
+            {
+              "letter": "b",
+              "text": "b. Log hệ thống"
+            },
+            {
+              "letter": "c",
+              "text": "c. Màu theme giao diện"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tên thư mục Downloads"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Giám sát hiệu quả giúp:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng thời gian phát hiện sự cố"
+            },
+            {
+              "letter": "b",
+              "text": "b. Giảm khả năng phát hiện bất thường"
+            },
+            {
+              "letter": "c",
+              "text": "c. Phát hiện sớm dấu hiệu rủi ro"
+            },
+            {
+              "letter": "d",
+              "text": "d. Loại bỏ hoàn toàn nhu cầu backup"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Đánh giá lỗ hổng nhằm mục tiêu:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tìm điểm yếu để khắc phục"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tăng dung lượng ổ cứng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm số lượng người dùng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Thay thế toàn bộ chính sách"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Sau khi khắc phục lỗ hổng cần:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bỏ qua kiểm thử lại"
+            },
+            {
+              "letter": "b",
+              "text": "b. Kiểm thử xác minh hiệu quả"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tắt toàn bộ dịch vụ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Xóa hồ sơ xử lý"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Diễn tập kế hoạch ứng cứu sự cố giúp:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Kiểm chứng khả năng phối hợp và phản ứng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Giảm số lượng tài khoản"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mã hóa ổ cứng tự động"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng tốc Internet"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Bảo trì dự đoán dựa vào:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Dữ liệu giám sát và xu hướng bất thường"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cảm tính của quản trị viên"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chỉ báo cáo giấy tờ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần thông tin nào"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Nếu không rà soát tài khoản cũ định kỳ, rủi ro có thể là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng khả năng lạm dụng quyền truy cập"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tăng tốc độ sao lưu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm số lần đăng nhập thất bại"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tự động hardening máy chủ"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Công việc nào nên nằm trong checklist bảo trì bảo mật?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Kiểm tra bản vá, log, tài khoản và backup"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xóa tài liệu hướng dẫn"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mở tất cả cổng để tiện quản trị"
+            },
+            {
+              "letter": "d",
+              "text": "d. Dùng chung tài khoản admin"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "a"
+        },
+        {
+          "question": 8,
+          "answer": "a"
+        },
+        {
+          "question": 9,
+          "answer": "a"
+        },
+        {
+          "question": 10,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@36a95283aa0d439e91e79096d87d0a9d?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Công nghệ nào dùng để tạo đường hầm bảo mật qua Internet?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. DHCP"
+            },
+            {
+              "letter": "b",
+              "text": "b. VPN"
+            },
+            {
+              "letter": "c",
+              "text": "c. DNS"
+            },
+            {
+              "letter": "d",
+              "text": "d. FTP"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Mô hình DAC cho phép:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Hệ thống quyết định toàn bộ quyền truy cập"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chủ sở hữu tài nguyên cấp quyền truy cập"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không cần xác thực"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ áp dụng cho Linux"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Firewall có chức năng chính là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Biên dịch chương trình"
+            },
+            {
+              "letter": "b",
+              "text": "b. Lọc và kiểm soát lưu lượng mạng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Quản lý cơ sở dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Nén dữ liệu"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: IDS chủ yếu dùng để:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cấp IP động"
+            },
+            {
+              "letter": "b",
+              "text": "b. Phát hiện dấu hiệu xâm nhập"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mã hóa ổ đĩa"
+            },
+            {
+              "letter": "d",
+              "text": "d. Quản lý in ấn"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: IPS khác IDS ở điểm nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. IPS có thể chặn lưu lượng nguy hiểm"
+            },
+            {
+              "letter": "b",
+              "text": "b. IPS không cần log"
+            },
+            {
+              "letter": "c",
+              "text": "c. IDS luôn mã hóa dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. IDS cấp quyền người dùng"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Một nguyên tắc quan trọng của điều khiển truy cập là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cấp quyền tối đa cho thuận tiện"
+            },
+            {
+              "letter": "b",
+              "text": "b. Least privilege"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không cần rà soát định kỳ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chia sẻ tài khoản quản trị"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Điều khiển truy cập bao gồm ba thành phần chính là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xác thực, ủy quyền, ghi nhận hoạt động"
+            },
+            {
+              "letter": "b",
+              "text": "b. DNS, DHCP, FTP"
+            },
+            {
+              "letter": "c",
+              "text": "c. Backup, restore, archive"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mã hóa, nén, lưu trữ"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Tường lửa không thể thay thế hoàn toàn cho:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bộ nguồn"
+            },
+            {
+              "letter": "b",
+              "text": "b. Vá lỗi và xác thực mạnh"
+            },
+            {
+              "letter": "c",
+              "text": "c. Bàn phím máy chủ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tên miền nội bộ"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Rủi ro lớn khi triển khai VPN thiếu kiểm soát là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ xử lý CPU"
+            },
+            {
+              "letter": "b",
+              "text": "b. Biến truy cập từ xa thành đường vào hợp pháp cho rủi ro"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tự động mã hóa mọi dữ liệu lưu trữ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Loại bỏ hoàn toàn malware"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Công cụ nào thuộc nhóm phát hiện/xử lý cảnh báo tập trung?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SIEM"
+            },
+            {
+              "letter": "b",
+              "text": "b. Notepad"
+            },
+            {
+              "letter": "c",
+              "text": "c. RAID"
+            },
+            {
+              "letter": "d",
+              "text": "d. BIOS"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "a"
+        },
+        {
+          "question": 8,
+          "answer": "b"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@4425d8fe2a19423f9479cda3a2bdcb0b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Yếu tố nào không thuộc nhóm cốt lõi khi triển khai hệ thống an toàn thông tin?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Con người"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quy trình"
+            },
+            {
+              "letter": "c",
+              "text": "c. Công nghệ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Quảng cáo"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Vai trò của lãnh đạo trong triển khai bảo mật là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chỉ cài đặt phần mềm"
+            },
+            {
+              "letter": "b",
+              "text": "b. Định hướng và phân bổ nguồn lực"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chỉ theo dõi camera"
+            },
+            {
+              "letter": "d",
+              "text": "d. Thay thế hoàn toàn đội kỹ thuật"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: An toàn vật lý quan trọng vì:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Có thể thay thế toàn bộ an toàn logic"
+            },
+            {
+              "letter": "b",
+              "text": "b. Nếu thiết bị bị tiếp cận trực tiếp thì rủi ro rất lớn"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chỉ liên quan đến điều hòa phòng máy"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không ảnh hưởng tới dữ liệu"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Thiết bị nào giúp đảm bảo tính sẵn sàng về điện cho phòng máy chủ?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. UPS"
+            },
+            {
+              "letter": "b",
+              "text": "b. Webcam"
+            },
+            {
+              "letter": "c",
+              "text": "c. Máy in"
+            },
+            {
+              "letter": "d",
+              "text": "d. Loa ngoài"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Chứng chỉ nào thuộc lĩnh vực an toàn thông tin?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. CISSP"
+            },
+            {
+              "letter": "b",
+              "text": "b. MOS Word"
+            },
+            {
+              "letter": "c",
+              "text": "c. TOEIC"
+            },
+            {
+              "letter": "d",
+              "text": "d. IC3"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Người dùng cuối trong hệ thống an toàn thông tin:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không có vai trò gì"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chỉ là đối tượng bị kiểm soát"
+            },
+            {
+              "letter": "c",
+              "text": "c. Vừa là tuyến đầu vừa có thể là nguồn rủi ro"
+            },
+            {
+              "letter": "d",
+              "text": "d. Luôn có quyền quản trị"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Dự án an toàn thông tin thành công khi:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mua được nhiều thiết bị nhất"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cài đặt xong hệ thống là đủ"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tạo ra năng lực vận hành bền vững"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần tài liệu bàn giao"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Phòng máy chủ cần kiểm soát:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chỉ nhiệt độ"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chỉ camera"
+            },
+            {
+              "letter": "c",
+              "text": "c. Ra vào, nguồn điện, môi trường và thiết bị"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ độ sáng"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Một lợi ích của ma trận trách nhiệm là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Làm tăng số lượng sự cố"
+            },
+            {
+              "letter": "b",
+              "text": "b. Làm rõ ai chịu trách nhiệm việc gì"
+            },
+            {
+              "letter": "c",
+              "text": "c. Loại bỏ toàn bộ nhu cầu đào tạo"
+            },
+            {
+              "letter": "d",
+              "text": "d. Thay thế kế hoạch ứng cứu"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Bước nào sau đây thường nằm trong dự án an toàn thông tin?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Khảo sát hiện trạng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xóa toàn bộ log"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mở tất cả cổng mạng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Bỏ qua kiểm thử"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "c"
+        },
+        {
+          "question": 7,
+          "answer": "c"
+        },
+        {
+          "question": 8,
+          "answer": "c"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@c3c1b8c7e60847b89c9f1ccf8669bf98?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Công cụ dùng để áp đặt chính sách tập trung trong domain Windows là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. GPO"
+            },
+            {
+              "letter": "b",
+              "text": "b. RAID"
+            },
+            {
+              "letter": "c",
+              "text": "c. BIOS"
+            },
+            {
+              "letter": "d",
+              "text": "d. SMB"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Chính sách nào thuộc nhóm account policy?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Password history"
+            },
+            {
+              "letter": "b",
+              "text": "b. Độ phân giải màn hình"
+            },
+            {
+              "letter": "c",
+              "text": "c. Màu hình nền"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tên máy tính"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Khi triển khai GPO, bước quan trọng trước khi áp dụng diện rộng là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bỏ qua kiểm thử"
+            },
+            {
+              "letter": "b",
+              "text": "b. Kiểm thử trên phạm vi nhỏ"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xóa tài khoản người dùng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tắt Domain Controller"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: DNS dùng để:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cấp IP động"
+            },
+            {
+              "letter": "b",
+              "text": "b. Phân giải tên miền thành địa chỉ IP"
+            },
+            {
+              "letter": "c",
+              "text": "c. Truyền tệp không mã hóa"
+            },
+            {
+              "letter": "d",
+              "text": "d. In ấn mạng"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Dịch vụ web phổ biến của Windows Server là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. IIS"
+            },
+            {
+              "letter": "b",
+              "text": "b. Git"
+            },
+            {
+              "letter": "c",
+              "text": "c. Bash"
+            },
+            {
+              "letter": "d",
+              "text": "d. Docker Hub"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Hạn chế lớn của FTP truyền thống là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không truyền được tệp văn bản"
+            },
+            {
+              "letter": "b",
+              "text": "b. Không mã hóa nội dung và thông tin xác thực"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không hoạt động trên Windows"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không hỗ trợ thư mục"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: DHCP có chức năng chính là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cấp phát địa chỉ IP động"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mã hóa ổ đĩa"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xác thực domain"
+            },
+            {
+              "letter": "d",
+              "text": "d. Quét lỗ hổng web"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Trong môi trường domain, DNS đặc biệt quan trọng vì:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Giúp AD định vị dịch vụ và domain controller"
+            },
+            {
+              "letter": "b",
+              "text": "b. Thay thế hoàn toàn DHCP"
+            },
+            {
+              "letter": "c",
+              "text": "c. Quản lý tường lửa"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mã hóa mật khẩu người dùng"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: VPN triển khai an toàn nên đi kèm:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chia sẻ tài khoản dùng chung"
+            },
+            {
+              "letter": "b",
+              "text": "b. MFA và giới hạn phạm vi truy cập"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mở toàn bộ mạng nội bộ cho mọi người dùng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tắt ghi log"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Reservation trong DHCP dùng để:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chặn mọi thiết bị truy cập mạng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Gán IP ổn định cho thiết bị cụ thể"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xóa scope hiện tại"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tắt dịch vụ DNS"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "a"
+        },
+        {
+          "question": 8,
+          "answer": "a"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@4056f5214d6846d8b0dab5b2714d6919?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Dịch vụ quản lý tập trung người dùng và tài nguyên trong Windows Server là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. IIS"
+            },
+            {
+              "letter": "b",
+              "text": "b. Active Directory"
+            },
+            {
+              "letter": "c",
+              "text": "c. FTP"
+            },
+            {
+              "letter": "d",
+              "text": "d. Hyper-V"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Máy chủ cung cấp dịch vụ xác thực trong miền gọi là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. File Server"
+            },
+            {
+              "letter": "b",
+              "text": "b. Domain Controller"
+            },
+            {
+              "letter": "c",
+              "text": "c. Proxy Server"
+            },
+            {
+              "letter": "d",
+              "text": "d. Print Server"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Đối tượng dùng để tổ chức logic người dùng và máy tính trong AD là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Port"
+            },
+            {
+              "letter": "b",
+              "text": "b. OU"
+            },
+            {
+              "letter": "c",
+              "text": "c. VLAN"
+            },
+            {
+              "letter": "d",
+              "text": "d. BIOS"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Mô hình nào phù hợp nhất để quản lý tập trung nhiều máy tính?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Workgroup"
+            },
+            {
+              "letter": "b",
+              "text": "b. Domain"
+            },
+            {
+              "letter": "c",
+              "text": "c. Standalone"
+            },
+            {
+              "letter": "d",
+              "text": "d. Offline"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Tài khoản cục bộ có hiệu lực:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Trên toàn forest"
+            },
+            {
+              "letter": "b",
+              "text": "b. Trên toàn miền"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chỉ trên máy cài đặt tài khoản đó"
+            },
+            {
+              "letter": "d",
+              "text": "d. Trên Internet công cộng"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Một chức năng quan trọng của Active Directory là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Nén video"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xác thực và ủy quyền tập trung"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng tốc CPU"
+            },
+            {
+              "letter": "d",
+              "text": "d. Biên dịch chương trình"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Quản lý quyền theo nhóm có lợi vì:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Khó mở rộng hệ thống"
+            },
+            {
+              "letter": "b",
+              "text": "b. Dễ cấp quyền quá mức"
+            },
+            {
+              "letter": "c",
+              "text": "c. Dễ quản trị và rà soát hơn cấp trực tiếp"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần tài khoản người dùng"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Best practice đối với tài khoản quản trị là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Dùng chung cho mọi người"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tách tài khoản quản trị và tài khoản thường dùng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tắt đổi mật khẩu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần log hoạt động"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Site trong kiến trúc AD thường gắn với:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Màu giao diện"
+            },
+            {
+              "letter": "b",
+              "text": "b. Yếu tố địa lý hoặc hạ tầng mạng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tên bài giảng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Loại bàn phím"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Chính sách bảo vệ tài khoản nên bao gồm:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mật khẩu yếu để dễ nhớ"
+            },
+            {
+              "letter": "b",
+              "text": "b. Khóa tài khoản khi đăng nhập sai nhiều lần"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không phân biệt tài khoản đặc quyền"
+            },
+            {
+              "letter": "d",
+              "text": "d. Bỏ qua rà soát định kỳ"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "c"
+        },
+        {
+          "question": 8,
+          "answer": "b"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@97527a1f057441c5b957dca6191916f3?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Biện pháp nào giúp giảm rủi ro khi quản trị Linux từ xa?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cho phép root login trực tiếp"
+            },
+            {
+              "letter": "b",
+              "text": "b. Dùng SSH key và giới hạn IP"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mở toàn bộ cổng mạng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tắt log hệ thống"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Công cụ tường lửa cơ bản thường dùng trên Ubuntu là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. UFW"
+            },
+            {
+              "letter": "b",
+              "text": "b. Paint"
+            },
+            {
+              "letter": "c",
+              "text": "c. Telnet"
+            },
+            {
+              "letter": "d",
+              "text": "d. BIOS"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Một nguyên tắc quan trọng trong quản lý tài khoản Linux là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cấp sudo cho mọi người dùng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Hạn chế đặc quyền và tách tài khoản quản trị"
+            },
+            {
+              "letter": "c",
+              "text": "c. Dùng chung tài khoản root"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần group"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Quản lý bản vá giúp:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Giảm nguy cơ khai thác lỗ hổng đã biết"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tăng kích thước bộ nhớ RAM"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xóa toàn bộ log"
+            },
+            {
+              "letter": "d",
+              "text": "d. Thay thế sao lưu"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Hardening là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc card mạng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tăng cường cấu hình an toàn cho hệ thống"
+            },
+            {
+              "letter": "c",
+              "text": "c. Sao chép file thông thường"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cấp phát IP động"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Không nên cho phép đăng nhập root trực tiếp qua SSH vì:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Root không tồn tại trên Linux"
+            },
+            {
+              "letter": "b",
+              "text": "b. Root có đặc quyền rất cao, bị lộ sẽ rất nguy hiểm"
+            },
+            {
+              "letter": "c",
+              "text": "c. SSH không hỗ trợ root"
+            },
+            {
+              "letter": "d",
+              "text": "d. Làm mất kết nối Internet"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Sao lưu hiệu quả cần đi kèm với:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Kiểm thử phục hồi"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tắt giám sát"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mở mọi cổng để thuận tiện"
+            },
+            {
+              "letter": "d",
+              "text": "d. Xóa lịch sử thay đổi"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Bảo mật mạng và dịch vụ trên Linux nên bắt đầu từ:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bật mọi dịch vụ có sẵn"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chỉ mở dịch vụ cần thiết và cấu hình firewall"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tắt mọi cập nhật"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chia sẻ tài khoản quản trị"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Khi phát hiện dấu hiệu xâm nhập, bước quan trọng ban đầu là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bỏ qua log để tránh tốn thời gian"
+            },
+            {
+              "letter": "b",
+              "text": "b. Đánh giá, cô lập khi cần và thu thập dấu vết"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xóa toàn bộ hệ thống ngay lập tức"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mở thêm cổng để kiểm tra"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: AppArmor hoặc SELinux thường liên quan đến:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Điều khiển truy cập bắt buộc và tăng cường bảo vệ tiến trình"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cấp IP động"
+            },
+            {
+              "letter": "c",
+              "text": "c. Biên dịch mã nguồn"
+            },
+            {
+              "letter": "d",
+              "text": "d. Thiết kế giao diện web"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "a"
+        },
+        {
+          "question": 8,
+          "answer": "b"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "a"
+        }
+      ]
+    }
+  ]
+}
