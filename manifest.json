@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Ultimate Anti-Tracking Shield",
+  "version": "2026.6.25",
+  "description": "Gỡ chặn copy/paste và vô hiệu hóa theo dõi tab, cửa sổ, focus trên mọi trang web.",
+  "action": {
+    "default_title": "Anti-Tracking Shield đang bật"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true,
+      "world": "MAIN"
+    }
+  ]
+}
