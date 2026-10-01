@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail Auto Signup / Login",
+  "version": "1.3.0",
+  "description": "Điền form đăng ký / đăng nhập Gmail. Dán danh sách tài khoản (mỗi dòng: tài_khoản mật_khẩu), bấm nút Điền là tự dò và điền qua từng bước.",
+  "permissions": ["storage", "activeTab", "scripting", "tabs"],
+  "host_permissions": ["https://accounts.google.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Gmail Auto Fill"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://accounts.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
