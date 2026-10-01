@@ -1,0 +1,138 @@
+/* Compact automatic-answer status panel */
+#message-overlay-container {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2147483647;
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}
+
+#message-box {
+  width: min(230px, calc(100vw - 24px));
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid rgba(102, 126, 234, .2);
+  border-radius: 10px;
+  box-shadow: 0 6px 22px rgba(28, 36, 66, .16);
+  user-select: none;
+}
+
+#message-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 8px 6px 10px;
+  color: #fff;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-size: 12px;
+  font-weight: 650;
+  cursor: move;
+}
+
+.header-actions { display: flex; gap: 2px; }
+
+#settings-btn,
+#close-btn {
+  display: grid;
+  width: 23px;
+  height: 23px;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  background: transparent;
+  font-size: 17px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+#close-btn { font-size: 22px; font-weight: 300; }
+#settings-btn:hover, #close-btn:hover { background: rgba(255, 255, 255, .18); }
+
+#automation-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 30px;
+  padding: 6px 10px;
+  color: #455064;
+  background: #fff;
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+#status-text {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+#status-dot {
+  width: 8px;
+  height: 8px;
+  flex: 0 0 8px;
+  border-radius: 50%;
+  background: #f0ad4e;
+  box-shadow: 0 0 0 3px rgba(240, 173, 78, .14);
+}
+
+#automation-status[data-state="working"] #status-dot {
+  background: #5b8def;
+  box-shadow: 0 0 0 3px rgba(91, 141, 239, .14);
+  animation: status-pulse 1.4s ease-in-out infinite;
+}
+
+#automation-status[data-state="error"] #status-dot {
+  background: #e05252;
+  box-shadow: 0 0 0 3px rgba(224, 82, 82, .14);
+}
+
+@keyframes status-pulse {
+  50% { opacity: .45; transform: scale(.85); }
+}
+
+#settings-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483648;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, .5);
+}
+
+#settings-modal div[style*="background: white"] {
+  width: min(300px, calc(100vw - 24px)) !important;
+  max-width: none !important;
+  max-height: calc(100vh - 24px);
+  box-sizing: border-box;
+  overflow-y: auto;
+  padding: 14px !important;
+  z-index: 2147483649;
+  pointer-events: auto;
+}
+
+#settings-modal input, #settings-modal button { pointer-events: auto; }
+#settings-modal input { padding: 6px !important; }
+#settings-modal textarea {
+  min-height: 56px !important;
+  max-height: 76px;
+}
+#settings-modal h2 { margin-bottom: 12px !important; }
+#settings-modal > div > div { margin-bottom: 10px !important; }
+#settings-modal small { line-height: 1.25; }
+#settings-modal input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, .2);
+}
+
+#ai-notification { pointer-events: auto; }
+
+@media (prefers-color-scheme: dark) {
+  #message-box, #automation-status { background: #24262d; }
+  #automation-status { color: #d7dbe5; }
+}
