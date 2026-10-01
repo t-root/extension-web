@@ -1,35 +1,26 @@
 # extension-web
 
-Tập hợp các Chrome extension (Manifest V3). Mỗi extension nằm trên **một nhánh riêng**, có README hướng dẫn riêng; nhánh `main` chỉ chứa README này.
+Monorepo các Chrome extension (Manifest V3). Mỗi extension nằm trong một thư mục riêng, có `README.md` hướng dẫn riêng.
 
-## Xem danh sách extension
+## Danh sách extension
 
-Chọn nhánh trong menu branch trên GitHub, hoặc:
-
-```bash
-git ls-remote --heads https://github.com/t-root/extension-web
-```
-
-## Clone riêng một extension
-
-```bash
-git clone --single-branch -b <nhánh> https://github.com/t-root/extension-web <nhánh>
-```
-
-## Làm việc với nhiều extension trên một máy
-
-Clone `main` rồi gắn từng nhánh vào một thư mục cùng tên bằng `git worktree`:
-
-```bash
-git clone https://github.com/t-root/extension-web
-cd extension-web
-git worktree add <nhánh> <nhánh>
-```
-
-Mỗi thư mục là nhánh của nó: sửa, `git commit`, `git push` ngay trong thư mục đó.
+| Thư mục | Mô tả |
+|---|---|
+| [DOM2AI_extension](DOM2AI_extension/) | Web Message & Element Inspector |
+| [anti-tracking-extension](anti-tracking-extension/) | Ultimate Anti-Tracking Shield |
+| [auto-lms-extension](auto-lms-extension/) | Auto LMS HUTECH |
+| [div-screenshot-extension](div-screenshot-extension/) | Div Screenshot Tool |
+| [gmail-auto-extension](gmail-auto-extension/) | Gmail Auto Fill |
+| [menu-3D-extension](menu-3D-extension/) | Menu 3D có popup cài đặt |
+| [wayground-extension](wayground-extension/) | Web Message & Element Inspector (Wayground) |
 
 ## Cài extension vào Chrome
 
 1. Mở `chrome://extensions/`
 2. Bật **Developer mode**
 3. Chọn **Load unpacked** → trỏ tới thư mục của extension
+
+## Quy ước
+
+- Mỗi extension tự chứa `manifest.json` và `README.md` trong thư mục của nó.
+- Không commit secret (`key.txt`, `*.key`, `.env`) — đã có trong `.gitignore`.
