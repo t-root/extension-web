@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+  <header>
+    <img src="icon/close.png" alt="" />
+    <div>
+      <h1>menu-3D-extension</h1>
+      <span id="version" class="muted"></span>
+    </div>
+  </header>
+
+  <section class="box">
+    <label class="row">
+      <span>Bật extension</span>
+      <input type="checkbox" class="switch" data-key="enabled" />
+    </label>
+    <p id="status" class="muted"></p>
+  </section>
+
+  <details open>
+    <summary>Hiển thị</summary>
+    <label>Mở / đóng menu bằng
+      <select data-key="trigger">
+        <option value="button">Nút nổi trên trang</option>
+        <option value="rightclick">Chuột phải</option>
+      </select>
+    </label>
+    <label>Kiểu card
+      <select data-key="preview">
+        <option value="image">Ảnh</option>
+        <option value="iframe">iframe</option>
+      </select>
+    </label>
+    <label>Số trang tối đa
+      <input type="number" step="1" min="1" max="200" data-key="max" />
+    </label>
+  </details>
+
+  <script src="settings.js"></script>
+  <script src="popup.js"></script>
+</body>
+
+</html>
