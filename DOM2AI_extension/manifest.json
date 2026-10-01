@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Select Element Send AI",
+  "version": "1.0",
+  "description": "Inject a message box and element selector on web pages",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "tabs",
+    "contextMenus",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
