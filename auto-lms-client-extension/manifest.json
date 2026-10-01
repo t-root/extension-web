@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "auto-lms-client-extention",
+  "version": "1.0.0",
+  "description": "Quét và lưu danh sách video, bài tập LMS HUTECH.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "downloads",
+    "windows",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "<all_urls>",
+    "https://apps.lms.hutech.edu.vn/*",
+    "https://lms.hutech.edu.vn/*",
+    "https://*.hutech.edu.vn/*",
+    "https://t-root.github.io/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://apps.lms.hutech.edu.vn/*",
+        "https://lms.hutech.edu.vn/*",
+        "https://*.lms.hutech.edu.vn/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["popup.html", "popup.js"],
+      "matches": ["https://apps.lms.hutech.edu.vn/*", "https://lms.hutech.edu.vn/*", "https://*.lms.hutech.edu.vn/*"]
+    }
+  ]
+}

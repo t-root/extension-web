@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto LMS HUTECH</title>
+  <style>
+    :root { color-scheme: light; font-family: Arial, sans-serif; }
+    * { box-sizing: border-box; }
+    html, body { overflow-x: hidden; overflow-y: auto; }
+    body { width: 300px; margin: 0; padding: 16px; color: #17202a; background: #f4f7fb; }
+    h1 { margin: 0; font-size: 18px; }
+    .subtitle { margin: 5px 0 14px; color: #687585; font-size: 12px; }
+    button, select, input { width: 100%; border: 1px solid #cbd5e1; border-radius: 7px; font: inherit; }
+    button { padding: 10px 12px; color: #fff; background: #1264a3; border-color: #1264a3; cursor: pointer; font-weight: 700; }
+    button:disabled { opacity: .65; cursor: wait; }
+    #fetchLinks, #stopActivity { display: block; margin-bottom: 8px; }
+    #stopActivity { margin-top: 0; background: #c53030; border-color: #c53030; }
+    #checkCompletion { margin-bottom: 8px; background: #805ad5; border-color: #805ad5; }
+    .scan-check-button { display: block; margin-bottom: 8px; background: #2f855a; border-color: #2f855a; }
+    .document-action { display: block; min-height: 40px; margin: 0 0 10px; padding: 9px 12px; background: #3b9ac9; border-color: #3b9ac9; font-size: 12px; }
+    #studyVideos { background: #0f4c81; border-color: #0f4c81; }
+    #studyExercises { background: #1769aa; border-color: #1769aa; }
+    #studyReviews { background: #2a7fba; border-color: #2a7fba; }
+    #studyDocuments { background: #3b9ac9; border-color: #3b9ac9; }
+    .status { min-height: 18px; margin: 9px 0 12px; color: #52606d; font-size: 12px; }
+    .status.error { color: #c53030; }
+    .loading-overlay { position: fixed; inset: 0; z-index: 10; display: none; align-items: center; justify-content: center; padding: 18px; background: rgba(23, 32, 42, .34); }
+    .loading-overlay.visible { display: flex; }
+    .loading-card { width: 100%; padding: 18px 14px; text-align: center; background: #fff; border: 1px solid #cbd5e1; border-radius: 9px; box-shadow: 0 8px 24px rgba(23, 32, 42, .2); }
+    .loading-spinner { width: 28px; height: 28px; margin: 0 auto 10px; border: 4px solid #dbe3ec; border-top-color: #805ad5; border-radius: 50%; animation: loading-spin .8s linear infinite; }
+    .loading-message { margin: 0; color: #17202a; font-size: 12px; font-weight: 700; }
+    @keyframes loading-spin { to { transform: rotate(360deg); } }
+    .total-stat { margin-bottom: 12px; padding: 10px; text-align: center; background: #fff; border: 1px solid #9ec5e6; border-radius: 7px; }
+    .metric-section { margin-bottom: 12px; padding: 12px; background: #fff; border: 1px solid #cbd5e1; border-radius: 9px; }
+    .metric-heading { margin: 0 0 6px; color: #52606d; font-size: 12px; font-weight: 700; }
+    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+    .stat { min-width: 0; padding: 9px 4px; text-align: center; border: 1px solid; border-radius: 7px; }
+    .stat strong { display: block; font-size: 19px; }
+    .stat span { display: block; min-height: 28px; color: #52606d; font-size: 10px; line-height: 14px; }
+    .metric-total { background: #eaf4ff; border-color: #9ec5e6; }
+    .metric-complete { background: #e8f7ee; border-color: #9ad3ad; }
+    .metric-incomplete { background: #fff3e3; border-color: #efc27d; }
+    .incomplete-section { margin: 14px 0; padding-top: 10px; border-top: 1px solid #dbe3ec; }
+    .incomplete-select { width: 100%; padding: 9px 8px; color: #17202a; background: #fff8ed; border-color: #efc27d; font-size: 11px; }
+    details { padding-top: 10px; border-top: 1px solid #dbe3ec; }
+    summary { color: #52606d; font-size: 12px; cursor: pointer; }
+    label { display: block; margin: 9px 0 4px; color: #52606d; font-size: 11px; }
+    input, select { padding: 7px; background: #fff; font-size: 12px; }
+    #aiStatus { margin-top: 7px; color: #687585; font-size: 11px; }
+    .extension-popup #panelToggleButton { display: block; }
+    .extension-popup > :not(#panelToggleControls) { display: none; }
+    .panel-toggle-controls { display: none; padding: 12px; }
+    .extension-popup .panel-toggle-controls { display: block; }
+    #panelToggleButton { margin: 0; background: #805ad5; border-color: #805ad5; }
+  </style>
+</head>
+<body>
+  <div id="panelToggleControls" class="panel-toggle-controls">
+    <button id="panelToggleButton" type="button">Bật</button>
+  </div>
+  <div id="loadingOverlay" class="loading-overlay" role="status" aria-live="polite" aria-hidden="true">
+    <div class="loading-card">
+      <div class="loading-spinner" aria-hidden="true"></div>
+      <p id="loadingMessage" class="loading-message">Đang check, vui lòng chờ...</p>
+    </div>
+  </div>
+  <h1>Auto LMS HUTECH</h1>
+  <p class="subtitle">Quản lý link bài học đã quét</p>
+
+  <button id="scanCheckButton" class="scan-check-button" type="button">Check</button>
+  <button id="stopActivity" type="button" disabled>Dừng mọi hoạt động</button>
+  <label for="checkConcurrencyInput">Số tab check đồng thời</label>
+  <input id="checkConcurrencyInput" type="number" min="1" max="20" step="1" value="5">
+  <div id="status" class="status">Chưa có dữ liệu đã lưu.</div>
+
+  <div class="total-stat" aria-label="Tổng số bài học">
+    <strong id="totalCount">0</strong><span>Tổng bài học</span>
+  </div>
+
+  <section class="metric-section" aria-label="Thống kê video">
+    <button id="studyVideos" type="button">Xem video</button>
+    <h2 class="metric-heading">VIDEO</h2>
+    <div class="stats video-stats">
+      <div class="stat metric-total"><strong id="videoCount">0</strong><span>Tổng video</span></div>
+      <div class="stat metric-complete"><strong id="videoCompletedCount">0</strong><span>Đã hoàn thành</span></div>
+      <div class="stat metric-incomplete"><strong id="videoIncompleteCount">0</strong><span>Chưa hoàn thành</span></div>
+    </div>
+    <select id="videoIncompleteSelect" class="incomplete-select" aria-label="Chọn video chưa hoàn thành">
+      <option value="">Chưa chạy Check hoàn thành.</option>
+    </select>
+  </section>
+
+  <section class="metric-section" aria-label="Thống kê bài tập">
+    <button id="studyExercises" type="button">Làm bài tập</button>
+    <h2 class="metric-heading">BÀI TẬP</h2>
+    <div class="stats exercise-stats">
+      <div class="stat metric-total"><strong id="problemCount">0</strong><span>Tổng bài tập</span></div>
+      <div class="stat metric-complete"><strong id="problemCompletedCount">0</strong><span>Đã hoàn thành</span></div>
+      <div class="stat metric-incomplete"><strong id="problemIncompleteCount">0</strong><span>Chưa hoàn thành</span></div>
+    </div>
+    <select id="problemIncompleteSelect" class="incomplete-select" aria-label="Chọn bài tập chưa hoàn thành">
+      <option value="">Chưa chạy Check hoàn thành.</option>
+    </select>
+  </section>
+
+  <section class="metric-section" aria-label="Thống kê ôn tập trắc nghiệm">
+    <button id="studyReviews" type="button">Làm ôn tập</button>
+    <h2 class="metric-heading">ÔN TẬP TRẮC NGHIỆM</h2>
+    <div class="stats review-stats">
+      <div class="stat metric-total"><strong id="reviewCount">0</strong><span>Tổng ôn tập</span></div>
+      <div class="stat metric-complete"><strong id="reviewCompletedCount">0</strong><span>Đã hoàn thành</span></div>
+      <div class="stat metric-incomplete"><strong id="reviewIncompleteCount">0</strong><span>Chưa hoàn thành</span></div>
+    </div>
+    <select id="reviewIncompleteSelect" class="incomplete-select" aria-label="Chọn ôn tập chưa hoàn thành">
+      <option value="">Chưa chạy Check hoàn thành.</option>
+    </select>
+  </section>
+
+  <section class="metric-section" aria-label="Thống kê tài liệu">
+    <button id="studyDocuments" class="document-action" type="button">Xem tài liệu</button>
+    <h2 class="metric-heading">TÀI LIỆU</h2>
+    <div class="stats document-stats">
+      <div class="stat metric-total"><strong id="documentCount">0</strong><span>Tổng tài liệu</span></div>
+      <div class="stat metric-complete"><strong id="documentCompletedCount">0</strong><span>Đã mở</span></div>
+      <div class="stat metric-incomplete"><strong id="documentIncompleteCount">0</strong><span>Chưa mở</span></div>
+    </div>
+    <select id="documentIncompleteSelect" class="incomplete-select" aria-label="Chọn tài liệu chưa mở">
+      <option value="">Chưa chạy Lấy link.</option>
+    </select>
+  </section>
+
+  <details>
+    <summary>Cài đặt AI</summary>
+    <label for="aiModel">Model</label>
+    <input id="aiModel" type="text" placeholder="auto">
+    <label for="aiEndpoint">Endpoint</label>
+    <input id="aiEndpoint" type="url" placeholder="http://127.0.0.1:5000/v1/chat/completions">
+    <label for="aiApiKey">API key</label>
+    <input id="aiApiKey" type="password" placeholder="trungdeptrai">
+    <div id="aiStatus">Chưa cấu hình AI</div>
+  </details>
+
+  <button id="exportAnswers" type="button" style="margin-top: 10px; background: #4a5568; border-color: #4a5568;">Xuất file đáp án</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
