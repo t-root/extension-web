@@ -8,7 +8,7 @@ Bộ Chrome extension (Manifest V3) hỗ trợ học trên LMS HUTECH: quét dan
 auto-lms-extension/
 ├── auto-lms-admin-extension/    # Bản admin: quét, làm bài bằng AI và xuất file đáp án
 ├── auto-lms-client-extension/   # Bản client: dùng đáp án có sẵn từ data-lms-hutech
-└── data-lms-hutech/             # Kho đáp án JSON (git subtree của t-root/data-lms-hutech)
+└── data-lms-hutech/             # Kho đáp án JSON, được publish lên GitHub Pages (t-root/data-lms-hutech)
 ```
 
 ## Tính năng chung
