@@ -1,0 +1,9 @@
+# main chỉ giữ README; mọi thư mục khác là worktree của các nhánh extension
+/*
+!/README.md
+!/.gitignore
+
+# Secrets
+key.txt
+*.key
+.env
