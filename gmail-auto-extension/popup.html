@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <title>Gmail Auto Fill</title>
+  <style>
+    /* Minimal monochrome: chỉ #000 và #FFF, không bo góc, không bóng, không gradient */
+    :root{
+      --bg:#000;
+      --fg:#fff;
+      --sans:"Inter","Segoe UI",system-ui,-apple-system,sans-serif;
+      --mono:"JetBrains Mono","Cascadia Mono",Consolas,ui-monospace,monospace;
+    }
+    *{box-sizing:border-box;border-radius:0;box-shadow:none}
+    html,body{background:var(--bg);color:var(--fg)}
+    body{font:13px/1.45 var(--sans);min-width:320px;padding:16px;margin:0;font-variant-emoji:text}
+    ::selection{background:var(--fg);color:var(--bg)}
+
+    h3{margin:0 0 14px;padding-bottom:10px;border-bottom:1px solid var(--fg);
+       font:600 13px var(--mono);letter-spacing:.12em;text-transform:uppercase}
+    h3::before{content:"> "}
+
+    label{display:block;margin:10px 0 0;font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase}
+
+    input,select,button,textarea{
+      display:block;width:100%;margin-top:4px;padding:8px 10px;
+      font:13px var(--sans);text-transform:none;letter-spacing:normal;
+      background:var(--bg);color:var(--fg);border:1px solid var(--fg);
+      outline:none;-webkit-appearance:none;appearance:none;
+    }
+    input:focus,select:focus,textarea:focus,button:focus-visible{outline:1px solid var(--fg);outline-offset:2px}
+    input::placeholder,textarea::placeholder{color:var(--fg);opacity:1;font-style:italic}
+    input[readonly]{border-style:dashed;cursor:default}
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+    textarea{resize:vertical;min-height:110px;font-family:var(--mono);font-size:12px}
+
+    select{cursor:pointer;padding-right:30px;
+      background:var(--bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6' fill='none' stroke='%23fff'/%3E%3C/svg%3E") no-repeat right 10px center}
+    option{background:var(--bg);color:var(--fg)}
+
+    button{margin-top:10px;cursor:pointer;font-weight:500;letter-spacing:.04em}
+    button:hover{background:var(--fg);color:var(--bg)}
+    button.running{background:var(--fg);color:var(--bg);font-weight:600}
+    button.running:hover{background:var(--bg);color:var(--fg)}
+    button:disabled,button:disabled:hover{background:var(--bg);color:var(--fg);border-style:dashed;cursor:not-allowed}
+    #btnFillSignup,#btnFillLogin{padding:10px;font-family:var(--mono);font-weight:600;text-transform:uppercase;letter-spacing:.08em}
+
+    .mode-toggle{display:flex;margin-bottom:14px}
+    .mode-toggle button{flex:1;margin:0;font-size:12px;text-transform:uppercase;letter-spacing:.1em}
+    .mode-toggle button + button{border-left:none}
+    .mode-toggle button.active{background:var(--fg);color:var(--bg);font-weight:600}
+
+    .section{display:none}
+    .section.active{display:block}
+
+    .row{display:flex;gap:8px}
+    .row button{flex:1;margin-top:12px}
+
+    .hint{font-size:11px;font-style:italic;margin:6px 0 0}
+
+    .account-list{max-height:140px;overflow:auto;border:1px solid var(--fg);margin:4px 0 0}
+    .account-item{display:flex;justify-content:space-between;gap:12px;padding:7px 10px;cursor:pointer;font:12px var(--mono);border-bottom:1px solid var(--fg)}
+    .acc-email{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .acc-pass{flex-shrink:0;max-width:45%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .account-item:last-child{border-bottom:none}
+    .account-item:hover{outline:1px solid var(--fg);outline-offset:-4px}
+    .account-item.selected{background:var(--fg);color:var(--bg);font-weight:600}
+
+    #status{display:block;margin-top:16px;padding-top:10px;border-top:1px solid var(--fg);
+            font:11px/1.5 var(--mono);min-height:18px;word-break:break-word}
+    #status::before{content:"$ "}
+    #status:empty{display:none}
+
+    ::-webkit-scrollbar{width:8px;height:8px;background:var(--bg)}
+    ::-webkit-scrollbar-thumb{background:var(--bg);border:1px solid var(--fg)}
+    ::-webkit-scrollbar-corner{background:var(--bg)}
+  </style>
+</head>
+<body>
+  <h3>Gmail Auto Fill</h3>
+
+  <div class="mode-toggle">
+    <button id="modeSignup" class="active">Đăng ký</button>
+    <button id="modeLogin">Đăng nhập</button>
+  </div>
+
+  <!-- ====== CHẾ ĐỘ ĐĂNG KÝ ====== -->
+  <div id="sectionSignup" class="section active">
+    <label>First name <input id="firstName" value="T-Root"></label>
+    <label>Last name <input id="lastName"></label>
+    <label>Ngày sinh (DD/MM/YYYY) <input id="birthday" placeholder="01/01/2000" value="01/01/2000"></label>
+    <label>Giới tính
+      <select id="gender">
+        <option value="1" selected>Nam</option>
+        <option value="2">Nữ</option>
+        <option value="3">Không muốn nêu</option>
+        <option value="4">Tùy chỉnh</option>
+      </select>
+    </label>
+    <label>Mật khẩu mặc định <input id="password" type="text" value="Tr@n"></label>
+    <label>Tiền tố username <input id="usernamePrefix" placeholder="trungabc"></label>
+    <label>Số bắt đầu <input id="usernameNumber" type="number" min="0" value="4"></label>
+
+    <div class="row">
+      <button id="btnOpenSignup" class="secondary">Mở trang ĐK</button>
+      <button id="btnSaveSignup" class="secondary">Lưu cấu hình</button>
+    </div>
+    <button id="btnFillSignup">▶ Điền form đăng ký</button>
+  </div>
+
+  <!-- ====== CHẾ ĐỘ ĐĂNG NHẬP ====== -->
+  <div id="sectionLogin" class="section">
+    <label>Danh sách tài khoản
+      <textarea id="accountsText" placeholder="gmail1@gmail.com password1&#10;gmail2@gmail.com password2&#10;..."></textarea>
+    </label>
+    <p class="hint">Format: Mỗi dòng 1 tài khoản, tài khoản và mật khẩu cách nhau bởi dấu cách</p>
+
+    <button id="btnLoadAccounts">Tải danh sách</button>
+
+    <div id="accountListWrap" style="display:none">
+      <label>Chọn tài khoản</label>
+      <div id="accountList" class="account-list"></div>
+    </div>
+
+    <div class="row">
+      <button id="btnOpenLogin" class="secondary">Mở trang ĐN</button>
+      <button id="btnClearAccounts" class="danger">Xóa danh sách</button>
+    </div>
+    <button id="btnFillLogin" disabled>▶ Điền form đăng nhập</button>
+  </div>
+
+  <small id="status"></small>
+  <script src="popup.js"></script>
+</body>
+</html>

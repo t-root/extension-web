@@ -1,0 +1,4283 @@
+{
+  "version": 1,
+  "courseCode": "ECMP172",
+  "exportedAt": "2026-09-17T16:09:10.912Z",
+  "answers": [
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@eb45a408e46741f992ae10fe21865832?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which three acronyms/initialisms represent standards organizations? (Choose three.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. IANA"
+            },
+            {
+              "letter": "b",
+              "text": "b. IETF"
+            },
+            {
+              "letter": "c",
+              "text": "c. IEEE"
+            },
+            {
+              "letter": "d",
+              "text": "d. OSI"
+            },
+            {
+              "letter": "e",
+              "text": "e. TCP/IP"
+            },
+            {
+              "letter": "f",
+              "text": "f. MAC"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: What type of communication will send a message to all devices on a local area network?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. multicast"
+            },
+            {
+              "letter": "b",
+              "text": "b. unicast"
+            },
+            {
+              "letter": "c",
+              "text": "c. allcast"
+            },
+            {
+              "letter": "d",
+              "text": "d. broadcast"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: In computer communication, what is the purpose of message encoding?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. to convert information to the appropriate form for transmission"
+            },
+            {
+              "letter": "b",
+              "text": "b. to interpret information"
+            },
+            {
+              "letter": "c",
+              "text": "c. to negotiate correct timing for successful communication"
+            },
+            {
+              "letter": "d",
+              "text": "d. to break large messages into smaller frames"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which message delivery option is used when all devices need to receive the same message simultaneously?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. unicast"
+            },
+            {
+              "letter": "b",
+              "text": "b. multicast"
+            },
+            {
+              "letter": "c",
+              "text": "c. broadcast"
+            },
+            {
+              "letter": "d",
+              "text": "d. duplex"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: What are two benefits of using a layered network model? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It assists in protocol design."
+            },
+            {
+              "letter": "b",
+              "text": "b. It ensures a device at one layer can function at the next higher layer."
+            },
+            {
+              "letter": "c",
+              "text": "c. It prevents designers from creating their own model."
+            },
+            {
+              "letter": "d",
+              "text": "d. It prevents technology in one layer from affecting other layers."
+            },
+            {
+              "letter": "e",
+              "text": "e. It speeds up packet delivery."
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: What is the purpose of protocols in data communications?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. dictating the content of the message sent during communication"
+            },
+            {
+              "letter": "b",
+              "text": "b. specifying the device operating systems that will support the communication"
+            },
+            {
+              "letter": "c",
+              "text": "c. specifying the bandwidth of the channel or medium for each type of communication"
+            },
+            {
+              "letter": "d",
+              "text": "d. providing the rules required for a specific type of communication to occur"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Which logical address is used for delivery of data to a remote network?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. destination MAC address"
+            },
+            {
+              "letter": "b",
+              "text": "b. destination IP address"
+            },
+            {
+              "letter": "c",
+              "text": "c. destination port number"
+            },
+            {
+              "letter": "d",
+              "text": "d. source IP address"
+            },
+            {
+              "letter": "e",
+              "text": "e. source MAC address"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: What is the general term that is used to describe a piece of data at any layer of a networking model?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. packet"
+            },
+            {
+              "letter": "b",
+              "text": "b. frame"
+            },
+            {
+              "letter": "c",
+              "text": "c. segment"
+            },
+            {
+              "letter": "d",
+              "text": "d. protocol data unit"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Which two protocols function at the internet layer? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. BOOTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. ICMP"
+            },
+            {
+              "letter": "c",
+              "text": "c. IP"
+            },
+            {
+              "letter": "d",
+              "text": "d. POP"
+            },
+            {
+              "letter": "e",
+              "text": "e. PPP"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Which layer of the OSI model defines services to segment and reassemble data for individual communications between end devices?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. session"
+            },
+            {
+              "letter": "b",
+              "text": "b. application"
+            },
+            {
+              "letter": "c",
+              "text": "c. transport"
+            },
+            {
+              "letter": "d",
+              "text": "d. network"
+            },
+            {
+              "letter": "e",
+              "text": "e. presentation"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a,b,c"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "a,d"
+        },
+        {
+          "question": 6,
+          "answer": "d"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        },
+        {
+          "question": 8,
+          "answer": "d"
+        },
+        {
+          "question": 9,
+          "answer": "b,c"
+        },
+        {
+          "question": 10,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@8112e26a45b947a3ad4de4f1f71114ae?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: A network administrator is troubleshooting connectivity issues on a server. Using a tester, the administrator notices that the signals generated by the server NIC are distorted and not usable. In which layer of the OSI model is the error categorized?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. physical layer"
+            },
+            {
+              "letter": "b",
+              "text": "b. network layer"
+            },
+            {
+              "letter": "c",
+              "text": "c. presentation layer"
+            },
+            {
+              "letter": "d",
+              "text": "d. data link layer"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: What type of cable is used to connect a workstation serial port to a Cisco router console port?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. crossover"
+            },
+            {
+              "letter": "b",
+              "text": "b. straight-through"
+            },
+            {
+              "letter": "c",
+              "text": "c. rollover"
+            },
+            {
+              "letter": "d",
+              "text": "d. coaxial"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Why are two strands of fiber used for a single fiber optic connection?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. They allow for full-duplex connectivity"
+            },
+            {
+              "letter": "b",
+              "text": "b. They prevent crosstalk from causing interference on the connection"
+            },
+            {
+              "letter": "c",
+              "text": "c. The two strands allow the data to travel for longer distances without degrading"
+            },
+            {
+              "letter": "d",
+              "text": "d. They increase the speed at which the data can travel"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which procedure is used to reduce the effect of crosstalk in copper cables?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. physical layer"
+            },
+            {
+              "letter": "b",
+              "text": "b. wrapping the bundle of wires with metallic shielding"
+            },
+            {
+              "letter": "c",
+              "text": "c. avoiding sharp bends during installation"
+            },
+            {
+              "letter": "d",
+              "text": "d. requiring proper grounding connections"
+            },
+            {
+              "letter": "e",
+              "text": "e. twisting opposing circuit wire pairs together"
+            },
+            {
+              "letter": "f",
+              "text": "f. designing a cable infrastructure to avoid crosstalk interference"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: What is one advantage of using fiber optic cabling rather than copper cabling?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It is able to carry signals much farther than copper cabling"
+            },
+            {
+              "letter": "b",
+              "text": "b. It is easier to terminate and install than copper cabling"
+            },
+            {
+              "letter": "c",
+              "text": "c. It is usually cheaper than copper cabling"
+            },
+            {
+              "letter": "d",
+              "text": "d. It is able to be installed around sharp bends"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: A network administrator is designing a new network infrastructure that includes both wired and wireless connectivity. Under which situation would a wireless connection be recommended?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The end-user device needs mobility when connecting to the network"
+            },
+            {
+              "letter": "b",
+              "text": "b. The end-user device requires a dedicated connection because of performance requirements"
+            },
+            {
+              "letter": "c",
+              "text": "c. The end-user device only has an Ethernet NIC"
+            },
+            {
+              "letter": "d",
+              "text": "d. The end-user device area has a high concentration of RFI"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Which type of UTP cable is used to connect a PC to a switch port?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. rollover"
+            },
+            {
+              "letter": "b",
+              "text": "b. console"
+            },
+            {
+              "letter": "c",
+              "text": "c. crossover"
+            },
+            {
+              "letter": "d",
+              "text": "d. straight-through"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: What is the definition of bandwidth?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. the speed at which bits travel on the network"
+            },
+            {
+              "letter": "b",
+              "text": "b. the amount of data that can flow from one place to another in a given amount of time"
+            },
+            {
+              "letter": "c",
+              "text": "c. the measure of usable data transferred over a given period of time"
+            },
+            {
+              "letter": "d",
+              "text": "d. the speed of bits across the media over a given period of time"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Which statement correctly describes frame encoding?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It uses the characteristic of one wave to modify another wave."
+            },
+            {
+              "letter": "b",
+              "text": "b. It converts bits into a predefined code in order to provide a predictable pattern to help distinguish data bits from control bits."
+            },
+            {
+              "letter": "c",
+              "text": "c. It transmits data signals along with a clock signal which occurs at evenly spaced time durations."
+            },
+            {
+              "letter": "d",
+              "text": "d. It generates the electrical, optical, or wireless signals that represent the binary numbers of the frame."
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: What is a characteristic of UTP cabling?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. immunity to electrical hazards"
+            },
+            {
+              "letter": "b",
+              "text": "b. cancellation"
+            },
+            {
+              "letter": "c",
+              "text": "c. woven copper braid or metallic foil"
+            },
+            {
+              "letter": "d",
+              "text": "d. cladding"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "e"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "a"
+        },
+        {
+          "question": 7,
+          "answer": "d"
+        },
+        {
+          "question": 8,
+          "answer": "b"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@e8d3f9c0db3745779df7b9587ae3ac1a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: During a routine inspection, a technician discovered that software that was installed on a computer was secretly collecting data about websites that were visited by users of the computer. Which type of threat is affecting this computer?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. DoS attack"
+            },
+            {
+              "letter": "b",
+              "text": "b. zero-day attack"
+            },
+            {
+              "letter": "c",
+              "text": "c. identity theft"
+            },
+            {
+              "letter": "d",
+              "text": "d. spyware"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which term refers to a network that provides secure access to the corporate offices by suppliers, customers and collaborators?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. intranet"
+            },
+            {
+              "letter": "b",
+              "text": "b. extranet"
+            },
+            {
+              "letter": "c",
+              "text": "c. Internet"
+            },
+            {
+              "letter": "d",
+              "text": "d. Extendednet"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: A large corporation has modified its network to allow users to access network resources from their personal laptops and smart phones. Which networking trend does this describe?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. bring your own device"
+            },
+            {
+              "letter": "b",
+              "text": "b. cloud computing"
+            },
+            {
+              "letter": "c",
+              "text": "c. video conferencing"
+            },
+            {
+              "letter": "d",
+              "text": "d. online collaboration"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: What is an ISP?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It is an organization that enables individuals and businesses to connect to the Internet."
+            },
+            {
+              "letter": "b",
+              "text": "b. It is a standards body that develops cabling and wiring standards for networking."
+            },
+            {
+              "letter": "c",
+              "text": "c. It is a protocol that establishes how computers within a local network communicate."
+            },
+            {
+              "letter": "d",
+              "text": "d. It is a networking device that combines the functionality of several different networking devices in one."
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: In which scenario would the use of a WISP be recommended?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. an apartment in a building with cable access to the Internet"
+            },
+            {
+              "letter": "b",
+              "text": "b. an Internet cafe in a city"
+            },
+            {
+              "letter": "c",
+              "text": "c. any home with multiple wireless devices"
+            },
+            {
+              "letter": "d",
+              "text": "d. a farm in a rural area without wired broadband access"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: What characteristic of a network enables it to quickly grow to support new users and applications without impacting the performance of the service being delivered to existing users?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. reliability"
+            },
+            {
+              "letter": "b",
+              "text": "b. quality of service"
+            },
+            {
+              "letter": "c",
+              "text": "c. scalability"
+            },
+            {
+              "letter": "d",
+              "text": "d. accessibility"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: A college is building a new dormitory on its campus. Workers are digging in the ground to install a new water pipe for the dormitory. A worker accidentally damages a fiber optic cable that connects two of the existing dormitories to the campus data center. Although the cable has been cut, students in the dormitories only experience a very short interruption of network services. What characteristic of the network is shown here?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. integrity"
+            },
+            {
+              "letter": "b",
+              "text": "b. scalability"
+            },
+            {
+              "letter": "c",
+              "text": "c. quality of service (QoS)"
+            },
+            {
+              "letter": "d",
+              "text": "d. security"
+            },
+            {
+              "letter": "e",
+              "text": "e. fault tolerance"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: What are two characteristics of a scalable network? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. is not as reliable as a small network"
+            },
+            {
+              "letter": "b",
+              "text": "b. suitable for modular devices that allow for expansion"
+            },
+            {
+              "letter": "c",
+              "text": "c. offers limited number of applications"
+            },
+            {
+              "letter": "d",
+              "text": "d. grows in size without impacting existing users"
+            },
+            {
+              "letter": "e",
+              "text": "e. easily overloaded with increased traffic"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Which device performs the function of determining the path that messages should take through internetworks?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. a firewall"
+            },
+            {
+              "letter": "b",
+              "text": "b. a router"
+            },
+            {
+              "letter": "c",
+              "text": "c. a DSL modem"
+            },
+            {
+              "letter": "d",
+              "text": "d. a web server"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Which two Internet connection options do not require that physical cables be run to the building? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. DSL"
+            },
+            {
+              "letter": "b",
+              "text": "b. cellular"
+            },
+            {
+              "letter": "c",
+              "text": "c. dialup"
+            },
+            {
+              "letter": "d",
+              "text": "d. satellite"
+            },
+            {
+              "letter": "e",
+              "text": "e. dedicated leased line"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "d"
+        },
+        {
+          "question": 6,
+          "answer": "c"
+        },
+        {
+          "question": 7,
+          "answer": "e"
+        },
+        {
+          "question": 8,
+          "answer": "b,d"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "b,d"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@614e2ffeba164e4580527b0b307ace53?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which statement is true about the running configuration file in a Cisco IOS device?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It affects the operation of the device immediately when modified."
+            },
+            {
+              "letter": "b",
+              "text": "b. It is automatically saved when the router reboots."
+            },
+            {
+              "letter": "c",
+              "text": "c. It is stored in NVRAM."
+            },
+            {
+              "letter": "d",
+              "text": "d. It should be deleted using the erase running-config command."
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which two statements are true regarding the user EXEC mode? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The device prompt for this mode ends with the \">\" symbol."
+            },
+            {
+              "letter": "b",
+              "text": "b. Interfaces and routing protocols can be configured."
+            },
+            {
+              "letter": "c",
+              "text": "c. All router commands are available."
+            },
+            {
+              "letter": "d",
+              "text": "d. Global configuration mode can be accessed by entering the enable command."
+            },
+            {
+              "letter": "e",
+              "text": "e. Only some aspects of the router configuration can be viewed."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which type of access is secured on a Cisco router or switch with the enable secret command?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. virtual terminal"
+            },
+            {
+              "letter": "b",
+              "text": "b. privileged EXEC"
+            },
+            {
+              "letter": "c",
+              "text": "c. console line"
+            },
+            {
+              "letter": "d",
+              "text": "d. AUX port"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: What is the default SVI on a Cisco switch?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. VLAN999"
+            },
+            {
+              "letter": "b",
+              "text": "b. VLAN1"
+            },
+            {
+              "letter": "c",
+              "text": "c. VLAN100"
+            },
+            {
+              "letter": "d",
+              "text": "d. VLAN99"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: When a hostname is configured through the Cisco CLI, which three naming conventions are part of the guidelines? (Choose three.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. the hostname should begin with a letter"
+            },
+            {
+              "letter": "b",
+              "text": "b. the hostname should be written in all lower case characters"
+            },
+            {
+              "letter": "c",
+              "text": "c. the hostname should contain no spaces"
+            },
+            {
+              "letter": "d",
+              "text": "d. the hostname should be fewer than 64 characters in length"
+            },
+            {
+              "letter": "e",
+              "text": "e. the hostname should end with a special character"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: What is the function of the shell in an OS?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It provides dedicated firewall services."
+            },
+            {
+              "letter": "b",
+              "text": "b. It provides the intrusion protection services for the device."
+            },
+            {
+              "letter": "c",
+              "text": "c. It interacts with the device hardware."
+            },
+            {
+              "letter": "d",
+              "text": "d. It interfaces between the users and the kernel."
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: A router with a valid operating system contains a configuration file stored in NVRAM. The configuration file has an enable secret password but no console password. When the router boots up, which mode will display?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. setup mode"
+            },
+            {
+              "letter": "b",
+              "text": "b. user EXEC mode"
+            },
+            {
+              "letter": "c",
+              "text": "c. global configuration mode"
+            },
+            {
+              "letter": "d",
+              "text": "d. privileged EXEC mode."
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: An administrator has just changed the IP address of an interface on an IOS device. What else must be done in order to apply those changes to the device?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Copy the running configuration to the startup configuration file."
+            },
+            {
+              "letter": "b",
+              "text": "b. Reload the device and type yes when prompted to save the configuration."
+            },
+            {
+              "letter": "c",
+              "text": "c. Nothing must be done. Changes to the configuration on an IOS device take effect as soon as the command is typed correctly and the Enter key has been pressed."
+            },
+            {
+              "letter": "d",
+              "text": "d. Copy the information in the startup configuration file to the running configuration."
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Which memory location on a Cisco router or switch will lose all content when the device is restarted?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. RAM"
+            },
+            {
+              "letter": "b",
+              "text": "b. flash"
+            },
+            {
+              "letter": "c",
+              "text": "c. NVRAM"
+            },
+            {
+              "letter": "d",
+              "text": "d. ROM"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Why would a technician enter the command copy startup-config running-config?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. to save an active configuration to NVRAM"
+            },
+            {
+              "letter": "b",
+              "text": "b. to remove all configurations from the switch"
+            },
+            {
+              "letter": "c",
+              "text": "c. to make a changed configuration the new startup configuration"
+            },
+            {
+              "letter": "d",
+              "text": "d. to copy an existing configuration into RAM."
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a,e"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "a,c,d"
+        },
+        {
+          "question": 6,
+          "answer": "d"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        },
+        {
+          "question": 8,
+          "answer": "c"
+        },
+        {
+          "question": 9,
+          "answer": "a"
+        },
+        {
+          "question": 10,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@4ac2327e6d0746db9269bf37c336691b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which is the hexadecimal equivalent of 202?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. B10"
+            },
+            {
+              "letter": "b",
+              "text": "b. BA"
+            },
+            {
+              "letter": "c",
+              "text": "c. C10"
+            },
+            {
+              "letter": "d",
+              "text": "d. CA"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which is the hexadecimal equivalent of 254?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. EA"
+            },
+            {
+              "letter": "b",
+              "text": "b. ED"
+            },
+            {
+              "letter": "c",
+              "text": "c. FA"
+            },
+            {
+              "letter": "d",
+              "text": "d. FE"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which is the decimal equivalent of A9?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 168"
+            },
+            {
+              "letter": "b",
+              "text": "b. 169"
+            },
+            {
+              "letter": "c",
+              "text": "c. 170"
+            },
+            {
+              "letter": "d",
+              "text": "d. 171"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which of the following is the decimal equivalent of 7D?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 124"
+            },
+            {
+              "letter": "b",
+              "text": "b. 125"
+            },
+            {
+              "letter": "c",
+              "text": "c. 126"
+            },
+            {
+              "letter": "d",
+              "text": "d. 127"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Convert 128 to binary",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 10000000"
+            },
+            {
+              "letter": "b",
+              "text": "b. 01111110"
+            },
+            {
+              "letter": "c",
+              "text": "c. 10000001"
+            },
+            {
+              "letter": "d",
+              "text": "d. 11001100"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Convert 65 to binary",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 01100001"
+            },
+            {
+              "letter": "b",
+              "text": "b. 00100001"
+            },
+            {
+              "letter": "c",
+              "text": "c. 01000001"
+            },
+            {
+              "letter": "d",
+              "text": "d. 00100101"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Convert 254 to binary",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 11110000"
+            },
+            {
+              "letter": "b",
+              "text": "b. 11111100"
+            },
+            {
+              "letter": "c",
+              "text": "c. 11111111"
+            },
+            {
+              "letter": "d",
+              "text": "d. 11111110"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Convert 37 to binary",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 00100101"
+            },
+            {
+              "letter": "b",
+              "text": "b. 00100011"
+            },
+            {
+              "letter": "c",
+              "text": "c. 00100111"
+            },
+            {
+              "letter": "d",
+              "text": "d. 01000101"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "c"
+        },
+        {
+          "question": 7,
+          "answer": "d"
+        },
+        {
+          "question": 8,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@0c2e2d5e01ef40519c5ddd3814fe1ecf?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What identifier is used at the data link layer to uniquely identify an Ethernet device?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. IP address"
+            },
+            {
+              "letter": "b",
+              "text": "b. UDP port number"
+            },
+            {
+              "letter": "c",
+              "text": "c. TCP port number"
+            },
+            {
+              "letter": "d",
+              "text": "d. MAC address"
+            },
+            {
+              "letter": "e",
+              "text": "e. sequence number"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: What attribute of a NIC would place it at the data link layer of the OSI model?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. TCP/IP protocol stack"
+            },
+            {
+              "letter": "b",
+              "text": "b. IP address"
+            },
+            {
+              "letter": "c",
+              "text": "c. RJ-45 port"
+            },
+            {
+              "letter": "d",
+              "text": "d. attached Ethernet cable"
+            },
+            {
+              "letter": "e",
+              "text": "e. MAC address"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which two engineering organizations define open standards and protocols that apply to the data link layer? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Electronic Industries Alliance (EIA)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Internet Society (ISOC)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Internet Assigned Numbers Authority (IANA)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Institute of Electrical and Electronics Engineers (IEEE)"
+            },
+            {
+              "letter": "e",
+              "text": "e. International Telecommunication Union (ITU)"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: What is true concerning physical and logical topologies?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Physical topologies display the IP addressing scheme of each network."
+            },
+            {
+              "letter": "b",
+              "text": "b. Physical topologies are concerned with how a network transfers frames."
+            },
+            {
+              "letter": "c",
+              "text": "c. Logical topologies refer to how a network transfers data between devices."
+            },
+            {
+              "letter": "d",
+              "text": "d. The logical topology is always the same as the physical topology."
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: What method is used to manage contention-based access on a wireless network?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. CSMA/CD"
+            },
+            {
+              "letter": "b",
+              "text": "b. priority ordering"
+            },
+            {
+              "letter": "c",
+              "text": "c. token passing"
+            },
+            {
+              "letter": "d",
+              "text": "d. CSMA/CA"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: A technician has been asked to develop a physical topology for a network that provides a high level of redundancy. Which physical topology requires that every node is attached to every other node on the network?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. hierarchical"
+            },
+            {
+              "letter": "b",
+              "text": "b. bus"
+            },
+            {
+              "letter": "c",
+              "text": "c. star"
+            },
+            {
+              "letter": "d",
+              "text": "d. ring"
+            },
+            {
+              "letter": "e",
+              "text": "e. mesh"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Which statement describes the half-duplex mode of data transmission?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Data that is transmitted over the network can only flow in one direction."
+            },
+            {
+              "letter": "b",
+              "text": "b. Data that is transmitted over the network flows in both directions at the same time."
+            },
+            {
+              "letter": "c",
+              "text": "c. Data that is transmitted over the network flows in one direction at a time."
+            },
+            {
+              "letter": "d",
+              "text": "d. Data that is transmitted over the network flows in one direction to many different destinations simultaneously."
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Which is a function of the Logical Link Control (LLC) sublayer?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. to identify which network layer protocol is being used"
+            },
+            {
+              "letter": "b",
+              "text": "b. to provide data link layer addressing"
+            },
+            {
+              "letter": "c",
+              "text": "c. to define the media access processes that are performed by the hardware"
+            },
+            {
+              "letter": "d",
+              "text": "d. to accept segments and package them into data units that are called packets"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Which data link layer media access control method does Ethernet use with legacy Ethernet hubs?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. CSMA/CD"
+            },
+            {
+              "letter": "b",
+              "text": "b. turn taking"
+            },
+            {
+              "letter": "c",
+              "text": "c. determinism"
+            },
+            {
+              "letter": "d",
+              "text": "d. token passing"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: What are the two sublayers of the OSI model data link layer? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. internet"
+            },
+            {
+              "letter": "b",
+              "text": "b. network access"
+            },
+            {
+              "letter": "c",
+              "text": "c. physical"
+            },
+            {
+              "letter": "d",
+              "text": "d. transport"
+            },
+            {
+              "letter": "e",
+              "text": "e. MAC"
+            },
+            {
+              "letter": "f",
+              "text": "f. LLC"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "e"
+        },
+        {
+          "question": 3,
+          "answer": "a,d"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "d"
+        },
+        {
+          "question": 6,
+          "answer": "e"
+        },
+        {
+          "question": 7,
+          "answer": "c"
+        },
+        {
+          "question": 8,
+          "answer": "a"
+        },
+        {
+          "question": 9,
+          "answer": "a"
+        },
+        {
+          "question": 10,
+          "answer": "e,f"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@e26c911994e145949bd57b60a0de63ce?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which router component holds the routing table, ARP cache, and running configuration file?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. NVRAM"
+            },
+            {
+              "letter": "b",
+              "text": "b. ROM"
+            },
+            {
+              "letter": "c",
+              "text": "c. RAM"
+            },
+            {
+              "letter": "d",
+              "text": "d. Flash"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: What type of information is contained in an ARP table?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. routes to reach destination networks"
+            },
+            {
+              "letter": "b",
+              "text": "b. switch ports associated with destination MAC addresses"
+            },
+            {
+              "letter": "c",
+              "text": "c. IPv4 address to MAC address mappings"
+            },
+            {
+              "letter": "d",
+              "text": "d. domain name to IPv4 address mappings"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: A PC is configured to obtain an IPv4 address automatically from network 192.168.1.0/24. The network administrator issues the arp –a command and notices an entry of 192.168.1.255 ff-ff-ff-ff-ff-ff. Which statement describes this entry?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. This is a static map entry"
+            },
+            {
+              "letter": "b",
+              "text": "b. This entry refers to the PC itself"
+            },
+            {
+              "letter": "c",
+              "text": "c. This is a dynamic map entry"
+            },
+            {
+              "letter": "d",
+              "text": "d. This entry maps to the default gateway"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: A cybersecurity analyst believes an attacker is spoofing the MAC address of the default gateway to perform a man-in-the-middle attack. Which command should the analyst use to view the MAC address a host is using to reach the default gateway?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. route print"
+            },
+            {
+              "letter": "b",
+              "text": "b. netstat -r"
+            },
+            {
+              "letter": "c",
+              "text": "c. arp -a"
+            },
+            {
+              "letter": "d",
+              "text": "d. ipconfig /all"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: What will a Layer 2 switch do when the destination MAC address of a received frame is not in the MAC table?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It broadcasts the frame out of all ports on the switch."
+            },
+            {
+              "letter": "b",
+              "text": "b. It initiates an ARP request."
+            },
+            {
+              "letter": "c",
+              "text": "c. It notifies the sending host that the frame cannot be delivered."
+            },
+            {
+              "letter": "d",
+              "text": "d. It forwards the frame out of all ports except for the port at which the frame was received."
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Which two ICMPv6 messages are used during the Ethernet MAC address resolution process? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. neighbor solicitation"
+            },
+            {
+              "letter": "b",
+              "text": "b. router solicitation"
+            },
+            {
+              "letter": "c",
+              "text": "c. echo request"
+            },
+            {
+              "letter": "d",
+              "text": "d. neighbor advertisement"
+            },
+            {
+              "letter": "e",
+              "text": "e. router advertisement"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: How does the ARP process use an IPv4 address?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. to determine the network number based on the number of bits in the IPv4 address"
+            },
+            {
+              "letter": "b",
+              "text": "b. to determine the MAC address of a device on the same network"
+            },
+            {
+              "letter": "c",
+              "text": "c. to determine the MAC address of the remote destination host"
+            },
+            {
+              "letter": "d",
+              "text": "d. to determine the amount of time a packet takes when traveling from source to destination"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: What is one function of the ARP protocol?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. mapping a domain name to its IP address"
+            },
+            {
+              "letter": "b",
+              "text": "b. maintaining a table of domain names with their resolved IP addresses"
+            },
+            {
+              "letter": "c",
+              "text": "c. obtaining an IPv4 address automatically"
+            },
+            {
+              "letter": "d",
+              "text": "d. resolving an IPv4 address to a MAC address"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Which action is taken by a Layer 2 switch when it receives a Layer 2 broadcast frame?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It sends the frame to all ports that are registered to forward broadcasts"
+            },
+            {
+              "letter": "b",
+              "text": "b. It sends the frame to all ports"
+            },
+            {
+              "letter": "c",
+              "text": "c. It drops the frame"
+            },
+            {
+              "letter": "d",
+              "text": "d. It sends the frame to all ports except the port on which it received the frame"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: What addresses are mapped by ARP?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. destination IPv4 address to the source MAC address"
+            },
+            {
+              "letter": "b",
+              "text": "b. destination MAC address to the source IPv4 address"
+            },
+            {
+              "letter": "c",
+              "text": "c. destination IPv4 address to the destination host name"
+            },
+            {
+              "letter": "d",
+              "text": "d. IPv4 address to a destination MAC address"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "d"
+        },
+        {
+          "question": 6,
+          "answer": "a,d"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        },
+        {
+          "question": 8,
+          "answer": "d"
+        },
+        {
+          "question": 9,
+          "answer": "d"
+        },
+        {
+          "question": 10,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@da18223056844b19a7da6b002b575cc4?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which command can be used on a Windows host to display the routing table?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. tracert"
+            },
+            {
+              "letter": "b",
+              "text": "b. show ip route"
+            },
+            {
+              "letter": "c",
+              "text": "c. netstat -s"
+            },
+            {
+              "letter": "d",
+              "text": "d. netstat -r"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: What information is added during encapsulation at OSI Layer 3?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. source and destination IP address"
+            },
+            {
+              "letter": "b",
+              "text": "b. source and destination port number"
+            },
+            {
+              "letter": "c",
+              "text": "c. source and destination MAC"
+            },
+            {
+              "letter": "d",
+              "text": "d. source and destination application protocol"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: How does the network layer use the MTU value?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The MTU is passed to the network layer by the data link layer"
+            },
+            {
+              "letter": "b",
+              "text": "b. The network layer depends on the data link layer to set the MTU, and adjusts the speed of transmission to accommodate it"
+            },
+            {
+              "letter": "c",
+              "text": "c. The network layer depends on the higher level layers to determine the MTU"
+            },
+            {
+              "letter": "d",
+              "text": "d. To increase speed of delivery, the network layer ignores the MTU"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which characteristic describes an IPv6 enhancement over IPv4?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The IPv6 address space is four times bigger than the IPv4 address space"
+            },
+            {
+              "letter": "b",
+              "text": "b. The IPv6 header is simpler than the IPv4 header is, which improves packet handling"
+            },
+            {
+              "letter": "c",
+              "text": "c. IPv6 addresses are based on 128-bit flat addressing as opposed to IPv4 which is based on 32-bit hierarchical addressing"
+            },
+            {
+              "letter": "d",
+              "text": "d. Both IPv4 and IPv6 support authentication, but only IPv6 supports privacy capabilities"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Which statement accurately describes a characteristic of IPv4?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. IPv4 has a 32-bit address space"
+            },
+            {
+              "letter": "b",
+              "text": "b. IPv4 natively supports IPsec"
+            },
+            {
+              "letter": "c",
+              "text": "c. An IPv4 header has fewer fields than an IPv6 header has"
+            },
+            {
+              "letter": "d",
+              "text": "d. All IPv4 addresses are assignable to hosts"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: When a router receives a packet, what information must be examined in order for the packet to be forwarded to a remote destination?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. source MAC address"
+            },
+            {
+              "letter": "b",
+              "text": "b. destination IP address"
+            },
+            {
+              "letter": "c",
+              "text": "c. destination MAC address"
+            },
+            {
+              "letter": "d",
+              "text": "d. source IP address"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: A computer has to send a packet to a destination host in the same LAN. How will the packet be sent?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The packet will be sent only to the default gateway"
+            },
+            {
+              "letter": "b",
+              "text": "b. The packet will be sent to the default gateway first, and then, depending on the response from the gateway, it may be sent to the destination host"
+            },
+            {
+              "letter": "c",
+              "text": "c. The packet will be sent directly to the destination host"
+            },
+            {
+              "letter": "d",
+              "text": "d. The packet will first be sent to the default gateway, and then from the default gateway it will be sent directly to the destination host"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Which IPv4 address can a host use to ping the loopback interface?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 126.0.0.1"
+            },
+            {
+              "letter": "b",
+              "text": "b. 127.0.0.0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 126.0.0.0"
+            },
+            {
+              "letter": "d",
+              "text": "d. 127.0.0.1"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: When a connectionless protocol is in use at a lower layer of the OSI model, how is missing data detected and retransmitted if necessary?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Upper-layer connection-oriented protocols keep track of the data received and can request retransmission from the upper-level protocols on the sending host"
+            },
+            {
+              "letter": "b",
+              "text": "b. Network layer IP protocols manage the communication sessions if connection-oriented transport services are not available"
+            },
+            {
+              "letter": "c",
+              "text": "c. The best-effort delivery process guarantees that all packets that are sent are received"
+            },
+            {
+              "letter": "d",
+              "text": "d. Connectionless acknowledgements are used to request retransmission"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: What was the reason for the creation and implementation of IPv6?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. to provide more address space in the Internet Names Registry"
+            },
+            {
+              "letter": "b",
+              "text": "b. to relieve IPv4 address depletion"
+            },
+            {
+              "letter": "c",
+              "text": "c. to make reading a 32-bit address easier"
+            },
+            {
+              "letter": "d",
+              "text": "d. to allow NAT support for private addressing"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "c"
+        },
+        {
+          "question": 8,
+          "answer": "d"
+        },
+        {
+          "question": 9,
+          "answer": "a"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@3b20f5549cc6414183d113fcc6de64fc?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which two characteristics describe Ethernet technology? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It uses a ring topology"
+            },
+            {
+              "letter": "b",
+              "text": "b. It typically uses an average of 16 Mbps for data transfer rates"
+            },
+            {
+              "letter": "c",
+              "text": "c. It uses unique MAC addresses to ensure that data is sent to the appropriate destination"
+            },
+            {
+              "letter": "d",
+              "text": "d. It is supported by IEEE 802.3 standards"
+            },
+            {
+              "letter": "e",
+              "text": "e. It is supported by IEEE 802.5 standards"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: What statement describes a characteristic of MAC addresses?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. They have a 32-bit binary value"
+            },
+            {
+              "letter": "b",
+              "text": "b. They must be globally unique"
+            },
+            {
+              "letter": "c",
+              "text": "c. They are only routable within the private network"
+            },
+            {
+              "letter": "d",
+              "text": "d. They are added as part of a Layer 3 PDU"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: What is the special value assigned to the first 24 bits of a multicast MAC address transporting an IPv4 packet?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 01-00-5E"
+            },
+            {
+              "letter": "b",
+              "text": "b. FF-FF-FF"
+            },
+            {
+              "letter": "c",
+              "text": "c. FF-00-5E"
+            },
+            {
+              "letter": "d",
+              "text": "d. 01-5E-00"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: What will a host on an Ethernet network do if it receives a frame with a unicast destination MAC address that does not match its own MAC address?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It will remove the frame from the media"
+            },
+            {
+              "letter": "b",
+              "text": "b. It will forward the frame to the next host"
+            },
+            {
+              "letter": "c",
+              "text": "c. It will strip off the data-link frame to check the destination IP address"
+            },
+            {
+              "letter": "d",
+              "text": "d. It will discard the frame"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Which network device makes forwarding decisions based on the destination MAC address that is contained in the frame?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. hub"
+            },
+            {
+              "letter": "b",
+              "text": "b. router"
+            },
+            {
+              "letter": "c",
+              "text": "c. repeater"
+            },
+            {
+              "letter": "d",
+              "text": "d. switch"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Which network device has the primary function to send data to a specific destination based on the information found in the MAC address table?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. hub"
+            },
+            {
+              "letter": "b",
+              "text": "b. router"
+            },
+            {
+              "letter": "c",
+              "text": "c. switch"
+            },
+            {
+              "letter": "d",
+              "text": "d. modem"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Which function or operation is performed by the LLC sublayer?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It communicates with upper protocol layers"
+            },
+            {
+              "letter": "b",
+              "text": "b. It adds a header and trailer to a packet to form an OSI Layer 2 PDU"
+            },
+            {
+              "letter": "c",
+              "text": "c. It is responsible for media access control"
+            },
+            {
+              "letter": "d",
+              "text": "d. It performs data encapsulation"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: What happens to runt frames received by a Cisco Ethernet switch?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The frame is sent to the default gateway"
+            },
+            {
+              "letter": "b",
+              "text": "b. The frame is dropped"
+            },
+            {
+              "letter": "c",
+              "text": "c. The frame is broadcast to all other devices on the same network"
+            },
+            {
+              "letter": "d",
+              "text": "d. The frame is returned to the originating network device"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: What addressing information is recorded by a switch to build its MAC address table?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. the destination Layer 3 address of incoming packets"
+            },
+            {
+              "letter": "b",
+              "text": "b. the source Layer 3 address of outgoing packets"
+            },
+            {
+              "letter": "c",
+              "text": "c. the source Layer 2 address of incoming frames"
+            },
+            {
+              "letter": "d",
+              "text": "d. the destination Layer 2 address of outgoing frames"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: What is auto-MDIX?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. an Ethernet connector type"
+            },
+            {
+              "letter": "b",
+              "text": "b. a feature to automatically determine speed and duplex"
+            },
+            {
+              "letter": "c",
+              "text": "c. a feature that detects Ethernet cable type"
+            },
+            {
+              "letter": "d",
+              "text": "d. a type of Cisco switch"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c,d"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "d"
+        },
+        {
+          "question": 6,
+          "answer": "c"
+        },
+        {
+          "question": 7,
+          "answer": "a"
+        },
+        {
+          "question": 8,
+          "answer": "b"
+        },
+        {
+          "question": 9,
+          "answer": "c"
+        },
+        {
+          "question": 10,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@cef5f4109ee84308a4287d996863253d?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: A router boots and enters setup mode. What is the reason for this?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The configuration file is missing from NVRAM"
+            },
+            {
+              "letter": "b",
+              "text": "b. The IOS image is corrupt"
+            },
+            {
+              "letter": "c",
+              "text": "c. The POST process has detected hardware failure"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cisco IOS is missing from flash memory"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which command is used to encrypt all passwords in a router configuration file?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Router_A (config) # service password-encryption"
+            },
+            {
+              "letter": "b",
+              "text": "b. Router_A (config) # enable secret < password >"
+            },
+            {
+              "letter": "c",
+              "text": "c. Router_A (config) # encrypt password"
+            },
+            {
+              "letter": "d",
+              "text": "d. Router_A (config) # enable password < password >"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Company policy requires using the most secure method to safeguard access to the privileged exec and configuration mode on the routers. The privileged exec password is trustknow1. Which of the following router commands achieves the goal of providing the highest level of security?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. service password-encryption"
+            },
+            {
+              "letter": "b",
+              "text": "b. enable password trustknow1"
+            },
+            {
+              "letter": "c",
+              "text": "c. secret password trustknow1"
+            },
+            {
+              "letter": "d",
+              "text": "d. enable secret trustknow1"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: What is stored in the NVRAM of a Cisco router?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. the running configuration"
+            },
+            {
+              "letter": "b",
+              "text": "b. the startup configuration"
+            },
+            {
+              "letter": "c",
+              "text": "c. the Cisco IOS"
+            },
+            {
+              "letter": "d",
+              "text": "d. the bootup instructions"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: A technician is configuring a router to allow for all forms of management access. As part of each different type of access, the technician is trying to type the command login. Which configuration mode should be entered to do this task?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. user executive mode"
+            },
+            {
+              "letter": "b",
+              "text": "b. privileged EXEC mode"
+            },
+            {
+              "letter": "c",
+              "text": "c. global configuration mode"
+            },
+            {
+              "letter": "d",
+              "text": "d. any line configuration mode"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Which command can be used on a Cisco router to display all interfaces, the IPv4 address assigned, and the current status?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ping"
+            },
+            {
+              "letter": "b",
+              "text": "b. show ip route"
+            },
+            {
+              "letter": "c",
+              "text": "c. show interface fa0/1"
+            },
+            {
+              "letter": "d",
+              "text": "d. show ip interface brief"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Which CLI mode allows users to access all device commands, such as those used for configuration, management, and troubleshooting?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. user EXEC mode"
+            },
+            {
+              "letter": "b",
+              "text": "b. privileged EXEC mode"
+            },
+            {
+              "letter": "c",
+              "text": "c. interface configuration mode"
+            },
+            {
+              "letter": "d",
+              "text": "d. global configuration mode"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: What is the purpose of the startup configuration file on a Cisco router?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. to contain the commands that are used to initially configure a router on startup"
+            },
+            {
+              "letter": "b",
+              "text": "b. to provide a limited backup version of the IOS, in case the router cannot load the full featured IOS"
+            },
+            {
+              "letter": "c",
+              "text": "c. to contain the configuration commands that the router IOS is currently using"
+            },
+            {
+              "letter": "d",
+              "text": "d. to facilitate the basic operation of the hardware components of a device"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Which characteristic describes the default gateway of a host computer?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. the logical address of the router interface on the same network as the host computer"
+            },
+            {
+              "letter": "b",
+              "text": "b. the physical address of the router interface on the same network as the host computer"
+            },
+            {
+              "letter": "c",
+              "text": "c. the logical address assigned to the switch interface connected to the router"
+            },
+            {
+              "letter": "d",
+              "text": "d. the physical address of the switch interface connected to the host computer"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: What is the purpose of the banner motd command?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It provides an easy way of communicating with any user attached to a router's LANS"
+            },
+            {
+              "letter": "b",
+              "text": "b. It provides a way to make announcements to those who log in to a router"
+            },
+            {
+              "letter": "c",
+              "text": "c. It is a way that routers communicate the status of their links with one another"
+            },
+            {
+              "letter": "d",
+              "text": "d. It configures a message that will identify printed documents to LAN users"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "d"
+        },
+        {
+          "question": 6,
+          "answer": "d"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        },
+        {
+          "question": 8,
+          "answer": "a"
+        },
+        {
+          "question": 9,
+          "answer": "a"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@6493a8551e7744d3beb89f7175f3ecd7?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What is the prefix length notation for the subnet mask 255.255.255.224?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. /28"
+            },
+            {
+              "letter": "b",
+              "text": "b. /27"
+            },
+            {
+              "letter": "c",
+              "text": "c. /25"
+            },
+            {
+              "letter": "d",
+              "text": "d. /26"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: How many valid host addresses are available on an IPv4 subnet that is configured with a /26 mask?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 64"
+            },
+            {
+              "letter": "b",
+              "text": "b. 192"
+            },
+            {
+              "letter": "c",
+              "text": "c. 190"
+            },
+            {
+              "letter": "d",
+              "text": "d. 62"
+            },
+            {
+              "letter": "e",
+              "text": "e. 254"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which subnet mask would be used if 5 host bits are available?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 255.255.255.240"
+            },
+            {
+              "letter": "b",
+              "text": "b. 255.255.255.128"
+            },
+            {
+              "letter": "c",
+              "text": "c. 255.255.255.0"
+            },
+            {
+              "letter": "d",
+              "text": "d. 255.255.255.224"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: A network administrator subnets the 192.168.10.0/24 network into subnets with /26 masks. How many equal-sized subnets are created?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 2"
+            },
+            {
+              "letter": "b",
+              "text": "b. 64"
+            },
+            {
+              "letter": "c",
+              "text": "c. 16"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1"
+            },
+            {
+              "letter": "e",
+              "text": "e. 8"
+            },
+            {
+              "letter": "f",
+              "text": "f. 4"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: What subnet mask is represented by the slash notation /20?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 255.255.224.0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 255.255.240.0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 255.255.255.248"
+            },
+            {
+              "letter": "d",
+              "text": "d. 255.255.255.192"
+            },
+            {
+              "letter": "e",
+              "text": "e. 255.255.255.0"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Which statement is true about variable-length subnet masking?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bits are returned, rather than borrowed, to create additional subnets"
+            },
+            {
+              "letter": "b",
+              "text": "b. Subnets may only be subnetted one additional time"
+            },
+            {
+              "letter": "c",
+              "text": "c. The size of each subnet may be different, depending on requirements"
+            },
+            {
+              "letter": "d",
+              "text": "d. Each subnet is the same size"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Why does a Layer 3 device perform the ANDing process on a destination IP address and subnet mask?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. to identify the host address of the destination host"
+            },
+            {
+              "letter": "b",
+              "text": "b. to identify faulty frames"
+            },
+            {
+              "letter": "c",
+              "text": "c. to identify the network address of the destination network"
+            },
+            {
+              "letter": "d",
+              "text": "d. to identify the broadcast address of the destination network"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: How many usable IP addresses are available on the 192.168.1.0/27 network?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 254"
+            },
+            {
+              "letter": "b",
+              "text": "b. 256"
+            },
+            {
+              "letter": "c",
+              "text": "c. 32"
+            },
+            {
+              "letter": "d",
+              "text": "d. 30"
+            },
+            {
+              "letter": "e",
+              "text": "e. 16"
+            },
+            {
+              "letter": "f",
+              "text": "f. 62"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Which subnet mask would be used if exactly 4 host bits are available?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 255.255.255.240"
+            },
+            {
+              "letter": "b",
+              "text": "b. 255.255.255.224"
+            },
+            {
+              "letter": "c",
+              "text": "c. 255.255.255.248"
+            },
+            {
+              "letter": "d",
+              "text": "d. 255.255.255.128"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Which two parts are components of an IPv4 address? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. physical portion"
+            },
+            {
+              "letter": "b",
+              "text": "b. subnet portion"
+            },
+            {
+              "letter": "c",
+              "text": "c. host portion"
+            },
+            {
+              "letter": "d",
+              "text": "d. broadcast portion"
+            },
+            {
+              "letter": "e",
+              "text": "e. logical portion"
+            },
+            {
+              "letter": "f",
+              "text": "f. network portion"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        },
+        {
+          "question": 4,
+          "answer": "f"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "c"
+        },
+        {
+          "question": 7,
+          "answer": "c"
+        },
+        {
+          "question": 8,
+          "answer": "d"
+        },
+        {
+          "question": 9,
+          "answer": "a"
+        },
+        {
+          "question": 10,
+          "answer": "c,f"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@e2e0d41cea454d25984b7773f23733ae?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: A technician is troubleshooting a network where it is suspected that a defective node in the network path is causing packets to be dropped. The technician only has the IP address of the end point device and does not have any details of the intermediate devices. What command can the technician use to identify the faulty node?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. tracert"
+            },
+            {
+              "letter": "b",
+              "text": "b. ipconfig /flushdns"
+            },
+            {
+              "letter": "c",
+              "text": "c. ping"
+            },
+            {
+              "letter": "d",
+              "text": "d. ipconfig/displaydns"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: A user who is unable to connect to the file server contacts the help desk. The helpdesk technician asks the user to ping the IP address of the default gateway that is configured on the workstation. What is the purpose for this ping command?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. to resolve the domain name of the file server to its IP address"
+            },
+            {
+              "letter": "b",
+              "text": "b. to obtain a dynamic IP address from the server"
+            },
+            {
+              "letter": "c",
+              "text": "c. to request that gateway forward the connection request to the file server"
+            },
+            {
+              "letter": "d",
+              "text": "d. to test that the host has the capability to reach hosts on other networks"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3 What is a function of the tracert command that differs from the ping command when they are used on a workstation?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The tracert command sends one ICMP message to each hop in the path."
+            },
+            {
+              "letter": "b",
+              "text": "b. The tracert command is used to test the connectivity between two devices."
+            },
+            {
+              "letter": "c",
+              "text": "c. The tracert command reaches the destination faster."
+            },
+            {
+              "letter": "d",
+              "text": "d. The tracert command shows the information of routers in the path."
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which ICMP message is used by the traceroute utility during the process of finding the path between two end hosts?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. redirect"
+            },
+            {
+              "letter": "b",
+              "text": "b. destination unreachable"
+            },
+            {
+              "letter": "c",
+              "text": "c. time exceeded"
+            },
+            {
+              "letter": "d",
+              "text": "d. ping"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Which utility uses the Internet Control Messaging Protocol (ICMP)?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ping"
+            },
+            {
+              "letter": "b",
+              "text": "b. DNS"
+            },
+            {
+              "letter": "c",
+              "text": "c. NTP"
+            },
+            {
+              "letter": "d",
+              "text": "d. RIP"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Which protocol is used by IPv4 and IPv6 to provide error messaging?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ARP"
+            },
+            {
+              "letter": "b",
+              "text": "b. DHCP"
+            },
+            {
+              "letter": "c",
+              "text": "c. NDP"
+            },
+            {
+              "letter": "d",
+              "text": "d. ICMP"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: A network administrator is testing network connectivity by issuing the ping command on a router. Which symbol will be displayed to indicate that a time expired during the wait for an ICMP echo reply message?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. $"
+            },
+            {
+              "letter": "b",
+              "text": "b. !"
+            },
+            {
+              "letter": "c",
+              "text": "c. U"
+            },
+            {
+              "letter": "d",
+              "text": "d. ."
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Which two things can be determined by using the ping command? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. the IP address of the router nearest the destination device"
+            },
+            {
+              "letter": "b",
+              "text": "b. the destination device is reachable through the network"
+            },
+            {
+              "letter": "c",
+              "text": "c. the number of routers between the source and destination device"
+            },
+            {
+              "letter": "d",
+              "text": "d. the average time it takes a packet to reach the destination and for the response to return to the source"
+            },
+            {
+              "letter": "e",
+              "text": "e. the average time it takes each router in the path between source and destination to respond"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: A user calls to report that a PC cannot access the internet. The network technician asks the user to issue the command ping 127.0.0.1 in a command prompt window. The user reports that the result is four positive replies. What conclusion can be drawn based on this connectivity test?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The PC can access the Internet. However, the web browser may not work"
+            },
+            {
+              "letter": "b",
+              "text": "b. The TCP/IP implementation is functional"
+            },
+            {
+              "letter": "c",
+              "text": "c. The PC can access the network. The problem exists beyond the local network"
+            },
+            {
+              "letter": "d",
+              "text": "d. The IP address obtained from the DHCP server is correct"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Which command can be used to test connectivity between two devices using echo request and echo reply messages?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. netstat"
+            },
+            {
+              "letter": "b",
+              "text": "b. ipconfig"
+            },
+            {
+              "letter": "c",
+              "text": "c. ICMP"
+            },
+            {
+              "letter": "d",
+              "text": "d. ping"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "d"
+        },
+        {
+          "question": 7,
+          "answer": "d"
+        },
+        {
+          "question": 8,
+          "answer": "b,d"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@edcaa919be2d48f5889e540602e19861?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which transport layer feature is used to establish a connection-oriented session?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. TCP port number"
+            },
+            {
+              "letter": "b",
+              "text": "b. UDP ACK flag"
+            },
+            {
+              "letter": "c",
+              "text": "c. UDP sequence number"
+            },
+            {
+              "letter": "d",
+              "text": "d. TCP 3-way handshake"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: What is the complete range of TCP and UDP well-known ports?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0 to 1023"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0 to 255"
+            },
+            {
+              "letter": "c",
+              "text": "c. 102449151"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2561023"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: What is a socket?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. the combination of the source and destination sequence numbers and port numbers"
+            },
+            {
+              "letter": "b",
+              "text": "b. the combination of a source IP address and port number or a destination IP address and port number"
+            },
+            {
+              "letter": "c",
+              "text": "c. the combination of the source and destination sequence and acknowledgment numbers"
+            },
+            {
+              "letter": "d",
+              "text": "d. the combination of the source and destination IP address and source and destination Ethernet address"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: How does a networked server manage requests from multiple clients for different services?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The server sends all requests through a default gateway"
+            },
+            {
+              "letter": "b",
+              "text": "b. The server uses IP addresses to identify different services"
+            },
+            {
+              "letter": "c",
+              "text": "c. Each request is tracked through the physical address of the client"
+            },
+            {
+              "letter": "d",
+              "text": "d. Each request has a combination of source and destination port numbers, coming from a unique IP address"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: What happens if part of an FTP message is not delivered to the destination?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The message is lost because FTP does not use a reliable delivery method"
+            },
+            {
+              "letter": "b",
+              "text": "b. The part of the FTP message that was lost is re-sent"
+            },
+            {
+              "letter": "c",
+              "text": "c. The entire FTP message is re-sent"
+            },
+            {
+              "letter": "d",
+              "text": "d. The FTP source host sends a query to the destination host"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: What type of applications are best suited for using UDP?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. applications that require retransmission of lost segments"
+            },
+            {
+              "letter": "b",
+              "text": "b. applications that are sensitive to packet loss"
+            },
+            {
+              "letter": "c",
+              "text": "c. applications that need reliable delivery"
+            },
+            {
+              "letter": "d",
+              "text": "d. applications that are sensitive to delay"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Network congestion has resulted in the source learning of the loss of TCP segments that were sent to the destination. What is one way that the TCP protocol addresses this?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The destination decreases the window size."
+            },
+            {
+              "letter": "b",
+              "text": "b. The source decreases the amount of data that it transmits before it receives an acknowledgement from the destination."
+            },
+            {
+              "letter": "c",
+              "text": "c. The destination sends fewer acknowledgement messages in order to conserve bandwidth."
+            },
+            {
+              "letter": "d",
+              "text": "d. The source decreases the window size to decrease the rate of transmission from the destination."
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Which two operations are provided by TCP but not by UDP? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. retransmitting any unacknowledged data"
+            },
+            {
+              "letter": "b",
+              "text": "b. acknowledging received data"
+            },
+            {
+              "letter": "c",
+              "text": "c. identifying individual conversations"
+            },
+            {
+              "letter": "d",
+              "text": "d. identifying the applications"
+            },
+            {
+              "letter": "e",
+              "text": "e. reconstructing data in the order received"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: What is the purpose of using a source port number in a TCP communication?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. to assemble the segments that arrived out of order"
+            },
+            {
+              "letter": "b",
+              "text": "b. to notify the remote device that the conversation is over"
+            },
+            {
+              "letter": "c",
+              "text": "c. to inquire for a nonreceived segment"
+            },
+            {
+              "letter": "d",
+              "text": "d. to keep track of multiple conversations between devices"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Which two flags in the TCP header are used in a TCP three-way handshake to establish connectivity between two network devices? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. FIN"
+            },
+            {
+              "letter": "b",
+              "text": "b. ACK"
+            },
+            {
+              "letter": "c",
+              "text": "c. URG"
+            },
+            {
+              "letter": "d",
+              "text": "d. SYN"
+            },
+            {
+              "letter": "e",
+              "text": "e. PSH"
+            },
+            {
+              "letter": "f",
+              "text": "f. RST"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "d"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        },
+        {
+          "question": 8,
+          "answer": "a,b"
+        },
+        {
+          "question": 9,
+          "answer": "d"
+        },
+        {
+          "question": 10,
+          "answer": "b,d"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@589cd4c389d04c71aa956a6b09887688?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What is the valid most compressed format possible of the IPv6 address 2001:0DB8:0000:AB00:0000:0000:0000:1234?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 2001:DB8:0:AB::1234"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2001:DB8::AB00::1234"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2001:DB8:0:AB:0:1234"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2001:DB8:0:AB00::1234"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: What is the prefix associated with the IPv6 address 2001:DB8:D15:EA:CC44::1/64?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 2001:DB8:D15:EA::/64"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2001:DB8:D15:EA:CC44::/64"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2001:DB8::/64"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2001::/64"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: What type of address is automatically assigned to an interface when IPv6 is enabled on that interface?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. global unicast"
+            },
+            {
+              "letter": "b",
+              "text": "b. unique local"
+            },
+            {
+              "letter": "c",
+              "text": "c. link-local"
+            },
+            {
+              "letter": "d",
+              "text": "d. loopback"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which IPv6 network prefix is only intended for local links and can not be routed?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 2001::/3"
+            },
+            {
+              "letter": "b",
+              "text": "b. FC00::/7"
+            },
+            {
+              "letter": "c",
+              "text": "c. FE80::/10"
+            },
+            {
+              "letter": "d",
+              "text": "d. FF00::/12"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: What is the purpose of the command ping ::1?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It tests the multicast connectivity to all hosts on the subnet."
+            },
+            {
+              "letter": "b",
+              "text": "b. It tests the internal configuration of an IPv6 host."
+            },
+            {
+              "letter": "c",
+              "text": "c. It tests the reachability of the default gateway for the network."
+            },
+            {
+              "letter": "d",
+              "text": "d. It tests the broadcast capability of all hosts on the subnet."
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: What is the interface ID of the IPv6 address 2001:DB8::1000:A9CD:47FF:FE57:FE94/64?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 47FF:FE57:FE94"
+            },
+            {
+              "letter": "b",
+              "text": "b. FE94"
+            },
+            {
+              "letter": "c",
+              "text": "c. A9CD:47FF:FE57:FE94"
+            },
+            {
+              "letter": "d",
+              "text": "d. FE57:FE94"
+            },
+            {
+              "letter": "e",
+              "text": "e. 1000:A9CD:47FF:FE57:FE94"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: What is the network address for the IPv6 address 2001:DB8:AA04:B5::1/64?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 2001:DB8::/64"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2001::/64"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2001:DB8:AA04:B5::/64"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2001:DB8:AA04::/64"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Which address type is not supported in IPv6?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. multicast"
+            },
+            {
+              "letter": "b",
+              "text": "b. unicast"
+            },
+            {
+              "letter": "c",
+              "text": "c. private"
+            },
+            {
+              "letter": "d",
+              "text": "d. broadcast"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: What is indicated by a successful ping to the ::1 IPv6 address?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The default gateway address is correctly configured."
+            },
+            {
+              "letter": "b",
+              "text": "b. IP is properly installed on the host."
+            },
+            {
+              "letter": "c",
+              "text": "c. The host is cabled properly."
+            },
+            {
+              "letter": "d",
+              "text": "d. All hosts on the local link are available."
+            },
+            {
+              "letter": "e",
+              "text": "e. The link-local address is correctly configured."
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: What is the most compressed representation of the IPv6 address 2001:0db8:0000:abcd:0000:0000:0000:0001?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 2001:db8::abcd:0:1"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2001:db8:0:abcd::1"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2001:0db8:abcd::1"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2001:0db8:0000:abcd::1"
+            },
+            {
+              "letter": "e",
+              "text": "e. 2001:0db8:abcd::0001"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "c"
+        },
+        {
+          "question": 7,
+          "answer": "c"
+        },
+        {
+          "question": 8,
+          "answer": "d"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@8b8fe34e3f4f44c1ad1a3675c20077bd?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: On a home network, which device is most likely to provide dynamic IPv4 addressing to clients on the home network?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. a dedicated file server"
+            },
+            {
+              "letter": "b",
+              "text": "b. an ISP DHCP server"
+            },
+            {
+              "letter": "c",
+              "text": "c. a home router"
+            },
+            {
+              "letter": "d",
+              "text": "d. a DNS server"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: What part of the URL, http://www.cisco.com/index.html, represents the top-level DNS domain?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. index"
+            },
+            {
+              "letter": "b",
+              "text": "b. www"
+            },
+            {
+              "letter": "c",
+              "text": "c. http"
+            },
+            {
+              "letter": "d",
+              "text": "d. .com"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: What are two characteristics of the application layer of the TCP/IP model? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. responsibility for physical addressing"
+            },
+            {
+              "letter": "b",
+              "text": "b. the creation and maintenance of dialogue between source and destination applications"
+            },
+            {
+              "letter": "c",
+              "text": "c. responsibility for logical addressing"
+            },
+            {
+              "letter": "d",
+              "text": "d. closest to the end user"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: What message type is used by an HTTP client to request data from a web server?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ACK"
+            },
+            {
+              "letter": "b",
+              "text": "b. POST"
+            },
+            {
+              "letter": "c",
+              "text": "c. PUT"
+            },
+            {
+              "letter": "d",
+              "text": "d. GET"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Which protocol can be used to transfer messages from an email server to an email client?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SNMP"
+            },
+            {
+              "letter": "b",
+              "text": "b. SMTP"
+            },
+            {
+              "letter": "c",
+              "text": "c. POP3"
+            },
+            {
+              "letter": "d",
+              "text": "d. HTTP"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Which application layer protocol is used to provide file-sharing and print services to Microsoft applications?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SMB"
+            },
+            {
+              "letter": "b",
+              "text": "b. SMTP"
+            },
+            {
+              "letter": "c",
+              "text": "c. HTTP"
+            },
+            {
+              "letter": "d",
+              "text": "d. DHCP"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Which three protocols or standards are used at the application layer of the TCP/IP model? (Choose three.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. GIF"
+            },
+            {
+              "letter": "b",
+              "text": "b. UDP"
+            },
+            {
+              "letter": "c",
+              "text": "c. HTTP"
+            },
+            {
+              "letter": "d",
+              "text": "d. IP"
+            },
+            {
+              "letter": "e",
+              "text": "e. TCP"
+            },
+            {
+              "letter": "f",
+              "text": "f. MPEG"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Why is DHCP for IPv4 preferred for use on large networks?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It prevents sharing of files that are copyrighted."
+            },
+            {
+              "letter": "b",
+              "text": "b. Hosts on large networks require more IPv4 addressing configuration settings than do hosts on small networks."
+            },
+            {
+              "letter": "c",
+              "text": "c. DHCP uses a reliable transport layer protocol."
+            },
+            {
+              "letter": "d",
+              "text": "d. Large networks send more requests for domain to IP address resolution than do smaller networks."
+            },
+            {
+              "letter": "e",
+              "text": "e. It is a more efficient way to manage IPv4 addresses than static address assignment is."
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: An author is uploading one chapter document from a personal computer to a file server of a book publisher. What role is the personal computer assuming in this network model?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. server"
+            },
+            {
+              "letter": "b",
+              "text": "b. client"
+            },
+            {
+              "letter": "c",
+              "text": "c. slave"
+            },
+            {
+              "letter": "d",
+              "text": "d. master"
+            },
+            {
+              "letter": "e",
+              "text": "e. transient"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Which statement is true about FTP?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The client can choose if FTP is going to establish one or two connections with the server"
+            },
+            {
+              "letter": "b",
+              "text": "b. FTP does not provide reliability during data transmission"
+            },
+            {
+              "letter": "c",
+              "text": "c. FTP is a peer-to-peer application"
+            },
+            {
+              "letter": "d",
+              "text": "d. The client can download data from or upload data to the server"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "b,d"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        },
+        {
+          "question": 6,
+          "answer": "a"
+        },
+        {
+          "question": 7,
+          "answer": "a,c,f"
+        },
+        {
+          "question": 8,
+          "answer": "e"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "d"
+        }
+      ]
+    }
+  ]
+}

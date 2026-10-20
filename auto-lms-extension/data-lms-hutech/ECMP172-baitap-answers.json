@@ -1,0 +1,6906 @@
+{
+  "version": 1,
+  "courseCode": "ECMP172",
+  "exportedAt": "2026-09-17T16:09:03.775Z",
+  "answers": [
+    {
+      "title": "Các loại mạng thông thường",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@e139d8adde9c4391bfeaf096c2dcae1a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which network infrastructure provides access to users and end devices in a small geographical area, which is typically a network in a department in an enterprise, a home, or small business?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Extranet"
+            },
+            {
+              "letter": "b",
+              "text": "b. Intranet"
+            },
+            {
+              "letter": "c",
+              "text": "c. LAN"
+            },
+            {
+              "letter": "d",
+              "text": "d. WAN"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which network infrastructure might an organization use to provide secure and safe access to individuals who work for a different organization but require access to the organization’s data?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Extranet"
+            },
+            {
+              "letter": "b",
+              "text": "b. Intranet"
+            },
+            {
+              "letter": "c",
+              "text": "c. LAN"
+            },
+            {
+              "letter": "d",
+              "text": "d. WAN"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which network infrastructure provides access to other networks over a large geographical area, which is often owned and managed by a telecommunications service provider?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Extranet"
+            },
+            {
+              "letter": "b",
+              "text": "b. Intranet"
+            },
+            {
+              "letter": "c",
+              "text": "c. LAN"
+            },
+            {
+              "letter": "d",
+              "text": "d. WAN"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Ảnh hưởng của mạng trong đời sống; Các thành phần trong mạng",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@7b884bdf74ab4db6aa52c1fa7692520b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which of the following is the name for all computers connected to a network that participate directly in network communication?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. servers"
+            },
+            {
+              "letter": "b",
+              "text": "b. intermediary devices"
+            },
+            {
+              "letter": "c",
+              "text": "c. hosts"
+            },
+            {
+              "letter": "d",
+              "text": "d. media"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: When data is encoded as pulses of light, which media is being used to transmit the data?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. wireless"
+            },
+            {
+              "letter": "b",
+              "text": "b. Fiber-optic cable"
+            },
+            {
+              "letter": "c",
+              "text": "c. copper cable"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which two devices are intermediary devices? (Choose two)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. hosts"
+            },
+            {
+              "letter": "b",
+              "text": "b. routers"
+            },
+            {
+              "letter": "c",
+              "text": "c. servers"
+            },
+            {
+              "letter": "d",
+              "text": "d. switches"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b,d"
+        }
+      ]
+    },
+    {
+      "title": "Các topology",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@820aa10cff2345ab891b4cc4e9262379?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which connection physically connects the end device to the network?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Port"
+            },
+            {
+              "letter": "b",
+              "text": "b. NIC"
+            },
+            {
+              "letter": "c",
+              "text": "c. Interface"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which connections are specialized ports on a networking device that connect to individual networks?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Port"
+            },
+            {
+              "letter": "b",
+              "text": "b. NIC"
+            },
+            {
+              "letter": "c",
+              "text": "c. Interface"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which type of network topology lets you see which end devices are connected to which intermediary devices and what media is being used?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Physical topology"
+            },
+            {
+              "letter": "b",
+              "text": "b. Logical topology"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which type of network topology lets you see the actual location of intermediary devices and cable installation?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Physical topology"
+            },
+            {
+              "letter": "b",
+              "text": "b. Logical topology"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Mạng tin cậy",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@2f4a0327fc0d4d1e891c11aa64b14c30?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: When designers follow accepted standards and protocols, which of the four basic characteristics of network architecture is achieved?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. fault tolerance"
+            },
+            {
+              "letter": "b",
+              "text": "b. Scalability"
+            },
+            {
+              "letter": "c",
+              "text": "c. QoS"
+            },
+            {
+              "letter": "d",
+              "text": "d. Security"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Confidentiality, integrity, and availability are requirements of which of the four basic characteristics of network architecture?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. fault tolerance"
+            },
+            {
+              "letter": "b",
+              "text": "b. Scalability"
+            },
+            {
+              "letter": "c",
+              "text": "c. QoS"
+            },
+            {
+              "letter": "d",
+              "text": "d. Security"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: With which type of policy, a router can manage the flow of data and voice traffic, giving priority to voice communications if the network experiences congestion?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. fault tolerance"
+            },
+            {
+              "letter": "b",
+              "text": "b. Scalability"
+            },
+            {
+              "letter": "c",
+              "text": "c. QoS"
+            },
+            {
+              "letter": "d",
+              "text": "d. Security"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Having multiple paths to a destination is known as redundancy. This is an example of which characteristic of network architecture?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. fault tolerance"
+            },
+            {
+              "letter": "b",
+              "text": "b. Scalability"
+            },
+            {
+              "letter": "c",
+              "text": "c. QoS"
+            },
+            {
+              "letter": "d",
+              "text": "d. Security"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Xu hướng mạng",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@e76dd2664b4042e3a4a36104f3a0b4f6?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which feature is a good conferencing tool to use with others who are located elsewhere in your city, or even in another country?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. BYOD"
+            },
+            {
+              "letter": "b",
+              "text": "b. Video communications"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cloud computing"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which feature describes using personal tools to access information and communicate across a business or campus network?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. BYOD"
+            },
+            {
+              "letter": "b",
+              "text": "b. Video communications"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cloud computing"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which feature contains options such as Public, Private, Custom and Hybrid?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. BYOD"
+            },
+            {
+              "letter": "b",
+              "text": "b. Video communications"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cloud computing"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which feature is being used when connecting a device to the network using an electrical outlet?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Smart home technology"
+            },
+            {
+              "letter": "b",
+              "text": "b. Powerline"
+            },
+            {
+              "letter": "c",
+              "text": "c. Wireless broadband"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Which feature uses the same cellular technology as a smartphone?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Smart home technology"
+            },
+            {
+              "letter": "b",
+              "text": "b. Powerline"
+            },
+            {
+              "letter": "c",
+              "text": "c. Wireless broadband"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Bảo mật mạng",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@a9e504c2474f45469f9a58f9aa2b13b7?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which attack slows down or crashes equipment and programs?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Firewall"
+            },
+            {
+              "letter": "b",
+              "text": "b. Virus, worm, or Trojan horse"
+            },
+            {
+              "letter": "c",
+              "text": "c. Zero-day or Zero-hour"
+            },
+            {
+              "letter": "d",
+              "text": "d. Virtual Private Network (VPN)"
+            },
+            {
+              "letter": "e",
+              "text": "e. Denial of Service (DoS)"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which option creates a secure connection for remote workers?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Firewall"
+            },
+            {
+              "letter": "b",
+              "text": "b. Virus, worm, or Trojan horse"
+            },
+            {
+              "letter": "c",
+              "text": "c. Zero-day or Zero-hour"
+            },
+            {
+              "letter": "d",
+              "text": "d. Virtual Private Network (VPN)"
+            },
+            {
+              "letter": "e",
+              "text": "e. Denial of Service (DoS)"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which option blocks unauthorized access to your network?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Firewall"
+            },
+            {
+              "letter": "b",
+              "text": "b. Virus, worm, or Trojan horse"
+            },
+            {
+              "letter": "c",
+              "text": "c. Zero-day or Zero-hour"
+            },
+            {
+              "letter": "d",
+              "text": "d. Virtual Private Network (VPN)"
+            },
+            {
+              "letter": "e",
+              "text": "e. Denial of Service (DoS)"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which option describes a network attack that occurs on the first day that a vulnerability becomes known?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Firewall"
+            },
+            {
+              "letter": "b",
+              "text": "b. Virus, worm, or Trojan horse"
+            },
+            {
+              "letter": "c",
+              "text": "c. Zero-day or Zero-hour"
+            },
+            {
+              "letter": "d",
+              "text": "d. Virtual Private Network (VPN)"
+            },
+            {
+              "letter": "e",
+              "text": "e. Denial of Service (DoS)"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Which option describes malicious code running on user devices?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Firewall"
+            },
+            {
+              "letter": "b",
+              "text": "b. Virus, worm, or Trojan horse"
+            },
+            {
+              "letter": "c",
+              "text": "c. Zero-day or Zero-hour"
+            },
+            {
+              "letter": "d",
+              "text": "d. Virtual Private Network (VPN)"
+            },
+            {
+              "letter": "e",
+              "text": "e. Denial of Service (DoS)"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "e"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Cisco IOS",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@a208d16f7f414786b7c63fcf705fce81?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which access method would be most appropriate if you were in the equipment room with a new switch that needs to be configured?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Console"
+            },
+            {
+              "letter": "b",
+              "text": "b. Telnet/SSH"
+            },
+            {
+              "letter": "c",
+              "text": "c. Aux"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which access method would be most appropriate if your manager gave you a special cable and told you to use it to configure the switch?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Console"
+            },
+            {
+              "letter": "b",
+              "text": "b. Telnet/SSH"
+            },
+            {
+              "letter": "c",
+              "text": "c. Aux"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which access method would be the most appropriate in-band access to the IOS over a network connection?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Console"
+            },
+            {
+              "letter": "b",
+              "text": "b. Telnet/SSH"
+            },
+            {
+              "letter": "c",
+              "text": "c. Aux"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which access method would be the most appropriate if you call your manager to tell him you cannot access your router in another city over the internet and he provides you with the information to access the router through a telephone connection?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Console"
+            },
+            {
+              "letter": "b",
+              "text": "b. Telnet/SSH"
+            },
+            {
+              "letter": "c",
+              "text": "c. Aux"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Cấu hình thiết bị cơ bản",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@2d1d8b2eb6e446dea9dd7027bef5b541?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What is the command to assign the name “Sw-Floor-2” to a switch?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. hostname Sw-Floor-2"
+            },
+            {
+              "letter": "b",
+              "text": "b. host name Sw-Floor-2"
+            },
+            {
+              "letter": "c",
+              "text": "c. name Sw-Floor-2"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: How is the privileged EXEC mode access secured on a switch?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. enable class"
+            },
+            {
+              "letter": "b",
+              "text": "b. secret class"
+            },
+            {
+              "letter": "c",
+              "text": "c. enable secret class"
+            },
+            {
+              "letter": "d",
+              "text": "d. service password-encryption"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which command enables password authentication for user EXEC mode access on a switch?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. enable secret"
+            },
+            {
+              "letter": "b",
+              "text": "b. login"
+            },
+            {
+              "letter": "c",
+              "text": "c. secret"
+            },
+            {
+              "letter": "d",
+              "text": "d. service password-encryption"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which command encrypts all plaintext passwords access on a switch?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. enable secret"
+            },
+            {
+              "letter": "b",
+              "text": "b. login"
+            },
+            {
+              "letter": "c",
+              "text": "c. secret"
+            },
+            {
+              "letter": "d",
+              "text": "d. service password-encryption"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Which is the command to configure a banner to be displayed when connecting to a switch?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. banner $ Keep out $"
+            },
+            {
+              "letter": "b",
+              "text": "b. banner motd $ Keep out $"
+            },
+            {
+              "letter": "c",
+              "text": "c. display $ Keep out $"
+            },
+            {
+              "letter": "d",
+              "text": "d. login banner $ Keep out $"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Port và địa chỉ",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@73f3ecc0f5264dc4968dc885beff80cf?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What is the structure of an IPv4 address called?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. dotted-binary format"
+            },
+            {
+              "letter": "b",
+              "text": "b. dotted-decimal format"
+            },
+            {
+              "letter": "c",
+              "text": "c. dotted-hexadecimal format"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: How is an IPv4 address represented?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. four binary numbers between 0 and 1 separated by colons"
+            },
+            {
+              "letter": "b",
+              "text": "b. four decimal numbers between 0 and 255 separated by periods"
+            },
+            {
+              "letter": "c",
+              "text": "c. thirty-two hexadecimal numbers separated by colons"
+            },
+            {
+              "letter": "d",
+              "text": "d. thirty-two hexadecimal numbers separated by periods"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: What type of interface has no physical port associated with it?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. console"
+            },
+            {
+              "letter": "b",
+              "text": "b. Ethernet"
+            },
+            {
+              "letter": "c",
+              "text": "c. serial"
+            },
+            {
+              "letter": "d",
+              "text": "d. switch virtual interface (SVI)"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Cấu hình địa chỉ IP",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@44820d34c05f48899de583d22f1f36cd?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Lệnh nào được sử dụng để cấu hình địa chỉ IP cho một giao diện trên thiết bị Cisco?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ip address"
+            },
+            {
+              "letter": "b",
+              "text": "b. set ip"
+            },
+            {
+              "letter": "c",
+              "text": "c. config ip"
+            },
+            {
+              "letter": "d",
+              "text": "d. assign ip"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Địa chỉ IP nào dưới đây thuộc lớp C?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 10.0.0.1"
+            },
+            {
+              "letter": "b",
+              "text": "b. 172.16.0.1"
+            },
+            {
+              "letter": "c",
+              "text": "c. 192.168.1.1"
+            },
+            {
+              "letter": "d",
+              "text": "d. 224.0.0.1"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Lệnh nào sau đây sẽ hiển thị cấu hình địa chỉ IP hiện tại trên giao diện của bộ định tuyến Cisco?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. show ip interface"
+            },
+            {
+              "letter": "b",
+              "text": "b. display ip configuration"
+            },
+            {
+              "letter": "c",
+              "text": "c. view ip setup"
+            },
+            {
+              "letter": "d",
+              "text": "d. show interfaces ip"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Các tổ chức tiêu chuẩn",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@5a00ddbd3a194d22992ed2b11b01c8b1?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: True or false. Standards organizations are usually vendor-neutral.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: This standards organization is concerned with the Request for Comments (RFC) documents that specify new protocols and update existing ones.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Internet Society (ISOC)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Internet Engineering Task Force (IETF)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Internet Architecture Board (IAB)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Internet Research Task Force (IRTF)"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: This standards organization is responsible for IP address allocation and domain name management.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Internet Society (ISOC)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Internet Engineering Task Force (IETF)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Internet Architecture Board (IAB)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Internet Assigned Numbers Authority (IANA)"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: What types of standards are developed by the Electronics Industries Alliance (EIA)?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. electric wiring and connectors"
+            },
+            {
+              "letter": "b",
+              "text": "b. radio equipment and cell towers"
+            },
+            {
+              "letter": "c",
+              "text": "c. video compression and broadband communications"
+            },
+            {
+              "letter": "d",
+              "text": "d. Voice over IP (VoIP) and satellite communications"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "IOS Navigation",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@4581dc6e192d43c7a0f9ebfa564cf30f?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which IOS mode allows access to all commands and features?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. global configuration mode"
+            },
+            {
+              "letter": "b",
+              "text": "b. interface subconfiguration mode"
+            },
+            {
+              "letter": "c",
+              "text": "c. line console subconfiguration mode"
+            },
+            {
+              "letter": "d",
+              "text": "d. privileged EXEC mode"
+            },
+            {
+              "letter": "e",
+              "text": "e. user EXEC mode"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which IOS mode are you in if the Switch(config)# prompt is displayed?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. global configuration mode"
+            },
+            {
+              "letter": "b",
+              "text": "b. interface subconfiguration mode"
+            },
+            {
+              "letter": "c",
+              "text": "c. line console subconfiguration mode"
+            },
+            {
+              "letter": "d",
+              "text": "d. privileged EXEC mode"
+            },
+            {
+              "letter": "e",
+              "text": "e. user EXEC mode"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which IOS mode are you in if the Switch> prompt is displayed?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. global configuration mode"
+            },
+            {
+              "letter": "b",
+              "text": "b. interface subconfiguration mode"
+            },
+            {
+              "letter": "c",
+              "text": "c. line console subconfiguration mode"
+            },
+            {
+              "letter": "d",
+              "text": "d. privileged EXEC mode"
+            },
+            {
+              "letter": "e",
+              "text": "e. user EXEC mode"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which two commands would return you to the privileged EXEC prompt regardless of the configuration mode you are in? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. CTRL+Z"
+            },
+            {
+              "letter": "b",
+              "text": "b. disable"
+            },
+            {
+              "letter": "c",
+              "text": "c. enable"
+            },
+            {
+              "letter": "d",
+              "text": "d. end"
+            },
+            {
+              "letter": "e",
+              "text": "e. exit"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "e"
+        },
+        {
+          "question": 4,
+          "answer": "a,d"
+        }
+      ]
+    },
+    {
+      "title": "Các quy tắc truyền thông",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@48e4fb5b773c4bc1b917bb6e618dc7bf?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What is the process of converting information into the proper form for transmission?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Formatting"
+            },
+            {
+              "letter": "b",
+              "text": "b. Encoding"
+            },
+            {
+              "letter": "c",
+              "text": "c. Encapsulation"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which step of the communication process is concerned with properly identifying the address of the sender and receiver?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Formatting"
+            },
+            {
+              "letter": "b",
+              "text": "b. Encoding"
+            },
+            {
+              "letter": "c",
+              "text": "c. Encapsulation"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which three are components of message timing? (Choose three.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Flow control"
+            },
+            {
+              "letter": "b",
+              "text": "b. Sequence numbers"
+            },
+            {
+              "letter": "c",
+              "text": "c. Access method"
+            },
+            {
+              "letter": "d",
+              "text": "d. Retransmit time"
+            },
+            {
+              "letter": "e",
+              "text": "e. Response timeout"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which delivery method is used to transmit information to one or more end devices, but not all devices on the network?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Unicast"
+            },
+            {
+              "letter": "b",
+              "text": "b. Multicast"
+            },
+            {
+              "letter": "c",
+              "text": "c. Broadcast"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a,c,e"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Bộ giao thức",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@aaf4c1bdc65b45eda928540f5912f262?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: UDP and TCP belong to which layer of the TCP/IP protocol?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. application"
+            },
+            {
+              "letter": "b",
+              "text": "b. transport"
+            },
+            {
+              "letter": "c",
+              "text": "c. internet"
+            },
+            {
+              "letter": "d",
+              "text": "d. network access"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which two protocols belong in the TCP/IP model application layer?",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. EIGRP"
+            },
+            {
+              "letter": "b",
+              "text": "b. DNS"
+            },
+            {
+              "letter": "c",
+              "text": "c. OSPF"
+            },
+            {
+              "letter": "d",
+              "text": "d. ICMP"
+            },
+            {
+              "letter": "e",
+              "text": "e. DHCP"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which protocol operates at the network access layer of the TCP/IP model?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. HTTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. IP"
+            },
+            {
+              "letter": "c",
+              "text": "c. DNS"
+            },
+            {
+              "letter": "d",
+              "text": "d. Ethernet"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which of the following are protocols that provide feedback from the destination host to the source host regarding errors in packet delivery? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. TCP"
+            },
+            {
+              "letter": "b",
+              "text": "b. ICMPv4"
+            },
+            {
+              "letter": "c",
+              "text": "c. IPv6"
+            },
+            {
+              "letter": "d",
+              "text": "d. UDP"
+            },
+            {
+              "letter": "e",
+              "text": "e. ICMPv4"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: A device receives a data link frame with data and processes and removes the Ethernet information. What information would be the next to be processed by the receiving device?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. HTTP at the application layer"
+            },
+            {
+              "letter": "b",
+              "text": "b. HTML at the application layer"
+            },
+            {
+              "letter": "c",
+              "text": "c. IP at the internet layer"
+            },
+            {
+              "letter": "d",
+              "text": "d. UDP at the internet layer"
+            },
+            {
+              "letter": "e",
+              "text": "e. TCP at the transport layer"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Which services are provided by the internet layer of the TCP/IP protocol suite? (Choose three.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. File Transfer"
+            },
+            {
+              "letter": "b",
+              "text": "b. Address Resolution"
+            },
+            {
+              "letter": "c",
+              "text": "c. Routing Protocols"
+            },
+            {
+              "letter": "d",
+              "text": "d. Messaging"
+            },
+            {
+              "letter": "e",
+              "text": "e. Ethernet"
+            },
+            {
+              "letter": "f",
+              "text": "f. Internet Protocol"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b,e"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        },
+        {
+          "question": 4,
+          "answer": "b,e"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        },
+        {
+          "question": 6,
+          "answer": "b,c,f"
+        }
+      ]
+    },
+    {
+      "title": "Giao thức",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@9bd8e76c991744168fe97c9a6a473823?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: BGP and OSPF are examples of which type of protocol?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. network communication"
+            },
+            {
+              "letter": "b",
+              "text": "b. network security"
+            },
+            {
+              "letter": "c",
+              "text": "c. routing"
+            },
+            {
+              "letter": "d",
+              "text": "d. service discovery"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which two protocols are service discovery protocols? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. DNS"
+            },
+            {
+              "letter": "b",
+              "text": "b. TCP"
+            },
+            {
+              "letter": "c",
+              "text": "c. SSH"
+            },
+            {
+              "letter": "d",
+              "text": "d. DHCP"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: What is the purpose of the sequencing function in network communication?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. to uniquely label transmitted segments of data for proper reassembly by the receiver"
+            },
+            {
+              "letter": "b",
+              "text": "b. to determine if data is corrupted during transmission"
+            },
+            {
+              "letter": "c",
+              "text": "c. to ensure data flows at an efficient rate between sender and receiver"
+            },
+            {
+              "letter": "d",
+              "text": "d. to guarantee delivery of data"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: This protocol is responsible for guaranteeing the reliable delivery of information.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. TCP"
+            },
+            {
+              "letter": "b",
+              "text": "b. IP"
+            },
+            {
+              "letter": "c",
+              "text": "c. HTTP"
+            },
+            {
+              "letter": "d",
+              "text": "d. Ethernet"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "a,d"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Truy cập dữ liệu",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@4caf974fbf3a4c438520bae97354becf?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: True or false? Frames exchanged between devices in different IP networks must be forwarded to a default gateway.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: True or false? The right-most part of an IP address is used to identify the network that a device belongs to.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: What is used to determine the network portion of an IPv4 address?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. subnet mask"
+            },
+            {
+              "letter": "b",
+              "text": "b. MAC address"
+            },
+            {
+              "letter": "c",
+              "text": "c. right-most part of the IP address"
+            },
+            {
+              "letter": "d",
+              "text": "d. left-most part of the MAC address"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which of the following statements are true regarding network layer and data link layer addresses? (Choose three.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Data link layer addresses are logical and network layer addresses are physical."
+            },
+            {
+              "letter": "b",
+              "text": "b. Network layer addresses are expressed as 12 hexadecimal digits and data link layer addresses are decimal."
+            },
+            {
+              "letter": "c",
+              "text": "c. Network layer addresses are logical and data link addresses are expressed as 12 hexadecimal digits."
+            },
+            {
+              "letter": "d",
+              "text": "d. Data link layer addresses are physical and network layer addresses are logical."
+            },
+            {
+              "letter": "e",
+              "text": "e. Network layer addresses are either 32 or 128 bits in length."
+            },
+            {
+              "letter": "f",
+              "text": "f. Data link layer addresses are 32 bits in length."
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: What is the order of the two addresses in the data link frame?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. source MAC, destination MAC"
+            },
+            {
+              "letter": "b",
+              "text": "b. destination MAC, source IP"
+            },
+            {
+              "letter": "c",
+              "text": "c. destination IP, source IP"
+            },
+            {
+              "letter": "d",
+              "text": "d. destination MAC, source MAC"
+            },
+            {
+              "letter": "e",
+              "text": "e. source IP, destination IP"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: True or False? Data Link addresses are physical so they never change in the data link frame from source to destination.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "c,d,e"
+        },
+        {
+          "question": 5,
+          "answer": "d"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Các đặc tính của tầng physical",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@9b59c5076068466a8d072ee5b11662f5?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which media uses patterns of microwaves to represent bits?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. copper"
+            },
+            {
+              "letter": "b",
+              "text": "b. wireless"
+            },
+            {
+              "letter": "c",
+              "text": "c. fiber-optic"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which media uses patterns of light to represent bits?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. copper"
+            },
+            {
+              "letter": "b",
+              "text": "b. wireless"
+            },
+            {
+              "letter": "c",
+              "text": "c. fiber-optic"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which media uses electrical pulses to represent bits?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. copper"
+            },
+            {
+              "letter": "b",
+              "text": "b. wireless"
+            },
+            {
+              "letter": "c",
+              "text": "c. fiber-optic"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which of these is the name for the capacity of a medium to carry data?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. bandwidth"
+            },
+            {
+              "letter": "b",
+              "text": "b. throughput"
+            },
+            {
+              "letter": "c",
+              "text": "c. goodput"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Which of these is a measure of the transfer of bits across the media?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. bandwidth"
+            },
+            {
+              "letter": "b",
+              "text": "b. throughput"
+            },
+            {
+              "letter": "c",
+              "text": "c. goodput"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Cáp UTP",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@43e46a4a17414807aadd41f5199ded29?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: This is a type of Ethernet Cable with RJ-45 connectors at each end, and each has the same pinout.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Crossover Cable"
+            },
+            {
+              "letter": "b",
+              "text": "b. Unshielded Twisted Pair Cable"
+            },
+            {
+              "letter": "c",
+              "text": "c. Straight-Through Cable"
+            },
+            {
+              "letter": "d",
+              "text": "d. Shielded Twisted Pair Cable"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Straight-Through Cable is used to connect a __________ to a network hub such as a router or modem.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mouse"
+            },
+            {
+              "letter": "b",
+              "text": "b. Keyboard"
+            },
+            {
+              "letter": "c",
+              "text": "c. Phone"
+            },
+            {
+              "letter": "d",
+              "text": "d. Computer"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: This is a type of CAT 5 where one end is T568A configuration and the other end as T568B Configuration.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Unshielded Twisted Pair Cable"
+            },
+            {
+              "letter": "b",
+              "text": "b. Straight-Through Cable"
+            },
+            {
+              "letter": "c",
+              "text": "c. Crossover Cable"
+            },
+            {
+              "letter": "d",
+              "text": "d. Shielded Twisted Pair Cable"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: This is the uses of crossover cables for the following cabling except of:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Switch to Switch"
+            },
+            {
+              "letter": "b",
+              "text": "b. Switch to Router"
+            },
+            {
+              "letter": "c",
+              "text": "c. Hub to Hub"
+            },
+            {
+              "letter": "d",
+              "text": "d. Router to router"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Mục đích của tầng physical",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@7fef6068ba1b4912b5adda65d679d583?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: True or false? The physical layer is only concerned with wired network connections.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: True or false? When a frame is encoded by the physical layer, all bits are sent over the media at the same time.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: The physical layer of the receiving device passes bits up to which higher level layer?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Application"
+            },
+            {
+              "letter": "b",
+              "text": "b. Presentation"
+            },
+            {
+              "letter": "c",
+              "text": "c. Network"
+            },
+            {
+              "letter": "d",
+              "text": "d. Data link"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: What PDU is received by the physical layer for encoding and transmission?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Frame"
+            },
+            {
+              "letter": "b",
+              "text": "b. Segment"
+            },
+            {
+              "letter": "c",
+              "text": "c. Packet"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Đóng gói dữ liệu",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@5c7c758df4e04527856ce41628978b0d?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What is the process of dividing a large data stream into smaller pieces prior to transmission?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. sequencing"
+            },
+            {
+              "letter": "b",
+              "text": "b. duplexing"
+            },
+            {
+              "letter": "c",
+              "text": "c. multiplexing"
+            },
+            {
+              "letter": "d",
+              "text": "d. segmentation"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: What is the PDU associated with the transport layer?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. segment"
+            },
+            {
+              "letter": "b",
+              "text": "b. packet"
+            },
+            {
+              "letter": "c",
+              "text": "c. bits"
+            },
+            {
+              "letter": "d",
+              "text": "d. frame"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which protocol stack layer encapsulates data into frames?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. data link"
+            },
+            {
+              "letter": "b",
+              "text": "b. transport"
+            },
+            {
+              "letter": "c",
+              "text": "c. network"
+            },
+            {
+              "letter": "d",
+              "text": "d. application"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: What is the name of the process of adding protocol information to data as it moves down the protocol stack?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. de-encapsulation"
+            },
+            {
+              "letter": "b",
+              "text": "b. sequencing"
+            },
+            {
+              "letter": "c",
+              "text": "c. segmentation"
+            },
+            {
+              "letter": "d",
+              "text": "d. encapsulation"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Cáp quang",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@aab0502ebd82485885077401fbfd3f48?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which of the following fiber-optic cable types can help data travel approximately 500 meters?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. multimode"
+            },
+            {
+              "letter": "b",
+              "text": "b. single-mode"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which of the following fiber-optic cable types use light emitting diodes (LEDs) as a data light source transmitter?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. multimode"
+            },
+            {
+              "letter": "b",
+              "text": "b. single-mode"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which of the following fiber-optic cable types use lasers in a single stream as a data light source transmitter?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. multimode"
+            },
+            {
+              "letter": "b",
+              "text": "b. single-mode"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which of the following fiber-optic cable types is used to connect long-distance telephony and cable TV applications?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. multimode"
+            },
+            {
+              "letter": "b",
+              "text": "b. single-mode"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Which of the following fiber-optic cable types can travel approximately 100 km?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. multimode"
+            },
+            {
+              "letter": "b",
+              "text": "b. single-mode"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Which of the following fiber-optic cable types is used within a campus network?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. multimode"
+            },
+            {
+              "letter": "b",
+              "text": "b. single-mode"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Cáp đồng",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@c557f8433bf944a29ad97dbd88f3aa84?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which of the following attaches antennas to wireless devices? It can also be bundled with fiber-optic cabling for two-way data transmission.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. UTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. STP"
+            },
+            {
+              "letter": "c",
+              "text": "c. coaxial"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which of the following attaches antennas to wireless devices? It can also be bundled with fiber-optic cabling for two-way data transmission.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. UTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. STP"
+            },
+            {
+              "letter": "c",
+              "text": "c. coaxial"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which of the following attaches antennas to wireless devices? It can also be bundled with fiber-optic cabling for two-way data transmission.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. UTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. STP"
+            },
+            {
+              "letter": "c",
+              "text": "c. coaxial"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which of the following attaches antennas to wireless devices? It can also be bundled with fiber-optic cabling for two-way data transmission.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. UTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. STP"
+            },
+            {
+              "letter": "c",
+              "text": "c. coaxial"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Mục đích của tầng Data Link",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@17cc011b7ba74dde8f6c0fdbd9bd5b69?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What is another name for the OSI data link layer?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Layer 1"
+            },
+            {
+              "letter": "b",
+              "text": "b. Layer 2"
+            },
+            {
+              "letter": "c",
+              "text": "c. Layer 3"
+            },
+            {
+              "letter": "d",
+              "text": "d. Layer 6"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: The IEEE 802 LAN/MAN data link layer consists of which two sublayers? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Network Control Protocol"
+            },
+            {
+              "letter": "b",
+              "text": "b. Logical Link Control"
+            },
+            {
+              "letter": "c",
+              "text": "c. Media Access Control"
+            },
+            {
+              "letter": "d",
+              "text": "d. Link Control Protocol"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: What is the responsibility of the MAC sublayer?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Adds Layer 3 addresses to the frame"
+            },
+            {
+              "letter": "b",
+              "text": "b. Communicates with the network layer (Layer 3)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Provides the method to get the frame on and off the media"
+            },
+            {
+              "letter": "d",
+              "text": "d. Transmits the bits on the media"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: What Layer 2 function does a router perform? (Choose three.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Accepts a frame from a medium"
+            },
+            {
+              "letter": "b",
+              "text": "b. De-encapsulates the frame"
+            },
+            {
+              "letter": "c",
+              "text": "c. Refers to its Layer 3 routing table for a matching destination network"
+            },
+            {
+              "letter": "d",
+              "text": "d. Re-encapsulates the packet into a new frame"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: The media access control method used depends on which two criteria?",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Layer 3 IP protocol"
+            },
+            {
+              "letter": "b",
+              "text": "b. Media sharing"
+            },
+            {
+              "letter": "c",
+              "text": "c. Topology"
+            },
+            {
+              "letter": "d",
+              "text": "d. Transport layer protocol"
+            },
+            {
+              "letter": "e",
+              "text": "e. Type of data"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Which organization defines standards for the network access layer (i.e., the OSI physical and data link layers)?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cisco"
+            },
+            {
+              "letter": "b",
+              "text": "b. IANA"
+            },
+            {
+              "letter": "c",
+              "text": "c. IEEE"
+            },
+            {
+              "letter": "d",
+              "text": "d. IETF"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b,c"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "a,b,d"
+        },
+        {
+          "question": 5,
+          "answer": "b,c"
+        },
+        {
+          "question": 6,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Truyền không dây",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@7fe6332aab2d4d548844da75fd56b5f2?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: True or false. Wireless is not well suited for enterprise networks.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. true"
+            },
+            {
+              "letter": "b",
+              "text": "b. false"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: True or false. Wireless LANs operate in full-duplex allowing all devices to send or receive data at the same time so the number of users does not impact performance.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. true"
+            },
+            {
+              "letter": "b",
+              "text": "b. false"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which of the following wireless standards is best suited for industrial and IoT environments?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Zigbee"
+            },
+            {
+              "letter": "b",
+              "text": "b. WIMAX"
+            },
+            {
+              "letter": "c",
+              "text": "c. Wi-Fi"
+            },
+            {
+              "letter": "d",
+              "text": "d. Bluetooth"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which of the following wireless standards is used for Personal Area Networks (PANs) and allows devices to communicate over distances of 1 to 100 meters?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Zigbee"
+            },
+            {
+              "letter": "b",
+              "text": "b. WIMAX"
+            },
+            {
+              "letter": "c",
+              "text": "c. Wi-Fi"
+            },
+            {
+              "letter": "d",
+              "text": "d. Bluetooth"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Hệ cơ số Hexa",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@0b22bb4e37874380962ef74fe8f88f14?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "What is a characteristic of UTP cabling?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. B10"
+            },
+            {
+              "letter": "b",
+              "text": "b. BA"
+            },
+            {
+              "letter": "c",
+              "text": "c. C10"
+            },
+            {
+              "letter": "d",
+              "text": "d. CA"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which is the hexadecimal equivalent of 254?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. EA"
+            },
+            {
+              "letter": "b",
+              "text": "b. ED"
+            },
+            {
+              "letter": "c",
+              "text": "c. FA"
+            },
+            {
+              "letter": "d",
+              "text": "d. FE"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which is the decimal equivalent of A9?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 168"
+            },
+            {
+              "letter": "b",
+              "text": "b. 169"
+            },
+            {
+              "letter": "c",
+              "text": "c. 170"
+            },
+            {
+              "letter": "d",
+              "text": "d. 171"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which of the following is the decimal equivalent of 7D?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 124"
+            },
+            {
+              "letter": "b",
+              "text": "b. 125"
+            },
+            {
+              "letter": "c",
+              "text": "c. 126"
+            },
+            {
+              "letter": "d",
+              "text": "d. 127"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Hệ cơ số nhị phân",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@de973758729941df8e71678aba6974c9?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Convert 128 to binary:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 10000000"
+            },
+            {
+              "letter": "b",
+              "text": "b. 01111110"
+            },
+            {
+              "letter": "c",
+              "text": "c. 10000001"
+            },
+            {
+              "letter": "d",
+              "text": "d. 11001100"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Convert 65 to binary:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 01100001"
+            },
+            {
+              "letter": "b",
+              "text": "b. 00100001"
+            },
+            {
+              "letter": "c",
+              "text": "c. 01000001"
+            },
+            {
+              "letter": "d",
+              "text": "d. 00100101"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Convert 254 to binary:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 11110000"
+            },
+            {
+              "letter": "b",
+              "text": "b. 11111100"
+            },
+            {
+              "letter": "c",
+              "text": "c. 11111111"
+            },
+            {
+              "letter": "d",
+              "text": "d. 11111110"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Convert 37 to binary:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 00100101"
+            },
+            {
+              "letter": "b",
+              "text": "b. 00100011"
+            },
+            {
+              "letter": "c",
+              "text": "c. 00100111"
+            },
+            {
+              "letter": "d",
+              "text": "d. 01000101"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Các topology",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@d47921545f63443bac3f40a0f46c9c13?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which topology displays networking device layer IP addresses?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. aerial topology"
+            },
+            {
+              "letter": "b",
+              "text": "b. IP address topology"
+            },
+            {
+              "letter": "c",
+              "text": "c. logical topology"
+            },
+            {
+              "letter": "d",
+              "text": "d. physical topology"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: What kind of network would use point-to-point, hub and spoke, or mesh topologies?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. PAN"
+            },
+            {
+              "letter": "b",
+              "text": "b. LAN"
+            },
+            {
+              "letter": "c",
+              "text": "c. WLAN"
+            },
+            {
+              "letter": "d",
+              "text": "d. WAN"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which LAN topology is a hybrid topology?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. bus"
+            },
+            {
+              "letter": "b",
+              "text": "b. extended star"
+            },
+            {
+              "letter": "c",
+              "text": "c. ring"
+            },
+            {
+              "letter": "d",
+              "text": "d. star"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which duplex communication method is used in WLANs?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. full-duplex"
+            },
+            {
+              "letter": "b",
+              "text": "b. half-duplex"
+            },
+            {
+              "letter": "c",
+              "text": "c. simplex"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Which media access control method is used in legacy Ethernet LANs?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. carrier sense multiple access/collision annoyance"
+            },
+            {
+              "letter": "b",
+              "text": "b. carrier sense multiple access/collision avoidance"
+            },
+            {
+              "letter": "c",
+              "text": "c. carrier sense multiple access/collision destruction"
+            },
+            {
+              "letter": "d",
+              "text": "d. carrier sense multiple access/collision detection"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Ethernet frame",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@7f58574bacf74a7186cc9cf1372c4215?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which part of an Ethernet Frame uses a pad to increase the frame field to at least 64 bytes?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. EtherType"
+            },
+            {
+              "letter": "b",
+              "text": "b. Preamble"
+            },
+            {
+              "letter": "c",
+              "text": "c. Start of Frame Delimiter"
+            },
+            {
+              "letter": "d",
+              "text": "d. Data field"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which part of an Ethernet frame detects errors in the frame?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Preamble"
+            },
+            {
+              "letter": "b",
+              "text": "b. Start of Frame Delimiter"
+            },
+            {
+              "letter": "c",
+              "text": "c. Frame Check Sequence"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which part of an Ethernet Frame describes the higher-layer protocol that is encapsulated?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. EtherType"
+            },
+            {
+              "letter": "b",
+              "text": "b. Preamble"
+            },
+            {
+              "letter": "c",
+              "text": "c. Start of Frame Delimiter"
+            },
+            {
+              "letter": "d",
+              "text": "d. Frame Check Sequence"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which part of an Ethernet Frame notifies the receiver to get ready for a new frame?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Start of Frame Delimiter"
+            },
+            {
+              "letter": "b",
+              "text": "b. Frame Check Sequence"
+            },
+            {
+              "letter": "c",
+              "text": "c. Preamble"
+            },
+            {
+              "letter": "d",
+              "text": "d. Data field"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Which data link sublayer controls the network interface through software drivers?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. MAC"
+            },
+            {
+              "letter": "b",
+              "text": "b. LLC"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Which data link sublayer works with the upper layers to add application information for delivery of data to higher level protocols?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. MAC"
+            },
+            {
+              "letter": "b",
+              "text": "b. LLC"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: What is a function of the MAC sublayer? (Choose three.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. controls access to the media"
+            },
+            {
+              "letter": "b",
+              "text": "b. checks for errors in received bits"
+            },
+            {
+              "letter": "c",
+              "text": "c. uses CSMA/CD or CSMA/CA to support Ethernet technology"
+            },
+            {
+              "letter": "d",
+              "text": "d. communicates between software at the upper layers and the device hardware at the lower layers"
+            },
+            {
+              "letter": "e",
+              "text": "e. allows multiple Layer 3 protocols to use the same network interface and media"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "a,b,c"
+        }
+      ]
+    },
+    {
+      "title": "Data Link frame",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@fc34df474015421380e59896229973e0?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What does the data link layer add to a Layer 3 packet to create a frame? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. flags"
+            },
+            {
+              "letter": "b",
+              "text": "b. sequence number"
+            },
+            {
+              "letter": "c",
+              "text": "c. header"
+            },
+            {
+              "letter": "d",
+              "text": "d. trailer"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: What is the function of the last field in a data link layer frame?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. To determine whether the frame experienced transmission errors"
+            },
+            {
+              "letter": "b",
+              "text": "b. To identify special flow control services such as quality of service (QoS)"
+            },
+            {
+              "letter": "c",
+              "text": "c. To identify the beginning and end limits of the frame"
+            },
+            {
+              "letter": "d",
+              "text": "d. To identify the Layer 3 protocol in the data field"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which lists the Layer 2 and Layer 3 address fields in the correct order?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. destination NIC address, source NIC address, source IP address, destination IP address"
+            },
+            {
+              "letter": "b",
+              "text": "b. source NIC address, destination NIC address, source IP address, destination IP address"
+            },
+            {
+              "letter": "c",
+              "text": "c. destination NIC address, source NIC address, destination IP address, source IP address"
+            },
+            {
+              "letter": "d",
+              "text": "d. source NIC address, destination NIC address, destination IP address, source IP address"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which of the following are data link layer protocols? (Choose three)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 802.11"
+            },
+            {
+              "letter": "b",
+              "text": "b. Ethernet"
+            },
+            {
+              "letter": "c",
+              "text": "c. IP"
+            },
+            {
+              "letter": "d",
+              "text": "d. PPP"
+            },
+            {
+              "letter": "e",
+              "text": "e. UDP"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c,d"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a,b,d"
+        }
+      ]
+    },
+    {
+      "title": "Các đặc tính của tầng Network",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@889bdc851fd44064af4f9dfd4a28dfdf?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which OSI layer sends segments to be encapsulated in an IPv4 or IPv6 packet?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. data link layer"
+            },
+            {
+              "letter": "b",
+              "text": "b. network layer"
+            },
+            {
+              "letter": "c",
+              "text": "c. transport layer"
+            },
+            {
+              "letter": "d",
+              "text": "d. session layer"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which layer is responsible for taking an IP packet and preparing it for transmission over the communications medium?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. physical layer"
+            },
+            {
+              "letter": "b",
+              "text": "b. network layer"
+            },
+            {
+              "letter": "c",
+              "text": "c. data link layer"
+            },
+            {
+              "letter": "d",
+              "text": "d. transport layer"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: What is the term for splitting up an IP packet when forwarding it from one medium to another medium with a smaller MTU?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. encapsulation"
+            },
+            {
+              "letter": "b",
+              "text": "b. fragmentation"
+            },
+            {
+              "letter": "c",
+              "text": "c. segmentation"
+            },
+            {
+              "letter": "d",
+              "text": "d. serialization"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which delivery method does not guarantee that the packet will be delivered fully without errors?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. connectionless"
+            },
+            {
+              "letter": "b",
+              "text": "b. best effort"
+            },
+            {
+              "letter": "c",
+              "text": "c. media independent"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Tốc độ switch và các phương pháp forwarding",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@438e06327ac640cb8b338925a402f0b8?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What are two methods for switching data between ports on a switch? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. cut-off switching"
+            },
+            {
+              "letter": "b",
+              "text": "b. cut-through switching"
+            },
+            {
+              "letter": "c",
+              "text": "c. store-and-forward switching"
+            },
+            {
+              "letter": "d",
+              "text": "d. store-and-supply switching"
+            },
+            {
+              "letter": "e",
+              "text": "e. store-and-restore switching"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which switching method can be implemented using fast-forward switching or fragment-free switching?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. cut-off switching"
+            },
+            {
+              "letter": "b",
+              "text": "b. cut-through switching"
+            },
+            {
+              "letter": "c",
+              "text": "c. store-and-forward switching"
+            },
+            {
+              "letter": "d",
+              "text": "d. store-and-restore switching"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which two types of memory buffering techniques are used by switches? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. long-term memory buffering"
+            },
+            {
+              "letter": "b",
+              "text": "b. port-based memory buffering"
+            },
+            {
+              "letter": "c",
+              "text": "c. shared memory buffering"
+            },
+            {
+              "letter": "d",
+              "text": "d. short-term memory buffering"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: What feature automatically negotiates the best speed and duplex setting between interconnecting devices?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. auto-MDIX"
+            },
+            {
+              "letter": "b",
+              "text": "b. autobots"
+            },
+            {
+              "letter": "c",
+              "text": "c. autonegotiation"
+            },
+            {
+              "letter": "d",
+              "text": "d. autotune"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b,c"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b,c"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Gói IPv4",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@224d4079705447858df3eaf00acf6c68?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What are the two most commonly referenced fields in an IPv4 packet header that indicate where the packet is coming from and where it is going? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. destination IP address"
+            },
+            {
+              "letter": "b",
+              "text": "b. protocol"
+            },
+            {
+              "letter": "c",
+              "text": "c. Time to Live"
+            },
+            {
+              "letter": "d",
+              "text": "d. source IP address"
+            },
+            {
+              "letter": "e",
+              "text": "e. Differentiated Services (DS)"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which statement is correct about IPv4 packet header fields?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The source and destination IPv4 addresses remain the same while travelling from source to destination."
+            },
+            {
+              "letter": "b",
+              "text": "b. The Time to Live field is used to determine the priority of each packet."
+            },
+            {
+              "letter": "c",
+              "text": "c. The Total Length and Header Checksum fields are used to reorder a fragmented packet."
+            },
+            {
+              "letter": "d",
+              "text": "d. The Version field identifies the next level protocol."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which field is used to detect corruption in the IPv4 header?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Header Checksum"
+            },
+            {
+              "letter": "b",
+              "text": "b. Time to Live"
+            },
+            {
+              "letter": "c",
+              "text": "c. Protocol"
+            },
+            {
+              "letter": "d",
+              "text": "d. Differentiated Services (DS)"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which field includes common values such as ICMP (1), TCP (6), and UDP (17)?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Header Checksum"
+            },
+            {
+              "letter": "b",
+              "text": "b. Time to Live"
+            },
+            {
+              "letter": "c",
+              "text": "c. Protocol"
+            },
+            {
+              "letter": "d",
+              "text": "d. Differentiated Services (DS)"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a,d"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Khai báo thông số định tuyến trên host",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@296b8a18ffae42338759f5d89315bd3e?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which statement about host forwarding decisions is true?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. A host cannot ping itself."
+            },
+            {
+              "letter": "b",
+              "text": "b. A remote destination host is on the same local network as the sending host."
+            },
+            {
+              "letter": "c",
+              "text": "c. Local hosts can reach each other without the need of a router."
+            },
+            {
+              "letter": "d",
+              "text": "d. Routing is enabled on switches to discover the best path to a destination."
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which default gateway statement is true?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. A default gateway is required to send packets to other hosts on the local network."
+            },
+            {
+              "letter": "b",
+              "text": "b. The default gateway address is the IP address of a switch on a remote network."
+            },
+            {
+              "letter": "c",
+              "text": "c. The default gateway address is the IP address of the router on the local network."
+            },
+            {
+              "letter": "d",
+              "text": "d. Traffic can only be forwarded outside the local network if there is no default gateway."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which two commands could be entered on a Windows host to view its IPv4 and IPv6 routing table? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. netroute -l"
+            },
+            {
+              "letter": "b",
+              "text": "b. netstat -r"
+            },
+            {
+              "letter": "c",
+              "text": "c. print route"
+            },
+            {
+              "letter": "d",
+              "text": "d. route print"
+            },
+            {
+              "letter": "e",
+              "text": "e. print net"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "b,d"
+        }
+      ]
+    },
+    {
+      "title": "Giới thiệu về định tuyến",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@e92d95afdcbd46f7b115b85e638fc480?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What is the command used on a Cisco IOS router to view the routing table?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. netstart -r"
+            },
+            {
+              "letter": "b",
+              "text": "b. route print"
+            },
+            {
+              "letter": "c",
+              "text": "c. show ip route"
+            },
+            {
+              "letter": "d",
+              "text": "d. show routing table"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: What does a code of “O” indicate next to a route in the routing table?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. a directly connected route"
+            },
+            {
+              "letter": "b",
+              "text": "b. a route with an administrative distance of 0"
+            },
+            {
+              "letter": "c",
+              "text": "c. a gateway of last resort"
+            },
+            {
+              "letter": "d",
+              "text": "d. a route learned dynamically from OSPF"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: This type of route is also known as a gateway of last resort.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. static route"
+            },
+            {
+              "letter": "b",
+              "text": "b. remote route"
+            },
+            {
+              "letter": "c",
+              "text": "c. default route"
+            },
+            {
+              "letter": "d",
+              "text": "d. directly connected route"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which is a characteristic of static routes?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. They are manually configured."
+            },
+            {
+              "letter": "b",
+              "text": "b. They are advertised to directly connected neighbors."
+            },
+            {
+              "letter": "c",
+              "text": "c. They are appropriate when there are many redundant links."
+            },
+            {
+              "letter": "d",
+              "text": "d. They automatically adjust to a change in network topology."
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: True or False? A router can be configured with a combination of both static routes and a dynamic routing protocol",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Gói IPv6",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@8faff99e15224f61865ed40ec8560664?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which three options are major issues associated with IPv4? (Choose three.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. IP address depletion"
+            },
+            {
+              "letter": "b",
+              "text": "b. increased network complexity and Internet routing table expansion"
+            },
+            {
+              "letter": "c",
+              "text": "c. Connessioni sempre attive"
+            },
+            {
+              "letter": "d",
+              "text": "d. lack of end-to-end connectivity"
+            },
+            {
+              "letter": "e",
+              "text": "e. global and political boundaries"
+            },
+            {
+              "letter": "f",
+              "text": "f. too many IPv4 addresses available"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which two options are improvements provided by IPv6 as compared to IPv4? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. header supports additional fields for complex packets"
+            },
+            {
+              "letter": "b",
+              "text": "b. increased the IP address space"
+            },
+            {
+              "letter": "c",
+              "text": "c. standardizes the use of NAT"
+            },
+            {
+              "letter": "d",
+              "text": "d. supports class-based networks"
+            },
+            {
+              "letter": "e",
+              "text": "e. uses a simpler header to provide improved packet handling"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which is true of the IPv6 header? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. it consists of 20 octets."
+            },
+            {
+              "letter": "b",
+              "text": "b. it consists of 40 octets."
+            },
+            {
+              "letter": "c",
+              "text": "c. it contains 8 header fields."
+            },
+            {
+              "letter": "d",
+              "text": "d. it contains 12 header fields."
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which is true of the IPv6 packet header?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The Hop Limit field replaces the IPv4 Time to Live field."
+            },
+            {
+              "letter": "b",
+              "text": "b. The Source and Destination IPv6 addresses change while travelling from source to destination."
+            },
+            {
+              "letter": "c",
+              "text": "c. The Time to Live field replaces the DiffServ field."
+            },
+            {
+              "letter": "d",
+              "text": "d. The Version field identifies the next header."
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a,b,d"
+        },
+        {
+          "question": 2,
+          "answer": "b,e"
+        },
+        {
+          "question": 3,
+          "answer": "b,c"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "MAC và IP",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@4af223fe7c9040c3ae773fa1c97aad8e?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What destination MAC address would be included in a frame sent from a source device to a destination device on the same local network?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. A broadcast MAC address of FF-FF-FF-FF-FF-FF"
+            },
+            {
+              "letter": "b",
+              "text": "b. The MAC address of the destination device"
+            },
+            {
+              "letter": "c",
+              "text": "c. The MAC address of the local router interface"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: What destination MAC address would be included in a frame sent from a source device to a destination device on a remote local network?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. A broadcast MAC address of FF-FF-FF-FF-FF-FF"
+            },
+            {
+              "letter": "b",
+              "text": "b. The MAC address of the destination device"
+            },
+            {
+              "letter": "c",
+              "text": "c. The MAC address of the local router interface"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: What two protocols are used to determine the MAC address of a known destination device IP address (IPv4 and IPv6)?",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. DHCP"
+            },
+            {
+              "letter": "b",
+              "text": "b. ARP"
+            },
+            {
+              "letter": "c",
+              "text": "c. DNS"
+            },
+            {
+              "letter": "d",
+              "text": "d. ND"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "b,d"
+        }
+      ]
+    },
+    {
+      "title": "IPv6 Neighbor",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@ac11ef37e61b44b78d0a4c98947c221d?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which two ICMPv6 messages are used in SLAAC?",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. neighbor advertisement"
+            },
+            {
+              "letter": "b",
+              "text": "b. neighbor solicitation"
+            },
+            {
+              "letter": "c",
+              "text": "c. router advertisement"
+            },
+            {
+              "letter": "d",
+              "text": "d. router solicitation"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which two ICMPv6 messages are used in to determine the MAC address of a known IPv6 address?",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. neighbor advertisement"
+            },
+            {
+              "letter": "b",
+              "text": "b. neighbor solicitation"
+            },
+            {
+              "letter": "c",
+              "text": "c. router advertisement"
+            },
+            {
+              "letter": "d",
+              "text": "d. router solicitation"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: To what type of address are ICMPv6 neighbor solicitation messages sent?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. unicast"
+            },
+            {
+              "letter": "b",
+              "text": "b. multicast"
+            },
+            {
+              "letter": "c",
+              "text": "c. broadcast"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c,d"
+        },
+        {
+          "question": 2,
+          "answer": "a,b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Hiệu suất mạng",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@524494eb41934275b369f75273f959c4?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which two statements are correct about private IPv4 addresses? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Private IPv4 addresses are assigned to devices within an organization's intranet (internal network)."
+            },
+            {
+              "letter": "b",
+              "text": "b. Internet routers will typically forward any packet with a destination address that is a private IPv4 address."
+            },
+            {
+              "letter": "c",
+              "text": "c. 172.99.1.1 is a private IPv4 address."
+            },
+            {
+              "letter": "d",
+              "text": "d. Any organization (home, school, office, company) can use the 10.0.0.0/8 address."
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which two statements are correct about public IPv4 addresses? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Public IPv4 addresses are allowed to be assigned to devices within an organization's intranet (internal network)."
+            },
+            {
+              "letter": "b",
+              "text": "b. To access a device over the internet, the destination IPv4 address must be a public address."
+            },
+            {
+              "letter": "c",
+              "text": "c. 192.168.1.10 is a public IPv4 address."
+            },
+            {
+              "letter": "d",
+              "text": "d. Public IPv4 address exhaustion is a reason why there are private IPv4 addresses and why organizations are transitioning to IPv6."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which organization or group of organizations receives IP addresses from IANA and is responsible for allocating these addresses to ISPs and some organizations?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. IETF"
+            },
+            {
+              "letter": "b",
+              "text": "b. IEEE"
+            },
+            {
+              "letter": "c",
+              "text": "c. RIRS"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tier 1 ISPs"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a,d"
+        },
+        {
+          "question": 2,
+          "answer": "b,d"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "ARP",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@269dc8af705f4890b80e13544d78f37a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What two functions are provided by ARP? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Maintains a table of IPv4 address to domain names"
+            },
+            {
+              "letter": "b",
+              "text": "b. Maintains a table of IPv4 to MAC address mappings"
+            },
+            {
+              "letter": "c",
+              "text": "c. Maintains a table of IPv6 to MAC address mappings"
+            },
+            {
+              "letter": "d",
+              "text": "d. Resolves IPv4 addresses to domain names"
+            },
+            {
+              "letter": "e",
+              "text": "e. Resolves IPv4 addresses to MAC addresses"
+            },
+            {
+              "letter": "f",
+              "text": "f. Resolves IPv6 addresses to MAC addresses"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Where is the ARP table stored on a device?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ROM"
+            },
+            {
+              "letter": "b",
+              "text": "b. flash"
+            },
+            {
+              "letter": "c",
+              "text": "c. NVRAM"
+            },
+            {
+              "letter": "d",
+              "text": "d. RAM"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which statement is true about ARP?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. An ARP cache cannot be manually deleted"
+            },
+            {
+              "letter": "b",
+              "text": "b. ARP entries are cached permanently"
+            },
+            {
+              "letter": "c",
+              "text": "c. ARP entries are cached temporarily"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which command could be used on a Cisco router to view its ARP table?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. arp -a"
+            },
+            {
+              "letter": "b",
+              "text": "b. arp -d"
+            },
+            {
+              "letter": "c",
+              "text": "c. show arp table"
+            },
+            {
+              "letter": "d",
+              "text": "d. show ip arp"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: What is an attack using ARP?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ARP broadcasts"
+            },
+            {
+              "letter": "b",
+              "text": "b. ARP hopping attacks"
+            },
+            {
+              "letter": "c",
+              "text": "c. ARP poisoning"
+            },
+            {
+              "letter": "d",
+              "text": "d. ARP starvation"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b,e"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Network Segment",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@15e5ec77150c49ebb296ed8207365887?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which devices will not forward an IPv4 broadcast packet by default?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Ethernet switch"
+            },
+            {
+              "letter": "b",
+              "text": "b. router"
+            },
+            {
+              "letter": "c",
+              "text": "c. Windows PC"
+            },
+            {
+              "letter": "d",
+              "text": "d. None of the above. All devices forward IPv4 broadcast packets by default."
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which two situations are the result of excessive broadcast traffic? (Choose two)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. slow network operations"
+            },
+            {
+              "letter": "b",
+              "text": "b. slow device operations"
+            },
+            {
+              "letter": "c",
+              "text": "c. when devices on all adjacent networks are affected"
+            },
+            {
+              "letter": "d",
+              "text": "d. when the router has to forward an excessive number of packets"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a,b"
+        }
+      ]
+    },
+    {
+      "title": "Cấu hình dynamic địa chỉ IPv6 GUA",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@7701a9f1ffde4d1eb294f51e84ac9434?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: True or false? RA messages are sent to all IPv6 routers by hosts requesting addressing information.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which dynamic addressing method for GUAs is the one where devices rely solely on the contents of the RA message for their addressing information?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Method 1: SLAAC"
+            },
+            {
+              "letter": "b",
+              "text": "b. Method 2: SLAAC and stateless DHCPv6"
+            },
+            {
+              "letter": "c",
+              "text": "c. Method 3: Stateful DHCPv6"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which dynamic addressing method for GUAs is the one where devices rely solely on a DHCPv6 server for their addressing information?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Method 1: SLAAC"
+            },
+            {
+              "letter": "b",
+              "text": "b. Method 2: SLAAC and stateless DHCPv6"
+            },
+            {
+              "letter": "c",
+              "text": "c. Method 3: Stateful DHCPv6"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which dynamic addressing method for GUAs is the one where devices get their IPv6 configuration in a RA message and request DNS information from a DHCPv6 server?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Method 1: SLAAC"
+            },
+            {
+              "letter": "b",
+              "text": "b. Method 2: SLAAC and stateless DHCPv6"
+            },
+            {
+              "letter": "c",
+              "text": "c. Method 3: Stateful DHCPv6"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: What are the two methods a device can use to generate its own IPv6 interface ID?",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SLAAC"
+            },
+            {
+              "letter": "b",
+              "text": "b. stateless DHCPv6"
+            },
+            {
+              "letter": "c",
+              "text": "c. stateful DHCPv6"
+            },
+            {
+              "letter": "d",
+              "text": "d. EUI-64"
+            },
+            {
+              "letter": "e",
+              "text": "e. randomly generated"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "d,e"
+        }
+      ]
+    },
+    {
+      "title": "Các loại địa chỉ IPv6",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@79dc5ef2b320488a801d2ed3f51f148b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What is the recommended prefix length for most IPv6 subnets?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. /32"
+            },
+            {
+              "letter": "b",
+              "text": "b. /48"
+            },
+            {
+              "letter": "c",
+              "text": "c. /64"
+            },
+            {
+              "letter": "d",
+              "text": "d. /128"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which part of a GUA is assigned by the ISP?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. global routing prefix"
+            },
+            {
+              "letter": "b",
+              "text": "b. global routing prefix and subnet ID"
+            },
+            {
+              "letter": "c",
+              "text": "c. prefix"
+            },
+            {
+              "letter": "d",
+              "text": "d. RIR prefix"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which type of IPv6 unicast address is not routable between networks?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. unique local address"
+            },
+            {
+              "letter": "b",
+              "text": "b. GUA"
+            },
+            {
+              "letter": "c",
+              "text": "c. embedded IPv4 address"
+            },
+            {
+              "letter": "d",
+              "text": "d. LLA"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: True or false? The Subnet ID field in an GUA must borrow bits from the interface ID.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: What type of IPv6 address begins with fe80?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. GUA"
+            },
+            {
+              "letter": "b",
+              "text": "b. LLA"
+            },
+            {
+              "letter": "c",
+              "text": "c. multicast address"
+            },
+            {
+              "letter": "d",
+              "text": "d. None. An IPv6 address must begin with 2001"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Chia mạng con với IPv6",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@53976ef83ee6429fa3e312e4cb13ad48?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: True or False? IPv6 was designed with subnetting in mind.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which field in an IPv6 GUA is used for subnetting?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Prefix"
+            },
+            {
+              "letter": "b",
+              "text": "b. Network"
+            },
+            {
+              "letter": "c",
+              "text": "c. Global Routing Prefix"
+            },
+            {
+              "letter": "d",
+              "text": "d. Subnet ID"
+            },
+            {
+              "letter": "e",
+              "text": "e. Interface ID"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Given a /48 Global Routing Prefix and a /64 prefix, what is the subnet portion of the following address: 2001:db8:cafe:1111:2222:3333:4444:5555",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. cafe"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1111"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2222"
+            },
+            {
+              "letter": "d",
+              "text": "d. 3333"
+            },
+            {
+              "letter": "e",
+              "text": "e. 4444"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Given a /32 Global Routing Prefix and a /64 prefix, how many bits would be allocated for the Subnet ID?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 8"
+            },
+            {
+              "letter": "b",
+              "text": "b. 16"
+            },
+            {
+              "letter": "c",
+              "text": "c. 32"
+            },
+            {
+              "letter": "d",
+              "text": "d. 48"
+            },
+            {
+              "letter": "e",
+              "text": "e. 64"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Thông điệp ICMP",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@6ae7f6c9072b4e9c8b66937ecdcc262b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which two types of ICMP messages are common to both ICMPv4 and ICMPv6? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Destination or Service Unreachable"
+            },
+            {
+              "letter": "b",
+              "text": "b. Hostname resolution"
+            },
+            {
+              "letter": "c",
+              "text": "c. IP configuration"
+            },
+            {
+              "letter": "d",
+              "text": "d. Source Unreachable"
+            },
+            {
+              "letter": "e",
+              "text": "e. Time exceeded"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which type of ICMPv6 message would a host send to acquire an IPv6 configuration when booting up?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Neighbor Advertisement (NA) message"
+            },
+            {
+              "letter": "b",
+              "text": "b. Neighbor Solicitation (NS) message"
+            },
+            {
+              "letter": "c",
+              "text": "c. Router Advertisement (RA) message"
+            },
+            {
+              "letter": "d",
+              "text": "d. Router Solicitation (RS) message"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a,e"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Vấn đề IPv4",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@e274dc60890d4d7b9de3f928ea3284f0?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What is the most important motivating factor for moving to IPv6?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. better performance with IPv6"
+            },
+            {
+              "letter": "b",
+              "text": "b. IPv6 addresses that are easier to work with"
+            },
+            {
+              "letter": "c",
+              "text": "c. better security with IPv6"
+            },
+            {
+              "letter": "d",
+              "text": "d. depletion of IPv4 addresses"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: True or False: 4 out of 5 RIRs no longer have enough IPv4 addresses to allocate to customers on a regular basis.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which of the following techniques use native IPv6 connectivity?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. dual stack"
+            },
+            {
+              "letter": "b",
+              "text": "b. tunneling"
+            },
+            {
+              "letter": "c",
+              "text": "c. translation"
+            },
+            {
+              "letter": "d",
+              "text": "d. all of the above"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Port number",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@467f61fd9fb342678a07925ea416e457?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Assume a host with IP address 10.1.1.10 wants to request web services from a server at 10.1.1.254. Which of the following would display the correct socket pair?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1099:10.1.1.10, 80:10.1.1.254"
+            },
+            {
+              "letter": "b",
+              "text": "b. 10.1.1.10:80, 10.1.1.254:1099"
+            },
+            {
+              "letter": "c",
+              "text": "c. 10.1.1.10:1099, 10.1.1.254:80"
+            },
+            {
+              "letter": "d",
+              "text": "d. 80:10.1.1.10, 1099:10.1.1.254"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which port group includes port numbers for FTP, HTTP, and TFTP applications?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. dynamic ports"
+            },
+            {
+              "letter": "b",
+              "text": "b. private ports"
+            },
+            {
+              "letter": "c",
+              "text": "c. registered ports"
+            },
+            {
+              "letter": "d",
+              "text": "d. well-known ports"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which Windows command would display the protocols in use, the local address and port numbers, the foreign address and port numbers, and the connection state?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ipconfig /all"
+            },
+            {
+              "letter": "b",
+              "text": "b. ping"
+            },
+            {
+              "letter": "c",
+              "text": "c. netstat"
+            },
+            {
+              "letter": "d",
+              "text": "d. traceroute"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Tiến trình giao tiếp TCP",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@9fdc9d2bb0c441afbe5904871cc8f965?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which of the following would be valid source and destination ports for a host connecting to an email server?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Source: 25, Destination: 49152"
+            },
+            {
+              "letter": "b",
+              "text": "b. Source: 80, Destination: 49152"
+            },
+            {
+              "letter": "c",
+              "text": "c. Source: 49152, Destination: 25"
+            },
+            {
+              "letter": "d",
+              "text": "d. Source: 49152, Destination: 80"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which control bit flags are used during the three-way handshake?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ACK and FIN"
+            },
+            {
+              "letter": "b",
+              "text": "b. FIN and RESET"
+            },
+            {
+              "letter": "c",
+              "text": "c. RESET and SYN"
+            },
+            {
+              "letter": "d",
+              "text": "d. SYN and ACK"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: How many exchanges are needed to end both sessions between two hosts?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. one exchange"
+            },
+            {
+              "letter": "b",
+              "text": "b. two exchanges"
+            },
+            {
+              "letter": "c",
+              "text": "c. three exchanges"
+            },
+            {
+              "letter": "d",
+              "text": "d. four exchanges"
+            },
+            {
+              "letter": "e",
+              "text": "e. five exchanges"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "TCP",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@c9ebf5f955584a03b5bf932c358fffe3?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which transport layer protocol ensures reliable same-order delivery?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ICMP"
+            },
+            {
+              "letter": "b",
+              "text": "b. IP"
+            },
+            {
+              "letter": "c",
+              "text": "c. TCP"
+            },
+            {
+              "letter": "d",
+              "text": "d. UDP"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which TCP header statement is true?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It consists of 4 fields in an 8-byte header"
+            },
+            {
+              "letter": "b",
+              "text": "b. It consists of 8 fields in a 10-byte header"
+            },
+            {
+              "letter": "c",
+              "text": "c. It consists of 10 fields in a 20-byte header"
+            },
+            {
+              "letter": "d",
+              "text": "d. It consists of 20 fields in a 40-byte header"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which two applications would use the TCP transport layer protocol? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. FTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. HTTP"
+            },
+            {
+              "letter": "c",
+              "text": "c. ICMP"
+            },
+            {
+              "letter": "d",
+              "text": "d. TFTP"
+            },
+            {
+              "letter": "e",
+              "text": "e. VoIP"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "a,b"
+        }
+      ]
+    },
+    {
+      "title": "IPv4 Unicast, Broadcast, Multicast",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@45de65bc231c494b83d7c445b4b4841c?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: A message is sent to all hosts on a remote network. Which type of message is it?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. limited broadcast"
+            },
+            {
+              "letter": "b",
+              "text": "b. multicast"
+            },
+            {
+              "letter": "c",
+              "text": "c. directed broadcast"
+            },
+            {
+              "letter": "d",
+              "text": "d. unicast"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which subnet would include the address 192.168.1.96 as a usable host address?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 192.168.1.64/26"
+            },
+            {
+              "letter": "b",
+              "text": "b. 192.168.1.32/27"
+            },
+            {
+              "letter": "c",
+              "text": "c. 192.168.1.32/28"
+            },
+            {
+              "letter": "d",
+              "text": "d. 192.168.1.64/29"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: How many host addresses are available on the 192.168.10.128/26 network?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 30"
+            },
+            {
+              "letter": "b",
+              "text": "b. 32"
+            },
+            {
+              "letter": "c",
+              "text": "c. 60"
+            },
+            {
+              "letter": "d",
+              "text": "d. 62"
+            },
+            {
+              "letter": "e",
+              "text": "e. 64"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which address prefix range is reserved for IPv4 multicast?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 240.0.0.0 – 254.255.255.255"
+            },
+            {
+              "letter": "b",
+              "text": "b. 224.0.0.0 – 239.255.255.255"
+            },
+            {
+              "letter": "c",
+              "text": "c. 169.254.0.0 – 169.254.255.255"
+            },
+            {
+              "letter": "d",
+              "text": "d. 127.0.0.0 – 127.255.255.255"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Giao tiếp UDP",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@b07fd7125ba64caba0d5c0d9411d6d94?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Why is UDP desirable for protocols that make a simple request and reply transactions?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Flow Control"
+            },
+            {
+              "letter": "b",
+              "text": "b. Low overhead"
+            },
+            {
+              "letter": "c",
+              "text": "c. Reliability"
+            },
+            {
+              "letter": "d",
+              "text": "d. Same-order delivery"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which UDP datagram reassembly statement is true?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. UDP does not reassemble the data"
+            },
+            {
+              "letter": "b",
+              "text": "b. UDP reassembles the data in the order that it was received"
+            },
+            {
+              "letter": "c",
+              "text": "c. UDP reassembles the data using control bits"
+            },
+            {
+              "letter": "d",
+              "text": "d. UDP reassembles the data using sequence numbers"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which of the following would be valid source and destination ports for a host connecting to a DNS server?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Source: 53, Destination: 49152"
+            },
+            {
+              "letter": "b",
+              "text": "b. Source: 1812, Destination: 49152"
+            },
+            {
+              "letter": "c",
+              "text": "c. Source: 49152, Destination: 53"
+            },
+            {
+              "letter": "d",
+              "text": "d. Source: 49152, Destination: 1812"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Tin cậy và điều khiển luồng",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@0b09dfa637d94735b58fed10bee59d74?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What field is used by the destination host to reassemble segments into the original order?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Control Bits"
+            },
+            {
+              "letter": "b",
+              "text": "b. Destination Port"
+            },
+            {
+              "letter": "c",
+              "text": "c. Sequence Number"
+            },
+            {
+              "letter": "d",
+              "text": "d. Source Port"
+            },
+            {
+              "letter": "e",
+              "text": "e. Window Size"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: What field is used to provide flow control?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Control Bits"
+            },
+            {
+              "letter": "b",
+              "text": "b. Destination Port"
+            },
+            {
+              "letter": "c",
+              "text": "c. Sequence Number"
+            },
+            {
+              "letter": "d",
+              "text": "d. Source Port"
+            },
+            {
+              "letter": "e",
+              "text": "e. Window Size"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: What happens when a sending host senses there is congestion?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. The receiving host increases the number of bytes it sends before receiving an acknowledgment from the sending host"
+            },
+            {
+              "letter": "b",
+              "text": "b. The receiving host reduces the number of bytes it sends before receiving an acknowledgment from the sending host"
+            },
+            {
+              "letter": "c",
+              "text": "c. The sending host increases the number of bytes it sends before receiving an acknowledgment from the destination host"
+            },
+            {
+              "letter": "d",
+              "text": "d. The sending host reduces the number of bytes it sends before receiving an acknowledgment from the destination host"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "e"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Cấu trúc IPv4",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@a3f438d849be4ac89333c650f0e2089a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Host-A has the IPv4 address and subnet mask 10.5.4.100 255.255.255.0. What is the network address of Host-A?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 10.0.0.0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 10.5.0.0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 10.5.4.0"
+            },
+            {
+              "letter": "d",
+              "text": "d. 10.5.4.100"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Host-A has the IPv4 address and subnet mask 172.16.4.100 255.255.0.0. What is the network address of Host-A?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 172.0.0.0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 172.16.0.0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 172.16.4.0"
+            },
+            {
+              "letter": "d",
+              "text": "d. 172.16.4.100"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Host-A has the IPv4 address and subnet mask 10.5.4.100 255.255.255.0. Which of the following IPv4 addresses would be on the same network as Host-A? (Choose all that apply)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 10.5.4.1"
+            },
+            {
+              "letter": "b",
+              "text": "b. 10.5.0.1"
+            },
+            {
+              "letter": "c",
+              "text": "c. 10.5.4.99"
+            },
+            {
+              "letter": "d",
+              "text": "d. 10.0.0.98"
+            },
+            {
+              "letter": "e",
+              "text": "e. 10.5.100.4"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Host-A has the IPv4 address and subnet mask 172.16.4.100 255.255.0.0. Which of the following IPv4 addresses would be on the same network as Host-A? (Choose all that apply)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 172.16.4.99"
+            },
+            {
+              "letter": "b",
+              "text": "b. 172.16.0.1"
+            },
+            {
+              "letter": "c",
+              "text": "c. 172.17.4.99"
+            },
+            {
+              "letter": "d",
+              "text": "d. 172.17.4.1"
+            },
+            {
+              "letter": "e",
+              "text": "e. 172.18.4.1"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Host-A has the IPv4 address and subnet mask 192.168.1.50 255.255.255.0. Which of the following IPv4 addresses would be on the same network as Host-A? (Choose all that apply)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 192.168.0.1"
+            },
+            {
+              "letter": "b",
+              "text": "b. 192.168.0.100"
+            },
+            {
+              "letter": "c",
+              "text": "c. 192.168.1.1"
+            },
+            {
+              "letter": "d",
+              "text": "d. 192.168.1.100"
+            },
+            {
+              "letter": "e",
+              "text": "e. 192.168.2.1"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "a,c"
+        },
+        {
+          "question": 4,
+          "answer": "a,b"
+        },
+        {
+          "question": 5,
+          "answer": "c,d"
+        }
+      ]
+    },
+    {
+      "title": "Tầng application, presentation, session",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@7c25f52643424e699fb8dd0312a096bb?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: This layer of the OSI model is concerned with the protocols that exchange data between programs running on hosts.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. application"
+            },
+            {
+              "letter": "b",
+              "text": "b. transport"
+            },
+            {
+              "letter": "c",
+              "text": "c. network"
+            },
+            {
+              "letter": "d",
+              "text": "d. physical"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: MKV, GIF, and JPG standards are associated with which OSI layer?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. application"
+            },
+            {
+              "letter": "b",
+              "text": "b. presentation"
+            },
+            {
+              "letter": "c",
+              "text": "c. session"
+            },
+            {
+              "letter": "d",
+              "text": "d. transport"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: These three OSI layers define the same functions as the TCP/IP model application layer.",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. application"
+            },
+            {
+              "letter": "b",
+              "text": "b. presentation"
+            },
+            {
+              "letter": "c",
+              "text": "c. session"
+            },
+            {
+              "letter": "d",
+              "text": "d. transport"
+            },
+            {
+              "letter": "e",
+              "text": "e. network"
+            },
+            {
+              "letter": "f",
+              "text": "f. data link"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which two are protocols that belong in the OSI application layer?",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. PNG"
+            },
+            {
+              "letter": "b",
+              "text": "b. DNS"
+            },
+            {
+              "letter": "c",
+              "text": "c. SMTP"
+            },
+            {
+              "letter": "d",
+              "text": "d. QuickTime"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: This is a function of the OSI session layer.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. compress and decompress data"
+            },
+            {
+              "letter": "b",
+              "text": "b. provide an interface between applications"
+            },
+            {
+              "letter": "c",
+              "text": "c. format data for the application layer"
+            },
+            {
+              "letter": "d",
+              "text": "d. exchange of information to initiate dialog between peers"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "a,b,c"
+        },
+        {
+          "question": 4,
+          "answer": "b,c"
+        },
+        {
+          "question": 5,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Peer-to-peer",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@55603e5e84a841809b5939fdb9d7ae35?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: True or false? The peer-to-peer networking model requires the implementation of a dedicated server for data access.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: True or false? In a peer-to-peer network environment every peer can function as both a client and a server.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which peer-to-peer application allows users to share pieces of many files with each other at the same time?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Hybrid"
+            },
+            {
+              "letter": "b",
+              "text": "b. Gnutella"
+            },
+            {
+              "letter": "c",
+              "text": "c. BitTorrent"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which of the following is a feature of the Gnutella protocol?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Users can share whole files with other users."
+            },
+            {
+              "letter": "b",
+              "text": "b. Users can share pieces of files with other users."
+            },
+            {
+              "letter": "c",
+              "text": "c. Users can access an index server to get the location of resources shared by other users."
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Vận chuyển dữ liệu",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@64e371410e1c40d7bbb938091a211657?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which layer is responsible for establishing a temporary communication session between the source and destination host applications?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. application layer"
+            },
+            {
+              "letter": "b",
+              "text": "b. data link layer"
+            },
+            {
+              "letter": "c",
+              "text": "c. network layer"
+            },
+            {
+              "letter": "d",
+              "text": "d. physical layer"
+            },
+            {
+              "letter": "e",
+              "text": "e. transport layer"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which three are transport layer responsibilities? (Choose three.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. conversation multiplexing"
+            },
+            {
+              "letter": "b",
+              "text": "b. identifying frames"
+            },
+            {
+              "letter": "c",
+              "text": "c. identifying routing information"
+            },
+            {
+              "letter": "d",
+              "text": "d. segmenting data and reassembling segments"
+            },
+            {
+              "letter": "e",
+              "text": "e. tracking individual conversations"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which transport layer protocol statement is true?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. TCP has fewer fields than UDP"
+            },
+            {
+              "letter": "b",
+              "text": "b. TCP is faster than UDP"
+            },
+            {
+              "letter": "c",
+              "text": "c. UDP is a best-effort delivery protocol"
+            },
+            {
+              "letter": "d",
+              "text": "d. UDP provides reliability"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which transport layer protocol would be used for VoIP applications?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Session Information Protocol (SIP)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Transmission Control Protocol (TCP)"
+            },
+            {
+              "letter": "c",
+              "text": "c. User Datagram Protocol (UDP)"
+            },
+            {
+              "letter": "d",
+              "text": "d. VoIP Transfer Protocol"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "e"
+        },
+        {
+          "question": 2,
+          "answer": "a,d,e"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Địa chỉ IPv6",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@0fffa66a77264011b4ba742baa5cda00?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: What is the equivalent of IPv6 address 2003:0045:0345:0000:0000:0000:0000:0001?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 2003:0045:0345:0000::0000::0001"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2003:0045:0345::0:0::0001"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2003:45:345::1"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2003:0045:0345:1"
+            },
+            {
+              "letter": "e",
+              "text": "e. 2003:0045:0345:::1"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: What is the interface ID of the IPv6 address 2001:DB8::1000:A9CD:47FF:FE57:FE94/64?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. FE94"
+            },
+            {
+              "letter": "b",
+              "text": "b. FE57:FE94"
+            },
+            {
+              "letter": "c",
+              "text": "c. 47FF:FE57:FE94"
+            },
+            {
+              "letter": "d",
+              "text": "d. A9CD:47FF:FE57:FE94"
+            },
+            {
+              "letter": "e",
+              "text": "e. 1000:A9CD:47FF:FE57:FE94"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: What is the valid most compressed format possible of the IPv6 address 2001:0DB8:0000:AB00:0000:0000:0000:1234?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 2001:DB8:0:AB00::1234"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2001:DB8:0:AB::1234"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2001:DB8::AB00::1234"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2001:DB8:0:AB:0:1234"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: What is the most compressed representation of the IPv6 address 2001:0000:0000:abcd:0000:0000:0000:0001?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 2001:0:abcd::1"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2001:0:0:abcd::1"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2001::abcd::1"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2001:0000:abcd::1"
+            },
+            {
+              "letter": "e",
+              "text": "e. 2001::abcd:0:1"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Các dịch vụ liên quan đến địa chỉ IP",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@e5df7630ee944e08a2f0db1b26b1c10b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: True or false? HTTP is a secure protocol.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. A"
+            },
+            {
+              "letter": "b",
+              "text": "b. NS"
+            },
+            {
+              "letter": "c",
+              "text": "c. AAAA"
+            },
+            {
+              "letter": "d",
+              "text": "d. MX"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: True or false? A DNS server that receives a request for a name resolution that is not within its DNS zone will send a failure message to the requesting client.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which of the following is displayed by the nslookup utility?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. the configured default DNS server"
+            },
+            {
+              "letter": "b",
+              "text": "b. the IP address of the end device"
+            },
+            {
+              "letter": "c",
+              "text": "c. all cached DNS entries"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which of the following DNS resource record types resolves authoritative name servers?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. NS"
+            },
+            {
+              "letter": "b",
+              "text": "b. A"
+            },
+            {
+              "letter": "c",
+              "text": "c. MX"
+            },
+            {
+              "letter": "d",
+              "text": "d. AAAA"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Các giao thức trên Web và Email",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@a3aad5da808a47f5838efbaf8d6cd382?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: This message type is used when uploading data files to a web server.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. GET"
+            },
+            {
+              "letter": "b",
+              "text": "b. POST"
+            },
+            {
+              "letter": "c",
+              "text": "c. PUT"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: This protocol is used by a web browser to establish a connection to a web server.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. HTTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. SSL"
+            },
+            {
+              "letter": "c",
+              "text": "c. IMAP"
+            },
+            {
+              "letter": "d",
+              "text": "d. SMTP"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: This protocol is used by a client to send email to a mail server.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. POP"
+            },
+            {
+              "letter": "b",
+              "text": "b. SMTP"
+            },
+            {
+              "letter": "c",
+              "text": "c. IMAP"
+            },
+            {
+              "letter": "d",
+              "text": "d. HTTP"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which is a feature of IMAP?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It uploads email messages to a server."
+            },
+            {
+              "letter": "b",
+              "text": "b. It listens passively on port 110 for client requests."
+            },
+            {
+              "letter": "c",
+              "text": "c. It downloads a copy of email messages leaving the original on the server."
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: True or false? HTTP is a secure protocol.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Các dịch vụ chia sẻ file",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@51e6dcbf55924f7ea3d9b0e0c343559d?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: How many connections are required by FTP between client and server?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2"
+            },
+            {
+              "letter": "c",
+              "text": "c. 3"
+            },
+            {
+              "letter": "d",
+              "text": "d. 4"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: True or false? FTP data transfers take place from client to server (push) and from server to client (pull).",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which of these ports are used by FTP? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 20"
+            },
+            {
+              "letter": "b",
+              "text": "b. 21"
+            },
+            {
+              "letter": "c",
+              "text": "c. 25"
+            },
+            {
+              "letter": "d",
+              "text": "d. 110"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: True or false? Resource sharing over SMB is only supported on Microsoft operating systems.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. True"
+            },
+            {
+              "letter": "b",
+              "text": "b. False"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a,b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "UDP",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP172_A01+HK1-2026-2027+type@sequential+block@444d3135b805462a92c3bc73aa41145b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Which of the following is a stateless best-effort delivery transport layer protocol?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ICMP"
+            },
+            {
+              "letter": "b",
+              "text": "b. IP"
+            },
+            {
+              "letter": "c",
+              "text": "c. TCP"
+            },
+            {
+              "letter": "d",
+              "text": "d. UDP"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Which UDP header statement is true?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. It consists of 4 fields in an 8-byte header"
+            },
+            {
+              "letter": "b",
+              "text": "b. It consists of 8 fields in a 10-byte header"
+            },
+            {
+              "letter": "c",
+              "text": "c. It consists of 10 fields in a 20-byte header"
+            },
+            {
+              "letter": "d",
+              "text": "d. It consists of 20 fields in a 40-byte header"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Which two applications would use the UDP transport layer protocol? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. FTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. HTTP"
+            },
+            {
+              "letter": "c",
+              "text": "c. ICMP"
+            },
+            {
+              "letter": "d",
+              "text": "d. TFTP"
+            },
+            {
+              "letter": "e",
+              "text": "e. VoIP"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Which two fields are the same in a TCP and UDP header? (Choose two.)",
+          "type": "checkbox",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Control bits"
+            },
+            {
+              "letter": "b",
+              "text": "b. Destination port number"
+            },
+            {
+              "letter": "c",
+              "text": "c. Sequence number"
+            },
+            {
+              "letter": "d",
+              "text": "d. Source port number"
+            },
+            {
+              "letter": "e",
+              "text": "e. Well-known port number"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "d,e"
+        },
+        {
+          "question": 4,
+          "answer": "b,d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<style>
+  body { width: 260px; margin: 0; padding: 12px; background: #000; color: #fff; font: 13px/1.4 system-ui, "Segoe UI", sans-serif; }
+  h1 { font-size: 14px; margin: 0 0 10px; }
+  label { display: flex; justify-content: space-between; margin: 10px 0 3px; }
+  select { width: 100%; box-sizing: border-box; background: #000; color: #fff; border: 1px solid #fff; border-radius: 0; padding: 5px 6px; font: inherit; }
+  input[type=range] { width: 100%; padding: 0; accent-color: #fff; }
+  button { width: 100%; cursor: pointer; border: 1px solid #fff; border-radius: 0; background: #fff; color: #000; font: inherit; font-weight: 700; padding: 8px 10px; }
+  button.on { background: #000; color: #fff; }
+  .st { margin: 8px 0 0; min-height: 18px; white-space: pre-wrap; }
+</style>
+</head>
+<body>
+  <h1>VoxShift</h1>
+  <button id="toggle">Bắt đầu</button>
+  <div class="st" id="st"></div>
+
+  <label for="voice">Giọng</label>
+  <select id="voice"></select>
+
+  <label>Âm gốc <span id="ovv"></span></label>
+  <input type="range" id="origVolume" min="0" max="100" step="5">
+
+  <script src="popup.js"></script>
+</body>
+</html>

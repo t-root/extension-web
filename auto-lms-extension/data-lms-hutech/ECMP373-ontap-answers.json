@@ -1,0 +1,1569 @@
+{
+  "version": 1,
+  "courseCode": "ECMP373",
+  "exportedAt": "2026-09-14T15:56:21.587Z",
+  "answers": [
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@ece03abfe78c416f8d0af622fb29b7f5?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Hãy cho biết địa chỉ sau thuộc lớp mạng nào : 224.16.1.1",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. A"
+            },
+            {
+              "letter": "b",
+              "text": "b. B"
+            },
+            {
+              "letter": "c",
+              "text": "c. C"
+            },
+            {
+              "letter": "d",
+              "text": "d. D"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Hãy cho biết địa chỉ sau thuộc lớp mạng nào : 12.16.1.1",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. A"
+            },
+            {
+              "letter": "b",
+              "text": "b. B"
+            },
+            {
+              "letter": "c",
+              "text": "c. C"
+            },
+            {
+              "letter": "d",
+              "text": "d. D"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Hãy cho biết địa chỉ sau thuộc lớp mạng nào : 192.168.1.1",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. A"
+            },
+            {
+              "letter": "b",
+              "text": "b. B"
+            },
+            {
+              "letter": "c",
+              "text": "c. C"
+            },
+            {
+              "letter": "d",
+              "text": "d. D"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Hãy cho biết địa chỉ sau thuộc lớp mạng nào : 172.16.1.1",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. A"
+            },
+            {
+              "letter": "b",
+              "text": "b. B"
+            },
+            {
+              "letter": "c",
+              "text": "c. C"
+            },
+            {
+              "letter": "d",
+              "text": "d. D"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Hãy cho biết chức năng của dịch vụ DHCP?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cấp địa chỉ IP"
+            },
+            {
+              "letter": "b",
+              "text": "b.Cấp mặt nạ mạng (netmask)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cấp Default Gateway"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Hãy cho biết tốc độ truyền 10mb/s thuộc chuẩn nào",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. GigabitEthernet"
+            },
+            {
+              "letter": "b",
+              "text": "b. FastEthernet"
+            },
+            {
+              "letter": "c",
+              "text": "c. Ethernet"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đề sai"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 6: Hãy cho biết tốc độ truyền 100mb/s thuộc chuẩn nào",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. GigabitEthernet"
+            },
+            {
+              "letter": "b",
+              "text": "b. FastEthernet"
+            },
+            {
+              "letter": "c",
+              "text": "c. Ethernet"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đề sai"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "d"
+        },
+        {
+          "question": 6,
+          "answer": "c"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@ff22f285bdd14deb846856bbbd74c4ac?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Hãy chọn loại cáp phù hợp cho kết nối từ Cloud đến Cable Modem",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Ethernet"
+            },
+            {
+              "letter": "b",
+              "text": "b. Fiber"
+            },
+            {
+              "letter": "c",
+              "text": "c. Coaxial"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Hãy chọn loại cáp phù hợp cho kết nối từ Cloud đến Router",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Ethernet"
+            },
+            {
+              "letter": "b",
+              "text": "b. Fiber"
+            },
+            {
+              "letter": "c",
+              "text": "c. Coaxial"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Hãy chọn loại cáp phù hợp cho kết nối từ Router0 đến Router1",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Copper Straight-Through"
+            },
+            {
+              "letter": "b",
+              "text": "b. Serial"
+            },
+            {
+              "letter": "c",
+              "text": "c. Copper Cross-Over"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Hãy chọn loại cáp phù hợp cho kết nối từ Router1 đến Routerswitch",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Copper Straight-Through"
+            },
+            {
+              "letter": "b",
+              "text": "b. Serial"
+            },
+            {
+              "letter": "c",
+              "text": "c. Copper Cross-Over"
+            },
+            {
+              "letter": "d",
+              "text": "d. Fiber"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Hãy chọn loại cáp phù hợp cho kết nối từ Router0 đến Config Terminal",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Copper Straight-Through"
+            },
+            {
+              "letter": "b",
+              "text": "b. Console"
+            },
+            {
+              "letter": "c",
+              "text": "c. Copper Cross-Over"
+            },
+            {
+              "letter": "d",
+              "text": "d. Fiber"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Hãy cho biết tốc độ truyền 1000mb/s thuộc chuẩn nào",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. GigabitEthernet"
+            },
+            {
+              "letter": "b",
+              "text": "b. FastEthernet"
+            },
+            {
+              "letter": "c",
+              "text": "c. Ethernet"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đề sai"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Hãy cho biết tốc độ truyền 1,55mb/s thuộc chuẩn loại cáp nào",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. GigabitEthernet"
+            },
+            {
+              "letter": "b",
+              "text": "b. FastEthernet"
+            },
+            {
+              "letter": "c",
+              "text": "c. Ethernet"
+            },
+            {
+              "letter": "d",
+              "text": "d. Serial"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "a"
+        },
+        {
+          "question": 7,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@e8d3f9c0db3745779df7b9587ae3ac1a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Hãy chọn chế độ có thể cấu hình trên Switch",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. >"
+            },
+            {
+              "letter": "b",
+              "text": "b. #"
+            },
+            {
+              "letter": "c",
+              "text": "c. (config)#"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Hãy chọn chế độ người dùng khi cấu hình trên Switch",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. >"
+            },
+            {
+              "letter": "b",
+              "text": "b. #"
+            },
+            {
+              "letter": "c",
+              "text": "c. (config)#"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Hãy chọn chế độ trung gian giữa chế độ người dùng và chế độ cấu hình khi cấu hình trên Switch",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. >"
+            },
+            {
+              "letter": "b",
+              "text": "b. #"
+            },
+            {
+              "letter": "c",
+              "text": "c. (config)#"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "login",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Đặt mật khẩu cho người dùng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tính năng kết nối từ xa"
+            },
+            {
+              "letter": "c",
+              "text": "c. Bảo vệ cổng console"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "login",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Đặt mật khẩu cho người dùng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tính năng kết nối từ xa"
+            },
+            {
+              "letter": "c",
+              "text": "c. Bảo vệ cổng console"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@67e410566ce240db8954aff60722f30a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "ip route 10.0.0.0 255.0.0.0 int s0/0",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Địa chỉ mạng nguồn"
+            },
+            {
+              "letter": "b",
+              "text": "b. Địa chỉ mạng đích"
+            },
+            {
+              "letter": "c",
+              "text": "c. Địa chỉ của router liền kề"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "ip route 10.0.0.0 255.0.0.0 int s0/0",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mặt nạ mạng nguồn"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mặt nạ mạng đích"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mặt nạ mạng của router liền kề"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "ip route 10.0.0.0 255.0.0.0 int s0/0",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tên cổng giao tiếp nhận gói dữ liệu vào"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tên cổng giao tiếp của router liền kề"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tên công giao tiếp gửi gói dữ liệu ra"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Hãy cho biết câu lệnh nào dùng trong định tuyến tĩnh",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. router rip"
+            },
+            {
+              "letter": "b",
+              "text": "b.router ospf"
+            },
+            {
+              "letter": "c",
+              "text": "c. router EIGRP"
+            },
+            {
+              "letter": "d",
+              "text": "d. ip route"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Hãy cho biết câu lệnh nào dùng trong định tuyến ngoại?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. router rip"
+            },
+            {
+              "letter": "b",
+              "text": "b.router ospf"
+            },
+            {
+              "letter": "c",
+              "text": "c. router BGP"
+            },
+            {
+              "letter": "d",
+              "text": "d. ip route"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Hãy cho biết giao thức định tuyến nào dùng trong định tuyến nội",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a.RIP"
+            },
+            {
+              "letter": "b",
+              "text": "b.OSPF"
+            },
+            {
+              "letter": "c",
+              "text": "c. EIGRP"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        },
+        {
+          "question": 6,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@655627f3e23743c8a62b547a02951e39?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Hãy cho biết câu lệnh nào dùng để định tuyến trong IPv6",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ipv6 route"
+            },
+            {
+              "letter": "b",
+              "text": "b. ipv6 unicast-routing"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tất cả đều đúng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Hãy cho biết loại địa chỉ IPv6 được dùng trong internet",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Link-local"
+            },
+            {
+              "letter": "b",
+              "text": "b. Global Unicast"
+            },
+            {
+              "letter": "c",
+              "text": "c. Private"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "FE80::1",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Global Unicast"
+            },
+            {
+              "letter": "b",
+              "text": "b. internet"
+            },
+            {
+              "letter": "c",
+              "text": "c. Link-local"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "2001:DB8:CAFE:1::1/64",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Global Unicast"
+            },
+            {
+              "letter": "b",
+              "text": "b. internet"
+            },
+            {
+              "letter": "c",
+              "text": "c. Link-local"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Hãy cho biết IPv4 giao tiếp được với IPv6 là nhờ kỹ thuật nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Routing"
+            },
+            {
+              "letter": "b",
+              "text": "b.Firewall"
+            },
+            {
+              "letter": "c",
+              "text": "c. NAT"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Hãy cho biết kỹ thuật nào giúp IPv4 giao tiếp được với IPv6?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a.NAT"
+            },
+            {
+              "letter": "b",
+              "text": "b.Dual-Stack"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tunnel"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        },
+        {
+          "question": 6,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@87fd8e2b06bc4ccab766b9ea5dec1407?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Hãy chọn chế độ cấu hình thông số TCP/IP cho interface",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. >enable"
+            },
+            {
+              "letter": "b",
+              "text": "b. #conf t"
+            },
+            {
+              "letter": "c",
+              "text": "c. (config-if)#"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "(config-if)#no shut",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Gán thông số TCP/IPv4"
+            },
+            {
+              "letter": "b",
+              "text": "b. Gán thông số TCP/Ipv6"
+            },
+            {
+              "letter": "c",
+              "text": "c. Định tuyến tĩnh"
+            },
+            {
+              "letter": "d",
+              "text": "d. Định tuyến động"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "(config-if)#no shut",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Gán thông số TCP/IPv6 global"
+            },
+            {
+              "letter": "b",
+              "text": "b. Gán thông số TCP/Ipv6 link local"
+            },
+            {
+              "letter": "c",
+              "text": "c. Gán thông số TCP/IPv6 global và link-local"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cấu hình Remote Access (telnet/ssh)"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Hãy cho biết thông số sau là gì: 2001:db8:acad:1::1/64",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. IPv6 global"
+            },
+            {
+              "letter": "b",
+              "text": "b. IPv6 link local"
+            },
+            {
+              "letter": "c",
+              "text": "c. IPv6 prefix"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Hãy cho biết thông sau là gì: fe80::1",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. IPv6 global"
+            },
+            {
+              "letter": "b",
+              "text": "b. IPv6 link local"
+            },
+            {
+              "letter": "c",
+              "text": "c. IPv6 prefix"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@3174f2d700db49a6ac748cae740812e5?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Hãy cho biết giao thức TCP có đặc điểm nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Có hướng (Connection)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tin cậy (Reliable)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Điều khiển luồng (Flow-control)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Hãy cho biết giao thức UDP có đặc điểm nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Vô hướng (Connectionless)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Không tin cậy (Unreliable)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không điều khiển luồng (No Flow-control)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Hãy cho biết giao thức nào hoạt động ở cổng 53",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. HTTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. FTP"
+            },
+            {
+              "letter": "c",
+              "text": "c. DNS"
+            },
+            {
+              "letter": "d",
+              "text": "d. SMTP"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Hãy cho biết giao thức nào hoạt động ở cổng 80",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. HTTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. FTP"
+            },
+            {
+              "letter": "c",
+              "text": "c. DNS"
+            },
+            {
+              "letter": "d",
+              "text": "d. SMTP"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Hãy cho biết giao thức nào hoạt động ở cổng 25",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. HTTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. FTP"
+            },
+            {
+              "letter": "c",
+              "text": "c. DNS"
+            },
+            {
+              "letter": "d",
+              "text": "d. SMTP"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Hãy cho biết giao thức nào hoạt động ở cổng 21",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. HTTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. FTP"
+            },
+            {
+              "letter": "c",
+              "text": "c. DNS"
+            },
+            {
+              "letter": "d",
+              "text": "d. SMTP"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "d"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@36476263e158482a9e4cc25f83c1a95f?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Hãy cho biết mô tả nào nói về cơ chế Dual-Stack",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cho phép 2 nút mạng dùng chung IPv6"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cho phép 2 loại Gloabal Unicast và Link-Local cùng hoạt động trên một nút mạng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cho phép IPv4 và IPv6 cùng hoạt động trên một cổng mạng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Hãy cho biết mô tả nào nói về cơ chế NAT trong IPv6",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cho phép thiết bị hỗ trợ IPv6 giao tiếp với thiết bị hỗ trợ IPv4"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cho phép chuyển Gloabal Unicast thành Link-Local"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cho phép chuyển Link-Local thành Gloabal Unicast"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Hãy cho biết mô tả nào nói về cơ chế Tunnelling trong IPv6",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cho phép IPv4 và IPv6 cùng hoạt động trên một cổng mạng"
+            },
+            {
+              "letter": "b",
+              "text": "b.Sử dụng cơ sở hạ tầng mạng IPv4 để truyền tải gói tin IPv6"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cho phép chuyển Link-Local thành Gloabal Unicast"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Hãy cho biết IPv4 giao tiếp được với IPv6 là nhờ kỹ thuật nào?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Dual-stack"
+            },
+            {
+              "letter": "b",
+              "text": "b.Tunnelling"
+            },
+            {
+              "letter": "c",
+              "text": "c. NAT"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Từ một địa chỉ mạng thuộc IPv6, có thể chia tối đa bao nhiêu mạng con ?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a.8192"
+            },
+            {
+              "letter": "b",
+              "text": "b.16384"
+            },
+            {
+              "letter": "c",
+              "text": "c. 32768"
+            },
+            {
+              "letter": "d",
+              "text": "d. 65536"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@687ddd9199dc44e392fdeed3c45dd62a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Hãy cho biết giao thức và số hiệu cổng của dịch vụ nhận thư điện tử (IMAP)?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. TCP:110"
+            },
+            {
+              "letter": "b",
+              "text": "b. TCP:21"
+            },
+            {
+              "letter": "c",
+              "text": "c. TCP:143"
+            },
+            {
+              "letter": "d",
+              "text": "d. TCP:25"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Hãy cho biết giao thức và số hiệu cổng của dịch vụ nhận thư điện tử (POP3)?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. TCP:110"
+            },
+            {
+              "letter": "b",
+              "text": "b. TCP:21"
+            },
+            {
+              "letter": "c",
+              "text": "c. TCP:23"
+            },
+            {
+              "letter": "d",
+              "text": "d. TCP:25"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Hãy cho biết giao thức và số hiệu cổng của dịch vụ gửi thư điện tử (SMTP)?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. TCP:20"
+            },
+            {
+              "letter": "b",
+              "text": "b. TCP:21"
+            },
+            {
+              "letter": "c",
+              "text": "c. TCP:23"
+            },
+            {
+              "letter": "d",
+              "text": "d. TCP:25"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Hãy cho biết giao thức và số hiệu cổng của FTP Control Connection?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. TCP:20"
+            },
+            {
+              "letter": "b",
+              "text": "b. TCP:21"
+            },
+            {
+              "letter": "c",
+              "text": "c. TCP:23"
+            },
+            {
+              "letter": "d",
+              "text": "d. TCP:25"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Hãy cho biết giao thức và số hiệu cổng của FTP Data Connection?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. TCP:20"
+            },
+            {
+              "letter": "b",
+              "text": "b. TCP:21"
+            },
+            {
+              "letter": "c",
+              "text": "c. TCP:23"
+            },
+            {
+              "letter": "d",
+              "text": "d. TCP:25"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Ôn tập trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECMP373_A01_01+HK1-2026-2027+type@sequential+block@f70cf63936174607906cf6739ea29f9b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Hãy cho biết lệnh nào dùng để đặt mật khẩu để bảo vệ chế độ Privileged?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Enable password < mật-khẩu >"
+            },
+            {
+              "letter": "b",
+              "text": "b. Password < mật-khẩu >"
+            },
+            {
+              "letter": "c",
+              "text": "c. Secret < mật-khẩu >"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Hãy cho biết lệnh nào dùng để đặt mật khẩu (được mã hóa) để bảo vệ chế độ Privileged?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Enable password < mật-khẩu >"
+            },
+            {
+              "letter": "b",
+              "text": "b. Enable secret < mật-khẩu >"
+            },
+            {
+              "letter": "c",
+              "text": "c. Password < mật-khẩu >"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "login",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cấu hình cổng console"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cấu hình bảo vệ chế độ configuration"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cấu hình dịch vụ truy cập từ xa (telnet/ssh)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều sai"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 1: Hãy cho biết lệnh nào dùng để mã hóa tất cả mật khẩu dạng văn bản (cleartext/plaintext)?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Enable password < mật-khẩu >"
+            },
+            {
+              "letter": "b",
+              "text": "b. Password < mật-khẩu >"
+            },
+            {
+              "letter": "c",
+              "text": "c. Secret < mật-khẩu >"
+            },
+            {
+              "letter": "d",
+              "text": "d. service password-encryption"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Hãy chọn dịch vụ truy cập từ xa an toàn?",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ping"
+            },
+            {
+              "letter": "b",
+              "text": "b. ssh"
+            },
+            {
+              "letter": "c",
+              "text": "c. telnet"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tất cả đều đúng"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5246 @@
+{
+  "version": 1,
+  "courseCode": "ECOS1001",
+  "exportedAt": "2026-09-17T18:02:39.251Z",
+  "answers": [
+    {
+      "title": "Giải pháp an toàn",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@f4938fd22d3a4bc28b6a9b49da416fb8?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Biện pháp nào giúp kiểm soát quyền truy cập của người dùng theo vai trò trong hệ thống?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Firewall"
+            },
+            {
+              "letter": "b",
+              "text": "b. Role-Based Access Control (RBAC)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Antivirus"
+            },
+            {
+              "letter": "d",
+              "text": "d. Backup dữ liệu"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Giải pháp nào hiệu quả nhất để bảo vệ dữ liệu khi bị đánh cắp thiết bị lưu trữ?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cài đặt phần mềm diệt virus"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mã hóa dữ liệu (encryption)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tắt máy tính khi không sử dụng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Sử dụng mạng nội bộ"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Firewall có vai trò chính là gì trong hệ thống thông tin?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Phát hiện virus trong file"
+            },
+            {
+              "letter": "b",
+              "text": "b. Kiểm soát và lọc lưu lượng mạng ra vào"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mã hóa dữ liệu người dùng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Sao lưu dữ liệu tự động"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Giải pháp nào giúp phát hiện và phản ứng với hành vi bất thường trong hệ thống theo thời gian thực?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Backup định kỳ"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mã hóa dữ liệu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Hệ thống phát hiện xâm nhập (IDS/IPS)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Nén dữ liệu"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Để giảm thiểu rủi ro từ lỗi phần mềm, biện pháp nào là quan trọng nhất?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng dung lượng ổ cứng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cập nhật bản vá bảo mật thường xuyên"
+            },
+            {
+              "letter": "c",
+              "text": "c. Sử dụng mật khẩu đơn giản"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tắt kết nối Internet"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Lịch sử an toàn thông tin",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@38d7033d825640ce8b991dedff4e5187?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Sự kiện nào đánh dấu một trong những virus máy tính đầu tiên lan rộng trên mạng?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Morris Worm (1988)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Creeper (1971)"
+            },
+            {
+              "letter": "c",
+              "text": "c. ILOVEYOU (2000)"
+            },
+            {
+              "letter": "d",
+              "text": "d. WannaCry (2017)"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Giai đoạn đầu của an toàn thông tin (trước năm 1980) chủ yếu tập trung vào vấn đề nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bảo mật điện toán đám mây"
+            },
+            {
+              "letter": "b",
+              "text": "b. Bảo vệ hệ thống máy tính độc lập (mainframe)"
+            },
+            {
+              "letter": "c",
+              "text": "c. An ninh mạng xã hội"
+            },
+            {
+              "letter": "d",
+              "text": "d. Phòng chống ransomware"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Sự phát triển của Internet trong thập niên 1990 đã dẫn đến điều gì trong lĩnh vực an toàn thông tin?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Giảm nhu cầu bảo mật"
+            },
+            {
+              "letter": "b",
+              "text": "b. Gia tăng các mối đe dọa từ bên ngoài hệ thống"
+            },
+            {
+              "letter": "c",
+              "text": "c. Loại bỏ hoàn toàn virus máy tính"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ ảnh hưởng đến hệ thống quân sự"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Thuật ngữ “hacker” trong giai đoạn đầu (1960–1970) thường mang ý nghĩa gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Người có kỹ năng cao, sáng tạo trong lập trình"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tội phạm mạng chuyên nghiệp"
+            },
+            {
+              "letter": "c",
+              "text": "c. Người phá hoại hệ thống vì lợi ích tài chính"
+            },
+            {
+              "letter": "d",
+              "text": "d. Người phát triển phần mềm thương mại"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Sự kiện nào sau đây góp phần thúc đẩy mạnh mẽ việc xây dựng các tiêu chuẩn an toàn thông tin hiện đại?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Sự ra đời của hệ điều hành Windows"
+            },
+            {
+              "letter": "b",
+              "text": "b. Phát minh transistor"
+            },
+            {
+              "letter": "c",
+              "text": "c. Gia tăng các cuộc tấn công mạng quy mô lớn đầu thế kỷ 21"
+            },
+            {
+              "letter": "d",
+              "text": "d. Sự phổ biến của máy in"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Các lỗ hổng của hệ thống thông tin",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@9ae016e4c5f34483843dee3e09110002?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Lỗ hổng nào xảy ra khi chương trình không kiểm soát đúng kích thước dữ liệu đầu vào, dẫn đến ghi đè bộ nhớ?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. SQL Injection"
+            },
+            {
+              "letter": "b",
+              "text": "b. Buffer Overflow"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cross-Site Scripting (XSS)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Phishing"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Nguyên nhân phổ biến nhất dẫn đến lỗ hổng bảo mật trong hệ thống thông tin là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Phần cứng lỗi thời"
+            },
+            {
+              "letter": "b",
+              "text": "b. Lỗi lập trình và cấu hình sai"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tốc độ mạng thấp"
+            },
+            {
+              "letter": "d",
+              "text": "d. Dung lượng lưu trữ hạn chế"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Lỗ hổng SQL Injection khai thác điểm yếu nào trong hệ thống?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bộ nhớ hệ điều hành"
+            },
+            {
+              "letter": "b",
+              "text": "b. Giao thức mạng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xử lý truy vấn cơ sở dữ liệu không an toàn"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cơ chế mã hóa dữ liệu"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Lỗ hổng nào cho phép kẻ tấn công chèn mã độc vào trang web để thực thi trên trình duyệt người dùng?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Buffer Overflow"
+            },
+            {
+              "letter": "b",
+              "text": "b. Denial of Service (DoS)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cross-Site Scripting (XSS)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Man-in-the-Middle"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Một hệ thống không cập nhật bản vá bảo mật thường xuyên sẽ dễ gặp loại lỗ hổng nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Lỗ hổng vật lý"
+            },
+            {
+              "letter": "b",
+              "text": "b. Lỗ hổng do phần mềm lỗi thời (unpatched vulnerability)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Lỗ hổng do người dùng quên mật khẩu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Lỗ hổng do mất điện"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Nhu cầu của an toàn thông tin",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@8ad07115550344f296a9c574e53f67e9?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Nhu cầu an toàn thông tin chủ yếu xuất phát từ yếu tố nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ xử lý"
+            },
+            {
+              "letter": "b",
+              "text": "b. Sự phụ thuộc ngày càng lớn vào hệ thống và dữ liệu số"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm chi phí phần cứng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng dung lượng lưu trữ"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Một tổ chức cần đảm bảo an toàn thông tin nhằm mục đích chính là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng số lượng người dùng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Bảo vệ tài sản thông tin và duy trì hoạt động liên tục"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm chi phí đầu tư"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng hiệu năng hệ thống"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Nhu cầu an toàn thông tin gia tăng mạnh khi hệ thống được _______ rộng rãi qua Internet.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Khi dữ liệu cá nhân ngày càng nhiều, nhu cầu ______ quyền riêng tư trở nên cấp thiết.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: An toàn thông tin không chỉ là vấn đề kỹ thuật mà còn liên quan đến (1)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 6,
+          "text": "và (2)",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "kết nối"
+        },
+        {
+          "question": 4,
+          "answer": "bảo vệ"
+        },
+        {
+          "question": 5,
+          "answer": "quản lý"
+        },
+        {
+          "question": 6,
+          "answer": "con người"
+        }
+      ]
+    },
+    {
+      "title": "Những khái niệm quan trọng trong an toàn thông tin",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@25e8ee7ed4c34c02943bd8cef8caaca1?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Bộ ba nguyên tắc cốt lõi của an toàn thông tin (CIA Triad) bao gồm những yếu tố nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tính bí mật, toàn vẹn và sẵn sàng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tính nhanh, chính xác và tiện lợi"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tính bảo mật, tốc độ và chi phí"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tính riêng tư, xác thực và phân quyền"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Tính “toàn vẹn” (Integrity) trong an toàn thông tin có nghĩa là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Thông tin chỉ được truy cập bởi người có quyền"
+            },
+            {
+              "letter": "b",
+              "text": "b. Thông tin không bị thay đổi trái phép"
+            },
+            {
+              "letter": "c",
+              "text": "c. Thông tin luôn sẵn sàng khi cần"
+            },
+            {
+              "letter": "d",
+              "text": "d. Thông tin được mã hóa hoàn toàn"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Khái niệm “xác thực” (Authentication) dùng để làm gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Phân quyền truy cập tài nguyên"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xác minh danh tính người dùng hoặc hệ thống"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mã hóa dữ liệu truyền đi"
+            },
+            {
+              "letter": "d",
+              "text": "d. Sao lưu dữ liệu"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: “Phân quyền” (Authorization) khác với “xác thực” ở điểm nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không có sự khác biệt"
+            },
+            {
+              "letter": "b",
+              "text": "b. Authorization kiểm tra danh tính, Authentication cấp quyền"
+            },
+            {
+              "letter": "c",
+              "text": "c. Authentication xác minh danh tính, Authorization cấp quyền truy cập"
+            },
+            {
+              "letter": "d",
+              "text": "d. Authorization chỉ dùng cho mạng nội bộ"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: “Không thể chối bỏ” (Non-repudiation) trong an toàn thông tin có ý nghĩa gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không thể truy cập hệ thống"
+            },
+            {
+              "letter": "b",
+              "text": "b. Không thể mã hóa dữ liệu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không thể phủ nhận hành động đã thực hiện"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không thể sao lưu dữ liệu"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Các tổ chức, liên đoàn liên quan",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@714c80a770614587abe1d5a7401a8af9?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Tổ chức nào ban hành các tiêu chuẩn quốc tế về an toàn thông tin như ISO/IEC 27001?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. IEEE"
+            },
+            {
+              "letter": "b",
+              "text": "b. ISO"
+            },
+            {
+              "letter": "c",
+              "text": "c. Facebook"
+            },
+            {
+              "letter": "d",
+              "text": "d. Microsoft"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Tổ chức nào tại Việt Nam chịu trách nhiệm chính về an toàn thông tin mạng quốc gia?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bộ Giáo dục và Đào tạo"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cục An toàn thông tin"
+            },
+            {
+              "letter": "c",
+              "text": "c. Bộ Công Thương"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tổng cục Thống kê"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: NIST là tổ chức của Hoa Kỳ chuyên xây dựng _____ và hướng dẫn về an toàn thông tin.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: FIRST là mạng lưới toàn cầu hỗ trợ _____ và chia sẻ thông tin về sự cố an ninh mạng.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: ISACA là tổ chức chuyên về ______ và quản trị hệ thống thông tin.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "tiêu chuẩn"
+        },
+        {
+          "question": 4,
+          "answer": "ứng cứu sự cố"
+        },
+        {
+          "question": 5,
+          "answer": "kiểm toán"
+        }
+      ]
+    },
+    {
+      "title": "Luật và đạo đức trong an toàn thông tin",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@5ae06e53a6ac4828a5af50576395d296?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Luật an toàn thông tin nhằm mục đích chính là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ xử lý dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Bảo vệ thông tin và quy định trách nhiệm pháp lý của các bên liên quan"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm chi phí hệ thống"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng số lượng người dùng Internet"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Hành vi nào sau đây VI PHẠM đạo đức trong an toàn thông tin?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Kiểm thử bảo mật có sự cho phép"
+            },
+            {
+              "letter": "b",
+              "text": "b. Truy cập trái phép dữ liệu người khác"
+            },
+            {
+              "letter": "c",
+              "text": "c. Báo cáo lỗ hổng cho quản trị hệ thống"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tuân thủ chính sách bảo mật"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong lĩnh vực an toàn thông tin, (1)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "quy định các hành vi được phép và không được phép, còn (2)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 4: Cá nhân hoặc tổ chức vi phạm quy định về bảo vệ dữ liệu có thể phải chịu (1)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 6,
+          "text": "và (2)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 7,
+          "text": "Câu 5: Một chuyên gia an toàn thông tin cần tuân thủ nguyên tắc (1)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 8,
+          "text": "thông tin người dùng và chỉ sử dụng dữ liệu đúng (2)",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "pháp luật"
+        },
+        {
+          "question": 4,
+          "answer": "đạo đức"
+        },
+        {
+          "question": 5,
+          "answer": "xử phạt hành chính"
+        },
+        {
+          "question": 6,
+          "answer": "trách nhiệm hình sự"
+        },
+        {
+          "question": 7,
+          "answer": "bảo mật"
+        },
+        {
+          "question": 8,
+          "answer": "mục đích"
+        }
+      ]
+    },
+    {
+      "title": "Xác định và xử lý rủi ro",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@6feb0bcc513c46c4b12b954fd6844006?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Trong quản lý rủi ro, bước đầu tiên cần thực hiện là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xử lý rủi ro"
+            },
+            {
+              "letter": "b",
+              "text": "b. Giám sát hệ thống"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xác định tài sản và rủi ro liên quan"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mua phần mềm bảo mật"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Công thức tổng quát để đánh giá mức độ rủi ro thường dựa trên yếu tố nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tốc độ và chi phí"
+            },
+            {
+              "letter": "b",
+              "text": "b. Khả năng xảy ra và mức độ tác động"
+            },
+            {
+              "letter": "c",
+              "text": "c. Dung lượng và hiệu năng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Người dùng và thiết bị"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Sau khi đánh giá rủi ro, tổ chức có thể lựa chọn các chiến lược như chấp nhận, giảm thiểu, chuyển giao hoặc _____ rủi ro.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Việc triển khai các biện pháp kiểm soát nhằm làm giảm khả năng xảy ra hoặc giảm tác động của rủi ro được gọi là _____ rủi ro.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Trong quản lý rủi ro, (1)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 6,
+          "text": "là đối tượng cần được bảo vệ (ví dụ: dữ liệu, hệ thống), còn (2)",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "né tránh"
+        },
+        {
+          "question": 4,
+          "answer": "giảm thiểu"
+        },
+        {
+          "question": 5,
+          "answer": "tài sản"
+        },
+        {
+          "question": 6,
+          "answer": "lỗ hổng"
+        }
+      ]
+    },
+    {
+      "title": "Điều khiển và khôi phục sau rủi ro",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@6670a972dbe045fc9cc0a4c22dad4b1a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Biện pháp nào sau đây thuộc nhóm điều khiển phòng ngừa (preventive control)?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Khôi phục dữ liệu từ bản sao lưu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Thiết lập tường lửa và kiểm soát truy cập"
+            },
+            {
+              "letter": "c",
+              "text": "c. Phân tích log sau sự cố"
+            },
+            {
+              "letter": "d",
+              "text": "d. Điều tra nguyên nhân tấn công"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Mục tiêu chính của kế hoạch khôi phục sau thảm họa (Disaster Recovery Plan - DRP) là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng hiệu năng hệ thống"
+            },
+            {
+              "letter": "b",
+              "text": "b. Khôi phục hoạt động hệ thống sau sự cố trong thời gian chấp nhận được"
+            },
+            {
+              "letter": "c",
+              "text": "c. Ngăn chặn hoàn toàn tấn công"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giảm chi phí đầu tư ban đầu"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Việc sao lưu dữ liệu định kỳ là một biện pháp quan trọng để hỗ trợ quá trình _____ sau sự cố.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Các biện pháp như giám sát hệ thống, phát hiện bất thường thuộc nhóm điều khiển _____ (detective control).",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Trong khôi phục hệ thống, (1)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 6,
+          "text": "là khoảng thời gian tối đa cho phép hệ thống bị gián đoạn, còn (2)",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "khôi phục"
+        },
+        {
+          "question": 4,
+          "answer": "phát hiện"
+        },
+        {
+          "question": 5,
+          "answer": "RTO"
+        },
+        {
+          "question": 6,
+          "answer": "RPO"
+        }
+      ]
+    },
+    {
+      "title": "Chính sách và luật",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@365e38e915514c4f9d6a55491199774d?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Chính sách an toàn thông tin trong tổ chức có vai trò chính là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Thay thế hoàn toàn pháp luật"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quy định cách thức bảo vệ thông tin và hành vi của người dùng trong tổ chức"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng hiệu năng hệ thống"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giảm chi phí vận hành"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Điểm khác biệt cơ bản giữa “chính sách” và “luật” là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không có sự khác biệt"
+            },
+            {
+              "letter": "b",
+              "text": "b. Luật do tổ chức ban hành, chính sách do nhà nước ban hành"
+            },
+            {
+              "letter": "c",
+              "text": "c. Luật mang tính bắt buộc pháp lý, chính sách mang tính nội bộ tổ chức"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chính sách có giá trị pháp lý cao hơn luật"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong tổ chức, chính sách an toàn thông tin cần được (1)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "rõ ràng và (2)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 4: Việc không tuân thủ luật về bảo vệ dữ liệu có thể dẫn đến (1)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 6,
+          "text": "và (2)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 7,
+          "text": "Câu 5: Chính sách an toàn thông tin hiệu quả cần đảm bảo phù hợp với (1)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 8,
+          "text": "thực tế và có cơ chế (2)",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "ban hành"
+        },
+        {
+          "question": 4,
+          "answer": "cập nhật"
+        },
+        {
+          "question": 5,
+          "answer": "xử phạt pháp lý"
+        },
+        {
+          "question": 6,
+          "answer": "tổn hại uy tín"
+        },
+        {
+          "question": 7,
+          "answer": "hoạt động"
+        },
+        {
+          "question": 8,
+          "answer": "kiểm tra"
+        }
+      ]
+    },
+    {
+      "title": "Khôi phục sau rủi ro",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@3071f986499d49a8ba979539c12874fd?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mục tiêu chính của hoạt động khôi phục sau rủi ro là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Ngăn chặn hoàn toàn tấn công"
+            },
+            {
+              "letter": "b",
+              "text": "b. Khôi phục hệ thống và dữ liệu về trạng thái hoạt động bình thường"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng hiệu năng hệ thống"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giảm chi phí đầu tư"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Biện pháp nào sau đây đóng vai trò quan trọng nhất trong khôi phục dữ liệu?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Firewall"
+            },
+            {
+              "letter": "b",
+              "text": "b. IDS/IPS"
+            },
+            {
+              "letter": "c",
+              "text": "c. Sao lưu dữ liệu (backup)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mã hóa"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: _____ là kế hoạch mô tả cách thức khôi phục hệ thống CNTT sau sự cố nghiêm trọng như thiên tai hoặc tấn công mạng.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: (1)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "là thời gian tối đa cho phép hệ thống bị gián đoạn, còn (2)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 6,
+          "text": "Câu 5: Việc kiểm tra định kỳ quy trình khôi phục nhằm đảm bảo hệ thống có thể _____ khi xảy ra sự cố thực tế.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "DRP"
+        },
+        {
+          "question": 4,
+          "answer": "RTO"
+        },
+        {
+          "question": 5,
+          "answer": "RPO"
+        },
+        {
+          "question": 6,
+          "answer": "khôi phục thành công"
+        }
+      ]
+    },
+    {
+      "title": "Chính sách an toàn thông tin",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@5f364635cdb64ed183c79c9c4ddec5f6?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Chính sách an toàn thông tin trong tổ chức nhằm mục đích chính là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng hiệu năng hệ thống"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quy định cách bảo vệ thông tin và hành vi của người dùng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm chi phí vận hành"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng dung lượng lưu trữ"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Yếu tố nào quyết định hiệu quả thực sự của chính sách an toàn thông tin?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Độ dài văn bản"
+            },
+            {
+              "letter": "b",
+              "text": "b. Số lượng quy định"
+            },
+            {
+              "letter": "c",
+              "text": "c. Việc thực thi và tuân thủ trong tổ chức"
+            },
+            {
+              "letter": "d",
+              "text": "d. Hình thức trình bày"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Chính sách an toàn thông tin cần được (1)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "rõ ràng và (2)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 4: Một chính sách hiệu quả phải xác định rõ ____ của các bên liên quan trong việc bảo vệ thông tin.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 6,
+          "text": "Câu 5: Việc không tuân thủ chính sách có thể dẫn đến ____ an toàn thông tin và gây ảnh hưởng đến hoạt động của tổ chức.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "ban hành"
+        },
+        {
+          "question": 4,
+          "answer": "đánh giá"
+        },
+        {
+          "question": 5,
+          "answer": "trách nhiệm"
+        },
+        {
+          "question": 6,
+          "answer": "sự cố"
+        }
+      ]
+    },
+    {
+      "title": "Giới thiệu các công nghệ và công cụ an toàn thông tin",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@badb73900f1b4d8eac1bd76176510556?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Công nghệ nào được sử dụng để bảo vệ dữ liệu bằng cách biến đổi thông tin thành dạng không đọc được nếu không có khóa?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Firewall"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mã hóa (Encryption)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Backup"
+            },
+            {
+              "letter": "d",
+              "text": "d. Logging"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Công cụ nào giúp phát hiện và ngăn chặn các truy cập trái phép vào hệ thống mạng?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Antivirus"
+            },
+            {
+              "letter": "b",
+              "text": "b. IDS/IPS"
+            },
+            {
+              "letter": "c",
+              "text": "c. VPN"
+            },
+            {
+              "letter": "d",
+              "text": "d. Backup"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Firewall là công nghệ dùng để _____ và kiểm soát lưu lượng mạng ra vào hệ thống.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: VPN được sử dụng để tạo kết nối ____ giữa người dùng và hệ thống qua Internet công cộng.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Công cụ ____ giúp phát hiện và loại bỏ phần mềm độc hại trên hệ thống người dùng.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "lọc"
+        },
+        {
+          "question": 4,
+          "answer": "an toàn"
+        },
+        {
+          "question": 5,
+          "answer": "Antivirus"
+        }
+      ]
+    },
+    {
+      "title": "Các mô hình an toàn thông tin",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@2f5ba29db0744ed8a0755ede2b68aec3?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mô hình nào tập trung vào việc phân loại thông tin và kiểm soát truy cập dựa trên mức độ bảo mật?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bell-LaPadula model"
+            },
+            {
+              "letter": "b",
+              "text": "b. Biba"
+            },
+            {
+              "letter": "c",
+              "text": "c. Clark-Wilson"
+            },
+            {
+              "letter": "d",
+              "text": "d. Zero Trust"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Mô hình nào nhấn mạnh việc bảo vệ tính toàn vẹn của dữ liệu?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bell-LaPadula"
+            },
+            {
+              "letter": "b",
+              "text": "b. Biba model"
+            },
+            {
+              "letter": "c",
+              "text": "c. DAC"
+            },
+            {
+              "letter": "d",
+              "text": "d. MAC"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Mô hình Zero Trust dựa trên nguyên tắc “không tin cậy mặc định”, yêu cầu mọi truy cập đều phải được ____.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Mô hình ____ tập trung vào kiểm soát truy cập dựa trên vai trò của người dùng trong hệ thống.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Trong các mô hình an toàn thông tin, mỗi mô hình thường được thiết kế để giải quyết một mục tiêu cụ thể như (1)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 6,
+          "text": ", (2)",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "xác thực"
+        },
+        {
+          "question": 4,
+          "answer": "RBAC"
+        },
+        {
+          "question": 5,
+          "answer": "bảo mật"
+        },
+        {
+          "question": 6,
+          "answer": "toàn vẹn"
+        }
+      ]
+    },
+    {
+      "title": "Các tiêu chuẩn và chiến lược",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@bfeaf930afa642eabe909466ce015552?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Tiêu chuẩn nào sau đây được sử dụng rộng rãi để xây dựng hệ thống quản lý an toàn thông tin (ISMS)?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. TCP/IP"
+            },
+            {
+              "letter": "b",
+              "text": "b. ISO/IEC 27001"
+            },
+            {
+              "letter": "c",
+              "text": "c. HTTP"
+            },
+            {
+              "letter": "d",
+              "text": "d. HTML"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Mục tiêu chính của việc áp dụng tiêu chuẩn an toàn thông tin là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ hệ thống"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chuẩn hóa và nâng cao hiệu quả quản lý an toàn thông tin"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm chi phí phần cứng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng số lượng người dùng"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong an toàn thông tin, chiến lược là kế hoạch ____ nhằm đạt được mục tiêu bảo vệ thông tin trong dài hạn.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: NIST cung cấp các ____ và hướng dẫn giúp tổ chức xây dựng chiến lược an toàn thông tin hiệu quả.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Một chiến lược an toàn thông tin hiệu quả cần phù hợp với (1)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 6,
+          "text": "kinh doanh và mức độ (2)",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "tổng thể"
+        },
+        {
+          "question": 4,
+          "answer": "khung chuẩn"
+        },
+        {
+          "question": 5,
+          "answer": "mục tiêu"
+        },
+        {
+          "question": 6,
+          "answer": "chấp nhận rủi ro"
+        }
+      ]
+    },
+    {
+      "title": "Điều khiển truy cập: MAC, DAC",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@eae9e454514444598cacbae54bf68ff1?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Đặc điểm chính của mô hình MAC là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Người dùng tự cấp quyền cho tài nguyên"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quyền truy cập do hệ thống/ quản trị viên kiểm soát chặt chẽ"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không có kiểm soát truy cập"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ áp dụng cho mạng nội bộ"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Mô hình DAC cho phép điều gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chủ sở hữu tài nguyên tự quyết định quyền truy cập"
+            },
+            {
+              "letter": "b",
+              "text": "b. Hệ thống tự động phân quyền cứng nhắc"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không cần xác thực người dùng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ áp dụng cho hệ điều hành"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong mô hình MAC, quyền truy cập được xác định dựa trên ____ và phân loại bảo mật của đối tượng.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Trong mô hình DAC, việc phân quyền phụ thuộc vào ____ của tài nguyên.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: So với DAC, mô hình MAC có mức độ kiểm soát ____ và thường được sử dụng trong các môi trường yêu cầu bảo mật cao.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "nhãn bảo mật"
+        },
+        {
+          "question": 4,
+          "answer": "chủ sở hữu"
+        },
+        {
+          "question": 5,
+          "answer": "chặt chẽ hơn"
+        }
+      ]
+    },
+    {
+      "title": "Hệ thống phát hiện xâm nhập",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@4c4f6228e65449acb0cc81e1f707be25?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: IDS có chức năng chính là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Ngăn chặn hoàn toàn tấn công"
+            },
+            {
+              "letter": "b",
+              "text": "b. Phát hiện và cảnh báo các hành vi xâm nhập"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mã hóa dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Sao lưu hệ thống"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Sự khác biệt chính giữa IDS và IPS là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không có sự khác biệt"
+            },
+            {
+              "letter": "b",
+              "text": "b. IDS chỉ phát hiện, IPS có thể ngăn chặn"
+            },
+            {
+              "letter": "c",
+              "text": "c. IDS dùng cho mạng, IPS dùng cho máy tính"
+            },
+            {
+              "letter": "d",
+              "text": "d. IDS nhanh hơn IPS"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: IDS có thể hoạt động dựa trên ____ (so sánh với mẫu tấn công đã biết) hoặc phát hiện bất thường (anomaly).",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Một hạn chế của IDS là có thể tạo ra nhiều cảnh báo ____ nếu cấu hình không phù hợp.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: IDS thường được triển khai để giám sát____ hoặc hệ thống nhằm phát hiện sớm các hành vi bất thường.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "dấu hiệu"
+        },
+        {
+          "question": 4,
+          "answer": "giả"
+        },
+        {
+          "question": 5,
+          "answer": "mạng"
+        }
+      ]
+    },
+    {
+      "title": "Điều khiển truy cập",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@531ad67545364d189c1ff77bc8deefb7?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mục tiêu chính của điều khiển truy cập trong hệ thống thông tin là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ xử lý"
+            },
+            {
+              "letter": "b",
+              "text": "b. Đảm bảo chỉ người dùng hợp lệ được truy cập tài nguyên phù hợp"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm dung lượng lưu trữ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng số lượng người dùng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Quá trình xác minh danh tính người dùng trước khi cấp quyền truy cập được gọi là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Authentication (Xác thực)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Authorization (Phân quyền)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Accounting"
+            },
+            {
+              "letter": "d",
+              "text": "d. Encryption"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Sau khi xác thực, hệ thống sẽ thực hiện ____ để quyết định người dùng được phép truy cập tài nguyên nào.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Mô hình RBAC cấp quyền truy cập dựa trên ____ của người dùng trong tổ chức.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Nguyên tắc quan trọng trong điều khiển truy cập là cấp quyền tối thiểu cần thiết, còn gọi là nguyên tắc ____ (least privilege).",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "phân quyền"
+        },
+        {
+          "question": 4,
+          "answer": "vai trò"
+        },
+        {
+          "question": 5,
+          "answer": "quyền tối thiểu"
+        }
+      ]
+    },
+    {
+      "title": "Mạng riêng ảo",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@f007c101f8584357861182a514bf8763?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: VPN được sử dụng chủ yếu để làm gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ Internet"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tạo kết nối an toàn qua mạng công cộng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Lưu trữ dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Ngăn chặn virus"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Thành phần quan trọng nhất giúp VPN đảm bảo tính bảo mật dữ liệu là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Nén dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mã hóa (encryption)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng băng thông"
+            },
+            {
+              "letter": "d",
+              "text": "d. Bộ nhớ đệm"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: VPN tạo ra một “đường hầm” ____ giữa người dùng và hệ thống để bảo vệ dữ liệu truyền đi.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: VPN thường được sử dụng để cho phép người dùng ____ truy cập vào mạng nội bộ của tổ chức.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Mặc dù VPN bảo vệ dữ liệu truyền, nhưng không thể ngăn chặn các mối đe dọa từ ____ của người dùng.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "mã hóa"
+        },
+        {
+          "question": 4,
+          "answer": "từ xa"
+        },
+        {
+          "question": 5,
+          "answer": "thiết bị"
+        }
+      ]
+    },
+    {
+      "title": "Tường lửa",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@7f651465b7924e02b12cc3dd5232247b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Chức năng chính của Firewall là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mã hóa dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Lọc và kiểm soát lưu lượng mạng ra vào"
+            },
+            {
+              "letter": "c",
+              "text": "c. Sao lưu dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Phát hiện virus trong file"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Loại firewall nào kiểm tra nội dung gói tin ở mức ứng dụng (application layer)?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Packet Filtering Firewall"
+            },
+            {
+              "letter": "b",
+              "text": "b. Stateful Firewall"
+            },
+            {
+              "letter": "c",
+              "text": "c. Application-level Gateway (Proxy Firewall)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Hardware Firewall"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Firewall hoạt động dựa trên tập hợp các ____ để cho phép hoặc chặn lưu lượng mạng.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Một hạn chế của firewall là không thể bảo vệ hiệu quả trước các tấn công xuất phát từ ____ hệ thống.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Firewall không thể thay thế hoàn toàn các cơ chế như ____ và hệ thống phát hiện xâm nhập trong bảo vệ toàn diện.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "quy tắc"
+        },
+        {
+          "question": 4,
+          "answer": "bên trong"
+        },
+        {
+          "question": 5,
+          "answer": "mã hóa"
+        }
+      ]
+    },
+    {
+      "title": "Những yếu tố cần thiết",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@f7ae0f9409004d29b062d5206b380cb6?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Yếu tố nào KHÔNG thuộc nhóm yếu tố cốt lõi của an toàn thông tin?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Con người"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quy trình"
+            },
+            {
+              "letter": "c",
+              "text": "c. Công nghệ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giao diện người dùng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Trong các yếu tố của an toàn thông tin, yếu tố nào thường được xem là điểm yếu lớn nhất?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Công nghệ"
+            },
+            {
+              "letter": "b",
+              "text": "b. Hạ tầng mạng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Con người"
+            },
+            {
+              "letter": "d",
+              "text": "d. Phần cứng"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Các quy định và hướng dẫn vận hành nhằm đảm bảo an toàn thông tin thuộc về yếu tố ____.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Công nghệ như Firewall, IDS hay mã hóa thuộc nhóm yếu tố ____ trong an toàn thông tin.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Đào tạo và nâng cao nhận thức cho người dùng là biện pháp quan trọng nhằm giảm rủi ro từ yếu tố ____.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "d"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "quy trình"
+        },
+        {
+          "question": 4,
+          "answer": "công nghệ"
+        },
+        {
+          "question": 5,
+          "answer": "con người"
+        }
+      ]
+    },
+    {
+      "title": "Phân loại và nhiệm vụ của con người",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@0fb2ac77590740aab4daa68a582ac392?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Trong hệ thống thông tin, nhóm nào chịu trách nhiệm xây dựng và vận hành các biện pháp bảo mật kỹ thuật?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Người dùng cuối"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quản trị viên hệ thống"
+            },
+            {
+              "letter": "c",
+              "text": "c. Khách truy cập"
+            },
+            {
+              "letter": "d",
+              "text": "d. Đối tác bên ngoài"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Người dùng cuối (end-user) có vai trò gì trong an toàn thông tin?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xây dựng chính sách bảo mật"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quản lý hạ tầng mạng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tuân thủ quy định và sử dụng hệ thống an toàn"
+            },
+            {
+              "letter": "d",
+              "text": "d. Phát triển phần mềm bảo mật"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong tổ chức, ____ là người chịu trách nhiệm ban hành chính sách và định hướng chiến lược an toàn thông tin.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Nhóm ____ chịu trách nhiệm giám sát, phát hiện và phản ứng với các sự cố an toàn thông tin trong hệ thống.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Một hệ thống an toàn yêu cầu tất cả các nhóm người dùng phải ____ đúng vai trò và trách nhiệm của mình.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "ban lãnh đạo"
+        },
+        {
+          "question": 4,
+          "answer": "SOC"
+        },
+        {
+          "question": 5,
+          "answer": "thực hiện"
+        }
+      ]
+    },
+    {
+      "title": "An toàn vật lý",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@ce5b742a95da4d05ad384fb462fa7e88?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: An toàn vật lý trong hệ thống thông tin nhằm mục đích chính là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ xử lý dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Bảo vệ thiết bị và hạ tầng khỏi truy cập hoặc phá hoại trái phép"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mã hóa dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tối ưu phần mềm"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Biện pháp nào sau đây thuộc nhóm kiểm soát an toàn vật lý?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mã hóa dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Hệ thống kiểm soát ra vào (access control door)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Firewall"
+            },
+            {
+              "letter": "d",
+              "text": "d. Antivirus"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Việc sử dụng camera giám sát nhằm hỗ trợ ____ và ghi nhận các hành vi truy cập vật lý vào khu vực nhạy cảm.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Một trong những rủi ro vật lý phổ biến là ____ thiết bị, có thể dẫn đến lộ dữ liệu nếu không được bảo vệ đúng cách.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: An toàn vật lý thường bao gồm các biện pháp như kiểm soát truy cập, giám sát và ____ môi trường (nhiệt độ, điện, cháy nổ).",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "phát hiện"
+        },
+        {
+          "question": 4,
+          "answer": "mất cắp"
+        },
+        {
+          "question": 5,
+          "answer": "bảo vệ"
+        }
+      ]
+    },
+    {
+      "title": "Quản lý dự án an toàn thông tin",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@fcc4b602595d482ebad6d4c92b3f9f9a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mục tiêu chính của quản lý dự án an toàn thông tin là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ hệ thống"
+            },
+            {
+              "letter": "b",
+              "text": "b. Đảm bảo triển khai giải pháp bảo mật đúng tiến độ, chi phí và chất lượng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm dung lượng dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng số lượng người dùng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Yếu tố nào sau đây là quan trọng nhất trong quản lý dự án an toàn thông tin?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Giao diện hệ thống"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quản lý rủi ro"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tốc độ mạng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Dung lượng lưu trữ"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong quản lý dự án, ____ xác định mục tiêu, phạm vi và các bước thực hiện dự án.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Việc theo dõi tiến độ và đánh giá kết quả giúp đảm bảo dự án đi đúng ____ và đạt được mục tiêu đề ra.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Một dự án an toàn thông tin thành công cần có sự phối hợp giữa (1)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 6,
+          "text": ", (2)",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "kế hoạch"
+        },
+        {
+          "question": 4,
+          "answer": "hướng"
+        },
+        {
+          "question": 5,
+          "answer": "ban quản lý"
+        },
+        {
+          "question": 6,
+          "answer": "các bên liên quan"
+        }
+      ]
+    },
+    {
+      "title": "Giới thiệu",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@a003877b08b248b7953bfdc66d998ae1?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mục tiêu chính của bảo trì trong an toàn thông tin là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ hệ thống"
+            },
+            {
+              "letter": "b",
+              "text": "b. Duy trì và nâng cao mức độ an toàn của hệ thống theo thời gian"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm dung lượng lưu trữ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng số lượng người dùng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Hoạt động nào sau đây thuộc bảo trì phòng ngừa (preventive maintenance)?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Khắc phục sự cố sau khi bị tấn công"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cập nhật bản vá và nâng cấp hệ thống định kỳ"
+            },
+            {
+              "letter": "c",
+              "text": "c. Phục hồi dữ liệu từ backup"
+            },
+            {
+              "letter": "d",
+              "text": "d. Điều tra sự cố"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Việc cập nhật các bản vá bảo mật giúp giảm thiểu ___ tồn tại trong hệ thống.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Bảo trì hiệu quả yêu cầu phải có hoạt động ___ liên tục để phát hiện sớm các bất thường.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Sau mỗi sự cố, cần tiến hành ___ và cập nhật quy trình để tránh lặp lại trong tương lai.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "lỗ hổng"
+        },
+        {
+          "question": 4,
+          "answer": "giám sát"
+        },
+        {
+          "question": 5,
+          "answer": "đánh giá"
+        }
+      ]
+    },
+    {
+      "title": "Các chứng chỉ an toàn thông tin",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@9e722c285df248aabf415c5ee3ea4cb3?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Chứng chỉ CISSP tập trung vào lĩnh vực nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Lập trình web"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quản lý và tổng thể an toàn thông tin"
+            },
+            {
+              "letter": "c",
+              "text": "c. Thiết kế phần cứng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Quản trị cơ sở dữ liệu"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Chứng chỉ CEH liên quan chủ yếu đến hoạt động nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Quản lý dự án"
+            },
+            {
+              "letter": "b",
+              "text": "b. Kiểm thử xâm nhập và tấn công mô phỏng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Thiết kế mạng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Phân tích dữ liệu"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: CompTIA Security+ là chứng chỉ cơ bản dành cho ____ trong lĩnh vực an toàn thông tin.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Chứng chỉ không chỉ đánh giá kiến thức mà còn thể hiện ____ và năng lực chuyên môn của cá nhân trong lĩnh vực.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Việc sở hữu chứng chỉ không đảm bảo năng lực thực tế nếu thiếu ____ và trải nghiệm thực hành.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "người mới bắt đầu"
+        },
+        {
+          "question": 4,
+          "answer": "uy tín"
+        },
+        {
+          "question": 5,
+          "answer": "kinh nghiệm"
+        }
+      ]
+    },
+    {
+      "title": "Các mô hình bảo trì trong an toàn thông tin",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@5fe9e8229f634954a915658cff5548d7?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mô hình bảo trì nào chỉ thực hiện khi hệ thống đã xảy ra sự cố?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Preventive Maintenance"
+            },
+            {
+              "letter": "b",
+              "text": "b. Corrective Maintenance"
+            },
+            {
+              "letter": "c",
+              "text": "c. Predictive Maintenance"
+            },
+            {
+              "letter": "d",
+              "text": "d. Adaptive Maintenance"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Mô hình bảo trì nào nhằm ngăn ngừa sự cố trước khi xảy ra thông qua kiểm tra và cập nhật định kỳ?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Preventive Maintenance"
+            },
+            {
+              "letter": "b",
+              "text": "b. Corrective Maintenance"
+            },
+            {
+              "letter": "c",
+              "text": "c. Reactive Maintenance"
+            },
+            {
+              "letter": "d",
+              "text": "d. Emergency Maintenance"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Mô hình bảo trì ____ sử dụng dữ liệu giám sát để dự đoán và xử lý sự cố trước khi nó xảy ra.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Mô hình bảo trì____ được áp dụng khi hệ thống cần thay đổi để phù hợp với môi trường hoặc yêu cầu mới.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Trong thực tế, các tổ chức thường ____ nhiều mô hình bảo trì để đạt hiệu quả tối ưu.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "dự đoán"
+        },
+        {
+          "question": 4,
+          "answer": "thích ứng"
+        },
+        {
+          "question": 5,
+          "answer": "kết hợp"
+        }
+      ]
+    },
+    {
+      "title": "Kiểm tra kế hoạch và rủi ro",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@5be45d56eecd41c994e320dfa7905e33?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mục tiêu chính của việc kiểm tra kế hoạch an toàn thông tin là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ hệ thống"
+            },
+            {
+              "letter": "b",
+              "text": "b. Đảm bảo kế hoạch phù hợp và có thể thực hiện khi xảy ra sự cố"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm dung lượng dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng số lượng người dùng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Hoạt động nào sau đây giúp đánh giá hiệu quả của kế hoạch ứng phó sự cố?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cài đặt phần mềm mới"
+            },
+            {
+              "letter": "b",
+              "text": "b. Diễn tập và kiểm thử định kỳ"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng băng thông mạng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Nâng cấp phần cứng"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Việc kiểm tra kế hoạch giúp phát hiện các ___ và điểm yếu trong quy trình xử lý sự cố.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Đánh giá rủi ro cần xem xét cả khả năng xảy ra và mức độ ___ của sự cố.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Sau khi kiểm tra, cần ___ và cải tiến kế hoạch để phù hợp với thực tế.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "lỗ hổng"
+        },
+        {
+          "question": 4,
+          "answer": "ảnh hưởng"
+        },
+        {
+          "question": 5,
+          "answer": "cập nhật"
+        }
+      ]
+    },
+    {
+      "title": "Đánh giá lỗ hỏng và khắc phục",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@726d534be37c496b8fde43bdfd0adb55?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mục tiêu chính của đánh giá lỗ hổng là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ hệ thống"
+            },
+            {
+              "letter": "b",
+              "text": "b. Phát hiện các điểm yếu có thể bị khai thác trong hệ thống"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm dung lượng lưu trữ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng số lượng người dùng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Hoạt động nào sau đây thường được sử dụng để phát hiện lỗ hổng?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Sao lưu dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quét lỗ hổng (vulnerability scanning)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Nén dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng băng thông"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Sau khi phát hiện, lỗ hổng cần được ___ để xác định mức độ nghiêm trọng và ưu tiên xử lý.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Biện pháp phổ biến để khắc phục lỗ hổng phần mềm là ___ bản vá bảo mật.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Quá trình xử lý lỗ hổng cần được theo dõi và ___ lại để đảm bảo vấn đề đã được khắc phục hoàn toàn.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "đánh giá"
+        },
+        {
+          "question": 4,
+          "answer": "cập nhật"
+        },
+        {
+          "question": 5,
+          "answer": "kiểm tra"
+        }
+      ]
+    },
+    {
+      "title": "Giám sát môi trường bên trong hệ thống",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@6f058be8defe48cca81efc57300b2680?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mục tiêu chính của giám sát môi trường bên trong hệ thống là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ xử lý"
+            },
+            {
+              "letter": "b",
+              "text": "b. Phát hiện sớm bất thường và đảm bảo hệ thống hoạt động ổn định"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm dung lượng lưu trữ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng số lượng người dùng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Yếu tố nào sau đây thuộc môi trường cần giám sát trong trung tâm dữ liệu?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Giao diện người dùng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Nhiệt độ và độ ẩm"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tốc độ nhập liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Nội dung website"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Việc thu thập và phân tích ____ hệ thống giúp phát hiện các hành vi bất thường hoặc sự cố tiềm ẩn.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Giám sát liên tục giúp hệ thống phản ứng ____ với các sự cố trước khi gây ảnh hưởng nghiêm trọng.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Các công cụ giám sát thường được cấu hình để tạo ____ khi phát hiện vượt ngưỡng cho phép.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "nhật ký"
+        },
+        {
+          "question": 4,
+          "answer": "kịp thời"
+        },
+        {
+          "question": 5,
+          "answer": "cảnh báo"
+        }
+      ]
+    },
+    {
+      "title": "Giới thiệu Hệ điều hành Windows Server",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@f2e3c04f1075406c9840d2452517c1f1?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Windows Server được thiết kế chủ yếu để làm gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Giải trí cá nhân"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quản lý và cung cấp dịch vụ mạng trong tổ chức"
+            },
+            {
+              "letter": "c",
+              "text": "c. Thiết kế đồ họa"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chơi game"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Vai trò nào sau đây thường được triển khai trên Windows Server?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Media player"
+            },
+            {
+              "letter": "b",
+              "text": "b. Domain Controller"
+            },
+            {
+              "letter": "c",
+              "text": "c. Trình duyệt web cá nhân"
+            },
+            {
+              "letter": "d",
+              "text": "d. Ứng dụng văn phòng"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Windows Server cung cấp dịch vụ ____ để quản lý người dùng và tài nguyên trong mạng nội bộ.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Một hệ điều hành máy chủ cần đảm bảo tính ____ và khả năng hoạt động liên tục cao.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Windows Server thường được sử dụng trong môi trường ____ để quản lý hệ thống và dịch vụ tập trung.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "Active Directory"
+        },
+        {
+          "question": 4,
+          "answer": "ổn định"
+        },
+        {
+          "question": 5,
+          "answer": "doanh nghiệp"
+        }
+      ]
+    },
+    {
+      "title": "Kiến trúc của Active Directory",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@68369810988040989fdadbefe4efebe4?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Trong Active Directory, đơn vị cơ bản nhất để quản lý người dùng và tài nguyên là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Forest"
+            },
+            {
+              "letter": "b",
+              "text": "b. Domain"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tree"
+            },
+            {
+              "letter": "d",
+              "text": "d. Site"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Tập hợp nhiều domain có quan hệ phân cấp và chia sẻ namespace được gọi là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. OU"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tree"
+            },
+            {
+              "letter": "c",
+              "text": "c. Group"
+            },
+            {
+              "letter": "d",
+              "text": "d. Policy"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: ___ là cấp cao nhất trong kiến trúc Active Directory, bao gồm một hoặc nhiều tree.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Trong một domain, ___ được sử dụng để tổ chức các đối tượng như user, group, computer theo cấu trúc logic.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Thành phần ___ trong AD được sử dụng để tối ưu hóa việc xác thực và truy cập dựa trên vị trí mạng.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "Forest"
+        },
+        {
+          "question": 4,
+          "answer": "OU"
+        },
+        {
+          "question": 5,
+          "answer": "Site"
+        }
+      ]
+    },
+    {
+      "title": "Giới thiệu dịch vụ Active Directory",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@0389e8221ae74a3690f510ec3125915a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Active Directory được sử dụng chủ yếu để làm gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Lưu trữ file cá nhân"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quản lý người dùng, máy tính và tài nguyên trong mạng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng tốc độ Internet"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mã hóa dữ liệu"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Thành phần nào trong Active Directory dùng để lưu trữ thông tin về người dùng và tài nguyên?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Firewall"
+            },
+            {
+              "letter": "b",
+              "text": "b. Directory Database"
+            },
+            {
+              "letter": "c",
+              "text": "c. Web Server"
+            },
+            {
+              "letter": "d",
+              "text": "d. DNS Cache"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong Active Directory, ___ là đơn vị logic dùng để tổ chức và quản lý các đối tượng như user, group, computer.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Máy chủ chạy dịch vụ Active Directory được gọi là ___.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Active Directory cho phép quản trị viên thực hiện ___ tập trung đối với tài nguyên và người dùng trong hệ thống.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "OU"
+        },
+        {
+          "question": 4,
+          "answer": "Domain Controller"
+        },
+        {
+          "question": 5,
+          "answer": "quản lý"
+        }
+      ]
+    },
+    {
+      "title": "Giới thiệu các mô hình mạng phổ biến",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@1cda1f99b6784e32b0cd72bfba46f044?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mô hình mạng nào có máy chủ trung tâm quản lý tài nguyên và cung cấp dịch vụ cho các máy khác?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Client-Server"
+            },
+            {
+              "letter": "b",
+              "text": "b. Peer-to-Peer"
+            },
+            {
+              "letter": "c",
+              "text": "c. Hybrid cá nhân"
+            },
+            {
+              "letter": "d",
+              "text": "d. Standalone"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Đặc điểm chính của mô hình Peer-to-Peer (P2P) là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Có máy chủ trung tâm"
+            },
+            {
+              "letter": "b",
+              "text": "b. Các máy tính ngang hàng, chia sẻ tài nguyên trực tiếp"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chỉ dùng trong doanh nghiệp lớn"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không chia sẻ tài nguyên"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong mô hình Client-Server, máy (1)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "cung cấp dịch vụ, còn máy (2)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 4: Mô hình mạng ____ thường được sử dụng trong các hệ thống nhỏ do dễ triển khai nhưng khó quản lý tập trung.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 6,
+          "text": "Câu 5: Mô hình Client-Server phù hợp với môi trường ____ do khả năng quản lý và bảo mật tập trung.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "Server"
+        },
+        {
+          "question": 4,
+          "answer": "Client"
+        },
+        {
+          "question": 5,
+          "answer": "Peer-to-Peer"
+        },
+        {
+          "question": 6,
+          "answer": "doanh nghiệp"
+        }
+      ]
+    },
+    {
+      "title": "Chức năng Active Directory",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@2154e4d6327d4eebb1b5a8a087b2342d?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Chức năng cốt lõi của Active Directory là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Lưu trữ file đa phương tiện"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quản lý danh tính và kiểm soát truy cập trong mạng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng tốc độ mạng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giám sát nhiệt độ hệ thống"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Active Directory hỗ trợ cơ chế nào để xác thực người dùng trong domain?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. HTTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. Kerberos"
+            },
+            {
+              "letter": "c",
+              "text": "c. FTP"
+            },
+            {
+              "letter": "d",
+              "text": "d. SMTP"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Active Directory cho phép quản trị viên áp dụng ___ để cấu hình và kiểm soát hệ thống một cách tập trung.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Một chức năng quan trọng của AD là ___ người dùng khi truy cập vào hệ thống.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: AD giúp thực hiện ___ tài nguyên dựa trên vai trò hoặc quyền hạn của người dùng.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "chính sách nhóm"
+        },
+        {
+          "question": 4,
+          "answer": "xác thực"
+        },
+        {
+          "question": 5,
+          "answer": "phân quyền"
+        }
+      ]
+    },
+    {
+      "title": "Chứng thực và kiểm soát truy cập các tài khoản",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@4cdc7aa37968408fbc9778d813093a97?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mục tiêu chính của quá trình chứng thực (authentication) là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cấp quyền truy cập tài nguyên"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xác minh danh tính người dùng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mã hóa dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Sao lưu hệ thống"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Phương pháp nào sau đây thuộc xác thực đa yếu tố (MFA)?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chỉ dùng mật khẩu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mật khẩu kết hợp mã OTP"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chỉ dùng vân tay"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ dùng username"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Sau khi xác thực, hệ thống sẽ thực hiện ____ để quyết định quyền truy cập của người dùng.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Nguyên tắc ____ yêu cầu người dùng chỉ được cấp quyền tối thiểu cần thiết để thực hiện công việc.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Việc quản lý tài khoản cần bao gồm tạo, cập nhật và ____ tài khoản khi không còn sử dụng.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "phân quyền"
+        },
+        {
+          "question": 4,
+          "answer": "quyền tối thiểu"
+        },
+        {
+          "question": 5,
+          "answer": "vô hiệu hóa"
+        }
+      ]
+    },
+    {
+      "title": "Quản lý tài khoản người dùng và nhóm cục bộ",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@f38438564cd14623aa13c297a53709c2?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Tài khoản cục bộ (local account) được sử dụng trong phạm vi nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Toàn bộ hệ thống domain"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chỉ trên một máy tính cụ thể"
+            },
+            {
+              "letter": "c",
+              "text": "c. Trên Internet"
+            },
+            {
+              "letter": "d",
+              "text": "d. Trong toàn bộ tổ chức"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Mục đích chính của việc sử dụng nhóm (group) trong hệ thống là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ hệ thống"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quản lý quyền truy cập cho nhiều người dùng cùng lúc"
+            },
+            {
+              "letter": "c",
+              "text": "c. Lưu trữ dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giám sát mạng"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong Windows Server, tài khoản local được quản lý thông qua công cụ ____.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Việc thêm người dùng vào nhóm giúp đơn giản hóa quá trình ____ quyền truy cập.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Tài khoản không còn sử dụng cần được ____ hoặc xóa để tránh rủi ro bảo mật.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "Computer Management"
+        },
+        {
+          "question": 4,
+          "answer": "phân"
+        },
+        {
+          "question": 5,
+          "answer": "vô hiệu hóa"
+        }
+      ]
+    },
+    {
+      "title": "Giới thiệu về GPO; Chính sách tài khoản người dùng; Triển khai một chính sách nhóm trên miền",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@e61a277627104b9682a1a7a2c583ced6?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Group Policy Object (GPO) được sử dụng để làm gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Lưu trữ dữ liệu người dùng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cấu hình và quản lý thiết lập hệ thống trong domain"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng tốc độ mạng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Sao lưu dữ liệu"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: GPO thường được áp dụng cho đối tượng nào trong hệ thống?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chỉ máy chủ"
+            },
+            {
+              "letter": "b",
+              "text": "b. Người dùng và máy tính trong domain"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chỉ thiết bị mạng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ ứng dụng web"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: GPO được liên kết (link) với các thành phần như ____, domain hoặc site để áp dụng chính sách.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Một chức năng quan trọng của GPO là cấu hình ____ hệ thống nhằm tăng cường bảo mật.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: GPO cho phép quản trị viên quản lý hệ thống một cách ____ thay vì cấu hình từng máy riêng lẻ.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Chính sách tài khoản người dùng trong Active Directory nhằm mục đích chính là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ đăng nhập"
+            },
+            {
+              "letter": "b",
+              "text": "b. Bảo vệ tài khoản và kiểm soát truy cập hệ thống"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm dung lượng lưu trữ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng số lượng người dùng"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Chính sách nào giúp ngăn chặn tấn công dò mật khẩu (brute-force)?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Password history"
+            },
+            {
+              "letter": "b",
+              "text": "b. Account lockout policy"
+            },
+            {
+              "letter": "c",
+              "text": "c. Audit policy"
+            },
+            {
+              "letter": "d",
+              "text": "d. Backup policy"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: Chính sách mật khẩu thường yêu cầu độ dài tối thiểu và độ ____ để tăng tính bảo mật.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Việc giới hạn số lần đăng nhập sai giúp hệ thống tự động ____ tài khoản khi phát hiện hành vi bất thường.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Tài khoản không sử dụng cần được ____ hoặc xóa để giảm nguy cơ bị khai thác.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 11,
+          "text": "Câu 11: Bước đầu tiên khi triển khai một Group Policy Object là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Áp dụng cho người dùng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tạo GPO mới"
+            },
+            {
+              "letter": "c",
+              "text": "c. Khởi động lại hệ thống"
+            },
+            {
+              "letter": "d",
+              "text": "d. Kiểm tra log"
+            }
+          ]
+        },
+        {
+          "question": 12,
+          "text": "Câu 12: Sau khi tạo GPO, cần thực hiện bước nào để chính sách có hiệu lực?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xóa GPO"
+            },
+            {
+              "letter": "b",
+              "text": "b. Liên kết (link) GPO với domain hoặc OU"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tắt máy chủ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Sao lưu dữ liệu"
+            }
+          ]
+        },
+        {
+          "question": 13,
+          "text": "Câu 13: GPO thường được liên kết với ____ để áp dụng chính sách cho nhóm đối tượng cụ thể.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 14,
+          "text": "Câu 14: Sau khi triển khai, cần thực hiện ____ để đảm bảo chính sách đã được áp dụng đúng.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 15,
+          "text": "Câu 15: Công cụ như gpupdate được sử dụng để ____ chính sách trên máy trạm hoặc máy chủ.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "OU"
+        },
+        {
+          "question": 4,
+          "answer": "bảo mật"
+        },
+        {
+          "question": 5,
+          "answer": "tập trung"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        },
+        {
+          "question": 8,
+          "answer": "phức tạp"
+        },
+        {
+          "question": 9,
+          "answer": "khóa"
+        },
+        {
+          "question": 10,
+          "answer": "vô hiệu hóa"
+        },
+        {
+          "question": 11,
+          "answer": "b"
+        },
+        {
+          "question": 12,
+          "answer": "b"
+        },
+        {
+          "question": 13,
+          "answer": "OU"
+        },
+        {
+          "question": 14,
+          "answer": "kiểm tra"
+        },
+        {
+          "question": 15,
+          "answer": "cập nhật"
+        }
+      ]
+    },
+    {
+      "title": "Dịch vụ DNS; Dịch vụ web IIS",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@a7b182a395ba4dd193f28db0f816b74a?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: DNS có chức năng chính là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mã hóa dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Phân giải tên miền thành địa chỉ IP"
+            },
+            {
+              "letter": "c",
+              "text": "c. Sao lưu dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Kiểm soát truy cập"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Nếu DNS không hoạt động, hệ thống sẽ gặp vấn đề gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ truy cập"
+            },
+            {
+              "letter": "b",
+              "text": "b. Không thể truy cập dịch vụ bằng tên miền"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mất dữ liệu ngay lập tức"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng dung lượng lưu trữ"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: DNS sử dụng các bản ghi ____ để ánh xạ tên miền với địa chỉ IP.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Trong môi trường Active Directory, DNS đóng vai trò quan trọng trong việc ____ và tìm kiếm dịch vụ trong domain.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Một loại bản ghi DNS phổ biến là ____ dùng để ánh xạ tên miền sang địa chỉ IPv4.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Internet Information Services (IIS) được sử dụng để làm gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Quản lý người dùng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cung cấp dịch vụ web và ứng dụng web"
+            },
+            {
+              "letter": "c",
+              "text": "c. Sao lưu dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giám sát hệ thống"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Giao thức nào thường được sử dụng với IIS để truyền tải nội dung web?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. FTP"
+            },
+            {
+              "letter": "b",
+              "text": "b. HTTP/HTTPS"
+            },
+            {
+              "letter": "c",
+              "text": "c. SMTP"
+            },
+            {
+              "letter": "d",
+              "text": "d. SNMP"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: IIS cho phép cấu hình ___ để tăng cường bảo mật khi truyền dữ liệu qua web.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Trong IIS, mỗi website được cấu hình với một ___ để xác định địa chỉ truy cập (IP/port/domain).",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: Việc cấu hình sai trên IIS có thể dẫn đến ___ bảo mật và bị khai thác từ bên ngoài.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "A"
+        },
+        {
+          "question": 4,
+          "answer": "định danh"
+        },
+        {
+          "question": 5,
+          "answer": "A"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        },
+        {
+          "question": 8,
+          "answer": "SSL/TLS"
+        },
+        {
+          "question": 9,
+          "answer": "binding"
+        },
+        {
+          "question": 10,
+          "answer": "lỗ hổng"
+        }
+      ]
+    },
+    {
+      "title": "Dịch vụ FTP; Dịch vụ DHCP",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@f74bdb03c45344458bef5dbf591aa653?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: FTP được sử dụng chủ yếu để làm gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mã hóa dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Truyền tải tệp tin giữa các hệ thống"
+            },
+            {
+              "letter": "c",
+              "text": "c. Quản lý người dùng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giám sát mạng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Điểm yếu lớn nhất của FTP truyền thống là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tốc độ thấp"
+            },
+            {
+              "letter": "b",
+              "text": "b. Truyền dữ liệu và mật khẩu dưới dạng không mã hóa"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không hỗ trợ file lớn"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không tương thích hệ điều hành"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Để tăng cường bảo mật, có thể sử dụng ___ thay thế FTP truyền thống.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: FTP hoạt động dựa trên mô hình ____ giữa máy gửi và máy nhận.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Việc cấu hình quyền truy cập không đúng trên FTP có thể dẫn đến ____ dữ liệu nhạy cảm.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: DHCP được sử dụng để làm gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mã hóa dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cấp phát địa chỉ IP tự động cho các thiết bị trong mạng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Quản lý người dùng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giám sát hệ thống"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Thành phần nào sau đây KHÔNG được cấp phát bởi DHCP?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Địa chỉ IP"
+            },
+            {
+              "letter": "b",
+              "text": "b. Gateway"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mật khẩu người dùng"
+            },
+            {
+              "letter": "d",
+              "text": "d. DNS Server"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8: DHCP sử dụng cơ chế _____ để cấp phát địa chỉ IP trong một khoảng địa chỉ xác định.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 9,
+          "text": "Câu 9: Nếu có nhiều DHCP server không kiểm soát trong cùng mạng, có thể xảy ra _____ địa chỉ IP hoặc cấu hình sai.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 10,
+          "text": "Câu 10: DHCP giúp giảm công việc cấu hình _____ địa chỉ IP cho từng thiết bị.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "SFTP"
+        },
+        {
+          "question": 4,
+          "answer": "Client-Server"
+        },
+        {
+          "question": 5,
+          "answer": "rò rỉ"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "c"
+        },
+        {
+          "question": 8,
+          "answer": "cho thuê"
+        },
+        {
+          "question": 9,
+          "answer": "xung đột"
+        },
+        {
+          "question": 10,
+          "answer": "thủ công"
+        }
+      ]
+    },
+    {
+      "title": "An toàn cho tài khoản người dùng và nhóm trên Active Directory",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@0995ffd39415467e91d26e88d68a00af?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mục tiêu quan trọng nhất khi bảo mật tài khoản trên Active Directory là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng số lượng tài khoản"
+            },
+            {
+              "letter": "b",
+              "text": "b. Ngăn chặn truy cập trái phép và lạm dụng quyền"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng tốc độ đăng nhập"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giảm dung lượng lưu trữ"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Nhóm nào sau đây có quyền cao nhất và cần được kiểm soát nghiêm ngặt trong AD?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Users"
+            },
+            {
+              "letter": "b",
+              "text": "b. Guests"
+            },
+            {
+              "letter": "c",
+              "text": "c. Domain Admins"
+            },
+            {
+              "letter": "d",
+              "text": "d. Backup Operators"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Nguyên tắc ___ yêu cầu chỉ cấp quyền cần thiết tối thiểu cho người dùng và nhóm.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Việc sử dụng ___ giúp tăng cường bảo mật cho tài khoản bằng cách yêu cầu nhiều yếu tố xác thực.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Tài khoản đặc quyền cần được giám sát, ghi log và ___ định kỳ để phát hiện hành vi bất thường.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "quyền tối thiểu"
+        },
+        {
+          "question": 4,
+          "answer": "MFA"
+        },
+        {
+          "question": 5,
+          "answer": "đánh giá"
+        }
+      ]
+    },
+    {
+      "title": "Quản lý tài khoản và phân quyền",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@0e676599c48e4d478d758333174e3c1e?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Trong Linux, mục đích chính của việc phân quyền là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ hệ thống"
+            },
+            {
+              "letter": "b",
+              "text": "b. Kiểm soát truy cập tài nguyên và bảo vệ hệ thống"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng dung lượng lưu trữ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giảm số lượng người dùng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Tài khoản nào có quyền cao nhất trong hệ thống Linux?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. user"
+            },
+            {
+              "letter": "b",
+              "text": "b. guest"
+            },
+            {
+              "letter": "c",
+              "text": "c. root"
+            },
+            {
+              "letter": "d",
+              "text": "d. admin"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong Linux, quyền truy cập file được chia thành (1)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": ", (2)",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 4: Công cụ ___ cho phép người dùng thực hiện lệnh với quyền cao hơn mà không cần đăng nhập trực tiếp bằng root.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 6,
+          "text": "Câu 5: Việc gán người dùng vào ____ giúp quản lý quyền truy cập một cách hiệu quả hơn.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "read"
+        },
+        {
+          "question": 4,
+          "answer": "write"
+        },
+        {
+          "question": 5,
+          "answer": "sudo"
+        },
+        {
+          "question": 6,
+          "answer": "nhóm"
+        }
+      ]
+    },
+    {
+      "title": "Tổng quan về bảo mật máy chủ Linux",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@b2b31a64f83f4a87a96b5d1e3cff5895?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Linux server thường được sử dụng vì đặc điểm nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chỉ dùng cho cá nhân"
+            },
+            {
+              "letter": "b",
+              "text": "b. Ổn định, linh hoạt và bảo mật cao khi cấu hình đúng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không cần quản trị"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không có lỗ hổng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Biện pháp nào quan trọng nhất để bảo mật máy chủ Linux?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng dung lượng ổ cứng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cập nhật hệ thống và bản vá bảo mật thường xuyên"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cài nhiều phần mềm"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng tốc độ CPU"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong Linux, việc phân quyền truy cập được thực hiện thông qua hệ thống ____ file và user.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Công cụ như iptables hoặc firewall khác được sử dụng để ____ lưu lượng mạng.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Một trong những rủi ro lớn nhất là sử dụng tài khoản ____ không kiểm soát, có thể dẫn đến toàn quyền hệ thống bị chiếm.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "phân quyền"
+        },
+        {
+          "question": 4,
+          "answer": "kiểm soát"
+        },
+        {
+          "question": 5,
+          "answer": "root"
+        }
+      ]
+    },
+    {
+      "title": "Bảo mật mạng và dịch vụ",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@6f9bfb85ad274999b3118b54dd57f5a6?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mục tiêu chính của bảo mật mạng trên Linux server là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ mạng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Ngăn chặn truy cập trái phép và bảo vệ dịch vụ"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng dung lượng lưu trữ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giảm số lượng người dùng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Công cụ nào thường được sử dụng để cấu hình firewall trên Linux?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. chmod"
+            },
+            {
+              "letter": "b",
+              "text": "b. iptables"
+            },
+            {
+              "letter": "c",
+              "text": "c. nano"
+            },
+            {
+              "letter": "d",
+              "text": "d. grep"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Việc tắt các dịch vụ không cần thiết giúp giảm _____ tấn công của hệ thống.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Các dịch vụ mạng thường chạy trên các _____ cụ thể để giao tiếp với bên ngoài.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Việc giám sát lưu lượng mạng giúp phát hiện _____ bất thường và nguy cơ tấn công.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "bề mặt"
+        },
+        {
+          "question": 4,
+          "answer": "cổng"
+        },
+        {
+          "question": 5,
+          "answer": "hành vi"
+        }
+      ]
+    },
+    {
+      "title": "Mạng riêng ảo VPN",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@68db6872d75e4acabf239937b0eb16d9?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: VPN được sử dụng chủ yếu để làm gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ mạng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tạo kết nối an toàn qua mạng công cộng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Lưu trữ dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giám sát hệ thống"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Thành phần nào đảm bảo tính bảo mật của dữ liệu trong VPN?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Nén dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mã hóa (encryption)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng băng thông"
+            },
+            {
+              "letter": "d",
+              "text": "d. Bộ nhớ đệm"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: VPN tạo ra một “đường hầm” _____ để bảo vệ dữ liệu khi truyền qua Internet.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: VPN thường được sử dụng để hỗ trợ truy cập _____ vào mạng nội bộ của tổ chức.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: VPN không thể bảo vệ hệ thống nếu thiết bị người dùng bị _____.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "mã hóa"
+        },
+        {
+          "question": 4,
+          "answer": "từ xa"
+        },
+        {
+          "question": 5,
+          "answer": "nhiễm mã độc"
+        }
+      ]
+    },
+    {
+      "title": "Quản lý bản vá và cập nhật",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@328be2a4da414ec19d970e5fa77c5fa2?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mục tiêu chính của quản lý bản vá (patch management) là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng dung lượng lưu trữ"
+            },
+            {
+              "letter": "b",
+              "text": "b. Khắc phục lỗ hổng và cải thiện bảo mật hệ thống"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng tốc độ CPU"
+            },
+            {
+              "letter": "d",
+              "text": "d. Giảm số lượng người dùng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Nếu hệ thống không được cập nhật bản vá kịp thời, nguy cơ lớn nhất là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng hiệu năng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Bị khai thác lỗ hổng đã biết"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm dung lượng ổ đĩa"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng tốc độ mạng"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Quá trình quản lý bản vá bao gồm việc phát hiện, đánh giá và _____ các bản vá phù hợp.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Việc cập nhật cần được thực hiện _____ để đảm bảo hệ thống luôn an toàn trước các mối đe dọa mới.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Trước khi áp dụng bản vá trên hệ thống chính, nên tiến hành _____ để tránh gây lỗi hệ thống.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "triển khai"
+        },
+        {
+          "question": 4,
+          "answer": "định kỳ"
+        },
+        {
+          "question": 5,
+          "answer": "kiểm thử"
+        }
+      ]
+    },
+    {
+      "title": "Kiểm tra trắc nghiệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@11264c76b6884b329c44b3828d4905cd?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "an incorrect answer"
+            },
+            {
+              "letter": "b",
+              "text": "the correct answer"
+            },
+            {
+              "letter": "c",
+              "text": "an incorrect answer"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Hardening Linux",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@44b65a83a0164ff49e84b38789dbdecd?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Hardening trong Linux là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ hệ thống"
+            },
+            {
+              "letter": "b",
+              "text": "b. Gia cố bảo mật bằng cách cấu hình và loại bỏ rủi ro không cần thiết"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng dung lượng ổ đĩa"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cài thêm nhiều phần mềm"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Biện pháp nào sau đây KHÔNG thuộc hardening hệ thống?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tắt dịch vụ không cần thiết"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cấu hình firewall"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mở tất cả các port để dễ truy cập"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cập nhật bản vá"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Hardening giúp giảm _____ tấn công của hệ thống bằng cách loại bỏ các thành phần không cần thiết.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Công cụ như iptables được sử dụng để _____ truy cập mạng trong quá trình hardening.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Một nguyên tắc quan trọng là chỉ cài đặt và chạy các dịch vụ _____ cho hoạt động của hệ thống.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "bề mặt"
+        },
+        {
+          "question": 4,
+          "answer": "kiểm soát"
+        },
+        {
+          "question": 5,
+          "answer": "cần thiết"
+        }
+      ]
+    },
+    {
+      "title": "Ứng phó sự cố bảo mật",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@59e09211fc0d401683f3c45fa119811e?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mục tiêu chính của ứng phó sự cố bảo mật là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ hệ thống"
+            },
+            {
+              "letter": "b",
+              "text": "b. Giảm thiểu tác động và khôi phục hệ thống nhanh nhất"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tăng dung lượng lưu trữ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Ngăn chặn hoàn toàn mọi tấn công"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Bước nào cần thực hiện NGAY khi phát hiện sự cố bảo mật?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xóa toàn bộ dữ liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cô lập hệ thống bị ảnh hưởng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tắt toàn bộ mạng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cài lại hệ điều hành ngay lập tức"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Sau khi xử lý sự cố, cần tiến hành _____ để tìm nguyên nhân và cải thiện hệ thống.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Việc ghi nhận log và bằng chứng giúp hỗ trợ quá trình _____ và điều tra sự cố.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Một kế hoạch ứng phó hiệu quả cần được _____ và kiểm thử định kỳ để đảm bảo khả năng thực thi.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "phân tích"
+        },
+        {
+          "question": 4,
+          "answer": "ứng phó"
+        },
+        {
+          "question": 5,
+          "answer": "xây dựng"
+        }
+      ]
+    },
+    {
+      "title": "Sao lưu và phục hồi dữ liệu",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS1001_B01+HK1-2026-2027+type@sequential+block@7ccbba866318458383ec029611734ee2?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mục tiêu chính của việc sao lưu dữ liệu là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng tốc độ hệ thống"
+            },
+            {
+              "letter": "b",
+              "text": "b. Đảm bảo khả năng phục hồi dữ liệu khi xảy ra sự cố"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm dung lượng lưu trữ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng hiệu năng CPU"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Nguyên tắc 3-2-1 trong sao lưu dữ liệu có ý nghĩa gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 3 bản sao trên 1 thiết bị"
+            },
+            {
+              "letter": "b",
+              "text": "b. 3 bản sao, 2 loại phương tiện, 1 bản ở ngoài hệ thống"
+            },
+            {
+              "letter": "c",
+              "text": "c. 3 người quản lý, 2 hệ thống, 1 dữ liệu"
+            },
+            {
+              "letter": "d",
+              "text": "d. 3 ngày sao lưu, 2 ngày kiểm tra, 1 ngày phục hồi"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Quá trình phục hồi dữ liệu yêu cầu phải có _____ sao lưu đầy đủ và sẵn sàng sử dụng.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Việc kiểm tra định kỳ giúp đảm bảo dữ liệu sao lưu có thể _____ thành công khi cần thiết.",
+          "type": "text",
+          "options": []
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Sao lưu dữ liệu nên được thực hiện _____ và lưu trữ ở nhiều vị trí khác nhau để giảm rủi ro.",
+          "type": "text",
+          "options": []
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "bản"
+        },
+        {
+          "question": 4,
+          "answer": "phục hồi"
+        },
+        {
+          "question": 5,
+          "answer": "định kỳ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4598 @@
+{
+  "version": 1,
+  "courseCode": "EMAT105",
+  "exportedAt": "2026-09-17T18:36:52.064Z",
+  "answers": [
+    {
+      "title": "Công thức Bernoulli",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@2a2d4ee8b76c4bf5bcc38a78d388a411?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Các phép thử độc lập và xác suất thành công trong mỗi phép thử là như nhau."
+            },
+            {
+              "letter": "b",
+              "text": "b. Các phép thử độc lập và xác suất thành công trong mỗi phép thử là khác nhau."
+            },
+            {
+              "letter": "c",
+              "text": "c. Các phép thử không độc lập và xác suất thành công trong mỗi phép thử là như nhau."
+            },
+            {
+              "letter": "d",
+              "text": "d. Các phép thử không độc lập và xác suất thành công trong mỗi phép thử là khác nhau."
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 1. Dãy n phép thử Bernoulli là dãy n phép thử thỏa mãn điều kiện gì?\na. Các phép thử độc lập và xác suất thành công trong mỗi phép thử là như nhau.\nb. Các phép thử độc lập và xác suất thành công trong mỗi phép thử là khác nhau.\nc. Các phép thử không độc lập và xác suất thành công trong mỗi phép thử là như nhau.\nd. Các phép thử không độc lập và xác suất thành công trong mỗi phép thử là khác nhau.\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 3/8"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1/4"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1/2"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1/8"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 2. Tung một đồng xu 3 lần. Xác suất để xuất hiện đúng 2 mặt sấp là:\na. 3/8\nb. 1/4\nc. 1/2\nd. 1/8\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.1667"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.8171"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.0153"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.98"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 3. Một lô hàng có tỷ lệ phế phẩm là 2%. Kiểm tra ngẫu nhiên 10 sản phẩm. Xác suất có đúng 1 phế phẩm là:\na. 0.1667\nb. 0.8171\nc. 0.0153\nd. 0.98\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 44"
+            },
+            {
+              "letter": "b",
+              "text": "b. 45"
+            },
+            {
+              "letter": "c",
+              "text": "c. 46"
+            },
+            {
+              "letter": "d",
+              "text": "d. 47"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 4. Xác suất để một máy sản xuất ra phế phẩm là 0.05. Cần sản xuất ít nhất bao nhiêu sản phẩm để xác suất có ít nhất 1 phế phẩm lớn hơn 0.9?\na. 44\nb. 45\nc. 46\nd. 47\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.25"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.3125"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.5"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.625"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Xác suất",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@f7718a9717364ba48d3cfec401e4a04b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1/6"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2/6"
+            },
+            {
+              "letter": "c",
+              "text": "c. 3/6"
+            },
+            {
+              "letter": "d",
+              "text": "d. 4/6"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 1. Tung một con xúc xắc. Xác suất để mặt xuất hiện là số 1 hoặc 2 là:\na. 1/6\nb. 2/6\nc. 3/6\nd. 4/6\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1/2"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2/5"
+            },
+            {
+              "letter": "c",
+              "text": "c. 3/5"
+            },
+            {
+              "letter": "d",
+              "text": "d. 4/5"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 2. Một túi có 6 bi xanh và 4 bi đỏ. Lấy ngẫu nhiên 1 bi. Xác suất để lấy được bi xanh là:\na. 1/2\nb. 2/5\nc. 3/5\nd. 4/5\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1/6"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1/9"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1/12"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1/36"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 3. Tung 2 con xúc xắc. Xác suất để tổng số chấm bằng 7 là:\na. 1/6\nb. 1/9\nc. 1/12\nd. 1/36\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 3/5"
+            },
+            {
+              "letter": "b",
+              "text": "b. 6/7"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1/5"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2/5"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 4. Một hộp có 5 bi xanh và 3 bi đỏ. Lấy ngẫu nhiên 2 bi. Xác suất để 2 bi có màu khác nhau là:\na. 3/5\nb. 6/7\nc. 1/5\nd. 2/5\nsai",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1/3"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1/2"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1/6"
+            },
+            {
+              "letter": "d",
+              "text": "d. 3/5"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Biến cố",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@58fe346bff754ffcbdcecc416886f93b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. {1, 2}"
+            },
+            {
+              "letter": "b",
+              "text": "b. {Sấp, Ngửa}"
+            },
+            {
+              "letter": "c",
+              "text": "c. {Đỏ, Đen}"
+            },
+            {
+              "letter": "d",
+              "text": "d. {0, 1}"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 1. Tung một đồng xu, không gian biến cố sơ cấp của phép thử này là:\na. {1, 2}\nb. {Sấp, Ngửa}\nc. {Đỏ, Đen}\nd. {0, 1}\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Kết quả là số chẵn."
+            },
+            {
+              "letter": "b",
+              "text": "b. Kết quả lớn hơn 4."
+            },
+            {
+              "letter": "c",
+              "text": "c. Kết quả vừa chẵn vừa lớn hơn 4."
+            },
+            {
+              "letter": "d",
+              "text": "d. Kết quả là số lẻ và lớn hơn 4."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Kết quả là số lẻ."
+            },
+            {
+              "letter": "b",
+              "text": "b. Kết quả lớn hơn 2."
+            },
+            {
+              "letter": "c",
+              "text": "c. Kết quả vừa lẻ vừa lớn hơn 2."
+            },
+            {
+              "letter": "d",
+              "text": "d. Kết quả là số lẻ hoặc lớn hơn 2 (hoặc cả hai)."
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 3. Tung một con xúc xắc. Gọi A là biến cố “kết quả là số lẻ”, B là biến cố “kết quả lớn hơn 2”. Biến cố A+B tương ứng với:\na. Kết quả là số lẻ.\nb. Kết quả lớn hơn 2.\nc. Kết quả vừa lẻ vừa lớn hơn 2.\nd. Kết quả là số lẻ hoặc lớn hơn 2 (hoặc cả hai).\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. “Cả hai lần đều ngửa.”"
+            },
+            {
+              "letter": "b",
+              "text": "b. “Cả hai lần đều sấp.”"
+            },
+            {
+              "letter": "c",
+              "text": "c. “Có ít nhất một lần xuất hiện mặt ngửa.”"
+            },
+            {
+              "letter": "d",
+              "text": "d. “Không có lần nào ngửa.”"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 4. Tung một đồng xu 2 lần. Gọi A là biến cố “có ít nhất một lần xuất hiện mặt sấp”. Biến cố đối lập của A là:\na. “Cả hai lần đều ngửa.”\nb. “Cả hai lần đều sấp.”\nc. “Có ít nhất một lần xuất hiện mặt ngửa.”\nd. “Không có lần nào ngửa.”\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 12"
+            },
+            {
+              "letter": "b",
+              "text": "b. 24"
+            },
+            {
+              "letter": "c",
+              "text": "c. 36"
+            },
+            {
+              "letter": "d",
+              "text": "d. 6"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Giải tích tổ hợp",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@7b884bdf74ab4db6aa52c1fa7692520b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1. Có bao nhiêu cách sắp xếp 4 người vào một hàng?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 4"
+            },
+            {
+              "letter": "b",
+              "text": "b. 16"
+            },
+            {
+              "letter": "c",
+              "text": "c. 24"
+            },
+            {
+              "letter": "d",
+              "text": "d. 120"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2. Một lớp có 10 học sinh. Số cách chọn 2 học sinh là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 20"
+            },
+            {
+              "letter": "b",
+              "text": "b. 30"
+            },
+            {
+              "letter": "c",
+              "text": "c. 40"
+            },
+            {
+              "letter": "d",
+              "text": "d. 45"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3. Có bao nhiêu cách chọn 3 người từ nhóm gồm 5 người?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 5"
+            },
+            {
+              "letter": "b",
+              "text": "b. 10"
+            },
+            {
+              "letter": "c",
+              "text": "c. 20"
+            },
+            {
+              "letter": "d",
+              "text": "d. 15"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4. Một hộp có 4 bi xanh và 6 bi đỏ. Số cách chọn 2 bi đỏ và 1 bi xanh là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 30"
+            },
+            {
+              "letter": "b",
+              "text": "b. 60"
+            },
+            {
+              "letter": "c",
+              "text": "c. 20"
+            },
+            {
+              "letter": "d",
+              "text": "d. 15"
+            },
+            {
+              "letter": "e",
+              "text": "Có bao nhiêu cách chọn 2 quả táo và 3 quả cam từ hộp có 5 quả táo và 6 quả cam?"
+            },
+            {
+              "letter": "f",
+              "text": "a. 50"
+            },
+            {
+              "letter": "g",
+              "text": "b. 60"
+            },
+            {
+              "letter": "h",
+              "text": "c. 100"
+            },
+            {
+              "letter": "i",
+              "text": "d. 200"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Xác suất có điều kiện; Công thức nhân",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@83a931182ce548afa593e31e93e70305?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xác suất xảy ra biến cố A khi biết biến cố B đã xảy ra"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xác suất xảy ra biến cố B khi biết biến cố A đã xảy ra"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xác suất xảy ra đồng thời cả hai biến cố A và B"
+            },
+            {
+              "letter": "d",
+              "text": "d. Xác suất xảy ra biến cố A hoặc biến cố B"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.5"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.6"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.3"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.2"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 2. Cho P(A) = 0.5, P(B) = 0.6, P(AB) = 0.3. Tính P(A|B).\na. 0.5\nb. 0.6\nc. 0.3\nd. 0.2\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 6/10"
+            },
+            {
+              "letter": "b",
+              "text": "b. 6/9"
+            },
+            {
+              "letter": "c",
+              "text": "c. 4/10"
+            },
+            {
+              "letter": "d",
+              "text": "d. 4/9"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 3. Một hộp có 6 bi đỏ, 4 bi xanh. Lấy ngẫu nhiên lần lượt 2 bi (không hoàn lại). Tính xác suất bi thứ hai là bi đỏ, biết rằng bi thứ nhất là bi xanh.\na. 6/10\nb. 6/9\nc. 4/10\nd. 4/9\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. P(A|B) = P(A) + P(B)"
+            },
+            {
+              "letter": "b",
+              "text": "b. P(A|B) = P(B)"
+            },
+            {
+              "letter": "c",
+              "text": "c. P(A|B) = P(A)"
+            },
+            {
+              "letter": "d",
+              "text": "d. P(A|B) = P(AB)"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 8/10"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2/10"
+            },
+            {
+              "letter": "c",
+              "text": "c. 8/9"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1/5"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 5. Nhà An nuôi 8 con gài mái và 2 con gà trống. An lần lượt bắt 2 con gà. Tính xác suất để lần thứ hai bắt được gà mái, biết rằng lần thứ nhất bắt được gà trống.\na. 8/10\nb. 2/10\nc. 8/9\nd. 1/5\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. P(A + B) = P(A) + P(B)"
+            },
+            {
+              "letter": "b",
+              "text": "b. P(AB) = P(A)* P(B)"
+            },
+            {
+              "letter": "c",
+              "text": "c. P(A|B) = P(A) + P(B)"
+            },
+            {
+              "letter": "d",
+              "text": "d. P(A|B) = 0"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7. Nếu A và B là hai biến cố độc lập, P(A) = 0.3, P(B) = 0.6 thì P(A·B) bằng:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.18"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.9"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.48"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 8. Một máy sản xuất có hai bộ phận A và B hoạt động độc lập. Xác suất bộ phận A bị hỏng là 0.1, xác suất bộ phận B bị hỏng là 0.2. Tính xác suất để cả hai bộ phận cùng hỏng.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.02"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.3"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.12"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.32"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "a. 0.02\nb. 0.3\nc. 0.12\nd. 0.32\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.343"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2.1"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.063"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.49"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 9. Xác suất bắn trúng mục tiêu của một xạ thủ là 0.7. Xạ thủ bắn 3 phát đạn một cách độc lập. Xác suất để cả 3 phát đều trúng mục tiêu là:\na. 0.343\nb. 2.1\nc. 0.063\nd. 0.49\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. \\((1/4)^{10}\\)"
+            },
+            {
+              "letter": "b",
+              "text": "b. \\((1/10)^4 \\)"
+            },
+            {
+              "letter": "c",
+              "text": "c. \\((3/4)^{10} \\)"
+            },
+            {
+              "letter": "d",
+              "text": "d. \\(10/40\\)"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "a"
+        },
+        {
+          "question": 8,
+          "answer": "a"
+        },
+        {
+          "question": 9,
+          "answer": "a"
+        },
+        {
+          "question": 10,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Công thức cộng xác suất",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@7d71aafd76ec40d2b8615162676de66f?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.2"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.9"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.1"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0."
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 1. Nếu P(A) = 0.4, P(B) = 0.5 và P(A + B) = 0.7, thì P(AB) bằng bao nhiêu?\na. 0.2\nb. 0.9\nc. 0.1\nd. 0.\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1/8"
+            },
+            {
+              "letter": "b",
+              "text": "b. 25/64"
+            },
+            {
+              "letter": "c",
+              "text": "c. 15/28"
+            },
+            {
+              "letter": "d",
+              "text": "d. 25/28"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.7"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.8"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.9"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1.1"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 3. Tỷ lệ sinh viên thích học môn Toán là 60%, thích học môn Kinh tế là 50%, thích học cả hai môn là 30%. Chọn ngẫu nhiên 1 sinh viên, xác suất sinh viên đó thích ít nhất một trong hai môn Toán hay Kinh tế là:\na. 0.7\nb. 0.8\nc. 0.9\nd. 1.1\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 7/15"
+            },
+            {
+              "letter": "b",
+              "text": "b. 8/15"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2/3"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1/3"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 4. Một hộp có 10 quả bóng, trong đó có 4 quả bóng đỏ và 6 quả bóng xanh. Lấy ngẫu nhiên 2 quả bóng. Tính xác suất để lấy được ít nhất 1 quả bóng đỏ.\na. 7/15\nb. 8/15\nc. 2/3\nd. 1/3\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.25"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.35"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.15"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.30"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Biến ngẫu nhiên và Luật phân phối xác suất",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@b3fb77f0696c41d882dbd9dd0d3d0144?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1. Biến ngẫu nhiên là gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Là một biến cố chắc chắn xảy ra."
+            },
+            {
+              "letter": "b",
+              "text": "b. Là một hàm số gán các giá trị bằng số cho các kết quả của một phép thử."
+            },
+            {
+              "letter": "c",
+              "text": "c. Là một đại lượng chỉ nhận giá trị nguyên."
+            },
+            {
+              "letter": "d",
+              "text": "d. Là một đại lượng không thể đo lường được."
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2. Biến ngẫu nhiên rời rạc là biến ngẫu nhiên có tập giá trị:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Là một khoảng liên tục trên trục số."
+            },
+            {
+              "letter": "b",
+              "text": "b. Là tập số thực."
+            },
+            {
+              "letter": "c",
+              "text": "c. Hữu hạn hoặc vô hạn đếm được."
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ là các số nguyên dương."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3. Biến ngẫu nhiên liên tục là biến ngẫu nhiên có tập giá trị:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chỉ là các số nguyên."
+            },
+            {
+              "letter": "b",
+              "text": "b. Hữu hạn."
+            },
+            {
+              "letter": "c",
+              "text": "c. Chứa một khoảng liên tục của tập số thực."
+            },
+            {
+              "letter": "d",
+              "text": "d. Vô hạn nhưng đếm được."
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4. Cho X là số chấm xuất hiện khi tung một con xúc xắc. X là biến ngẫu nhiên:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Liên tục."
+            },
+            {
+              "letter": "b",
+              "text": "b. Rời rạc."
+            },
+            {
+              "letter": "c",
+              "text": "c. Không xác định."
+            },
+            {
+              "letter": "d",
+              "text": "d. Vừa liên tục vừa rời rạc."
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5. Cho X là chiều cao của một sinh viên được chọn ngẫu nhiên. X là biến ngẫu nhiên:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Rời rạc."
+            },
+            {
+              "letter": "b",
+              "text": "b. Liên tục."
+            },
+            {
+              "letter": "c",
+              "text": "c. Không xác định."
+            },
+            {
+              "letter": "d",
+              "text": "d. Vừa liên tục vừa rời rạc."
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Công thức xác suất đầy đủ, công thức Bayes",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@2812604cd32643f0a0c8906be266f4b6?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 15/43"
+            },
+            {
+              "letter": "b",
+              "text": "b. 28/43"
+            },
+            {
+              "letter": "c",
+              "text": "c. 30/43"
+            },
+            {
+              "letter": "d",
+              "text": "d. 3/7"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2. Một nhóm biến cố đầy đủ là một nhóm biến cố thỏa mãn:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Các biến cố đôi một xung khắc và tổng xác suất của chúng bằng 1."
+            },
+            {
+              "letter": "b",
+              "text": "b. Các biến cố đôi một xung khắc."
+            },
+            {
+              "letter": "c",
+              "text": "c. Tổng xác suất của các biến cố bằng 1."
+            },
+            {
+              "letter": "d",
+              "text": "d. Các biến cố độc lập với nhau."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "a. Các biến cố đôi một xung khắc và tổng xác suất của chúng bằng 1.\nb. Các biến cố đôi một xung khắc.\nc. Tổng xác suất của các biến cố bằng 1.\nd. Các biến cố độc lập với nhau.\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.0285"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.03"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.04"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.09"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.588"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.02"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.5"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.294"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 4. Câu hỏi: Một công ty sử dụng 3 nhà cung cấp A, B, C với tỷ lệ cung ứng tương ứng là 30%, 50%, 20%. Tỷ lệ sản phẩm lỗi của từng nhà cung cấp lần lượt là 1%, 2%, 3%. Chọn ngẫu nhiên một sản phẩm bị lỗi, tính xác suất sản phẩm đó do nhà cung cấp B cung ứng.\na. 0.588\nb. 0.02\nc. 0.5\nd. 0.294\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.024"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.025"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.026"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.03"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Luật số lớn",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@c45c25cde8e349079e84134106826101?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xác suất để biến ngẫu nhiên nhận giá trị cụ thể."
+            },
+            {
+              "letter": "b",
+              "text": "b. Xác suất để trung bình mẫu hội tụ về kỳ vọng khi kích thước mẫu tiến tới vô cùng."
+            },
+            {
+              "letter": "c",
+              "text": "c. Xác suất để biến ngẫu nhiên lớn hơn một giá trị cho trước."
+            },
+            {
+              "letter": "d",
+              "text": "d. Xác suất để hai biến ngẫu nhiên độc lập."
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 1. Luật số lớn Chebyshev cho biết điều gì?\na. Xác suất để biến ngẫu nhiên nhận giá trị cụ thể.\nb. Xác suất để trung bình mẫu hội tụ về kỳ vọng khi kích thước mẫu tiến tới vô cùng.\nc. Xác suất để biến ngẫu nhiên lớn hơn một giá trị cho trước.\nd. Xác suất để hai biến ngẫu nhiên độc lập.\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Các biến ngẫu nhiên có phân phối chuẩn."
+            },
+            {
+              "letter": "b",
+              "text": "b. Các biến ngẫu nhiên là các phép thử Bernoulli."
+            },
+            {
+              "letter": "c",
+              "text": "c. Các biến ngẫu nhiên độc lập."
+            },
+            {
+              "letter": "d",
+              "text": "d. Các biến ngẫu nhiên có cùng kỳ vọng."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 2. Luật số lớn Bernoulli là trường hợp đặc biệt của luật số lớn Chebyshev khi:\na. Các biến ngẫu nhiên có phân phối chuẩn.\nb. Các biến ngẫu nhiên là các phép thử Bernoulli.\nc. Các biến ngẫu nhiên độc lập.\nd. Các biến ngẫu nhiên có cùng kỳ vọng.\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Các biến ngẫu nhiên phải có phân phối chuẩn."
+            },
+            {
+              "letter": "b",
+              "text": "b. Các biến ngẫu nhiên phải độc lập và có kỳ vọng, phương sai hữu hạn."
+            },
+            {
+              "letter": "c",
+              "text": "c. Các biến ngẫu nhiên phải có cùng phân phối."
+            },
+            {
+              "letter": "d",
+              "text": "d. Các biến ngẫu nhiên phải liên tục."
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 3. Điều kiện để áp dụng luật số lớn Chebyshev là:\na. Các biến ngẫu nhiên phải có phân phối chuẩn.\nb. Các biến ngẫu nhiên phải độc lập và có kỳ vọng, phương sai hữu hạn.\nc. Các biến ngẫu nhiên phải có cùng phân phối.\nd. Các biến ngẫu nhiên phải liên tục.\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Phụ thuộc."
+            },
+            {
+              "letter": "b",
+              "text": "b. Độc lập."
+            },
+            {
+              "letter": "c",
+              "text": "c. Có phân phối chuẩn."
+            },
+            {
+              "letter": "d",
+              "text": "d. Có phương sai bằng 0."
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 4. Luật số lớn Bernoulli áp dụng cho dãy các phép thử:\na. Phụ thuộc.\nb. Độc lập.\nc. Có phân phối chuẩn.\nd. Có phương sai bằng 0.\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 5."
+            },
+            {
+              "letter": "b",
+              "text": "b. 50."
+            },
+            {
+              "letter": "c",
+              "text": "c. 100."
+            },
+            {
+              "letter": "d",
+              "text": "d. 500."
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Các số đặc trưng của biến ngẫu nhiên",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@efd463bb021f4ae0a89575593149ea6c?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1. Kỳ vọng của biến ngẫu nhiên X, kí hiệu E(X), là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Giá trị lớn nhất mà X có thể nhận."
+            },
+            {
+              "letter": "b",
+              "text": "b. Giá trị trung bình theo xác suất của X."
+            },
+            {
+              "letter": "c",
+              "text": "c. Giá trị mà X chắc chắn nhận."
+            },
+            {
+              "letter": "d",
+              "text": "d. Giá trị nhỏ nhất mà X có thể nhận."
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2. Phương sai của biến ngẫu nhiên X, kí hiệu Var(X), là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Trung bình của các giá trị mà X nhận."
+            },
+            {
+              "letter": "b",
+              "text": "b. Trung bình của bình phương độ lệch giữa giá trị của X và kỳ vọng của X."
+            },
+            {
+              "letter": "c",
+              "text": "c. Độ lệch chuẩn của X."
+            },
+            {
+              "letter": "d",
+              "text": "d. Giá trị tin chắc nhất của X."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3. Cho X là biến ngẫu nhiên liên tục với hàm mật độ f(x) = 2x, 0 ≤ x ≤ 1 và f(x) = 0 với các trường hợp khác. E(X) bằng bao nhiêu?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1/2"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2/3"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1/3"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1/4"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4. E(k) = ?, với k là hằng số.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0."
+            },
+            {
+              "letter": "b",
+              "text": "b. k."
+            },
+            {
+              "letter": "c",
+              "text": "c. 1."
+            },
+            {
+              "letter": "d",
+              "text": "d. k²."
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5. Var(k) = ?, với k là hằng số.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0."
+            },
+            {
+              "letter": "b",
+              "text": "b. k."
+            },
+            {
+              "letter": "c",
+              "text": "c. k²."
+            },
+            {
+              "letter": "d",
+              "text": "d. 1."
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Phân phối Chi – Squared; Phân phối Student; Phân phối Fisher – Snedecor",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@8a2f19e87b6949009f71f447dc24e949?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1. Phân phối Chi-Square là tổng bình phương của các biến ngẫu nhiên:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Phân phối đều độc lập"
+            },
+            {
+              "letter": "b",
+              "text": "b. Phân phối mũ độc lập"
+            },
+            {
+              "letter": "c",
+              "text": "c. Phân phối chuẩn tắc độc lập"
+            },
+            {
+              "letter": "d",
+              "text": "d. Phân phối Poisson độc lập"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2. Tham số duy nhất của phân phối Chi-square là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Kỳ vọng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Phương sai"
+            },
+            {
+              "letter": "c",
+              "text": "c. Độ lệch chuẩn"
+            },
+            {
+              "letter": "d",
+              "text": "d. Số bậc tự do"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3. Nếu X ~ χ²(5) (phân phối Chi-square với 5 bậc tự do), thì kỳ vọng E(X) bằng:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 2.5"
+            },
+            {
+              "letter": "b",
+              "text": "b. 5"
+            },
+            {
+              "letter": "c",
+              "text": "c. 10"
+            },
+            {
+              "letter": "d",
+              "text": "d. 25"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4. Nếu X ~ χ²(10) (phân phối Chi-square với 10 bậc tự do), thì phương sai Var(X) bằng:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 10"
+            },
+            {
+              "letter": "b",
+              "text": "b. 20"
+            },
+            {
+              "letter": "c",
+              "text": "c. 100"
+            },
+            {
+              "letter": "d",
+              "text": "d. √10"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5. Biến ngẫu nhiên Z có phân phối chuẩn tắc N(0,1). Biến ngẫu nhiên X = Z² sẽ có phân phối gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. N(0,1)"
+            },
+            {
+              "letter": "b",
+              "text": "b. χ²(1)"
+            },
+            {
+              "letter": "c",
+              "text": "c. t(1)"
+            },
+            {
+              "letter": "d",
+              "text": "d. F(1,1)"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "a. N(0,1)\nb. χ²(1)\nc. t(1)\nd. F(1,1)\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Kích thước mẫu lớn."
+            },
+            {
+              "letter": "b",
+              "text": "b. Kích thước mẫu nhỏ và phương sai tổng thể đã biết."
+            },
+            {
+              "letter": "c",
+              "text": "c. Kích thước mẫu nhỏ và phương sai tổng thể chưa biết."
+            },
+            {
+              "letter": "d",
+              "text": "d. Kích thước mẫu lớn và phương sai tổng thể chưa biết."
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 6. Phân phối Student được sử dụng khi:\na. Kích thước mẫu lớn.\nb. Kích thước mẫu nhỏ và phương sai tổng thể đã biết.\nc. Kích thước mẫu nhỏ và phương sai tổng thể chưa biết.\nd. Kích thước mẫu lớn và phương sai tổng thể chưa biết.\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chi-square"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chuẩn chuẩn tắc"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mũ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Poisson"
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 7. Khi số bậc tự do của phân phối Student tăng lên, phân phối Student tiến gần đến phân phối:\na. Chi-square\nb. Chuẩn chuẩn tắc\nc. Mũ\nd. Poisson\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 9"
+            },
+            {
+              "letter": "c",
+              "text": "c. 4.5"
+            },
+            {
+              "letter": "d",
+              "text": "d. 3"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 8. Nếu X ~ t(9) (phân phối Student với 9 bậc tự do), thì kỳ vọng E(X) bằng:\na. 0\nb. 9\nc. 4.5\nd. 3\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1.1538"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.8667"
+            },
+            {
+              "letter": "d",
+              "text": "d. 15"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 9. Nếu X ~ t(15) (phân phối Student với 15 bậc tự do), thì phương sai Var(X) bằng:\na. 1\nb. 1.1538\nc. 0.8667\nd. 15\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1.96"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2.086"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1.645"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2.528"
+            }
+          ]
+        },
+        {
+          "question": 11,
+          "text": "Câu 11. Phân phối F là tỷ số của hai biến ngẫu nhiên độc lập có phân phối:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chuẩn"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mũ"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chi-square"
+            },
+            {
+              "letter": "d",
+              "text": "d. Poisson"
+            }
+          ]
+        },
+        {
+          "question": 12,
+          "text": "Câu 12. Phân phối F có bao nhiêu tham số?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2"
+            },
+            {
+              "letter": "c",
+              "text": "c. 3"
+            },
+            {
+              "letter": "d",
+              "text": "d. 4"
+            }
+          ]
+        },
+        {
+          "question": 13,
+          "text": "Câu 13. Nếu X ~ F(5,10), thì kỳ vọng E(X) bằng:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.5"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1.25"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.833"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2"
+            }
+          ]
+        },
+        {
+          "question": 14,
+          "text": "Câu 14. Nếu X ~ F(3, 8) thì 1/X sẽ có phân phối gì?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. F(3, 8)"
+            },
+            {
+              "letter": "b",
+              "text": "b. F(8, 3)"
+            },
+            {
+              "letter": "c",
+              "text": "c. t(8)"
+            },
+            {
+              "letter": "d",
+              "text": "d. χ²(8)"
+            }
+          ]
+        },
+        {
+          "question": 15,
+          "text": "Câu 15. Biến ngẫu nhiên X có phân phối F(4,12). Tìm giá trị tới hạn F₀.₀₅(4,12).",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 3.26"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2.76"
+            },
+            {
+              "letter": "c",
+              "text": "c. 4.12"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.307"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        },
+        {
+          "question": 6,
+          "answer": "c"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        },
+        {
+          "question": 8,
+          "answer": "a"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        },
+        {
+          "question": 11,
+          "answer": "c"
+        },
+        {
+          "question": 12,
+          "answer": "b"
+        },
+        {
+          "question": 13,
+          "answer": "b"
+        },
+        {
+          "question": 14,
+          "answer": "b"
+        },
+        {
+          "question": 15,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Phân phối nhị thức; Phân phối siêu bội; Phân phối Poisson",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@560649fcc54d41969838437f75adb5af?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Một dãy các phép thử Poisson."
+            },
+            {
+              "letter": "b",
+              "text": "b. Một dãy các phép thử Bernoulli độc lập."
+            },
+            {
+              "letter": "c",
+              "text": "c. Một dãy các phép thử liên tục."
+            },
+            {
+              "letter": "d",
+              "text": "d. Một dãy các phép thử có nhớ."
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 1. Phân phối nhị thức mô tả số lần thành công trong:\na. Một dãy các phép thử Poisson.\nb. Một dãy các phép thử Bernoulli độc lập.\nc. Một dãy các phép thử liên tục.\nd. Một dãy các phép thử có nhớ.\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.0746"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.9885"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.0115"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.2341"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 2. Một nhà máy sản xuất bóng đèn với tỷ lệ bóng đèn hỏng là 0,05. Kiểm tra ngẫu nhiên 10 bóng đèn. Xác suất có đúng 2 bóng đèn hỏng xấp xỉ bằng bao nhiêu?\na. 0.0746\nb. 0.9885\nc. 0.0115\nd. 0.2341\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.8"
+            },
+            {
+              "letter": "c",
+              "text": "c. 4"
+            },
+            {
+              "letter": "d",
+              "text": "d. 3.2"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 3. Xác suất bắn trúng mục tiêu của một xạ thủ là 0.8. Xạ thủ này bắn 5 phát đạn. Tính kỳ vọng số phát bắn trúng.\na. 1\nb. 0.8\nc. 4\nd. 3.2\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 5"
+            },
+            {
+              "letter": "b",
+              "text": "b. 3.75"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2.5"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1.25"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 4. Một bài kiểm tra trắc nghiệm có 20 câu hỏi, mỗi câu có 4 phương án trả lời, trong đó chỉ có 1 phương án đúng. Một sinh viên chọn ngẫu nhiên tất cả các câu trả lời. Tính phương sai của số câu trả lời đúng.\na. 5\nb. 3.75\nc. 2.5\nd. 1.25\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 50"
+            },
+            {
+              "letter": "b",
+              "text": "b. 49"
+            },
+            {
+              "letter": "c",
+              "text": "c. 51"
+            },
+            {
+              "letter": "d",
+              "text": "d. 30"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 5. Xác suất để một con gà đẻ trứng mỗi ngày là 0,6. Phải nuôi ít nhất bao nhiêu con để mỗi ngày trung bình thu được không ít hơn 30 trứng?\na. 50\nb. 49\nc. 51\nd. 30\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Số lần thành công trong n phép thử Bernoulli."
+            },
+            {
+              "letter": "b",
+              "text": "b. Số sự kiện xảy ra trong một khoảng thời gian hoặc không gian nhất định."
+            },
+            {
+              "letter": "c",
+              "text": "c. Thời gian cho đến khi một sự kiện xảy ra."
+            },
+            {
+              "letter": "d",
+              "text": "d. Xác suất lấy được k phần tử từ tổng thể."
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 6. Phân phối Poisson thường được sử dụng để mô hình hóa:\na. Số lần thành công trong n phép thử Bernoulli.\nb. Số sự kiện xảy ra trong một khoảng thời gian hoặc không gian nhất định.\nc. Thời gian cho đến khi một sự kiện xảy ra.\nd. Xác suất lấy được k phần tử từ tổng thể.\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xác suất thành công trong mỗi phép thử."
+            },
+            {
+              "letter": "b",
+              "text": "b. Số lần thử nghiệm."
+            },
+            {
+              "letter": "c",
+              "text": "c. Trung bình số sự kiện xảy ra trong một khoảng thời gian hoặc không gian."
+            },
+            {
+              "letter": "d",
+              "text": "d. Độ lệch chuẩn của số sự kiện."
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 7. Tham số λ trong phân phối Poisson đại diện cho:\na. Xác suất thành công trong mỗi phép thử.\nb. Số lần thử nghiệm.\nc. Trung bình số sự kiện xảy ra trong một khoảng thời gian hoặc không gian.\nd. Độ lệch chuẩn của số sự kiện.\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.1404"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.8571"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.4286"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.2857"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 8. Một cửa hàng trung bình có 5 khách hàng trong 1 giờ. Xác suất có đúng 3 khách hàng trong 1 giờ tiếp theo là bao nhiêu (giả sử số khách hàng tuân theo phân phối Poisson)?\na. 0.1404\nb. 0.8571\nc. 0.4286\nd. 0.2857\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 2"
+            },
+            {
+              "letter": "b",
+              "text": "b. 7"
+            },
+            {
+              "letter": "c",
+              "text": "c. 14"
+            },
+            {
+              "letter": "d",
+              "text": "d. 9"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 9. Trung bình mỗi ngày có 2 vụ tai nạn giao thông tại một ngã tư. Giả sử số vụ tai nạn tuân theo phân phối Poisson. Tính kỳ vọng số vụ tai nạn trong một tuần.\na. 2\nb. 7\nc. 14\nd. 9\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 5"
+            },
+            {
+              "letter": "b",
+              "text": "b. 10"
+            },
+            {
+              "letter": "c",
+              "text": "c. 100"
+            },
+            {
+              "letter": "d",
+              "text": "d. 20"
+            }
+          ]
+        },
+        {
+          "question": 11,
+          "text": "Câu 11. Phân phối siêu bội được sử dụng khi lấy mẫu:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Có hoàn lại."
+            },
+            {
+              "letter": "b",
+              "text": "b. Không hoàn lại."
+            },
+            {
+              "letter": "c",
+              "text": "c. Liên tục."
+            },
+            {
+              "letter": "d",
+              "text": "d. Theo phân phối chuẩn."
+            }
+          ]
+        },
+        {
+          "question": 12,
+          "text": "Câu 12. Trong phân phối siêu bội, nếu kích thước tổng thể là N, kích thước mẫu là n, và số phần tử có tính chất A trong tổng thể là M, thì số phần tử không có tính chất A trong tổng thể là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. N – M"
+            },
+            {
+              "letter": "b",
+              "text": "b. n – M"
+            },
+            {
+              "letter": "c",
+              "text": "c. M – n"
+            },
+            {
+              "letter": "d",
+              "text": "d. N – n"
+            }
+          ]
+        },
+        {
+          "question": 13,
+          "text": "Câu 13. Một hộp có 15 quả bóng, trong đó có 6 quả bóng đỏ. Lấy ngẫu nhiên không hoàn lại 4 quả bóng. Xác suất lấy được 2 quả bóng đỏ là bao nhiêu?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.3636"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.4"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.1333"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.6667"
+            }
+          ]
+        },
+        {
+          "question": 14,
+          "text": "Câu 14. Một lô hàng có 20 sản phẩm, trong đó có 5 sản phẩm lỗi. Lấy ngẫu nhiên 3 sản phẩm. Tính kỳ vọng số sản phẩm lỗi trong 3 sản phẩm",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.75"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1.25"
+            },
+            {
+              "letter": "d",
+              "text": "d. 3"
+            }
+          ]
+        },
+        {
+          "question": 15,
+          "text": "Câu 15. Một hộp có 10 viên bi, trong đó có 4 viên bi xanh. Lấy ngẫu nhiên không hoàn lại 3 viên bi. Phương sai của số viên bi xanh lấy được là bao nhiêu?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.56"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.44"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.80"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.60"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "c"
+        },
+        {
+          "question": 8,
+          "answer": "a"
+        },
+        {
+          "question": 9,
+          "answer": "c"
+        },
+        {
+          "question": 10,
+          "answer": "b"
+        },
+        {
+          "question": 11,
+          "answer": "b"
+        },
+        {
+          "question": 12,
+          "answer": "a"
+        },
+        {
+          "question": 13,
+          "answer": "a"
+        },
+        {
+          "question": 14,
+          "answer": "a"
+        },
+        {
+          "question": 15,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Phân phối đều; Phân phối mũ; Phân phối chuẩn",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@0895aa955f864f0ab13d6d9fe1fb08f4?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. (b - a)"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1 / (b - a)"
+            },
+            {
+              "letter": "c",
+              "text": "c. (a + b) / 2"
+            },
+            {
+              "letter": "d",
+              "text": "d. (b - a) / 2"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 1. Biến ngẫu nhiên X có phân phối đều trên đoạn [a,b]. Hàm mật độ xác suất f(x) của X bằng:\na. (b - a)\nb. 1 / (b - a)\nc. (a + b) / 2\nd. (b - a) / 2\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xác suất để biến cố nhận giá trị trong một khoảng con tỉ lệ với độ dài khoảng con đó."
+            },
+            {
+              "letter": "b",
+              "text": "b. Xác suất để biến cố nhận giá trị trong một khoảng con là không đổi."
+            },
+            {
+              "letter": "c",
+              "text": "c. Xác suất để biến cố nhận giá trị trong một khoảng con tỉ lệ nghịch với độ dài khoảng con đó."
+            },
+            {
+              "letter": "d",
+              "text": "d. Xác suất để biến cố nhận giá trị trong một khoảng con bằng 0."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 2. Phát biểu nào sau đây là đúng về phân phối đều liên tục trên [a,b]?\na. Xác suất để biến cố nhận giá trị trong một khoảng con tỉ lệ với độ dài khoảng con đó.\nb. Xác suất để biến cố nhận giá trị trong một khoảng con là không đổi.\nc. Xác suất để biến cố nhận giá trị trong một khoảng con tỉ lệ nghịch với độ dài khoảng con đó.\nd. Xác suất để biến cố nhận giá trị trong một khoảng con bằng 0.\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1/4"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1/3"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1/2"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2/3"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 3. Thời gian chờ xe bus có phân phối đều từ 0 đến 15 phút. Tính xác suất phải chờ xe bus ít hơn 5 phút.\na. 1/4\nb. 1/3\nc. 1/2\nd. 2/3\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 5cm"
+            },
+            {
+              "letter": "b",
+              "text": "b. 6.25cm"
+            },
+            {
+              "letter": "c",
+              "text": "c. 7.5cm"
+            },
+            {
+              "letter": "d",
+              "text": "d. 10cm"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 4. Một chiếc máy sản xuất các thanh kim loại có độ dài tuân theo phân phối đều từ 5cm đến 10cm. Tính kỳ vọng độ dài của thanh kim loại.\na. 5cm\nb. 6.25cm\nc. 7.5cm\nd. 10cm\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2"
+            },
+            {
+              "letter": "c",
+              "text": "c. 3"
+            },
+            {
+              "letter": "d",
+              "text": "d. 4"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 5. Biến ngẫu nhiên X có phân phối đều trên đoạn [2,8]. Tính phương sai của X.\na. 1\nb. 2\nc. 3\nd. 4\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Số lần thành công trong n phép thử."
+            },
+            {
+              "letter": "b",
+              "text": "b. Thời gian cho đến khi một sự kiện xảy ra."
+            },
+            {
+              "letter": "c",
+              "text": "c. Số sự kiện xảy ra trong một khoảng thời gian."
+            },
+            {
+              "letter": "d",
+              "text": "d. Xác suất lấy được k phần tử từ tổng thể."
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 6. Phân phối mũ thường được sử dụng để mô hình hóa:\na. Số lần thành công trong n phép thử.\nb. Thời gian cho đến khi một sự kiện xảy ra.\nc. Số sự kiện xảy ra trong một khoảng thời gian.\nd. Xác suất lấy được k phần tử từ tổng thể.\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xác suất thành công."
+            },
+            {
+              "letter": "b",
+              "text": "b. Tỷ lệ hỏng hóc trung bình."
+            },
+            {
+              "letter": "c",
+              "text": "c. Số lần thử."
+            },
+            {
+              "letter": "d",
+              "text": "d. Kỳ vọng."
+            }
+          ]
+        },
+        {
+          "question": 8,
+          "text": "Câu 7. Tham số λ trong phân phối mũ đại diện cho:\na. Xác suất thành công.\nb. Tỷ lệ hỏng hóc trung bình.\nc. Số lần thử.\nd. Kỳ vọng.\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. e⁻²/⁵"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1 - e⁻²/⁵"
+            },
+            {
+              "letter": "c",
+              "text": "c. e⁻⁵/²"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1 - e⁻⁵/²"
+            }
+          ]
+        },
+        {
+          "question": 9,
+          "text": "Câu 8. Tuổi thọ của một thiết bị điện tử (tính bằng năm) có phân phối mũ với trung bình là 5 năm. Xác suất thiết bị này hoạt động tốt trong ít nhất 2 năm là bao nhiêu?\na. e⁻²/⁵\nb. 1 - e⁻²/⁵\nc. e⁻⁵/²\nd. 1 - e⁻⁵/²\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.2 phút"
+            },
+            {
+              "letter": "b",
+              "text": "b. 5 phút"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2 phút"
+            },
+            {
+              "letter": "d",
+              "text": "d. 10 phút"
+            }
+          ]
+        },
+        {
+          "question": 10,
+          "text": "Câu 9. Thời gian phục vụ khách hàng tại một quầy giao dịch (tính bằng phút) có phân phối mũ với tham số λ = 0.2. Tính kỳ vọng của thời gian phục vụ.\na. 0.2 phút\nb. 5 phút\nc. 2 phút\nd. 10 phút\nđúng",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1"
+            },
+            {
+              "letter": "b",
+              "text": "b. 10"
+            },
+            {
+              "letter": "c",
+              "text": "c. 100"
+            },
+            {
+              "letter": "d",
+              "text": "d. 20"
+            }
+          ]
+        },
+        {
+          "question": 11,
+          "text": "Câu 11. Phân phối chuẩn còn được gọi là phân phối:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Poisson"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mũ"
+            },
+            {
+              "letter": "c",
+              "text": "c. Gauss"
+            },
+            {
+              "letter": "d",
+              "text": "d. Bernoulli"
+            }
+          ]
+        },
+        {
+          "question": 12,
+          "text": "Câu 12. Đường cong mật độ xác suất của phân phối chuẩn có hình dạng:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Đường thẳng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Hình chuông"
+            },
+            {
+              "letter": "c",
+              "text": "c. Hình chữ nhật"
+            },
+            {
+              "letter": "d",
+              "text": "d. Hình tam giác"
+            }
+          ]
+        },
+        {
+          "question": 13,
+          "text": "Câu 13. Điểm thi môn Xác suất thống kê của sinh viên có phân phối chuẩn với trung bình là 7 và độ lệch chuẩn là 1. Xác suất để một sinh viên có điểm thi từ 6 đến 8 là bao nhiêu?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.3413"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.6827"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.5"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.8413"
+            }
+          ]
+        },
+        {
+          "question": 14,
+          "text": "Câu 14. Chiều cao của nam giới trưởng thành có phân phối chuẩn với trung bình 170cm và độ lệch chuẩn 5cm. Tính kỳ vọng của chiều cao.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 5 cm"
+            },
+            {
+              "letter": "b",
+              "text": "b. 170 cm"
+            },
+            {
+              "letter": "c",
+              "text": "c. 175 cm"
+            },
+            {
+              "letter": "d",
+              "text": "d. 165 cm"
+            }
+          ]
+        },
+        {
+          "question": 15,
+          "text": "Câu 15. Trọng lượng của một loại trái cây có phân phối chuẩn với trung bình 1kg và phương sai 0.04 kg². Tính độ lệch chuẩn của trọng lượng.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0.04 kg"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0.2 kg"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0.16 kg"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0.4 kg"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        },
+        {
+          "question": 6,
+          "answer": "b"
+        },
+        {
+          "question": 7,
+          "answer": "b"
+        },
+        {
+          "question": 8,
+          "answer": "a"
+        },
+        {
+          "question": 9,
+          "answer": "b"
+        },
+        {
+          "question": 10,
+          "answer": "c"
+        },
+        {
+          "question": 11,
+          "answer": "c"
+        },
+        {
+          "question": 12,
+          "answer": "b"
+        },
+        {
+          "question": 13,
+          "answer": "b"
+        },
+        {
+          "question": 14,
+          "answer": "b"
+        },
+        {
+          "question": 15,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Biến ngẫu nhiên hai chiều",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@e59b0e818b5740ebb409de8169a152ff?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Biến ngẫu nhiên hai chiều là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cặp hai biến ngẫu nhiên xác định trên cùng một không gian mẫu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Hai biến ngẫu nhiên độc lập nhau"
+            },
+            {
+              "letter": "c",
+              "text": "c. Hai biến cố đồng thời xảy ra"
+            },
+            {
+              "letter": "d",
+              "text": "d. Hai đại lượng xác định có thể đo được"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Phân phối biên của biến ngẫu nhiên hai chiều là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Phân phối xác suất của từng biến khi bỏ qua biến còn lại"
+            },
+            {
+              "letter": "b",
+              "text": "b. Phân phối có điều kiện của hai biến"
+            },
+            {
+              "letter": "c",
+              "text": "c. Phân phối xác suất chung của cả hai biến"
+            },
+            {
+              "letter": "d",
+              "text": "d. Phân phối xác suất tích lũy của một biến"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Nếu X và Y là hai biến ngẫu nhiên độc lập thì:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. P(X = x, Y = y) = P(X = x) × P(Y = y)"
+            },
+            {
+              "letter": "b",
+              "text": "b. P(X = x, Y = y) = P(X = y) + P(Y = x)"
+            },
+            {
+              "letter": "c",
+              "text": "c. P(X = x | Y = y) = P(Y = y)"
+            },
+            {
+              "letter": "d",
+              "text": "d. P(X + Y) = P(X) + P(Y)"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Tổng của các xác suất trong bảng phân phối xác suất chung của hai biến X, Y là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bằng 1"
+            },
+            {
+              "letter": "b",
+              "text": "b. Bằng 0"
+            },
+            {
+              "letter": "c",
+              "text": "c. Bằng tổng các giá trị của X"
+            },
+            {
+              "letter": "d",
+              "text": "d. Bằng số lượng biến cố có thể xảy ra"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Hiệp phương sai; Hệ số tương quan",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@ad05a2ba7166459188166b2c267868c4?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Hiệp phương sai giữa hai biến ngẫu nhiên X và Y được ký hiệu là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cov(X, Y)"
+            },
+            {
+              "letter": "b",
+              "text": "b. Corr(X, Y)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Var(X, Y)"
+            },
+            {
+              "letter": "d",
+              "text": "d. E[X/Y]"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Nếu Cov(X, Y) > 0, điều đó cho thấy:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. X và Y có xu hướng biến đổi cùng chiều"
+            },
+            {
+              "letter": "b",
+              "text": "b. X và Y độc lập hoàn toàn"
+            },
+            {
+              "letter": "c",
+              "text": "c. X và Y không có mối liên hệ"
+            },
+            {
+              "letter": "d",
+              "text": "d. X và Y luôn bằng nhau"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Hiệp phương sai của hai biến độc lập là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1"
+            },
+            {
+              "letter": "c",
+              "text": "c. Vô hạn"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không xác định được"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Công thức tính hiệp phương sai giữa X và Y là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cov(X, Y) = E[(X − E[X])(Y − E[Y])]"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cov(X, Y) = E[X + Y]"
+            },
+            {
+              "letter": "c",
+              "text": "c. Cov(X, Y) = E[X] × E[Y]"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cov(X, Y) = Var(X) + Var(Y)"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Hệ số tương quan Pearson nằm trong khoảng nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Từ −1 đến 1"
+            },
+            {
+              "letter": "b",
+              "text": "b. Từ 0 đến 1"
+            },
+            {
+              "letter": "c",
+              "text": "c. Từ −∞ đến +∞"
+            },
+            {
+              "letter": "d",
+              "text": "d. Từ −2 đến 2"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Nếu hệ số tương quan giữa X và Y bằng 0, điều này có nghĩa là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. X và Y không có mối quan hệ tuyến tính"
+            },
+            {
+              "letter": "b",
+              "text": "b. X và Y hoàn toàn độc lập"
+            },
+            {
+              "letter": "c",
+              "text": "c. X luôn lớn hơn Y"
+            },
+            {
+              "letter": "d",
+              "text": "d. X bằng Y"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Công thức hệ số tương quan giữa X và Y là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. ρ(X, Y) = Cov(X, Y) / (σₓ · σᵧ)"
+            },
+            {
+              "letter": "b",
+              "text": "b. ρ(X, Y) = Var(X, Y) / (E[X] · E[Y])"
+            },
+            {
+              "letter": "c",
+              "text": "c. ρ(X, Y) = E[X + Y] / Var(X)"
+            },
+            {
+              "letter": "d",
+              "text": "d. ρ(X, Y) = σₓ / σᵧ"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "a"
+        },
+        {
+          "question": 7,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Phương pháp mẫu",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@bbd9dc07b711440da6333fdd7e0212ef?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Phương pháp chọn mẫu mà mỗi phần tử của quần thể có xác suất bằng nhau để được chọn gọi là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Lấy mẫu ngẫu nhiên đơn"
+            },
+            {
+              "letter": "b",
+              "text": "b. Lấy mẫu cụm"
+            },
+            {
+              "letter": "c",
+              "text": "c. Lấy mẫu hệ thống"
+            },
+            {
+              "letter": "d",
+              "text": "d. Lấy mẫu phân tầng"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Lấy mẫu phân tầng là phương pháp:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chia quần thể thành các nhóm đồng nhất rồi lấy mẫu từ mỗi nhóm"
+            },
+            {
+              "letter": "b",
+              "text": "b. Lấy tất cả phần tử của một nhóm duy nhất"
+            },
+            {
+              "letter": "c",
+              "text": "c. Lấy mẫu theo thứ tự cố định trong danh sách"
+            },
+            {
+              "letter": "d",
+              "text": "d. Lấy ngẫu nhiên từ toàn bộ quần thể mà không chia nhóm"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Ưu điểm chính của phương pháp lấy mẫu cụm là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tiết kiệm chi phí và thời gian khi quần thể phân tán"
+            },
+            {
+              "letter": "b",
+              "text": "b. Luôn chính xác hơn các phương pháp khác"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không cần phân tích quần thể trước khi lấy mẫu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Dễ dàng kiểm soát sai số chọn mẫu"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Phương pháp lấy mẫu hệ thống được thực hiện bằng cách:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chọn ngẫu nhiên phần tử đầu tiên, sau đó chọn theo khoảng cách cố định"
+            },
+            {
+              "letter": "b",
+              "text": "b. Lấy tất cả các phần tử liền kề trong danh sách"
+            },
+            {
+              "letter": "c",
+              "text": "c. Lấy mẫu chỉ ở một vị trí duy nhất"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chọn ngẫu nhiên toàn bộ mẫu không theo trật tự"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Ước lượng khoảng cho trung bình",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@8f1ef253d60f46e6b466310001f3b6a3?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Điều kiện áp dụng công thức khoảng tin cậy cho tỷ lệ là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. np ≥ 5 và n(1 – p) ≥ 5"
+            },
+            {
+              "letter": "b",
+              "text": "b. n > 10"
+            },
+            {
+              "letter": "c",
+              "text": "c. n ≤ 30"
+            },
+            {
+              "letter": "d",
+              "text": "d. p > 0,5"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Trong công thức khoảng tin cậy cho tỷ lệ, ký hiệu \\(\\hat{p}\\) là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tỷ lệ mẫu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tỷ lệ quần thể"
+            },
+            {
+              "letter": "c",
+              "text": "c. Số phần tử mẫu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Số phần tử quần thể"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Nếu độ tin cậy tăng, khoảng tin cậy cho tỷ lệ sẽ:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Rộng hơn"
+            },
+            {
+              "letter": "b",
+              "text": "b. Hẹp hơn"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không đổi"
+            },
+            {
+              "letter": "d",
+              "text": "d. Có thể rộng hoặc hẹp tùy p"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Mẫu ngẫu nhiên, mẫu cụ thể; Các đặc trưng mẫu",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@bcb9306a8dcb41feab7333cedcaac7eb?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Mẫu ngẫu nhiên là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mẫu được chọn sao cho mọi phần tử trong quần thể có cơ hội như nhau"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mẫu được chọn theo ý kiến cá nhân của nhà nghiên cứu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mẫu chỉ gồm các phần tử thuận tiện để thu thập"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mẫu lấy từ các phần tử dễ tiếp cận nhất"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Mẫu cụ thể là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tập hợp giá trị thu được từ quá trình chọn mẫu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Toàn bộ tập hợp các phần tử nghiên cứu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tất cả giá trị lý thuyết có thể xảy ra"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tập hợp phần tử chưa được chọn"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Điểm khác biệt giữa mẫu và quần thể là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mẫu là tập con của quần thể"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mẫu và quần thể luôn có kích thước bằng nhau"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mẫu bao gồm toàn bộ phần tử cần nghiên cứu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Quần thể luôn nằm trong mẫu"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Ví dụ nào sau đây thể hiện mẫu ngẫu nhiên?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chọn 10 gói tin bất kỳ trong ngày để kiểm tra lỗi"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chọn 10 gói tin liên tiếp đầu tiên trong ngày"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chọn 10 gói tin theo danh sách lỗi đã có"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chọn các gói tin từ cùng một máy chủ duy nhất"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Trung bình mẫu ký hiệu là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. \\(\\overline{X}\\)"
+            },
+            {
+              "letter": "b",
+              "text": "b. μ"
+            },
+            {
+              "letter": "c",
+              "text": "c. σ"
+            },
+            {
+              "letter": "d",
+              "text": "d. s²"
+            }
+          ]
+        },
+        {
+          "question": 6,
+          "text": "Câu 6: Độ lệch chuẩn mẫu là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Căn bậc hai của phương sai mẫu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Căn bậc hai của trung bình mẫu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tổng bình phương các giá trị mẫu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Hiệu giữa giá trị lớn nhất và nhỏ nhất"
+            }
+          ]
+        },
+        {
+          "question": 7,
+          "text": "Câu 7: Mục đích của việc tính các đặc trưng mẫu là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mô tả và ước lượng các đặc trưng của quần thể"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tính toán xác suất lý thuyết"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xác định kích thước quần thể"
+            },
+            {
+              "letter": "d",
+              "text": "d. Loại bỏ phần tử ngoại lai"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        },
+        {
+          "question": 6,
+          "answer": "a"
+        },
+        {
+          "question": 7,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Ước lượng khoảng cho tỉ lệ; Ước lượng khoảng cho phương sai",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@7ea279f46ae940d683a0db9bb0e9bd7c?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Khoảng tin cậy cho phương sai σ² sử dụng:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Phân phối χ²"
+            },
+            {
+              "letter": "b",
+              "text": "b. Phân phối t"
+            },
+            {
+              "letter": "c",
+              "text": "c. Phân phối chuẩn"
+            },
+            {
+              "letter": "d",
+              "text": "d. Phân phối F"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Điều kiện để áp dụng ước lượng khoảng cho phương sai là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mẫu ngẫu nhiên từ phân phối chuẩn"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mẫu đủ lớn"
+            },
+            {
+              "letter": "c",
+              "text": "c. Phân phối mẫu bất kỳ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mẫu có phương sai nhỏ"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Nếu kích thước mẫu n tăng, khoảng tin cậy cho phương sai sẽ:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Hẹp hơn"
+            },
+            {
+              "letter": "b",
+              "text": "b. Rộng hơn"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không thay đổi"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mất ý nghĩa"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Ước lượng điểm và ước lượng khoảng",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@de72dd92aae94b40a58118ab9e5cf015?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Ước lượng điểm là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Sử dụng một giá trị duy nhất từ dữ liệu mẫu để ước lượng tham số quần thể"
+            },
+            {
+              "letter": "b",
+              "text": "b. Sử dụng một khoảng giá trị để ước lượng tham số"
+            },
+            {
+              "letter": "c",
+              "text": "c. Sử dụng nhiều mẫu để ước lượng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Sử dụng toàn bộ quần thể để tính toán"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Ước lượng khoảng cung cấp:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Một khoảng giá trị chứa tham số quần thể với xác suất tin cậy xác định"
+            },
+            {
+              "letter": "b",
+              "text": "b. Một giá trị duy nhất của tham số quần thể"
+            },
+            {
+              "letter": "c",
+              "text": "c. Kết quả chính xác tuyệt đối"
+            },
+            {
+              "letter": "d",
+              "text": "d. Khoảng giá trị ngẫu nhiên không liên quan đến mức ý nghĩa"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Mức ý nghĩa α = 0,05 tương ứng với độ tin cậy là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 95%"
+            },
+            {
+              "letter": "b",
+              "text": "b. 90%"
+            },
+            {
+              "letter": "c",
+              "text": "c. 5%"
+            },
+            {
+              "letter": "d",
+              "text": "d. 99%"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Khoảng tin cậy càng hẹp khi:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Kích thước mẫu lớn"
+            },
+            {
+              "letter": "b",
+              "text": "b. Kích thước mẫu nhỏ"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mức ý nghĩa nhỏ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Độ lệch chuẩn lớn"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Kiểm định giả thuyết thống kê cho tỉ lệ",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@33ee075cc40143888c71a34fa0568f60?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Với mức ý nghĩa 5%, có thể cho rằng tỉ lệ phế phẩm của 2 dây chuyền này là như nhau hay không?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0,267. Chấp nhận H_0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0,267. Bác bỏ H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0,367. Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0,367. Bác bỏ H_0"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Với mức ý nghĩa 5%, có thể cho rằng tỉ lệ phế phẩm của dây chuyền 1 cao hơn so với dây chuyền 2 hay không?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0,267. Chấp nhận H_0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0,267. Bác bỏ H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0,367. Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0,367. Bác bỏ H_0"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Với mức ý nghĩa 5%, có thể cho rằng tỉ lệ phế phẩm của dây chuyền 1 thấp hơn so với dây chuyền 2 hay không?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. – 1,816. Chấp nhận H_0"
+            },
+            {
+              "letter": "b",
+              "text": "b. – 1,816. Bác bỏ H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. - 1,526. Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. - 1,526. Bác bỏ H_0"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Các khái niệm",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@9e1baa9e3b3243349e7eb52853b9910d?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Giả thuyết gốc thường ký hiệu là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. H₀"
+            },
+            {
+              "letter": "b",
+              "text": "b. H₁"
+            },
+            {
+              "letter": "c",
+              "text": "c. α"
+            },
+            {
+              "letter": "d",
+              "text": "d. β"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Sai lầm loại I (α) là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bác bỏ H₀ khi H₀ đúng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Không bác bỏ H₀ khi H₀ sai"
+            },
+            {
+              "letter": "c",
+              "text": "c. Bác bỏ H₁ khi H₁ đúng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không bác bỏ H₁ khi H₁ sai"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: P-value là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xác suất quan sát được kết quả như dữ liệu mẫu nếu H₀ đúng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xác suất H₀ đúng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xác suất H₁ đúng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mức ý nghĩa của phép kiểm định"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Kiểm định giả thuyết thống kê cho tỉ lệ; Kiểm định giả thuyết thống kê cho phương sai",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@a823e1fdd5a24b03bb74b27bd24e3501?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Điều kiện áp dụng kiểm định tỷ lệ là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. np₀ ≥ 5 và n(1 – p₀) ≥ 5"
+            },
+            {
+              "letter": "b",
+              "text": "b. n > 30"
+            },
+            {
+              "letter": "c",
+              "text": "c. p₀ > 0,5"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mẫu bất kỳ"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Nếu p-value > α trong kiểm định tỷ lệ, ta:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không bác bỏ H₀"
+            },
+            {
+              "letter": "b",
+              "text": "b. Bác bỏ H₀"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm α"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tăng kích thước mẫu"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Trong kiểm định tỷ lệ, p̂ là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tỷ lệ mẫu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tỷ lệ quần thể"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xác suất lỗi loại I"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mức ý nghĩa"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4: Kiểm định phương sai một mẫu sử dụng phân phối:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. χ²"
+            },
+            {
+              "letter": "b",
+              "text": "b. Z"
+            },
+            {
+              "letter": "c",
+              "text": "c. t"
+            },
+            {
+              "letter": "d",
+              "text": "d. F"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5: Điều kiện áp dụng kiểm định phương sai là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mẫu ngẫu nhiên từ phân phối chuẩn"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mẫu lớn, σ đã biết"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mẫu bất kỳ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mẫu có trung bình 0"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Kiểm định giả thuyết thống kê cho trung bình",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@4c2dc25f6a6645bb909dcbd35d27df6d?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1: Khi σ đã biết và n ≥ 30, ta sử dụng:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Z-test"
+            },
+            {
+              "letter": "b",
+              "text": "b. t-test"
+            },
+            {
+              "letter": "c",
+              "text": "c. χ²-test"
+            },
+            {
+              "letter": "d",
+              "text": "d. F-test"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2: Khi σ chưa biết và n nhỏ, ta dùng:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. t-test"
+            },
+            {
+              "letter": "b",
+              "text": "b. Z-test"
+            },
+            {
+              "letter": "c",
+              "text": "c. χ²-test"
+            },
+            {
+              "letter": "d",
+              "text": "d. F-test"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3: Điều kiện áp dụng t-test một mẫu:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Mẫu ngẫu nhiên, phân phối chuẩn, σ chưa biết"
+            },
+            {
+              "letter": "b",
+              "text": "b. Mẫu lớn, σ đã biết"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mẫu bất kỳ, σ đã biết"
+            },
+            {
+              "letter": "d",
+              "text": "d. Mẫu ngẫu nhiên, σ đã biết"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Kiểm định giả thuyết thống kê cho trung bình (mẫu độc lập)",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@5715222a97794eb7bcccbdb547193b63?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Với mức ý nghĩa 5%, hãy cho nhận xét về ý kiến cho rằng doanh thu trung bình theo ngày của 2 chi nhánh này là như nhau.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 3,0579. Doanh thu của A cao hơn B"
+            },
+            {
+              "letter": "b",
+              "text": "b. 3,0579. Doanh thu của A thấp hơn B"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2,0589. Doanh thu của A cao hơn B"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2,0589. Doanh thu của A thấp hơn B"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Với mức ý nghĩa 5%, hãy cho nhận xét về ý kiến cho rằng doanh thu trung bình theo ngày của chi nhánh A cao hơn so với chi nhánh B.",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 3,0579. Chấp nhận H_0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 3,0579. Bác bỏ H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2,0589. Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. 2,0589. Bác bỏ H_0"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3. Đường kính của các thanh thép được sản xuất trên hai máy đúc khác nhau đang được nghiên cứu. Hai mẫu ngẫu nhiên có cỡ mẫu n_1=15, n_2=17 được chọn có trung bình và phương sai mẫu x ̅ = 8,73; s_□1^2 = 0,35 và y ̅ = 8,68; s_□2^2 = 0,40. Giả sử rằng σ_□1^2 =〖 σ〗_□2^2 và mẫu lấy từ phân phối chuẩn. Với mức ý nghĩa 5%, Có bằng chứng để khẳng định rằng hai máy sản xuất thanh thép có đường kính trung bình khác nhau hay không?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0,23. Chấp nhận H_0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0,23. Bác bỏ H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0,33. Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0,33. Bác bỏ H_0"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Kiểm định giả thuyết thống kê cho phương sai",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@34fe30a65bee49568a70c7622e6fb640?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Với mức ý nghĩa 5%, có thể cho rằng cổ phiếu A và B có phương sai giá bán bằng nhau hay không?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1,6247. Chấp nhận H_0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1,6247. Bác bỏ H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1,8265. Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1,8265. Bác bỏ H_0"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Với mức ý nghĩa 5%, có thể cho rằng cổ phiếu A có phương sai giá bán cao hơn cổ phiếu B hay không?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1,6247. Chấp nhận H_0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 1,6247. Bác bỏ H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1,5278. Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1,5278. Bác bỏ H_0"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Với mức ý nghĩa 5%, có thể cho rằng cổ phiếu A có phương sai giá bán thấp hơn cổ phiếu B hay không?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0,5711. Chấp nhận H_0"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0,5711. Bác bỏ H_0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0,6278. Chấp nhận H_0"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0,6278. Bác bỏ H_0"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Phân tích tương quan",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@9ad3335ce4c14befb349e1ab40ef6e6b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1. Hệ số tương quan (r) nằm trong khoảng nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0 đến 1."
+            },
+            {
+              "letter": "b",
+              "text": "b. -1 đến 0."
+            },
+            {
+              "letter": "c",
+              "text": "c. -1 đến 1."
+            },
+            {
+              "letter": "d",
+              "text": "d. 0 đến vô cùng."
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "Câu 2. Hệ số tương quan r = -0.8 cho thấy hai biến số có mối tương quan:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Đồng biến mạnh."
+            },
+            {
+              "letter": "b",
+              "text": "b. Nghịch biến mạnh."
+            },
+            {
+              "letter": "c",
+              "text": "c. Đồng biến yếu."
+            },
+            {
+              "letter": "d",
+              "text": "d. Không tương quan."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3. Hai biến số X và Y không có tương quan tuyến tính khi:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. r = 1."
+            },
+            {
+              "letter": "b",
+              "text": "b. r = -1."
+            },
+            {
+              "letter": "c",
+              "text": "c. r = 0."
+            },
+            {
+              "letter": "d",
+              "text": "d. r = 0.5."
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4. Nếu hệ số tương quan giữa hai biến X và Y là r = 0.6, thì khi X tăng, Y có xu hướng:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng."
+            },
+            {
+              "letter": "b",
+              "text": "b. Giảm."
+            },
+            {
+              "letter": "c",
+              "text": "c. Không đổi."
+            },
+            {
+              "letter": "d",
+              "text": "d. Không thể xác định."
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5. Hệ số tương quan giữa X và Y là r = -0.9. Điều này có nghĩa là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Khi X tăng 1 đơn vị, Y giảm 0.9 đơn vị."
+            },
+            {
+              "letter": "b",
+              "text": "b. Khi X tăng, Y chắc chắn giảm."
+            },
+            {
+              "letter": "c",
+              "text": "c. Có mối quan hệ tuyến tính nghịch biến mạnh giữa X và Y."
+            },
+            {
+              "letter": "d",
+              "text": "d. X và Y không liên quan đến nhau."
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Phân tích hồi quy",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_EMAT105_B01+HK1-2026-2027+type@sequential+block@43faf3e3647e4e1091f61cdb8c0b6f25?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "Câu 1. Trong phương trình hồi quy y ̂ = 2 + 3x, khi x tăng 1 đơn vị, y ̂ thay đổi như thế nào?",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tăng 2 đơn vị."
+            },
+            {
+              "letter": "b",
+              "text": "b. Tăng 3 đơn vị."
+            },
+            {
+              "letter": "c",
+              "text": "c. Giảm 2 đơn vị."
+            },
+            {
+              "letter": "d",
+              "text": "d. Giảm 3 đơn vị."
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "câu 2. Phương trình hồi quy của Y theo X là Y = 10 - 2X. Điều này có nghĩa là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. X và Y có tương quan dương."
+            },
+            {
+              "letter": "b",
+              "text": "b. X và Y có tương quan âm."
+            },
+            {
+              "letter": "c",
+              "text": "c. Khi X tăng 1 đơn vị, Y giảm 2 đơn vị."
+            },
+            {
+              "letter": "d",
+              "text": "d. Cả B và C đều đúng."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "Câu 3. Trong phân tích hồi quy, biến Y được gọi là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Biến độc lập."
+            },
+            {
+              "letter": "b",
+              "text": "b. Biến phụ thuộc."
+            },
+            {
+              "letter": "c",
+              "text": "c. Biến ngẫu nhiên."
+            },
+            {
+              "letter": "d",
+              "text": "d. Biến giải thích."
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "Câu 4. Phương trình hồi quy Y = 5 + 2X được xây dựng từ số liệu mẫu. Nếu X = 10, giá trị dự báo của Y là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 15."
+            },
+            {
+              "letter": "b",
+              "text": "b. 25."
+            },
+            {
+              "letter": "c",
+              "text": "c. 50."
+            },
+            {
+              "letter": "d",
+              "text": "d. 7."
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "Câu 5. Phương pháp thường được sử dụng để ước lượng các hệ số hồi quy trong mô hình hồi quy tuyến tính mẫu là:",
+          "type": "radio",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Phương pháp bình phương tối tiểu (OLS)."
+            },
+            {
+              "letter": "b",
+              "text": "b. Phương pháp hợp lý tối đa (MLE)."
+            },
+            {
+              "letter": "c",
+              "text": "c. Phương pháp mô men (MM)."
+            },
+            {
+              "letter": "d",
+              "text": "d. Phương pháp Bayes."
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "d"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    }
+  ]
+}

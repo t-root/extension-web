@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "VoxShift — Đọc phụ đề YouTube bằng tiếng Việt",
+  "version": "1.0.0",
+  "description": "Lấy phụ đề tiếng Việt của video YouTube (nếu chưa có thì dịch từ phụ đề gốc) và đọc thành tiếng đúng thời điểm.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://translate.google.com/*", "https://translate.googleapis.com/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html", "default_title": "VoxShift" },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["page_hook.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["lib/cues.js", "content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

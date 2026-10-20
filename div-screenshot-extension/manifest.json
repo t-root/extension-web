@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Div Screenshot Tool",
+  "version": "1.0",
+  "description": "Dò div và chụp ảnh div khi click",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["html2canvas.min.js", "content.js"]
+    }
+  ]
+}

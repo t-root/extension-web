@@ -1,0 +1,2077 @@
+{
+  "version": 1,
+  "courseCode": "ECOS321",
+  "exportedAt": "2026-09-14T15:52:40.279Z",
+  "answers": [
+    {
+      "title": "Xây dựng DSLK đơn số nguyên và các tác vụ của nó",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS321_A01_01+HK1-2026-2027+type@sequential+block@b3fb77f0696c41d882dbd9dd0d3d0144?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Init()"
+            },
+            {
+              "letter": "b",
+              "text": "b. CreateNode()"
+            },
+            {
+              "letter": "c",
+              "text": "c. InsertTail()"
+            },
+            {
+              "letter": "d",
+              "text": "d. OutputList()"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "1. Khi tạo node mới, ta dùng hàm nào?\na. Init()\nb. CreateNode()\nc. InsertTail()\nd. OutputList()\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. pHead"
+            },
+            {
+              "letter": "b",
+              "text": "b. pTail"
+            },
+            {
+              "letter": "c",
+              "text": "c. pNext"
+            },
+            {
+              "letter": "d",
+              "text": "d. NULL"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "2. Duyệt danh sách DSLK đơn thì nên bắt đầu từ đâu?\na. pHead\nb. pTail\nc. pNext\nd. NULL\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không làm gì"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cập nhật cả pHead và pTail"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chỉ gán pHead"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ gán pTail"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "3. Trong danh sách rỗng, thao tác thêm node đầu tiên cần:\na. Không làm gì\nb. Cập nhật cả pHead và pTail\nc. Chỉ gán pHead\nd. Chỉ gán pTail\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. InsertHead"
+            },
+            {
+              "letter": "b",
+              "text": "b. CreateNode"
+            },
+            {
+              "letter": "c",
+              "text": "c. Init"
+            },
+            {
+              "letter": "d",
+              "text": "d. OutputList"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "4. Hàm nào in tất cả phần tử trong danh sách?\na. InsertHead\nb. CreateNode\nc. Init\nd. OutputList\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. p != NULL"
+            },
+            {
+              "letter": "b",
+              "text": "b. p == pHead"
+            },
+            {
+              "letter": "c",
+              "text": "c. p -> pNext == NULL"
+            },
+            {
+              "letter": "d",
+              "text": "d. i < n"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Các thuật toán sắp xếp trên dãy các phần tử có cấu trúc",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS321_A01_01+HK1-2026-2027+type@sequential+block@83a931182ce548afa593e31e93e70305?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. a[i].Gia > a[j].Gia"
+            },
+            {
+              "letter": "b",
+              "text": "b. a[i].Ten > a[j].Ten"
+            },
+            {
+              "letter": "c",
+              "text": "c. strcmp(a[i].Gia, a[j].Gia) > 0"
+            },
+            {
+              "letter": "d",
+              "text": "d. a[i] > a[j]"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "1. Với cấu trúc Sach, nếu muốn sắp xếp theo giá thì điều kiện là:\na. a[i].Gia > a[j].Gia\nb. a[i].Ten > a[j].Ten\nc. strcmp(a[i].Gia, a[j].Gia) > 0\nd. a[i] > a[j]\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. strcomp"
+            },
+            {
+              "letter": "b",
+              "text": "b. strcmp"
+            },
+            {
+              "letter": "c",
+              "text": "c. stringcmp"
+            },
+            {
+              "letter": "d",
+              "text": "d. comparechar"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "2. Hàm nào dùng để so sánh chuỗi?\na. strcomp\nb. strcmp\nc. stringcmp\nd. comparechar\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. sắp theo mã sách"
+            },
+            {
+              "letter": "b",
+              "text": "b. strcmp(a[i].TenSach, a[j].TenSach)"
+            },
+            {
+              "letter": "c",
+              "text": "c. a[i].Gia > a[j].Gia"
+            },
+            {
+              "letter": "d",
+              "text": "d. swap tên"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "3. Trong danh sách sách, muốn sắp theo tên sách phải dùng:\na. sắp theo mã sách\nb. strcmp(a[i].TenSach, a[j].TenSach)\nc. a[i].Gia > a[j].Gia\nd. swap tên\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cách khai báo"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cách so sánh"
+            },
+            {
+              "letter": "c",
+              "text": "c. Vòng lặp"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không dùng hàm swap"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "4. Sắp xếp cấu trúc giống như sắp xếp số, chỉ khác ở:\na. Cách khai báo\nb. Cách so sánh\nc. Vòng lặp\nd. Không dùng hàm swap\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Đổi vị trí hai phần tử"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xóa phần tử nhỏ nhất"
+            },
+            {
+              "letter": "c",
+              "text": "c. So sánh a[min] và a[i]"
+            },
+            {
+              "letter": "d",
+              "text": "d. Gán a[i] = min"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Các thuật toán sắp xếp trên dãy số nguyên",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS321_A01_01+HK1-2026-2027+type@sequential+block@7d71aafd76ec40d2b8615162676de66f?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Đổi chỗ a[i] và a[j]"
+            },
+            {
+              "letter": "b",
+              "text": "b. Không làm gì"
+            },
+            {
+              "letter": "c",
+              "text": "c. Thêm a[i] vào đầu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Xoá a[j]"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "1. Trong Interchange Sort, nếu a[i] > a[j] thì:\na. Đổi chỗ a[i] và a[j]\nb. Không làm gì\nc. Thêm a[i] vào đầu\nd. Xoá a[j]\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Vì phần tử nhỏ nổi lên đầu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Vì phần tử lớn nổi lên cuối"
+            },
+            {
+              "letter": "c",
+              "text": "c. Vì sắp theo bong bóng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Vì không đổi chỗ"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "2. Bubble Sort có tên gọi vì sao?\na. Vì phần tử nhỏ nổi lên đầu\nb. Vì phần tử lớn nổi lên cuối\nc. Vì sắp theo bong bóng\nd. Vì không đổi chỗ\nsai",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Khi không tìm thấy phần tử nhỏ"
+            },
+            {
+              "letter": "b",
+              "text": "b. Khi phần tử hiện tại lớn nhất"
+            },
+            {
+              "letter": "c",
+              "text": "c. Khi tìm thấy phần tử nhỏ hơn"
+            },
+            {
+              "letter": "d",
+              "text": "d. Luôn luôn đổi chỗ"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "3. Với Selection Sort, khi nào cần đổi chỗ?\na. Khi không tìm thấy phần tử nhỏ\nb. Khi phần tử hiện tại lớn nhất\nc. Khi tìm thấy phần tử nhỏ hơn\nd. Luôn luôn đổi chỗ\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Selection Sort"
+            },
+            {
+              "letter": "b",
+              "text": "b. Quick Sort"
+            },
+            {
+              "letter": "c",
+              "text": "c. Merge Sort"
+            },
+            {
+              "letter": "d",
+              "text": "d. Radix Sort"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "4. Thuật toán nào dễ cài nhất trong 3 thuật toán dưới đây?\na. Selection Sort\nb. Quick Sort\nc. Merge Sort\nd. Radix Sort\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Đều dùng đệ quy"
+            },
+            {
+              "letter": "b",
+              "text": "b. Đều dựa vào đổi chỗ cặp nghịch thế"
+            },
+            {
+              "letter": "c",
+              "text": "c. Đều có độ phức tạp O(n)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Đều không dùng vòng lặp"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Tìm kiếm tuyến tính và tìm kiếm nhị phân trên dãy các phần tử có cấu trúc",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS321_A01_01+HK1-2026-2027+type@sequential+block@58fe346bff754ffcbdcecc416886f93b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tìm phần tử lớn nhất."
+            },
+            {
+              "letter": "b",
+              "text": "b. Sắp xếp theo trường cần tìm."
+            },
+            {
+              "letter": "c",
+              "text": "c. Đổi kiểu dữ liệu sang int."
+            },
+            {
+              "letter": "d",
+              "text": "d. Gán tất cả phần tử về 0."
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "1. Để tìm kiếm nhị phân trên struct, ta cần làm gì trước?\na. Tìm phần tử lớn nhất.\nb. Sắp xếp theo trường cần tìm.\nc. Đổi kiểu dữ liệu sang int.\nd. Gán tất cả phần tử về 0.\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. strcmp để so sánh tên."
+            },
+            {
+              "letter": "b",
+              "text": "b. strcmp(sach[i].ten_sach, tenY) == 0"
+            },
+            {
+              "letter": "c",
+              "text": "c. sach[i].ten_sach == tenY"
+            },
+            {
+              "letter": "d",
+              "text": "d. printf để hiển thị tên."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "2. Với struct Sách có trường ten_sach, muốn tìm sách theo tên ta dùng gì?\na. strcmp để so sánh tên.\nb. strcmp(sach[i].ten_sach, tenY) == 0\nc. sach[i].ten_sach == tenY\nd. printf để hiển thị tên.\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Duyệt từng phần tử, so sánh trường tìm kiếm."
+            },
+            {
+              "letter": "b",
+              "text": "b. Chia đôi mảng struct."
+            },
+            {
+              "letter": "c",
+              "text": "c. Đổi tất cả về kiểu int rồi tìm."
+            },
+            {
+              "letter": "d",
+              "text": "d. Gọi tìm kiếm nhị phân từ thư viện."
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "3. Tìm kiếm tuyến tính trên struct hoạt động như thế nào?\na. Duyệt từng phần tử, so sánh trường tìm kiếm.\nb. Chia đôi mảng struct.\nc. Đổi tất cả về kiểu int rồi tìm.\nd. Gọi tìm kiếm nhị phân từ thư viện.\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Lưu trữ nhiều thông tin trong 1 đối tượng."
+            },
+            {
+              "letter": "b",
+              "text": "b. Chạy nhanh hơn int."
+            },
+            {
+              "letter": "c",
+              "text": "c. Dễ nén hơn array."
+            },
+            {
+              "letter": "d",
+              "text": "d. Tự động sắp xếp theo alphabet."
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "4. Ưu điểm của struct là gì?\na. Lưu trữ nhiều thông tin trong 1 đối tượng.\nb. Chạy nhanh hơn int.\nc. Dễ nén hơn array.\nd. Tự động sắp xếp theo alphabet.\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. strcmp"
+            },
+            {
+              "letter": "b",
+              "text": "b. Linear Search"
+            },
+            {
+              "letter": "c",
+              "text": "c. Binary Search trên sach[i].ma_sach"
+            },
+            {
+              "letter": "d",
+              "text": "d. Random tìm kiếm"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Tìm kiếm tuyến tính và tìm kiếm nhị phân trên dãy số nguyên",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS321_A01_01+HK1-2026-2027+type@sequential+block@7b884bdf74ab4db6aa52c1fa7692520b?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. O(n)"
+            },
+            {
+              "letter": "b",
+              "text": "b. O(log n)"
+            },
+            {
+              "letter": "c",
+              "text": "c. O(n log n)"
+            },
+            {
+              "letter": "d",
+              "text": "d. O(1)"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "1. Tìm kiếm tuyến tính có độ phức tạp thời gian là gì?\na. O(n)\nb. O(log n)\nc. O(n log n)\nd. O(1)\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Biết kích thước mảng."
+            },
+            {
+              "letter": "b",
+              "text": "b. Mảng phải được sắp xếp."
+            },
+            {
+              "letter": "c",
+              "text": "c. Mảng phải chia hết cho 2."
+            },
+            {
+              "letter": "d",
+              "text": "d. Mảng có phần tử giữa là số nguyên tố."
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "2. Tìm kiếm nhị phân cần gì trước khi thực hiện?\na. Biết kích thước mảng.\nb. Mảng phải được sắp xếp.\nc. Mảng phải chia hết cho 2.\nd. Mảng có phần tử giữa là số nguyên tố.\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Khi đã duyệt hết mảng."
+            },
+            {
+              "letter": "b",
+              "text": "b. Khi left > right."
+            },
+            {
+              "letter": "c",
+              "text": "c. Khi tìm thấy hoặc left > right."
+            },
+            {
+              "letter": "d",
+              "text": "d. Khi a[mid] == -1."
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "3. Trong tìm kiếm nhị phân, khi nào thuật toán dừng lại?\na. Khi đã duyệt hết mảng.\nb. Khi left > right.\nc. Khi tìm thấy hoặc left > right.\nd. Khi a[mid] == -1.\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Nhanh hơn so với tuyến tính với mảng lớn đã sắp xếp."
+            },
+            {
+              "letter": "b",
+              "text": "b. Không cần sắp xếp."
+            },
+            {
+              "letter": "c",
+              "text": "c. Tìm được nhiều phần tử giống nhau."
+            },
+            {
+              "letter": "d",
+              "text": "d. Không cần kiểm tra điều kiện dừng."
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "return mid;",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Dòng kiểm tra phần tử đúng vị trí tìm kiếm."
+            },
+            {
+              "letter": "b",
+              "text": "b. Dòng chia đôi mảng."
+            },
+            {
+              "letter": "c",
+              "text": "c. Dòng sắp xếp lại mảng."
+            },
+            {
+              "letter": "d",
+              "text": "d. Dòng đệ quy tiếp theo."
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Xây dựng stack chứa các số nguyên và các tác vụ của nó.",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS321_A01_01+HK1-2026-2027+type@sequential+block@560649fcc54d41969838437f75adb5af?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. FIFO"
+            },
+            {
+              "letter": "b",
+              "text": "b. LIFO"
+            },
+            {
+              "letter": "c",
+              "text": "c. Ngẫu nhiên"
+            },
+            {
+              "letter": "d",
+              "text": "d. Đồng thời"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "1. Stack là cấu trúc hoạt động theo nguyên tắc?\na. FIFO\nb. LIFO\nc. Ngẫu nhiên\nd. Đồng thời\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 5"
+            },
+            {
+              "letter": "b",
+              "text": "b. 3"
+            },
+            {
+              "letter": "c",
+              "text": "c. NULL"
+            },
+            {
+              "letter": "d",
+              "text": "d. 0"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "2. Sau khi push(5), push(3), pop() sẽ trả về?\na. 5\nb. 3\nc. NULL\nd. 0\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. NULL"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không xác định"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "3. Khi stack rỗng, con trỏ top có giá trị gì?\na. NULL\nb. 0\nc. 1\nd. Không xác định\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Stack không có phần tử nào"
+            },
+            {
+              "letter": "b",
+              "text": "b. Stack đầy"
+            },
+            {
+              "letter": "c",
+              "text": "c. Có một phần tử"
+            },
+            {
+              "letter": "d",
+              "text": "d. Con trỏ top bị lỗi"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "4. Hàm isEmpty() trả về true khi nào?\na. Stack không có phần tử nào\nb. Stack đầy\nc. Có một phần tử\nd. Con trỏ top bị lỗi\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chuyển biểu thức trung tố sang hậu tố"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xếp hàng người mua vé"
+            },
+            {
+              "letter": "c",
+              "text": "c. Sắp xếp tăng dần"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tính tổng mảng"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Xây dựng DSLK đơn và các tác vụ của nó mà dữ liệu của mỗi nút trong danh sách là một cấu trúc",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS321_A01_01+HK1-2026-2027+type@sequential+block@efd463bb021f4ae0a89575593149ea6c?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. struct SinhVien"
+            },
+            {
+              "letter": "b",
+              "text": "b. char[]"
+            },
+            {
+              "letter": "c",
+              "text": "c. float[]"
+            },
+            {
+              "letter": "d",
+              "text": "d. int[]"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "1. Để lưu thông tin sinh viên ta cần dùng kiểu dữ liệu nào?\na. struct SinhVien\nb. char[]\nc. float[]\nd. int[]\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Chỉ tên và điểm"
+            },
+            {
+              "letter": "b",
+              "text": "b. MaSV và điểm"
+            },
+            {
+              "letter": "c",
+              "text": "c. Toàn bộ SinhVien và con trỏ"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chỉ có con trỏ"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "2. Một node trong danh sách chứa sinh viên gồm:\na. Chỉ tên và điểm\nb. MaSV và điểm\nc. Toàn bộ SinhVien và con trỏ\nd. Chỉ có con trỏ\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. int"
+            },
+            {
+              "letter": "b",
+              "text": "b. char"
+            },
+            {
+              "letter": "c",
+              "text": "c. float"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cấu trúc bất kỳ"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "3. DSLK đơn có thể lưu được dữ liệu kiểu:\na. int\nb. char\nc. float\nd. Cấu trúc bất kỳ\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. key"
+            },
+            {
+              "letter": "b",
+              "text": "b. key.tenSV"
+            },
+            {
+              "letter": "c",
+              "text": "c. key.maSV"
+            },
+            {
+              "letter": "d",
+              "text": "d. key.diemTB"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "4. Nếu muốn duyệt và in ra điểm của SV thì dùng:\na. key\nb. key.tenSV\nc. key.maSV\nd. key.diemTB\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. strcmp(a.maSV, b.maSV)"
+            },
+            {
+              "letter": "b",
+              "text": "b. a.maSV > b.maSV"
+            },
+            {
+              "letter": "c",
+              "text": "c. a.diemTB > b.diemTB"
+            },
+            {
+              "letter": "d",
+              "text": "d. a.tenSV == b.tenSV"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "d"
+        },
+        {
+          "question": 4,
+          "answer": "d"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Xây dựng cây nhị phân tìm kiếm các số nguyên",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS321_A01_01+HK1-2026-2027+type@sequential+block@e59b0e818b5740ebb409de8169a152ff?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Cấu trúc cây mà bên trái nhỏ hơn, bên phải lớn hơn"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cây chỉ có các node bên trái"
+            },
+            {
+              "letter": "c",
+              "text": "c. Danh sách liên kết có nhánh"
+            },
+            {
+              "letter": "d",
+              "text": "d. Dạng mảng động"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "1. Cây nhị phân tìm kiếm là gì?\na. Cấu trúc cây mà bên trái nhỏ hơn, bên phải lớn hơn\nb. Cây chỉ có các node bên trái\nc. Danh sách liên kết có nhánh\nd. Dạng mảng động\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1"
+            },
+            {
+              "letter": "b",
+              "text": "b. Không giới hạn"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2"
+            },
+            {
+              "letter": "d",
+              "text": "d. 3"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "2. Mỗi node trong cây BST có tối đa bao nhiêu con?\na. 1\nb. Không giới hạn\nc. 2\nd. 3\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. NULL"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0"
+            },
+            {
+              "letter": "c",
+              "text": "c. -1"
+            },
+            {
+              "letter": "d",
+              "text": "d. 1"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "3. Khi khởi tạo cây mới, giá trị ban đầu là?\na. NULL\nb. 0\nc. -1\nd. 1\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Duyệt cây"
+            },
+            {
+              "letter": "b",
+              "text": "b. In mảng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tạo một node mới chứa giá trị x"
+            },
+            {
+              "letter": "d",
+              "text": "d. Xoá node"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "4. Hàm CreateNode(int x) dùng để làm gì?\na. Duyệt cây\nb. In mảng\nc. Tạo một node mới chứa giá trị x\nd. Xoá node\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Nhỏ hơn node cha"
+            },
+            {
+              "letter": "b",
+              "text": "b. Lớn hơn node cha"
+            },
+            {
+              "letter": "c",
+              "text": "c. Bằng node cha"
+            },
+            {
+              "letter": "d",
+              "text": "d. Ngẫu nhiên"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Các thao tác duyệt, tìm kiếm, thêm node mới vào cây",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS321_A01_01+HK1-2026-2027+type@sequential+block@ad05a2ba7166459188166b2c267868c4?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Gốc – Phải – Trái"
+            },
+            {
+              "letter": "b",
+              "text": "b. Gốc – Trái – Phải"
+            },
+            {
+              "letter": "c",
+              "text": "c. Trái – Gốc – Phải"
+            },
+            {
+              "letter": "d",
+              "text": "d. Phải – Gốc – Trái"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "1. Duyệt LNR là thứ tự nào?\na. Gốc – Phải – Trái\nb. Gốc – Trái – Phải\nc. Trái – Gốc – Phải\nd. Phải – Gốc – Trái\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 0"
+            },
+            {
+              "letter": "b",
+              "text": "b. Giá trị mặc định"
+            },
+            {
+              "letter": "c",
+              "text": "c. 0"
+            },
+            {
+              "letter": "d",
+              "text": "d. -1"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "2. Hàm SearchBST trả về gì nếu không tìm thấy phần tử?\na. 0\nb. Giá trị mặc định\nc. 0\nd. -1\nsai",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Nhánh trái"
+            },
+            {
+              "letter": "b",
+              "text": "b. Nhánh phải"
+            },
+            {
+              "letter": "c",
+              "text": "c. Làm gốc mới"
+            },
+            {
+              "letter": "d",
+              "text": "d. Bị bỏ qua"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "3. Khi thêm phần tử 5 vào cây đã có root là 7, thì 5 nằm ở đâu?\na. Nhánh trái\nb. Nhánh phải\nc. Làm gốc mới\nd. Bị bỏ qua\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. So sánh giá trị và đệ quy trái/phải"
+            },
+            {
+              "letter": "b",
+              "text": "b. Duyệt toàn bộ cây"
+            },
+            {
+              "letter": "c",
+              "text": "c. Thêm luôn ở gốc"
+            },
+            {
+              "letter": "d",
+              "text": "d. Sắp xếp lại cây"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "4. Để thêm node đúng vị trí, cần:\na. So sánh giá trị và đệ quy trái/phải\nb. Duyệt toàn bộ cây\nc. Thêm luôn ở gốc\nd. Sắp xếp lại cây\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Ghi đè giá trị"
+            },
+            {
+              "letter": "b",
+              "text": "b. Thêm node mới"
+            },
+            {
+              "letter": "c",
+              "text": "c. Không thêm (tránh trùng lặp)"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chuyển sang cây khác"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "c"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Xây dựng hàng đợi chứa các số nguyên và các tác vụ của nó",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS321_A01_01+HK1-2026-2027+type@sequential+block@05b725eda2c741f3a0229c12460a2dd4?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. FIFO"
+            },
+            {
+              "letter": "b",
+              "text": "b. LIFO"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chồng chất"
+            },
+            {
+              "letter": "d",
+              "text": "d. Đệ quy"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "1. Queue là cấu trúc hoạt động theo nguyên tắc?\na. FIFO\nb. LIFO\nc. Chồng chất\nd. Đệ quy\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Đầu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Cuối"
+            },
+            {
+              "letter": "c",
+              "text": "c. Giữa"
+            },
+            {
+              "letter": "d",
+              "text": "d. Trên đỉnh"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "2. Enqueue thêm phần tử vào đâu?\na. Đầu\nb. Cuối\nc. Giữa\nd. Trên đỉnh\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. NULL"
+            },
+            {
+              "letter": "b",
+              "text": "b. Không xác định"
+            },
+            {
+              "letter": "c",
+              "text": "c. 1"
+            },
+            {
+              "letter": "d",
+              "text": "d. -1"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "3. Nếu queue rỗng thì front và rear là gì?\na. NULL\nb. Không xác định\nc. 1\nd. -1\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1"
+            },
+            {
+              "letter": "b",
+              "text": "b. 2"
+            },
+            {
+              "letter": "c",
+              "text": "c. NULL"
+            },
+            {
+              "letter": "d",
+              "text": "d. -1"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "4. Sau enqueue(1), enqueue(2), dequeue() → kết quả là?\na. 1\nb. 2\nc. NULL\nd. -1\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. In hàng đợi tài liệu"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chuyển biểu thức"
+            },
+            {
+              "letter": "c",
+              "text": "c. Duyệt cây theo thứ tự"
+            },
+            {
+              "letter": "d",
+              "text": "d. So sánh chuỗi"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "b"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Thao tác xóa node, hủy cây",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS321_A01_01+HK1-2026-2027+type@sequential+block@e1ed5b2830594716be8a633f08ba2b80?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xoá node và gán bằng NULL"
+            },
+            {
+              "letter": "b",
+              "text": "b. Giữ nguyên"
+            },
+            {
+              "letter": "c",
+              "text": "c. Chuyển node đó lên root"
+            },
+            {
+              "letter": "d",
+              "text": "d. Đổi thành số âm"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "1. Trường hợp xoá node có 0 con được xử lý thế nào?\na. Xoá node và gán bằng NULL\nb. Giữ nguyên\nc. Chuyển node đó lên root\nd. Đổi thành số âm\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xoá luôn node đó"
+            },
+            {
+              "letter": "b",
+              "text": "b. Bỏ qua"
+            },
+            {
+              "letter": "c",
+              "text": "c. Nối con vào vị trí node bị xoá"
+            },
+            {
+              "letter": "d",
+              "text": "d. Làm lại toàn cây"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "2. Trường hợp xoá node có 1 con:\na. Xoá luôn node đó\nb. Bỏ qua\nc. Nối con vào vị trí node bị xoá\nd. Làm lại toàn cây\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Xoá cả cây"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tìm node nhỏ nhất bên phải thay thế"
+            },
+            {
+              "letter": "c",
+              "text": "c. Xoá ngẫu nhiên 1 con"
+            },
+            {
+              "letter": "d",
+              "text": "d. Dừng chương trình"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "3. Trường hợp xoá node có 2 con dùng cách nào?\na. Xoá cả cây\nb. Tìm node nhỏ nhất bên phải thay thế\nc. Xoá ngẫu nhiên 1 con\nd. Dừng chương trình\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Tìm phần tử nhỏ nhất trong cây con phải"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tìm node lớn nhất toàn cây"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tìm node gốc"
+            },
+            {
+              "letter": "d",
+              "text": "d. Đếm số node"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "4. Hàm FindMin(t->pRight) dùng để:\na. Tìm phần tử nhỏ nhất trong cây con phải\nb. Tìm node lớn nhất toàn cây\nc. Tìm node gốc\nd. Đếm số node\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Gán node gốc = NULL"
+            },
+            {
+              "letter": "b",
+              "text": "b. Duyệt LNR"
+            },
+            {
+              "letter": "c",
+              "text": "c. Gọi đệ quy xoá hết các node"
+            },
+            {
+              "letter": "d",
+              "text": "d. Đếm node lá"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Các thao tác đếm, tính toán theo các điều kiện",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS321_A01_01+HK1-2026-2027+type@sequential+block@c00a85c8df0c48cdb5acecef80813040?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1 + số node bên trái + số node bên phải"
+            },
+            {
+              "letter": "b",
+              "text": "b. Tổng giá trị node"
+            },
+            {
+              "letter": "c",
+              "text": "c. Số node bên trái * 2"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tổng số level"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "1. Tổng số node trong cây được tính bằng:\na. 1 + số node bên trái + số node bên phải\nb. Tổng giá trị node\nc. Số node bên trái * 2\nd. Tổng số level\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không có con trái và con phải"
+            },
+            {
+              "letter": "b",
+              "text": "b. Có một con"
+            },
+            {
+              "letter": "c",
+              "text": "c. Có chiều cao lớn nhất"
+            },
+            {
+              "letter": "d",
+              "text": "d. Có giá trị bé nhất"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "2. Node lá là node như thế nào?\na. Không có con trái và con phải\nb. Có một con\nc. Có chiều cao lớn nhất\nd. Có giá trị bé nhất\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 1"
+            },
+            {
+              "letter": "b",
+              "text": "b. 0"
+            },
+            {
+              "letter": "c",
+              "text": "c. 2"
+            },
+            {
+              "letter": "d",
+              "text": "d. Không xác định"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "3. Cây chỉ có một node thì có bao nhiêu node lá?\na. 1\nb. 0\nc. 2\nd. Không xác định\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Số lượng node"
+            },
+            {
+              "letter": "b",
+              "text": "b. Số mức dài nhất từ gốc đến lá"
+            },
+            {
+              "letter": "c",
+              "text": "c. Số lần thêm node"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tổng các nhánh"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "4. Chiều cao của cây là?\na. Số lượng node\nb. Số mức dài nhất từ gốc đến lá\nc. Số lần thêm node\nd. Tổng các nhánh\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Vòng lặp for"
+            },
+            {
+              "letter": "b",
+              "text": "b. Không dùng hàm phụ"
+            },
+            {
+              "letter": "c",
+              "text": "c. Gọi đệ quy và lấy max giữa trái/phải"
+            },
+            {
+              "letter": "d",
+              "text": "d. Gán chiều cao cố định"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "a"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Sử dụng ngăn xếp để chuyển biểu thức trung tố sang hậu tố và tính kết quả biểu thực hậu tố.",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS321_A01_01+HK1-2026-2027+type@sequential+block@48105e70645f4356813edd431807a4c6?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. A + B * C"
+            },
+            {
+              "letter": "b",
+              "text": "b. A B C * +"
+            },
+            {
+              "letter": "c",
+              "text": "c. + A * B C"
+            },
+            {
+              "letter": "d",
+              "text": "d. A B + C *"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "1. Biểu thức nào là hậu tố của A + B * C?\na. A + B * C\nb. A B C * +\nc. + A * B C\nd. A B + C *\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Dấu ngoặc"
+            },
+            {
+              "letter": "b",
+              "text": "b. Toán tử"
+            },
+            {
+              "letter": "c",
+              "text": "c. Toán hạng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Thứ tự"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "2. Biểu thức hậu tố không cần gì?\na. Dấu ngoặc\nb. Toán tử\nc. Toán hạng\nd. Thứ tự\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bị lấy ra khỏi stack"
+            },
+            {
+              "letter": "b",
+              "text": "b. Bị đưa vào đầu"
+            },
+            {
+              "letter": "c",
+              "text": "c. Được nhân đôi"
+            },
+            {
+              "letter": "d",
+              "text": "d. Bỏ qua"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "3. Trong khi chuyển đổi, toán tử có độ ưu tiên thấp sẽ?\na. Bị lấy ra khỏi stack\nb. Bị đưa vào đầu\nc. Được nhân đôi\nd. Bỏ qua\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Lưu toán hạng và tạm tính"
+            },
+            {
+              "letter": "b",
+              "text": "b. Lưu toàn bộ biểu thức"
+            },
+            {
+              "letter": "c",
+              "text": "c. Lưu chuỗi"
+            },
+            {
+              "letter": "d",
+              "text": "d. So sánh"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "4. Stack dùng trong biểu thức hậu tố để?\na. Lưu toán hạng và tạm tính\nb. Lưu toàn bộ biểu thức\nc. Lưu chuỗi\nd. So sánh\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. 20"
+            },
+            {
+              "letter": "b",
+              "text": "b. 14"
+            },
+            {
+              "letter": "c",
+              "text": "c. 9"
+            },
+            {
+              "letter": "d",
+              "text": "d. 24"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "a"
+        },
+        {
+          "question": 4,
+          "answer": "a"
+        },
+        {
+          "question": 5,
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Xây dựng bảng băm có xử lý đụng độ bằng phương pháp kết nối riêng biệt dùng DSLK đơn.",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS321_A01_01+HK1-2026-2027+type@sequential+block@1dbd3023b9f948ac8a911e3f00e6e5d2?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Giá trị khoá gốc"
+            },
+            {
+              "letter": "b",
+              "text": "b. Chỉ số trong bảng"
+            },
+            {
+              "letter": "c",
+              "text": "c. Kết quả phép nhân"
+            },
+            {
+              "letter": "d",
+              "text": "d. Con trỏ node đầu"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "1. Hàm HashFunc trả về gì?\na. Giá trị khoá gốc\nb. Chỉ số trong bảng\nc. Kết quả phép nhân\nd. Con trỏ node đầu\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Khi bucket[index] == NULL"
+            },
+            {
+              "letter": "b",
+              "text": "b. Khi bucket[index] != NULL"
+            },
+            {
+              "letter": "c",
+              "text": "c. Khi không tìm thấy phần tử"
+            },
+            {
+              "letter": "d",
+              "text": "d. Khi danh sách bị rỗng"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "2. Trong phương pháp kết nối riêng biệt, khi nào tạo danh sách mới?\na. Khi bucket[index] == NULL\nb. Khi bucket[index] != NULL\nc. Khi không tìm thấy phần tử\nd. Khi danh sách bị rỗng\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Ghi đè node cũ"
+            },
+            {
+              "letter": "b",
+              "text": "b. Bỏ qua"
+            },
+            {
+              "letter": "c",
+              "text": "c. Gắn vào cuối danh sách"
+            },
+            {
+              "letter": "d",
+              "text": "d. Đưa sang bảng khác"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "3. Nếu node mới bị đụng độ thì ta...?\na. Ghi đè node cũ\nb. Bỏ qua\nc. Gắn vào cuối danh sách\nd. Đưa sang bảng khác\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Sắp xếp phần tử"
+            },
+            {
+              "letter": "b",
+              "text": "b. Lưu nhiều phần tử cùng chỉ số"
+            },
+            {
+              "letter": "c",
+              "text": "c. Đếm số phần tử"
+            },
+            {
+              "letter": "d",
+              "text": "d. Tránh tạo mảng"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "4. Danh sách liên kết dùng để...?\na. Sắp xếp phần tử\nb. Lưu nhiều phần tử cùng chỉ số\nc. Đếm số phần tử\nd. Tránh tạo mảng\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Giá trị và con trỏ"
+            },
+            {
+              "letter": "b",
+              "text": "b. Hai giá trị"
+            },
+            {
+              "letter": "c",
+              "text": "c. Con trỏ đầu"
+            },
+            {
+              "letter": "d",
+              "text": "d. Biến mảng"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "a"
+        },
+        {
+          "question": 3,
+          "answer": "c"
+        },
+        {
+          "question": 4,
+          "answer": "b"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Xây dựng bảng băm có xử lý đụng độ bằng phương pháp dò tuyến tính dùng mảng một chiều.",
+      "url": "https://lms.hutech.edu.vn/xblock/block-v1:TX+TX_ECOS321_A01_01+HK1-2026-2027+type@sequential+block@54502559d50745db93cd4c1ffc1c31a7?exam_access=&preview=0&recheck_access=1&show_bookmark=0&show_title=0&view=student_view",
+      "questions": [
+        {
+          "question": 1,
+          "text": "",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bỏ phần tử"
+            },
+            {
+              "letter": "b",
+              "text": "b. Kiểm tra ô kế tiếp"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tạo danh sách"
+            },
+            {
+              "letter": "d",
+              "text": "d. Thêm vào cuối"
+            }
+          ]
+        },
+        {
+          "question": 2,
+          "text": "1. Dò tuyến tính thực hiện như thế nào khi đụng độ?\na. Bỏ phần tử\nb. Kiểm tra ô kế tiếp\nc. Tạo danh sách\nd. Thêm vào cuối\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Ngừng lại"
+            },
+            {
+              "letter": "b",
+              "text": "b. Xoá phần tử cũ"
+            },
+            {
+              "letter": "c",
+              "text": "c. Quay lại đầu mảng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Đổi hàm băm"
+            }
+          ]
+        },
+        {
+          "question": 3,
+          "text": "2. Khi gặp cuối mảng, dò tuyến tính...?\na. Ngừng lại\nb. Xoá phần tử cũ\nc. Quay lại đầu mảng\nd. Đổi hàm băm\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Gặp giá trị nhỏ nhất"
+            },
+            {
+              "letter": "b",
+              "text": "b. Gặp ô trống (table[i] == -1)"
+            },
+            {
+              "letter": "c",
+              "text": "c. Khi index = 0"
+            },
+            {
+              "letter": "d",
+              "text": "d. Khi index vượt quá M"
+            }
+          ]
+        },
+        {
+          "question": 4,
+          "text": "3. Điều kiện dừng khi chèn là...?\na. Gặp giá trị nhỏ nhất\nb. Gặp ô trống (table[i] == -1)\nc. Khi index = 0\nd. Khi index vượt quá M\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Bảng có cấu trúc lồng"
+            },
+            {
+              "letter": "b",
+              "text": "b. Danh sách liên kết"
+            },
+            {
+              "letter": "c",
+              "text": "c. Mảng 1 chiều"
+            },
+            {
+              "letter": "d",
+              "text": "d. Cây nhị phân"
+            }
+          ]
+        },
+        {
+          "question": 5,
+          "text": "4. Dò tuyến tính phù hợp khi...?\na. Bảng có cấu trúc lồng\nb. Danh sách liên kết\nc. Mảng 1 chiều\nd. Cây nhị phân\nđúng",
+          "options": [
+            {
+              "letter": "a",
+              "text": "a. Không chèn được"
+            },
+            {
+              "letter": "b",
+              "text": "b. Ghi đè"
+            },
+            {
+              "letter": "c",
+              "text": "c. Tự động giãn mảng"
+            },
+            {
+              "letter": "d",
+              "text": "d. Chèn vào đầu"
+            }
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "question": 1,
+          "answer": "b"
+        },
+        {
+          "question": 2,
+          "answer": "c"
+        },
+        {
+          "question": 3,
+          "answer": "b"
+        },
+        {
+          "question": 4,
+          "answer": "c"
+        },
+        {
+          "question": 5,
+          "answer": "a"
+        }
+      ]
+    }
+  ]
+}
